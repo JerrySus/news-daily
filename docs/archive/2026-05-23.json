@@ -1,0 +1,543 @@
+{
+  "date": "2026-05-23",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4112.8996,
+        "change": 35.62,
+        "changePercent": 0.87,
+        "high": 4120.0875,
+        "low": 4067.7471,
+        "open": 4096.1723,
+        "prevClose": 4077.2765
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15597.297,
+        "change": 350.03,
+        "changePercent": 2.3,
+        "high": 15624.971,
+        "low": 15295.566,
+        "open": 15382.293,
+        "prevClose": 15247.271
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3938.502,
+        "change": 108.72,
+        "changePercent": 2.84,
+        "high": 3948.989,
+        "low": 3856.207,
+        "open": 3875.813,
+        "prevClose": 3829.779
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4845.0956,
+        "change": 62,
+        "changePercent": 1.3,
+        "high": 4851.3489,
+        "low": 4785.3486,
+        "open": 4818.8435,
+        "prevClose": 4783.0976
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1790.771,
+        "change": 26.6,
+        "changePercent": 1.51,
+        "high": 1797.6485,
+        "low": 1747.1393,
+        "open": 1790.7443,
+        "prevClose": 1764.1744
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 50579.6992,
+        "change": 294.04,
+        "changePercent": 0.58,
+        "high": 50830.2383,
+        "low": 50434.6484,
+        "open": null,
+        "prevClose": 50285.6602
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26343.9704,
+        "change": 50.8729,
+        "changePercent": 0.19,
+        "high": 26504.5505,
+        "low": 26309.8002,
+        "open": null,
+        "prevClose": 26293.0975
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7473.4702,
+        "change": 27.75,
+        "changePercent": 0.37,
+        "high": 7506.3198,
+        "low": 7463.29,
+        "open": null,
+        "prevClose": 7445.7202
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-05-23T08:22:35.994Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "*ST闻泰结束11天连续跌停",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605223745914980.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "SpaceX加码太阳能布局",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605223745694275.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "机器人行业资本化加速",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605233747304273.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "美股量子计算概念大涨 ARM涨超16%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605223745669122.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "凌晨全线拉升！美伊突传利好",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605223745705197.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "特斯拉FSD入华进程提速(附股)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605223745736561.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "特斯拉最后一批Model S/X下线",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605223745913441.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "小米YU7标准版“临时”下调定价",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605213745617326.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI制药利好！巨头重金布局(附股)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605223745740193.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "医药工业加速拥抱AI 核心概念股出炉",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605223745897134.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "医药冷链迎来快速成长期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605223745692967.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "证监会等八部门联合出手 整治非法跨境证券期货基金经营活动",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605233747123362.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "SpaceX完成IPO前“大考”：升级版星舰V3成功发射",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605233747307016.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "神二十三发射时间、乘组定了！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605233747308478.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "股东减持、询价转让！多只大牛股披露最新公告！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605233747328930.html",
+        "time": "2026-05-23T08:22:35.991Z",
+        "category": "finance"
+      },
+      {
+        "title": "亚历山大26分麦凯恩24分雷霆逆转马刺 文班真的累了",
+        "summary": "今天的西决G3，雷霆123:108逆转马刺，总比分2:1。 一，裁判的单方面允许雷霆搓澡，已经说明文班的恐怖。 在主控福克斯伤停，副控哈珀中途伤退的情况下...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfp6939308.shtml",
+        "time": "2026-05-23T06:50:07.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "马刺两大败因出炉 文班错误明显！雷霆创纪录",
+        "summary": "北京时间5月23日马刺主场对阵雷霆，全场比赛结束马刺以108-123输给了雷霆。本场比赛开始后马刺硬是打出15-0开局，当马刺打出这样的表现时...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfq5406375.shtml",
+        "time": "2026-05-23T06:49:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "雷霆替补76分创纪录 麦卡立功+28冠绝全场",
+        "summary": "北京时间5月23日，NBA季后赛西部决赛G3，雷霆在客场123-108击败马刺，西决2-1领先夺回主场优势，此役亚历山大17投6中、三分4中2、罚球12中12轰下26分2篮板12助攻...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfn4439708.shtml",
+        "time": "2026-05-23T06:48:34.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "SGA先抑后扬雷霆攻克马刺主场 调整能力也是MVP必需",
+        "summary": "亚历山大先抑后扬，雷霆高歌猛进。在今天，雷霆奔赴客场，迎战马刺，结果以123-108获胜，总比分2-1领先。亚历山大在首节一分未得的情况下，三节得到26分12次助攻2个篮板...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfk7662177.shtml",
+        "time": "2026-05-23T06:47:46.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "NBA西部决赛：雷霆123-108大胜马刺！大比分2-1！",
+        "summary": "NBA西部决赛G3，圣安东尼奥马刺回到主场，马刺迎战雷霆。在系列赛前两轮比赛中，双方各胜一场。第三场在马刺队的主场进行，马刺球星文班亚马拿到26分，瓦塞尔贡献20分...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfq5405483.shtml",
+        "time": "2026-05-23T06:46:32.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "SGA率雷霆123-108胜马刺 系列赛2-1领先",
+        "summary": "谢伊-吉尔杰斯-亚历山大率领雷霆队在客场以123-108击败马刺队，从而在系列赛中以2-1领先。 比赛回顾 比赛开局，马刺队气势如虹，凭借达龙-福克斯的回...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfn4438672.shtml",
+        "time": "2026-05-23T06:45:49.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-逍遥红单长期稳定盈利！聚焦今日红单",
+        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3321502.shtml",
+        "time": "2026-05-23T06:45:36.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "雷霆再擒马刺总分2-1！亚历山大26+12替补合砍76分",
+        "summary": "北京时间5月23日，NBA季后赛西决G3，雷霆在客场123-108击败马刺，系列赛总比分2-1领先；此役雷霆开局被马刺打出15-0攻势，之后雷霆众将疯狂反扑并且扭转局面...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfn4438396.shtml",
+        "time": "2026-05-23T06:43:56.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "薪资专家建议湖人3000万续约詹姆斯 附带交易否决权",
+        "summary": "ESPN薪资专家鲍比·马克斯近期评选出了2026年NBA20大自由球员名单，在分析詹姆斯下赛季的个人前景时，马克斯给出了明确的签约建议：为詹姆斯提供一年3000万美元的合同...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfq5403810.shtml",
+        "time": "2026-05-23T06:43:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "马刺板凳仅23分 雷霆板凳狂轰76分平本赛季纪录！",
+        "summary": "5月23日开战的NBA西部决赛G3已经结束全部争夺，马刺最终以108-123不敌雷霆，双方本轮系列赛的大比分也更新为1-2。本场比赛最引人注目的差距，出现在两队的替补阵容当中...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfk7660135.shtml",
+        "time": "2026-05-23T06:42:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "马刺自1月份后首次连败 上次对手是森林狼、雷霆",
+        "summary": " NBA西部决赛G3已经落下帷幕，本场对决中马刺拿到108分，雷霆拿到123分，最终马刺不敌对手，本轮系列赛的大比分暂时定格为马刺1-2落后。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfn4436591.shtml",
+        "time": "2026-05-23T06:39:46.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国七人出战法网单打 郑钦文签运佳八强有戏",
+        "summary": "2026年法网，中国大陆共有七人出战单打正赛，其中女单五人、男单两人。女单中，郑钦文、王欣瑜和张帅凭借排名直接入围，郭涵煜和王曦雨则是从资格赛中突围成功。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-05-23/doc-inhywkfn4431583.shtml",
+        "time": "2026-05-23T06:26:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "樊振东输球了 一单崩盘惹人疑 欧洲新锐真能掀翻老将？",
+        "summary": "5月17号晚上，欧冠男团决赛打到最后一刻，萨尔布吕肯的头号选手樊振东0比3输给了尼姆队的二号选手大勒布伦，三局比分很接近，6-11、8-11、9-11，但关键分全丢了...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-05-23/doc-inhywkfq5397010.shtml",
+        "time": "2026-05-23T06:24:52.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "法国乒乓球队的成功经验 对足球等其他项目有何启示？",
+        "summary": " 法国乒乓球队近年来的崛起堪称体坛奇迹，其从欧洲劲旅蜕变为世界顶级强队的历程，为足球等传统大项提供了充满启发的跨界经验。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-05-23/doc-inhywkfn4430746.shtml",
+        "time": "2026-05-23T06:23:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "张本美和与伊藤美诚的复仇宣言 对中国队有何影响？",
+        "summary": "张本美和剑指世乒赛金牌的宣言与伊藤美诚渴望雪耻的决心，如同投入中国乒坛静湖的两颗石子，激起的不仅是技战术层面的涟漪，更在人才培养模式与竞技心态层面引发深层震荡。...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-05-23/doc-inhywkfk7653006.shtml",
+        "time": "2026-05-23T06:22:30.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 35,
+    "updatedAt": "2026-05-23T08:22:45.775Z"
+  },
+  "analyses": [
+    {
+      "news_title": "*ST闻泰结束11天连续跌停",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "analysis": "基于关键词分析，该新闻可能打压相关板块。",
+      "suggestion": "建议暂时回避，等待企稳"
+    },
+    {
+      "news_title": "SpaceX加码太阳能布局",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
+      "suggestion": "建议观望"
+    },
+    {
+      "news_title": "机器人行业资本化加速",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
+      "suggestion": "建议观望"
+    },
+    {
+      "news_title": "美股量子计算概念大涨 ARM涨超16%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "analysis": "基于关键词分析，该新闻可能提振相关板块。",
+      "suggestion": "可关注相关板块短期机会"
+    },
+    {
+      "news_title": "凌晨全线拉升！美伊突传利好",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "analysis": "基于关键词分析，该新闻可能提振相关板块。",
+      "suggestion": "可关注相关板块短期机会"
+    },
+    {
+      "news_title": "特斯拉FSD入华进程提速(附股)",
+      "affected_industries": [
+        "汽车"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
+      "suggestion": "建议观望"
+    },
+    {
+      "news_title": "特斯拉最后一批Model S/X下线",
+      "affected_industries": [
+        "汽车"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
+      "suggestion": "建议观望"
+    },
+    {
+      "news_title": "小米YU7标准版“临时”下调定价",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
+      "suggestion": "建议观望"
+    },
+    {
+      "news_title": "AI制药利好！巨头重金布局(附股)",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "analysis": "基于关键词分析，该新闻可能提振相关板块。",
+      "suggestion": "可关注相关板块短期机会"
+    },
+    {
+      "news_title": "医药工业加速拥抱AI 核心概念股出炉",
+      "affected_industries": [
+        "人工智能",
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
+      "suggestion": "建议观望"
+    },
+    {
+      "news_title": "医药冷链迎来快速成长期",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
+      "suggestion": "建议观望"
+    },
+    {
+      "news_title": "证监会等八部门联合出手 整治非法跨境证券期货基金经营活动",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
+      "suggestion": "建议观望"
+    },
+    {
+      "news_title": "SpaceX完成IPO前“大考”：升级版星舰V3成功发射",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
+      "suggestion": "建议观望"
+    },
+    {
+      "news_title": "神二十三发射时间、乘组定了！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
+      "suggestion": "建议观望"
+    },
+    {
+      "news_title": "股东减持、询价转让！多只大牛股披露最新公告！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI分析"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
+      "suggestion": "建议观望"
+    }
+  ]
+}
