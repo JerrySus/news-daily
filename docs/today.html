@@ -42,7 +42,17 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#0f0f14;c
 .badge-weak{background:rgba(102,102,102,.2);color:#999}
 .card-row{margin-bottom:4px;font-size:13px}
 .card-row.analysis{color:#bbb;margin-top:6px;padding:8px;background:rgba(255,255,255,.03);border-radius:6px}
-.card-row.suggestion{color:#e15241;margin-top:6px;font-weight:500}
+.card-news-link{color:#e0e0e0;text-decoration:none;font-size:13px;flex:1;line-height:1.4}
+.card-news-link:hover{color:#e15241;text-decoration:underline}
+.card-source{font-size:10px;color:#666;background:rgba(255,255,255,.05);padding:1px 6px;border-radius:3px;flex-shrink:0}
+.card-summary{font-size:12px;color:#888;margin-bottom:8px;padding:6px 10px;background:rgba(255,255,255,.02);border-radius:4px;line-height:1.5}
+.card-row.chain{color:#bbb;margin-top:8px;padding:10px;background:rgba(225,82,65,.05);border-radius:6px;line-height:1.7;font-size:13px}
+.card-row.suggestion{color:#e15241;margin-top:8px;font-weight:500;line-height:1.6}
+.card-funds{margin-top:6px}
+.card-funds strong{font-size:12px;color:#aaa}
+.fund-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.fund-tag{display:inline-block;padding:5px 10px;background:rgba(225,82,65,.1);color:#e15241;border-radius:6px;font-size:12px;text-decoration:none;border:1px solid rgba(225,82,65,.2);transition:all .2s}
+.fund-tag:hover{background:rgba(225,82,65,.2);border-color:#e15241}
 .footer{text-align:center;padding:30px;color:#555;font-size:12px}
 .na{color:#666}
 @media(max-width:480px){.market-grid{grid-template-columns:repeat(2,1fr)}.header h1{font-size:18px}}
@@ -100,201 +110,246 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#0f0f14;c
     </div></div>
 
   <div class="summary-box"><h3>今日投资情绪汇总</h3><div class="summary-row">
-      <span class="summary-dir">📉 利空 (1条)</span>
-      <span class="summary-ind">涉及: 需进一步分析</span>
-    </div><div class="summary-row">
       <span class="summary-dir">➖ 中性 (11条)</span>
-      <span class="summary-ind">涉及: 需进一步分析、人工智能、汽车、医药</span>
+      <span class="summary-ind">涉及: 人工智能、汽车、需进一步分析、医药</span>
     </div><div class="summary-row">
       <span class="summary-dir">📈 利好 (3条)</span>
       <span class="summary-ind">涉及: 需进一步分析、人工智能</span>
+    </div><div class="summary-row">
+      <span class="summary-dir">📉 利空 (1条)</span>
+      <span class="summary-ind">涉及: 需进一步分析</span>
     </div></div>
 
   <div class="section-title">AI 逐条分析</div>
-  <div class="card bearish">
+  <div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605233747304273.html" target="_blank" title="查看原文">机器人行业资本化加速</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 机器人行业资本化加速</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 人工智能</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/012349.html" target="_blank" title="查看基金详情">012349 天弘中证人工智能主题</a><a class="fund-tag" href="https://fund.eastmoney.com/008087.html" target="_blank" title="查看基金详情">008087 华夏中证人工智能主题ETF联接</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605223745669122.html" target="_blank" title="查看原文">美股量子计算概念大涨 ARM涨超16%</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 美股量子计算概念大涨 ARM涨超16%</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。</div>
+        <div class="card-row suggestion">💡 短期: 关注板块龙头及活跃标的，回调可适当参与。<br>中期: 若行业景气度持续验证，可逐步加仓至标配以上。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605223745705197.html" target="_blank" title="查看原文">凌晨全线拉升！美伊突传利好</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 凌晨全线拉升！美伊突传利好</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。</div>
+        <div class="card-row suggestion">💡 短期: 关注板块龙头及活跃标的，回调可适当参与。<br>中期: 若行业景气度持续验证，可逐步加仓至标配以上。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605223745736561.html" target="_blank" title="查看原文">特斯拉FSD入华进程提速(附股)</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 特斯拉FSD入华进程提速(附股)</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 汽车</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及汽车。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605223745913441.html" target="_blank" title="查看原文">特斯拉最后一批Model S/X下线</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 特斯拉最后一批Model S/X下线</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 汽车</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及汽车。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605213745617326.html" target="_blank" title="查看原文">小米YU7标准版“临时”下调定价</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 小米YU7标准版“临时”下调定价</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605223745740193.html" target="_blank" title="查看原文">AI制药利好！巨头重金布局(附股)</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 AI制药利好！巨头重金布局(附股)</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 人工智能</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/012349.html" target="_blank" title="查看基金详情">012349 天弘中证人工智能主题</a><a class="fund-tag" href="https://fund.eastmoney.com/008087.html" target="_blank" title="查看基金详情">008087 华夏中证人工智能主题ETF联接</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及人工智能。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。</div>
+        <div class="card-row suggestion">💡 短期: 关注板块龙头及活跃标的，回调可适当参与。<br>中期: 若行业景气度持续验证，可逐步加仓至标配以上。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605223745897134.html" target="_blank" title="查看原文">医药工业加速拥抱AI 核心概念股出炉</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 医药工业加速拥抱AI 核心概念股出炉</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 人工智能、医药</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/012349.html" target="_blank" title="查看基金详情">012349 天弘中证人工智能主题</a><a class="fund-tag" href="https://fund.eastmoney.com/008087.html" target="_blank" title="查看基金详情">008087 华夏中证人工智能主题ETF联接</a><a class="fund-tag" href="https://fund.eastmoney.com/006002.html" target="_blank" title="查看基金详情">006002 工银瑞信医药健康</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及人工智能、医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605223745692967.html" target="_blank" title="查看原文">医药冷链迎来快速成长期</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 医药冷链迎来快速成长期</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 医药</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/006002.html" target="_blank" title="查看基金详情">006002 工银瑞信医药健康</a><a class="fund-tag" href="https://fund.eastmoney.com/000913.html" target="_blank" title="查看基金详情">000913 农银医疗保健</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605233747123362.html" target="_blank" title="查看原文">证监会等八部门联合出手 整治非法跨境证券期货基金经营活动</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 证监会等八部门联合出手 整治非法跨境证券期货基金经营活动</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605233747307016.html" target="_blank" title="查看原文">SpaceX完成IPO前“大考”：升级版星舰V3成功发射</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 SpaceX完成IPO前“大考”：升级版星舰V3成功发射</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605233747308478.html" target="_blank" title="查看原文">神二十三发射时间、乘组定了！</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 神二十三发射时间、乘组定了！</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605233747328930.html" target="_blank" title="查看原文">股东减持、询价转让！多只大牛股披露最新公告！</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 股东减持、询价转让！多只大牛股披露最新公告！</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card bearish">
       <div class="card-header">
         <span class="card-dir">📉 利空</span>
         <span class="badge badge-mid">中影响</span>
-        <span class="card-date">*ST闻泰结束11天连续跌停</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605223745914980.html" target="_blank" title="查看原文">*ST闻泰结束11天连续跌停</a>
+        <span class="card-source">东方财富</span>
       </div>
+      <div class="card-summary">📰 *ST闻泰结束11天连续跌停</div>
       <div class="card-body">
         <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻可能打压相关板块。</div>
-        <div class="card-row suggestion">💡 建议暂时回避，等待企稳</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。</div>
+        <div class="card-row suggestion">💡 短期: 建议减仓回避，不急于抄底。<br>中期: 观察影响是否被市场消化，待企稳后再评估入场时机。</div>
       </div>
     </div><div class="card neutral">
       <div class="card-header">
         <span class="card-dir">➖ 中性</span>
         <span class="badge badge-weak">弱影响</span>
-        <span class="card-date">SpaceX加码太阳能布局</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202605223745694275.html" target="_blank" title="查看原文">SpaceX加码太阳能布局</a>
+        <span class="card-source">东方财富</span>
       </div>
+      <div class="card-summary">📰 SpaceX加码太阳能布局</div>
       <div class="card-body">
         <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻暂难判断影响相关板块。</div>
-        <div class="card-row suggestion">💡 建议观望</div>
-      </div>
-    </div><div class="card neutral">
-      <div class="card-header">
-        <span class="card-dir">➖ 中性</span>
-        <span class="badge badge-weak">弱影响</span>
-        <span class="card-date">机器人行业资本化加速</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 人工智能</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻暂难判断影响相关板块。</div>
-        <div class="card-row suggestion">💡 建议观望</div>
-      </div>
-    </div><div class="card bullish">
-      <div class="card-header">
-        <span class="card-dir">📈 利好</span>
-        <span class="badge badge-mid">中影响</span>
-        <span class="card-date">美股量子计算概念大涨 ARM涨超16%</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻可能提振相关板块。</div>
-        <div class="card-row suggestion">💡 可关注相关板块短期机会</div>
-      </div>
-    </div><div class="card bullish">
-      <div class="card-header">
-        <span class="card-dir">📈 利好</span>
-        <span class="badge badge-mid">中影响</span>
-        <span class="card-date">凌晨全线拉升！美伊突传利好</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻可能提振相关板块。</div>
-        <div class="card-row suggestion">💡 可关注相关板块短期机会</div>
-      </div>
-    </div><div class="card neutral">
-      <div class="card-header">
-        <span class="card-dir">➖ 中性</span>
-        <span class="badge badge-weak">弱影响</span>
-        <span class="card-date">特斯拉FSD入华进程提速(附股)</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 汽车</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻暂难判断影响相关板块。</div>
-        <div class="card-row suggestion">💡 建议观望</div>
-      </div>
-    </div><div class="card neutral">
-      <div class="card-header">
-        <span class="card-dir">➖ 中性</span>
-        <span class="badge badge-weak">弱影响</span>
-        <span class="card-date">特斯拉最后一批Model S/X下线</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 汽车</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻暂难判断影响相关板块。</div>
-        <div class="card-row suggestion">💡 建议观望</div>
-      </div>
-    </div><div class="card neutral">
-      <div class="card-header">
-        <span class="card-dir">➖ 中性</span>
-        <span class="badge badge-weak">弱影响</span>
-        <span class="card-date">小米YU7标准版“临时”下调定价</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻暂难判断影响相关板块。</div>
-        <div class="card-row suggestion">💡 建议观望</div>
-      </div>
-    </div><div class="card bullish">
-      <div class="card-header">
-        <span class="card-dir">📈 利好</span>
-        <span class="badge badge-mid">中影响</span>
-        <span class="card-date">AI制药利好！巨头重金布局(附股)</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 人工智能</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻可能提振相关板块。</div>
-        <div class="card-row suggestion">💡 可关注相关板块短期机会</div>
-      </div>
-    </div><div class="card neutral">
-      <div class="card-header">
-        <span class="card-dir">➖ 中性</span>
-        <span class="badge badge-weak">弱影响</span>
-        <span class="card-date">医药工业加速拥抱AI 核心概念股出炉</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 人工智能、医药</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻暂难判断影响相关板块。</div>
-        <div class="card-row suggestion">💡 建议观望</div>
-      </div>
-    </div><div class="card neutral">
-      <div class="card-header">
-        <span class="card-dir">➖ 中性</span>
-        <span class="badge badge-weak">弱影响</span>
-        <span class="card-date">医药冷链迎来快速成长期</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 医药</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻暂难判断影响相关板块。</div>
-        <div class="card-row suggestion">💡 建议观望</div>
-      </div>
-    </div><div class="card neutral">
-      <div class="card-header">
-        <span class="card-dir">➖ 中性</span>
-        <span class="badge badge-weak">弱影响</span>
-        <span class="card-date">证监会等八部门联合出手 整治非法跨境证券期货基金经营活动</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻暂难判断影响相关板块。</div>
-        <div class="card-row suggestion">💡 建议观望</div>
-      </div>
-    </div><div class="card neutral">
-      <div class="card-header">
-        <span class="card-dir">➖ 中性</span>
-        <span class="badge badge-weak">弱影响</span>
-        <span class="card-date">SpaceX完成IPO前“大考”：升级版星舰V3成功发射</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻暂难判断影响相关板块。</div>
-        <div class="card-row suggestion">💡 建议观望</div>
-      </div>
-    </div><div class="card neutral">
-      <div class="card-header">
-        <span class="card-dir">➖ 中性</span>
-        <span class="badge badge-weak">弱影响</span>
-        <span class="card-date">神二十三发射时间、乘组定了！</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻暂难判断影响相关板块。</div>
-        <div class="card-row suggestion">💡 建议观望</div>
-      </div>
-    </div><div class="card neutral">
-      <div class="card-header">
-        <span class="card-dir">➖ 中性</span>
-        <span class="badge badge-weak">弱影响</span>
-        <span class="card-date">股东减持、询价转让！多只大牛股披露最新公告！</span>
-      </div>
-      <div class="card-body">
-        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
-        <div class="card-row"><strong>相关公司:</strong> 待AI分析</div>
-        <div class="card-row analysis">基于关键词分析，该新闻暂难判断影响相关板块。</div>
-        <div class="card-row suggestion">💡 建议观望</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
       </div>
     </div>
 
   <div class="footer">
-    <p>AI 投资分析日报 &middot; 每日 8:00 自动生成</p>
+    <p>AI 投资分析日报 &middot; 每日 18:00 自动生成</p>
     <p style="margin-top:4px">分析由 DeepSeek AI 生成，数据来源于新浪财经、东方财富等公开渠道</p>
     <p style="margin-top:4px;color:#e15241">⚠ 以上分析仅供参考，不构成任何投资建议。投资有风险，入市需谨慎。</p>
   </div>

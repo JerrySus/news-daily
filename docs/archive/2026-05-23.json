@@ -94,32 +94,16 @@
       }
     ],
     "sectors": [],
-    "updatedAt": "2026-05-23T08:22:35.994Z"
+    "updatedAt": "2026-05-23T09:18:40.878Z"
   },
   "newsData": {
     "items": [
-      {
-        "title": "*ST闻泰结束11天连续跌停",
-        "summary": "",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202605223745914980.html",
-        "time": "2026-05-23T08:22:35.991Z",
-        "category": "finance"
-      },
-      {
-        "title": "SpaceX加码太阳能布局",
-        "summary": "",
-        "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202605223745694275.html",
-        "time": "2026-05-23T08:22:35.991Z",
-        "category": "finance"
-      },
       {
         "title": "机器人行业资本化加速",
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605233747304273.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -127,7 +111,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745669122.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -135,7 +119,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745705197.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -143,7 +127,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745736561.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -151,7 +135,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745913441.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -159,7 +143,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605213745617326.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -167,7 +151,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745740193.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -175,7 +159,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745897134.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -183,7 +167,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745692967.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -191,7 +175,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605233747123362.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -199,7 +183,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605233747307016.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -207,7 +191,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605233747308478.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
         "category": "finance"
       },
       {
@@ -215,7 +199,47 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605233747328930.html",
-        "time": "2026-05-23T08:22:35.991Z",
+        "time": "2026-05-23T09:18:40.774Z",
+        "category": "finance"
+      },
+      {
+        "title": "*ST闻泰结束11天连续跌停",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605223745914980.html",
+        "time": "2026-05-23T09:18:40.773Z",
+        "category": "finance"
+      },
+      {
+        "title": "SpaceX加码太阳能布局",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605223745694275.html",
+        "time": "2026-05-23T09:18:40.773Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩第26079期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德德国杯胜平负胜平负胜平负胜平负1拜仁 vs 斯图加特1.305.507.001.335.006.001.305.258.501.285.508.0021日14:001...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-21/doc-inhyrfcw6024864.shtml",
+        "time": "2026-05-23T09:00:01.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26079期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负24日02:00(周日)01 拜仁 vs 斯图加特1.84球半1.941.255.506.70周四14:001.84球半1.941.255.506.70周五09:001...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-21/doc-inhyrfct6503168.shtml",
+        "time": "2026-05-23T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家伟哥看球竞彩推荐：京都主场难胜",
+        "summary": "2026-05-23 18:00:00 周六004 | 【日职】 京都 VS 长崎航海 京都现在排名西区垫底，17轮才拿了20分，保级形势那叫一个严峻。但比排名更吓人的是他们最近的状态——联赛3连败...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-23/doc-inhywqpm6850015.shtml",
+        "time": "2026-05-23T07:53:38.000Z",
         "category": "finance"
       },
       {
@@ -313,231 +337,250 @@
         "url": "https://sports.sina.com.cn/o/2026-05-23/doc-inhywkfn4431583.shtml",
         "time": "2026-05-23T06:26:08.000Z",
         "category": "finance"
-      },
-      {
-        "title": "樊振东输球了 一单崩盘惹人疑 欧洲新锐真能掀翻老将？",
-        "summary": "5月17号晚上，欧冠男团决赛打到最后一刻，萨尔布吕肯的头号选手樊振东0比3输给了尼姆队的二号选手大勒布伦，三局比分很接近，6-11、8-11、9-11，但关键分全丢了...",
-        "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/o/2026-05-23/doc-inhywkfq5397010.shtml",
-        "time": "2026-05-23T06:24:52.000Z",
-        "category": "finance"
-      },
-      {
-        "title": "法国乒乓球队的成功经验 对足球等其他项目有何启示？",
-        "summary": " 法国乒乓球队近年来的崛起堪称体坛奇迹，其从欧洲劲旅蜕变为世界顶级强队的历程，为足球等传统大项提供了充满启发的跨界经验。",
-        "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/o/2026-05-23/doc-inhywkfn4430746.shtml",
-        "time": "2026-05-23T06:23:41.000Z",
-        "category": "finance"
-      },
-      {
-        "title": "张本美和与伊藤美诚的复仇宣言 对中国队有何影响？",
-        "summary": "张本美和剑指世乒赛金牌的宣言与伊藤美诚渴望雪耻的决心，如同投入中国乒坛静湖的两颗石子，激起的不仅是技战术层面的涟漪，更在人才培养模式与竞技心态层面引发深层震荡。...",
-        "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/o/2026-05-23/doc-inhywkfk7653006.shtml",
-        "time": "2026-05-23T06:22:30.000Z",
-        "category": "finance"
       }
     ],
     "count": 35,
-    "updatedAt": "2026-05-23T08:22:45.775Z"
+    "updatedAt": "2026-05-23T09:18:50.589Z"
   },
   "analyses": [
     {
-      "news_title": "*ST闻泰结束11天连续跌停",
-      "affected_industries": [
-        "需进一步分析"
-      ],
-      "affected_companies": [
-        "待AI分析"
-      ],
-      "direction": "利空",
-      "impact_level": "中",
-      "analysis": "基于关键词分析，该新闻可能打压相关板块。",
-      "suggestion": "建议暂时回避，等待企稳"
-    },
-    {
-      "news_title": "SpaceX加码太阳能布局",
-      "affected_industries": [
-        "需进一步分析"
-      ],
-      "affected_companies": [
-        "待AI分析"
-      ],
-      "direction": "中性",
-      "impact_level": "弱",
-      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
-      "suggestion": "建议观望"
-    },
-    {
       "news_title": "机器人行业资本化加速",
+      "news_summary": "机器人行业资本化加速",
       "affected_industries": [
         "人工智能"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
       ],
       "direction": "中性",
       "impact_level": "弱",
-      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
-      "suggestion": "建议观望"
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
       "news_title": "美股量子计算概念大涨 ARM涨超16%",
+      "news_summary": "美股量子计算概念大涨 ARM涨超16%",
       "affected_industries": [
         "需进一步分析"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
       ],
+      "funds": [],
       "direction": "利好",
       "impact_level": "中",
-      "analysis": "基于关键词分析，该新闻可能提振相关板块。",
-      "suggestion": "可关注相关板块短期机会"
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
     },
     {
       "news_title": "凌晨全线拉升！美伊突传利好",
+      "news_summary": "凌晨全线拉升！美伊突传利好",
       "affected_industries": [
         "需进一步分析"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
       ],
+      "funds": [],
       "direction": "利好",
       "impact_level": "中",
-      "analysis": "基于关键词分析，该新闻可能提振相关板块。",
-      "suggestion": "可关注相关板块短期机会"
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
     },
     {
       "news_title": "特斯拉FSD入华进程提速(附股)",
+      "news_summary": "特斯拉FSD入华进程提速(附股)",
       "affected_industries": [
         "汽车"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
       ],
+      "funds": [],
       "direction": "中性",
       "impact_level": "弱",
-      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
-      "suggestion": "建议观望"
+      "chain": "该新闻涉及汽车。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
       "news_title": "特斯拉最后一批Model S/X下线",
+      "news_summary": "特斯拉最后一批Model S/X下线",
       "affected_industries": [
         "汽车"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
       ],
+      "funds": [],
       "direction": "中性",
       "impact_level": "弱",
-      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
-      "suggestion": "建议观望"
+      "chain": "该新闻涉及汽车。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
       "news_title": "小米YU7标准版“临时”下调定价",
+      "news_summary": "小米YU7标准版“临时”下调定价",
       "affected_industries": [
         "需进一步分析"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
       ],
+      "funds": [],
       "direction": "中性",
       "impact_level": "弱",
-      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
-      "suggestion": "建议观望"
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
       "news_title": "AI制药利好！巨头重金布局(附股)",
+      "news_summary": "AI制药利好！巨头重金布局(附股)",
       "affected_industries": [
         "人工智能"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
       ],
       "direction": "利好",
       "impact_level": "中",
-      "analysis": "基于关键词分析，该新闻可能提振相关板块。",
-      "suggestion": "可关注相关板块短期机会"
+      "chain": "该新闻涉及人工智能。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
     },
     {
       "news_title": "医药工业加速拥抱AI 核心概念股出炉",
+      "news_summary": "医药工业加速拥抱AI 核心概念股出炉",
       "affected_industries": [
         "人工智能",
         "医药"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接",
+        "006002 工银瑞信医药健康"
       ],
       "direction": "中性",
       "impact_level": "弱",
-      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
-      "suggestion": "建议观望"
+      "chain": "该新闻涉及人工智能、医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
       "news_title": "医药冷链迎来快速成长期",
+      "news_summary": "医药冷链迎来快速成长期",
       "affected_industries": [
         "医药"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
       ],
       "direction": "中性",
       "impact_level": "弱",
-      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
-      "suggestion": "建议观望"
+      "chain": "该新闻涉及医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
       "news_title": "证监会等八部门联合出手 整治非法跨境证券期货基金经营活动",
+      "news_summary": "证监会等八部门联合出手 整治非法跨境证券期货基金经营活动",
       "affected_industries": [
         "需进一步分析"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
       ],
+      "funds": [],
       "direction": "中性",
       "impact_level": "弱",
-      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
-      "suggestion": "建议观望"
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
       "news_title": "SpaceX完成IPO前“大考”：升级版星舰V3成功发射",
+      "news_summary": "SpaceX完成IPO前“大考”：升级版星舰V3成功发射",
       "affected_industries": [
         "需进一步分析"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
       ],
+      "funds": [],
       "direction": "中性",
       "impact_level": "弱",
-      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
-      "suggestion": "建议观望"
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
       "news_title": "神二十三发射时间、乘组定了！",
+      "news_summary": "神二十三发射时间、乘组定了！",
       "affected_industries": [
         "需进一步分析"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
       ],
+      "funds": [],
       "direction": "中性",
       "impact_level": "弱",
-      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
-      "suggestion": "建议观望"
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
       "news_title": "股东减持、询价转让！多只大牛股披露最新公告！",
+      "news_summary": "股东减持、询价转让！多只大牛股披露最新公告！",
       "affected_industries": [
         "需进一步分析"
       ],
       "affected_companies": [
-        "待AI分析"
+        "待AI启用后自动分析"
       ],
+      "funds": [],
       "direction": "中性",
       "impact_level": "弱",
-      "analysis": "基于关键词分析，该新闻暂难判断影响相关板块。",
-      "suggestion": "建议观望"
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "*ST闻泰结束11天连续跌停",
+      "news_summary": "*ST闻泰结束11天连续跌停",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "SpaceX加码太阳能布局",
+      "news_summary": "SpaceX加码太阳能布局",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     }
   ]
 }

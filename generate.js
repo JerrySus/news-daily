@@ -56,17 +56,18 @@ function buildAnalysisPrompt(marketData, newsItems) {
     marketSummary += `- ${idx.name}: ${idx.price?.toFixed(2)} (${sign}${idx.changePercent?.toFixed(2)}%)\n`;
   }
 
-  // News list (take top 20, deduplicated)
+  // News list (take top 20, with URLs and summaries)
   const topNews = (newsItems || []).slice(0, 20);
   let newsList = '';
   topNews.forEach((n, i) => {
     newsList += `${i + 1}. [${n.source}] ${n.title}\n`;
-    if (n.summary) newsList += `   摘要: ${n.summary.slice(0, 100)}\n`;
+    if (n.summary) newsList += `   摘要: ${n.summary.slice(0, 200)}\n`;
+    if (n.url) newsList += `   链接: ${n.url}\n`;
   });
 
   const today = new Date().toISOString().slice(0, 10);
 
-  return `你是一位资深证券市场分析师。请基于今日重大新闻，分析对A股、港股、美股市场的潜在影响。
+  return `你是一位资深证券市场分析师，擅长分析重大新闻对资本市场的传导逻辑。请基于今日重大新闻，深入分析对A股、港股、美股市场的潜在影响。
 
 【今日市场行情】
 ${marketSummary || '暂无数据'}
@@ -75,31 +76,37 @@ ${marketSummary || '暂无数据'}
 ${newsList || '暂无新闻'}
 
 【分析要求】
-请对每条新闻逐条进行分析，并输出JSON格式。注意：
-1. 不仅限于财经新闻——科技突破、政策变化、国际关系、行业监管、自然灾害等都要考虑
-2. affected_industries: 具体受影响的行业（如"半导体""新能源""消费电子""房地产"等）
-3. affected_companies: 可能受影响的上市公司名称和代码（如"宁德时代(300750)"），如果没有具体公司可以写"行业整体"
-4. direction: 判断是"利好"还是"利空"还是"中性"
-5. impact_level: 影响强度，"强"/"中"/"弱"
-6. analysis: 简要分析背后的逻辑链条，80字以内
-7. suggestion: 给出具体的短期或中期投资建议，50字以内
+请对每条新闻逐条分析，输出JSON格式。你不仅要做表面分析，更要挖掘背后逻辑链——一篇关于AI的新闻如何影响芯片需求，一条国际关系新闻如何改变大宗商品价格，一条政策新闻如何传导到具体公司业绩。
+
+每个字段的要求：
+1. news_title: 新闻标题（保持原样）
+2. news_summary: 用1-2句话提炼新闻核心要点
+3. affected_industries: 具体受影响的行业（如"半导体""新能源""消费电子""房地产""创新药"等），行业名称要具体
+4. affected_companies: 可能受影响的上市公司名称和代码（如"宁德时代(300750)"），写出A股/港股/美股的具体公司，至少有具体公司才写
+5. funds: 在支付宝(蚂蚁财富)上可以买到的相关基金代码和名称（如"005827 易方达蓝筹精选""001632 天弘中证500"），必须是真实存在的6位基金代码，选2-3只最相关的
+6. direction: "利好" / "利空" / "中性"
+7. impact_level: 影响强度，"强" / "中" / "弱"
+8. chain: 详细分析逻辑传导链条——从新闻事件→行业影响→公司业绩→股价表现，层层递进，150字以上
+9. suggestion: 具体的投资建议，包括短期(1-2周)和中期(1-3个月)两个时间维度，80字以上
 
 【输出格式】
-严格按以下JSON数组格式输出，不要有其他文字：
+严格按以下JSON数组格式输出，不要加任何markdown代码块标记：
 
 [
   {
     "news_title": "新闻标题",
+    "news_summary": "1-2句话核心要点提炼",
     "affected_industries": ["行业A", "行业B"],
     "affected_companies": ["公司名(代码)"],
+    "funds": ["代码 基金名称", "代码 基金名称"],
     "direction": "利好",
     "impact_level": "强",
-    "analysis": "逻辑分析...",
-    "suggestion": "投资建议..."
+    "chain": "详细传导逻辑分析，150字以上...",
+    "suggestion": "短期: ...\\n中期: ..."
   }
 ]
 
-只输出JSON数组，不要加任何markdown代码块标记。`;
+只输出JSON数组，不要加任何markdown代码块标记。funds字段必须写真实存在的6位基金代码。`;
 }
 
 // --- Generate analysis via DeepSeek ---
@@ -146,12 +153,24 @@ async function analyzeNews(marketData, newsData) {
 // --- Rule-based fallback (when API key not available) ---
 const { analyzeNews: keywordAnalyze } = require('./modules/fetchers/sentiment');
 
+// Fund code database for common industries (fallback mode)
+const FUND_DB = {
+  '半导体': ['007301 国联安中证全指半导体ETF联接', '008888 华夏国证半导体芯片ETF联接'],
+  '新能源': ['001298 华夏新能源车龙头', '005827 易方达蓝筹精选'],
+  '人工智能': ['012349 天弘中证人工智能主题', '008087 华夏中证人工智能主题ETF联接'],
+  '消费电子': ['008888 华夏国证半导体芯片ETF联接', '001475 易方达消费行业'],
+  '医药': ['006002 工银瑞信医药健康', '000913 农银医疗保健'],
+  '消费': ['001475 易方达消费行业', '002001 华夏回报'],
+  '金融': ['001553 天弘中证银行指数', '160631 鹏华中证银行'],
+  '军工': ['001475 富国中证军工', '161024 富国中证军工指数'],
+  '互联网': ['164906 交银中证海外中国互联网', '513050 易方达中证海外互联ETF联接'],
+};
+
 function fallbackAnalysis(marketData, newsItems) {
   return newsItems.slice(0, 15).map((item) => {
     const sentiment = keywordAnalyze(item);
     const direction = sentiment.label === 'bullish' ? '利好' : sentiment.label === 'bearish' ? '利空' : '中性';
 
-    // Simple keyword-based industry matching
     const industries = [];
     const text = item.title + (item.summary || '');
     const industryKeywords = {
@@ -174,14 +193,29 @@ function fallbackAnalysis(marketData, newsItems) {
       }
     }
 
+    // Match funds from database
+    const funds = [];
+    for (const ind of industries) {
+      if (FUND_DB[ind]) funds.push(...FUND_DB[ind]);
+    }
+
+    const summary = item.summary || item.title;
+    const indText = industries.length > 0 ? industries.join('、') : '相关板块';
+
     return {
       news_title: item.title,
+      news_summary: summary.slice(0, 150),
       affected_industries: industries.length > 0 ? [...new Set(industries)].slice(0, 3) : ['需进一步分析'],
-      affected_companies: ['待AI分析'],
+      affected_companies: ['待AI启用后自动分析'],
+      funds: [...new Set(funds)].slice(0, 3),
       direction,
       impact_level: sentiment.label === 'neutral' ? '弱' : '中',
-      analysis: `基于关键词分析，该新闻${direction === '利好' ? '可能提振' : direction === '利空' ? '可能打压' : '暂难判断影响'}相关板块。`,
-      suggestion: direction === '利好' ? '可关注相关板块短期机会' : direction === '利空' ? '建议暂时回避，等待企稳' : '建议观望',
+      chain: `该新闻涉及${indText}。${direction === '利好' ? '从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。' : direction === '利空' ? '该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。' : '该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。'}`,
+      suggestion: direction === '利好'
+        ? '短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。'
+        : direction === '利空'
+        ? '短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。'
+        : '短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。',
     };
   });
 }
@@ -207,8 +241,14 @@ function buildMarketCards(marketData) {
   return html;
 }
 
-function buildAnalysisCards(analyses) {
+function buildAnalysisCards(analyses, newsData) {
   if (!analyses?.length) return '<p>暂无分析结果</p>';
+
+  // Build a lookup from news title to original news item (for URL)
+  const newsLookup = {};
+  for (const n of (newsData?.items || [])) {
+    newsLookup[n.title] = n;
+  }
 
   let html = '';
   const summaryMap = {};
@@ -220,17 +260,46 @@ function buildAnalysisCards(analyses) {
       a.impact_level === '中' ? '<span class="badge badge-mid">中影响</span>' :
       '<span class="badge badge-weak">弱影响</span>';
 
+    // Find original news URL
+    const origNews = newsLookup[a.news_title];
+    const newsLink = origNews?.url || '#';
+    const newsSource = origNews?.source || '';
+
+    // Fund buttons
+    let fundsHtml = '';
+    if (a.funds?.length) {
+      fundsHtml = '<div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list">';
+      for (const f of a.funds) {
+        const code = f.match(/\d{6}/)?.[0] || '';
+        const name = f.replace(code, '').trim();
+        fundsHtml += `<a class="fund-tag" href="https://fund.eastmoney.com/${code}.html" target="_blank" title="查看基金详情">${code} ${name}</a>`;
+      }
+      fundsHtml += '</div></div>';
+    }
+
+    // Split suggestion into short/mid term
+    let suggestionHtml = '';
+    const sugText = a.suggestion || '';
+    if (sugText.includes('短期') && sugText.includes('中期')) {
+      suggestionHtml = `<div class="card-row suggestion">💡 ${sugText.replace(/\n/g, '<br>')}</div>`;
+    } else {
+      suggestionHtml = `<div class="card-row suggestion">💡 ${sugText}</div>`;
+    }
+
     html += `<div class="card ${dirClass}">
       <div class="card-header">
         <span class="card-dir">${dirEmoji} ${a.direction}</span>
         ${impactBadge}
-        <span class="card-date">${a.news_title}</span>
+        <a class="card-news-link" href="${newsLink}" target="_blank" title="查看原文">${a.news_title}</a>
+        ${newsSource ? `<span class="card-source">${newsSource}</span>` : ''}
       </div>
+      ${a.news_summary ? `<div class="card-summary">📰 ${a.news_summary}</div>` : ''}
       <div class="card-body">
         <div class="card-row"><strong>影响行业:</strong> ${(a.affected_industries || []).join('、') || '待分析'}</div>
         <div class="card-row"><strong>相关公司:</strong> ${(a.affected_companies || []).join('、') || '待分析'}</div>
-        <div class="card-row analysis">${a.analysis || ''}</div>
-        <div class="card-row suggestion">💡 ${a.suggestion || ''}</div>
+        ${fundsHtml}
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>${a.chain || a.analysis || ''}</div>
+        ${suggestionHtml}
       </div>
     </div>`;
 
@@ -258,10 +327,10 @@ function buildSummaryBox(summaryMap) {
   return html;
 }
 
-async function generateHtml(marketData, analyses, dateStr) {
+async function generateHtml(marketData, analyses, newsData, dateStr) {
   const dayNames = ['日', '一', '二', '三', '四', '五', '六'];
   const dayOfWeek = dayNames[new Date(dateStr).getDay()];
-  const { cardsHtml, summaryMap } = buildAnalysisCards(analyses);
+  const { cardsHtml, summaryMap } = buildAnalysisCards(analyses, newsData);
   const summaryHtml = buildSummaryBox(summaryMap);
 
   const template = `<!DOCTYPE html>
@@ -308,7 +377,17 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#0f0f14;c
 .badge-weak{background:rgba(102,102,102,.2);color:#999}
 .card-row{margin-bottom:4px;font-size:13px}
 .card-row.analysis{color:#bbb;margin-top:6px;padding:8px;background:rgba(255,255,255,.03);border-radius:6px}
-.card-row.suggestion{color:#e15241;margin-top:6px;font-weight:500}
+.card-news-link{color:#e0e0e0;text-decoration:none;font-size:13px;flex:1;line-height:1.4}
+.card-news-link:hover{color:#e15241;text-decoration:underline}
+.card-source{font-size:10px;color:#666;background:rgba(255,255,255,.05);padding:1px 6px;border-radius:3px;flex-shrink:0}
+.card-summary{font-size:12px;color:#888;margin-bottom:8px;padding:6px 10px;background:rgba(255,255,255,.02);border-radius:4px;line-height:1.5}
+.card-row.chain{color:#bbb;margin-top:8px;padding:10px;background:rgba(225,82,65,.05);border-radius:6px;line-height:1.7;font-size:13px}
+.card-row.suggestion{color:#e15241;margin-top:8px;font-weight:500;line-height:1.6}
+.card-funds{margin-top:6px}
+.card-funds strong{font-size:12px;color:#aaa}
+.fund-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.fund-tag{display:inline-block;padding:5px 10px;background:rgba(225,82,65,.1);color:#e15241;border-radius:6px;font-size:12px;text-decoration:none;border:1px solid rgba(225,82,65,.2);transition:all .2s}
+.fund-tag:hover{background:rgba(225,82,65,.2);border-color:#e15241}
 .footer{text-align:center;padding:30px;color:#555;font-size:12px}
 .na{color:#666}
 @media(max-width:480px){.market-grid{grid-template-columns:repeat(2,1fr)}.header h1{font-size:18px}}
@@ -339,7 +418,7 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#0f0f14;c
   ${cardsHtml}
 
   <div class="footer">
-    <p>AI 投资分析日报 &middot; 每日 8:00 自动生成</p>
+    <p>AI 投资分析日报 &middot; 每日 18:00 自动生成</p>
     <p style="margin-top:4px">分析由 DeepSeek AI 生成，数据来源于新浪财经、东方财富等公开渠道</p>
     <p style="margin-top:4px;color:#e15241">⚠ 以上分析仅供参考，不构成任何投资建议。投资有风险，入市需谨慎。</p>
   </div>
@@ -412,7 +491,7 @@ async function main() {
 
   // Generate HTML
   console.log('[generate] Generating HTML...');
-  const html = await generateHtml(marketData, analyses, todayStr);
+  const html = await generateHtml(marketData, analyses, newsData, todayStr);
 
   // Write today's page
   const todayPath = path.join(DOCS_DIR, 'today.html');
