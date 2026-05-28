@@ -1,0 +1,578 @@
+{
+  "date": "2026-05-28",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4098.6358,
+        "change": 4.91,
+        "changePercent": 0.12,
+        "high": 4110.7821,
+        "low": 4055.8275,
+        "open": 4080.3044,
+        "prevClose": 4093.7266
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15861.891,
+        "change": 125.42,
+        "changePercent": 0.8,
+        "high": 15889.832,
+        "low": 15504.787,
+        "open": 15691.162,
+        "prevClose": 15736.469
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4125.075,
+        "change": 79.3,
+        "changePercent": 1.96,
+        "high": 4135.375,
+        "low": 3971.719,
+        "open": 4042.078,
+        "prevClose": 4045.773
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4914.2133,
+        "change": 6.04,
+        "changePercent": 0.12,
+        "high": 4922.3297,
+        "low": 4843.2265,
+        "open": 4889.2659,
+        "prevClose": 4908.1714
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1844.2493,
+        "change": 28.8,
+        "changePercent": 1.59,
+        "high": 1854.5202,
+        "low": 1796.0352,
+        "open": 1805.1129,
+        "prevClose": 1815.4513
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 50535.9883,
+        "change": -108.29,
+        "changePercent": -0.21,
+        "high": 50660.9805,
+        "low": 50314.3398,
+        "open": null,
+        "prevClose": 50644.2812
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26590.4438,
+        "change": -84.2911,
+        "changePercent": -0.32,
+        "high": 26713.5114,
+        "low": 26588.5197,
+        "open": null,
+        "prevClose": 26674.7349
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7511.4199,
+        "change": -8.94,
+        "changePercent": -0.12,
+        "high": 7521.2998,
+        "low": 7508.04,
+        "open": null,
+        "prevClose": 7520.3599
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-05-28T13:44:49.987Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "国产内存龙头长鑫科技IPO过会",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283751708538.html",
+        "time": "2026-05-28T13:44:48.931Z",
+        "category": "finance"
+      },
+      {
+        "title": "长鑫科技突围 全球存储中国变量",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283751751557.html",
+        "time": "2026-05-28T13:44:48.931Z",
+        "category": "finance"
+      },
+      {
+        "title": "摩根大通：金价有望重返6000美元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283751971234.html",
+        "time": "2026-05-28T13:44:48.931Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国劳工部公布4月核心PCE物价指数数据",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283751965343.html",
+        "time": "2026-05-28T13:44:48.931Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国加息噩梦更近了？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283751969782.html",
+        "time": "2026-05-28T13:44:48.931Z",
+        "category": "finance"
+      },
+      {
+        "title": "国务院印发《城市更新“十五五”规划》",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283752922067.html",
+        "time": "2026-05-28T13:44:48.931Z",
+        "category": "finance"
+      },
+      {
+        "title": "商务部回应中美关税谈判进展：双方经贸团队将商定具体安排并尽快推动实施",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283752721386.html",
+        "time": "2026-05-28T13:44:48.931Z",
+        "category": "finance"
+      },
+      {
+        "title": "两部门联手 系统布局人工智能计量能力建设",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283752906061.html",
+        "time": "2026-05-28T13:44:48.931Z",
+        "category": "finance"
+      },
+      {
+        "title": "Meta开启“付费时代”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283751724870.html",
+        "time": "2026-05-28T13:44:48.930Z",
+        "category": "finance"
+      },
+      {
+        "title": "华电辽能：不涉及算电协同项目",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605273751601928.html",
+        "time": "2026-05-28T13:44:48.930Z",
+        "category": "finance"
+      },
+      {
+        "title": "拼多多一季度净利跌逾一成",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283751877552.html",
+        "time": "2026-05-28T13:44:48.930Z",
+        "category": "finance"
+      },
+      {
+        "title": "突发！美军对伊朗实施新的打击",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283751756146.html",
+        "time": "2026-05-28T13:44:48.930Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普称对谈判进程“不满意”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283751968538.html",
+        "time": "2026-05-28T13:44:48.930Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊朗阿巴斯港附近传出爆炸声！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283751850948.html",
+        "time": "2026-05-28T13:44:48.930Z",
+        "category": "finance"
+      },
+      {
+        "title": "国产存储龙头！长鑫科技IPO已提交注册",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283751882835.html",
+        "time": "2026-05-28T13:44:48.930Z",
+        "category": "finance"
+      },
+      {
+        "title": "Young people out of work or training costing UK £125bn as report warns of 'perfect storm'",
+        "summary": "A report warns the UK is \"at risk of a lost generation\" with number of 16 to 24-year-olds out of work, education or training set to rise to 1.25 million by 2031.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/cy026x9jpd0o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-05-28T12:56:53.000Z",
+        "category": "general"
+      },
+      {
+        "title": "EU fines Temu €200m for allowing sale of illegal products",
+        "summary": "The European Commission says the Chinese-owned online retailer failed to take account of risks from baby toys and faulty chargers sold on its platform.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c1k2ydn1rz8o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-05-28T11:39:38.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Ousted BP chairman hits back at 'lies' about his behaviour",
+        "summary": "Albert  Manifold said no-one should be \"allowed to hide behind anonymity\" when commenting on his time at BP.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/cy92rzn5v7vo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-05-28T10:17:36.000Z",
+        "category": "general"
+      },
+      {
+        "title": "伍德兰德等11人跻身英国公开赛阵容 李昊桐有资格",
+        "summary": " 北京时间5月27日，加里·伍德兰德在赢得休斯敦公开赛之前世界排名第139位，这是他自2023年9月脑部手术后的首场胜利。这为他重返英国公开赛铺平了道路。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/pgatour/2026-05-28/doc-inhzmyen8602267.shtml",
+        "time": "2026-05-28T09:57:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "科伊文两度荣获本-侯根奖 追平拉姆与阿伯格成就",
+        "summary": "北京时间5月28日，奥本大学大三学生杰克森·科伊文（Jackson Koivun）赢得了本·侯根奖，成为第三位两次获得该奖项的大学球员。他于2024年作为新生赢得了侯根奖...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/pgatour/2026-05-28/doc-inhzmyer8204468.shtml",
+        "time": "2026-05-28T09:56:26.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "老外记者隐在加拿大 默默宣传中国高尔夫超20年",
+        "summary": "北京时间5月28日，提到艾伦·坎贝尔（Alan Campbell），有中国记者开玩笑说那是“高尔夫球坛的白求恩”。 玩笑归玩笑。这位记者来自加拿大...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/lpga/2026-05-28/doc-inhzmyeq1426048.shtml",
+        "time": "2026-05-28T09:54:34.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "WSOP正式开打！今年中国牌手能拿下主赛冠军吗？",
+        "summary": "一年一度属于全球扑克玩家的夏天，再次回到了拉斯维加斯。2026 WSOP正式开打！今年会是中国牌手拿下主赛冠军的一年吗？第57届世界扑克大赛（WSOP）已于5月26日正式开幕...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-05-28/doc-inhzmyeq1399230.shtml",
+        "time": "2026-05-28T09:25:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "双向奔赴！骑士赛季刚结束，哈登传来好消息",
+        "summary": "当骑士在东部决赛中遗憾出局，外界的声音并不友好。有人质疑哈登的状态，有人猜测他会再次换队，甚至“裁掉哈登”的流言一度甚嚣尘上。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-28/doc-inhzmyen8560462.shtml",
+        "time": "2026-05-28T09:03:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "火箭梭哈字母哥，5换1报价单摆上桌面",
+        "summary": "火箭梭哈字母哥，5换1报价单摆上桌面 休赛期休斯顿的办公室灯火通明。火箭管理层将申京、贾巴里·史密斯还有三个首轮签打包，指名道姓要换字母哥。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-28/doc-inhzmyen0092952.shtml",
+        "time": "2026-05-28T09:03:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "主动发声，休赛期大乱！多队交易底线曝光",
+        "summary": "随着纽约尼克斯横扫骑士队后，2025-2026赛季即将进入到尾声。然而，对于那些被淘汰的球队，管理层纷纷摩拳擦掌，试图在休赛期升级阵容。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-28/doc-inhzmyeq1381631.shtml",
+        "time": "2026-05-28T09:03:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "卡鲁索有望竞争西决MVP！伊戈达拉FMVP剧情或重演",
+        "summary": "北京时间5月28日，西决G6将在5月29日开战，这有可能是系列赛的最后一场比赛。雷霆3-2领先，手握赛点，如果他们成功晋级总决赛，那么西决MVP就肯定是亚历山大吗？",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-28/doc-inhzmyer8158812.shtml",
+        "time": "2026-05-28T09:03:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "詹姆斯明确留队要求 更愿意为回归骑士降薪",
+        "summary": "湖人一口气裁员10余人！詹姆斯明确留队要求，被曝不会主动要合同将等佩林卡主动报价，如果湖人不提供顶薪合同需向詹姆斯团队说明具体薪资用途...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-28/doc-inhzmyer8158813.shtml",
+        "time": "2026-05-28T09:03:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "0比4被横扫回家！骑士这套夺冠剧本够不够狂？",
+        "summary": "0比4被横扫回家！骑士这套夺冠剧本够不够狂？ 东决打完，骑士没能在客场带走一场胜利。更衣室里地板散落着胶布，加兰盯着天花板发呆，莫布利把毛巾盖在头上。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-28/doc-inhzmyer8158811.shtml",
+        "time": "2026-05-28T09:03:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "直接横扫出局，骑士4件事没做好，首发变阵失效",
+        "summary": "尼克斯和骑士的系列赛打到第四场的时候，大家也都看到了，骑士仍然一点机会都没有。可能在赛前有人会说尼克斯会放水，然后回主场多卖门票。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-28/doc-inhzmyen8560463.shtml",
+        "time": "2026-05-28T09:03:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "布伦森若带队夺冠，11号球衣必退役尼克斯",
+        "summary": "尼克斯等了27年，终于等到了他们的“纽约之王”。杰伦·布伦森，一个二轮秀出身、身高1米88、被独行侠放弃的控卫，如今带队横扫骑士，时隔27年重返总决赛。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-28/doc-inhzmyen0092948.shtml",
+        "time": "2026-05-28T09:03:41.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-05-28T13:44:48.934Z"
+  },
+  "analyses": [
+    {
+      "news_title": "国产内存龙头长鑫科技IPO过会",
+      "news_summary": "国产内存龙头长鑫科技IPO过会",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "长鑫科技突围 全球存储中国变量",
+      "news_summary": "长鑫科技突围 全球存储中国变量",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "摩根大通：金价有望重返6000美元",
+      "news_summary": "摩根大通：金价有望重返6000美元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国劳工部公布4月核心PCE物价指数数据",
+      "news_summary": "美国劳工部公布4月核心PCE物价指数数据",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国加息噩梦更近了？",
+      "news_summary": "美国加息噩梦更近了？",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及金融。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "国务院印发《城市更新“十五五”规划》",
+      "news_summary": "国务院印发《城市更新“十五五”规划》",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "商务部回应中美关税谈判进展：双方经贸团队将商定具体安排并尽快推动实施",
+      "news_summary": "商务部回应中美关税谈判进展：双方经贸团队将商定具体安排并尽快推动实施",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "两部门联手 系统布局人工智能计量能力建设",
+      "news_summary": "两部门联手 系统布局人工智能计量能力建设",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "Meta开启“付费时代”",
+      "news_summary": "Meta开启“付费时代”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "华电辽能：不涉及算电协同项目",
+      "news_summary": "华电辽能：不涉及算电协同项目",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "拼多多一季度净利跌逾一成",
+      "news_summary": "拼多多一季度净利跌逾一成",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "突发！美军对伊朗实施新的打击",
+      "news_summary": "突发！美军对伊朗实施新的打击",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普称对谈判进程“不满意”",
+      "news_summary": "特朗普称对谈判进程“不满意”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊朗阿巴斯港附近传出爆炸声！",
+      "news_summary": "伊朗阿巴斯港附近传出爆炸声！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国产存储龙头！长鑫科技IPO已提交注册",
+      "news_summary": "国产存储龙头！长鑫科技IPO已提交注册",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
