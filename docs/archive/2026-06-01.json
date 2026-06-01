@@ -1,0 +1,639 @@
+{
+  "date": "2026-06-01",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4057.74,
+        "change": -10.83,
+        "changePercent": -0.27,
+        "high": 4093.0405,
+        "low": 4045.6898,
+        "open": 4067.1578,
+        "prevClose": 4068.5691
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15340.356,
+        "change": -234.78,
+        "changePercent": -1.51,
+        "high": 15717.455,
+        "low": 15316.022,
+        "open": 15601.03,
+        "prevClose": 15575.134
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3950.943,
+        "change": -87.01,
+        "changePercent": -2.15,
+        "high": 4081.418,
+        "low": 3942.683,
+        "open": 4057.393,
+        "prevClose": 4037.951
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4844.2556,
+        "change": -47.87,
+        "changePercent": -0.98,
+        "high": 4918.7935,
+        "low": 4836.6851,
+        "open": 4897.8968,
+        "prevClose": 4892.1213
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1663.6935,
+        "change": -87.63,
+        "changePercent": -5,
+        "high": 1753.0202,
+        "low": 1662.8205,
+        "open": 1751.2315,
+        "prevClose": 1751.3234
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 50940.8594,
+        "change": -91.6,
+        "changePercent": -0.18,
+        "high": 51161.1016,
+        "low": 50767.3203,
+        "open": null,
+        "prevClose": 51032.4609
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 27052.0911,
+        "change": 79.4711,
+        "changePercent": 0.29,
+        "high": 27079.0169,
+        "low": 26913.1238,
+        "open": null,
+        "prevClose": 26972.62
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7587.6699,
+        "change": 7.61,
+        "changePercent": 0.1,
+        "high": 7591.9399,
+        "low": 7562.6099,
+        "open": null,
+        "prevClose": 7580.0601
+      }
+    ],
+    "sectors": [
+      {
+        "name": "图片媒体",
+        "code": "BK1297",
+        "price": 3824.83,
+        "changePercent": 10.01,
+        "change": 347.87
+      },
+      {
+        "name": "文字媒体",
+        "code": "BK1298",
+        "price": 2955.84,
+        "changePercent": 7.37,
+        "change": 203.01
+      },
+      {
+        "name": "肉鸡养殖",
+        "code": "BK1511",
+        "price": 3416.46,
+        "changePercent": 7.18,
+        "change": 228.83
+      },
+      {
+        "name": "动力煤",
+        "code": "BK1493",
+        "price": 2523.02,
+        "changePercent": 6.78,
+        "change": 160.3
+      },
+      {
+        "name": "煤炭开采",
+        "code": "BK1250",
+        "price": 1986.26,
+        "changePercent": 6.78,
+        "change": 126.16
+      },
+      {
+        "name": "焦煤",
+        "code": "BK1494",
+        "price": 1314.94,
+        "changePercent": 6.78,
+        "change": 83.48
+      }
+    ],
+    "updatedAt": "2026-06-01T15:52:53.371Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "百诚医药控制权变更终止",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605313755229377.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "艾德生物筹划控制权变更",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605313755239327.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "英伟达+微软大动作 AI PC新时代到来？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013755283589.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "Computex 2026将举行 黄仁勋将演讲",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605313755234953.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "重磅来袭！黄仁勋杀入AI PC",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013755243934.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "李乐成：加快前瞻布局和发展未来产业",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013755300635.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "推动人工智能成为中美合作新疆域",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013755272383.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "新一轮国企改革方案正式下发",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605313755235462.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "券商：短期波动或加大 但并非行情反转",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605313755239628.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "6月绩优潜力金股出炉 扎堆CPO等",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013755278225.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "年内涨超150%！小金属有大行情",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605313755205976.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "宇树科技IPO过会！冲刺A股“人形机器人第一股”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013756094657.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊朗暂停通过中间人同美国的对话",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013756302977.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "物理AI爆发临近？英伟达发布“全能”世界模型 机器人、自动驾驶有望获强力助推",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013755998073.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "美股三大指数震荡整理 国际油价涨超8%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013756308787.html",
+        "time": "2026-06-01T15:52:51.498Z",
+        "category": "finance"
+      },
+      {
+        "title": "UK banks blocked from cyber AI tool Mythos get offer from rival OpenAI",
+        "summary": "Nine banks have been offered access to GPT 5.5 Cyber, as fierce rival Anthropic has blocked previews of its tool.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/cm2p3j6lvn7o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-01T14:00:57.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Abusive passengers could be blacklisted from all airlines under new proposal",
+        "summary": "The scheme would allow airlines to share information on disruptive passengers and potentially restrict their access to flights.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c707pknywjno?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-01T13:42:12.000Z",
+        "category": "general"
+      },
+      {
+        "title": "群星聚萧山！2026全国围棋团体赛即将打响",
+        "summary": "2026年“小明围棋机器人杯”全国围棋锦标赛（团体）将于6月5日至15日在杭州萧山举行。赛事分为男子乙级、男子丙级、女子团体三大组别，阵容规模盛大，新老棋手齐聚赛场...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-06-01/doc-inhzxmem2251838.shtml",
+        "time": "2026-06-01T13:21:29.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Wise under investigation over money laundering control concerns",
+        "summary": "Wise says it is working with the Brussels prosecutor's office but that \"no specific findings have been shared with us to date\".",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/cy42x8ye02vo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-01T13:12:58.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Nvidia announces new AI chip for personal computers",
+        "summary": "The technology giant's boss Jensen Huang called the move the \"reinvention of the computer\".",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/crmp9mppvzro?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-01T11:14:13.000Z",
+        "category": "general"
+      },
+      {
+        "title": "驰骋高原为热爱加冕 环拉萨自行车大赛定档7月",
+        "summary": "驰骋高原，为热爱加冕。一年一度的环拉萨自行车大赛，即将再次点燃高原骑行的激情与梦想。值此环拉萨自行车大赛五周年之际，当车轮与高原天路交织...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/bikeride/2026-06-01/doc-inhzwyqr2431721.shtml",
+        "time": "2026-06-01T09:59:56.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "以棋会友聚玖玺 一场双城棋艺交流盛会",
+        "summary": " 纹枰传雅韵，黑白连泉潍。5月30日，由济南市围棋协会、潍坊市围棋协会主办，齐鲁棋院、银丰集团承办的“银丰杯”济潍围棋联谊赛暨棋迷分享会，在济南银丰玖玺城圆满收官。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-06-01/doc-inhzwyqi8434498.shtml",
+        "time": "2026-06-01T09:58:30.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "“瑜”见长城 lululemon与社区伙伴在长城展开“瑜伽垫”",
+        "summary": "2026年5月30日，中国北京——正如长城的每一块青砖筑就了横跨千年的脊梁，瑜伽也如基石般，流动在每一种运动里。5月30日，运动生活方式品牌lululemon在中国北京的黄花城水长...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/other/2026-06-01/doc-inhzwyqm5209844.shtml",
+        "time": "2026-06-01T09:54:17.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "EasyJet says possible takeover bid 'opportunistic'",
+        "summary": "US investment firm Castlelake is considering making an offer for the budget airline.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c042071p96po?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-01T09:47:11.000Z",
+        "category": "general"
+      },
+      {
+        "title": "冠军棋手领衔！潍坊围棋战队全国职业赛场亮剑",
+        "summary": "近日，潍坊围棋事业再添重磅喜讯。潍坊市围棋运动协会正式组建首支职业围棋队伍，将由王爽五段、祝菲鸿三段、曾楚典二段三位职业棋手...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-06-01/doc-inhzwyqm5208877.shtml",
+        "time": "2026-06-01T09:46:24.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "有乐趣、有惊喜、有意义，乐透好事buff就在你身边！",
+        "summary": "五月的深圳，夏日气息渐浓 热气腾腾的生活里，好事正在发生！ 一次有趣的邂逅 一份平和的心态 一点善意的回馈 好事，未必轰轰烈烈 往往藏在一个个平凡的日子里 不经意间...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-01/doc-inhzwyqi8421569.shtml",
+        "time": "2026-06-01T09:29:26.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "2026全国东西南北中羽毛球大赛鄂尔多斯大区赛举行",
+        "summary": "5月30日至31日，由中国羽毛球协会主办，内蒙古鄂尔多斯市教育体育局承办，鄂尔多斯市教育体育事业发展中心协办，内蒙古超冠体育发展有限责任公司执行运营的2026年全国东西...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/badmin/2026-06-01/doc-inhzwyqm5170453.shtml",
+        "time": "2026-06-01T08:49:40.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Put a £5 deposit on vapes to stop fires, say waste companies",
+        "summary": "The industry body for waste companies says a refundable deposit would help boost vape recycling, but others disagree.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c4g4vqex028o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-01T08:29:03.000Z",
+        "category": "general"
+      },
+      {
+        "title": "6月1日红王解盘比赛解读：北马其顿有望守住底线",
+        "summary": "友谊赛：土耳其 vs 北马其顿 比赛时间：6月2日1:30 土耳其总身价约4.6亿欧元，主教练蒙特拉偏好4-2-3-1阵型，近10场各项赛事7胜1平2负表现不俗...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-01/doc-inhzwyqi8375803.shtml",
+        "time": "2026-06-01T08:20:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "抢七出局只是开始！雷霆薪资爆炸 夺冠班底最后一舞",
+        "summary": "兄弟们，雷霆抢七不敌马刺，止步西部决赛，很多球迷都觉得只是错失一个赛季，休赛期调整阵容来年再战。但只要看懂雷霆下赛季的薪资结构就能明白...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-06-01/doc-inhzwuhp5280155.shtml",
+        "time": "2026-06-01T08:16:48.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-01T15:52:52.182Z"
+  },
+  "analyses": [
+    {
+      "news_title": "百诚医药控制权变更终止",
+      "news_summary": "百诚医药控制权变更终止",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "艾德生物筹划控制权变更",
+      "news_summary": "艾德生物筹划控制权变更",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "英伟达+微软大动作 AI PC新时代到来？",
+      "news_summary": "英伟达+微软大动作 AI PC新时代到来？",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "Computex 2026将举行 黄仁勋将演讲",
+      "news_summary": "Computex 2026将举行 黄仁勋将演讲",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "重磅来袭！黄仁勋杀入AI PC",
+      "news_summary": "重磅来袭！黄仁勋杀入AI PC",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "李乐成：加快前瞻布局和发展未来产业",
+      "news_summary": "李乐成：加快前瞻布局和发展未来产业",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "推动人工智能成为中美合作新疆域",
+      "news_summary": "推动人工智能成为中美合作新疆域",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "新一轮国企改革方案正式下发",
+      "news_summary": "新一轮国企改革方案正式下发",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "券商：短期波动或加大 但并非行情反转",
+      "news_summary": "券商：短期波动或加大 但并非行情反转",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "6月绩优潜力金股出炉 扎堆CPO等",
+      "news_summary": "6月绩优潜力金股出炉 扎堆CPO等",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "年内涨超150%！小金属有大行情",
+      "news_summary": "年内涨超150%！小金属有大行情",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "宇树科技IPO过会！冲刺A股“人形机器人第一股”",
+      "news_summary": "宇树科技IPO过会！冲刺A股“人形机器人第一股”",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊朗暂停通过中间人同美国的对话",
+      "news_summary": "伊朗暂停通过中间人同美国的对话",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "物理AI爆发临近？英伟达发布“全能”世界模型 机器人、自动驾驶有望获强力助推",
+      "news_summary": "物理AI爆发临近？英伟达发布“全能”世界模型 机器人、自动驾驶有望获强力助推",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美股三大指数震荡整理 国际油价涨超8%",
+      "news_summary": "美股三大指数震荡整理 国际油价涨超8%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
