@@ -1,0 +1,627 @@
+{
+  "date": "2026-06-02",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4075.1016,
+        "change": 17.36,
+        "changePercent": 0.43,
+        "high": 4089.5747,
+        "low": 4032.5826,
+        "open": 4061.4629,
+        "prevClose": 4057.74
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15591.128,
+        "change": 250.77,
+        "changePercent": 1.63,
+        "high": 15664.388,
+        "low": 15203.797,
+        "open": 15410.705,
+        "prevClose": 15340.356
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4055.871,
+        "change": 104.93,
+        "changePercent": 2.66,
+        "high": 4083.925,
+        "low": 3946.108,
+        "open": 3987.406,
+        "prevClose": 3950.943
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4914.5591,
+        "change": 70.3,
+        "changePercent": 1.45,
+        "high": 4930.2776,
+        "low": 4831.9972,
+        "open": 4860.6119,
+        "prevClose": 4844.2556
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1690.558,
+        "change": 26.86,
+        "changePercent": 1.61,
+        "high": 1710.9798,
+        "low": 1641.1672,
+        "open": 1676.3085,
+        "prevClose": 1663.6935
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 50937.3398,
+        "change": -141.54,
+        "changePercent": -0.28,
+        "high": 51244.8203,
+        "low": 50829.5508,
+        "open": null,
+        "prevClose": 51078.8789
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 27074.2782,
+        "change": -12.53,
+        "changePercent": -0.05,
+        "high": 27088.0926,
+        "low": 26932.7729,
+        "open": null,
+        "prevClose": 27086.8082
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7593.2598,
+        "change": -6.7,
+        "changePercent": -0.09,
+        "high": 7595.3999,
+        "low": 7582.9902,
+        "open": null,
+        "prevClose": 7599.96
+      }
+    ],
+    "sectors": [
+      {
+        "name": "通信线缆及配套",
+        "code": "BK1592",
+        "price": 30147.73,
+        "changePercent": 6.81,
+        "change": 1923.27
+      },
+      {
+        "name": "被动元件",
+        "code": "BK1339",
+        "price": 14986.38,
+        "changePercent": 6.45,
+        "change": 907.95
+      },
+      {
+        "name": "磨具磨料",
+        "code": "BK1397",
+        "price": 9618.89,
+        "changePercent": 5.06,
+        "change": 463.41
+      },
+      {
+        "name": "白银",
+        "code": "BK1616",
+        "price": 5219.74,
+        "changePercent": 4.44,
+        "change": 221.73
+      },
+      {
+        "name": "通信网络设备及器件",
+        "code": "BK1591",
+        "price": 15947.55,
+        "changePercent": 4.11,
+        "change": 629.28
+      },
+      {
+        "name": "元件",
+        "code": "BK0459",
+        "price": 61100.78,
+        "changePercent": 3.98,
+        "change": 2338.08
+      }
+    ],
+    "updatedAt": "2026-06-02T13:58:18.711Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "特朗普称美伊或于一周内达成协议",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606023756454844.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普爆粗口 大骂以总理“疯了”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606023756646337.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "凌晨利好突袭！科技巨头暴涨",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606023756487265.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "宇树科技“闪电”过会 融资客埋伏多股",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606023756684196.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "具身智能迎里程碑时刻 哪些公司将受益？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013756392443.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "宇树科技IPO资本图谱",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606023756454651.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "算力金属价格暴涨 稀缺概念股名单出炉",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606023756648627.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球大模型第一股冲刺科创板",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013756420490.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "连续涨停！多家电力公司澄清传闻",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013756412822.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "国务院印发《加快农业农村现代化“十五五”规划》",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606023757594830.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "上海：推动科创50、深证100、创业板股指期货和期权上市",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606023757510279.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球首条 正式开通！我国光通信技术实现重要突破",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606023757787027.html",
+        "time": "2026-06-02T13:58:16.434Z",
+        "category": "finance"
+      },
+      {
+        "title": "中际旭创登顶第一大权重股",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013756412610.html",
+        "time": "2026-06-02T13:58:16.433Z",
+        "category": "finance"
+      },
+      {
+        "title": "豆包预计6月下旬正式收费",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013756380621.html",
+        "time": "2026-06-02T13:58:16.433Z",
+        "category": "finance"
+      },
+      {
+        "title": "FF转战机器人赛道",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606013756418714.html",
+        "time": "2026-06-02T13:58:16.433Z",
+        "category": "finance"
+      },
+      {
+        "title": "Third of people say uni degree not worth it, as student loan inquiry begins ",
+        "summary": "MPs will hear the concerns of graduates about the size of their student debts, and the interest rates.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c2e29gk73rjo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-02T12:38:59.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Instagram AI chatbot tricked by hackers to give access to others' accounts",
+        "summary": "Some reports have linked the incident to recent cases of high-profile Instagram accounts being hijacked.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c98rzr72dpyo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-02T11:40:02.000Z",
+        "category": "general"
+      },
+      {
+        "title": "上海高校校友高尔夫联盟2026上半年度团体赛圆满落幕",
+        "summary": "2026年6月1日，在上海美兰湖球场，来自上海及长三角地区的12所高校的180名校友，成就了沪上最大规模的高校校友高尔夫比赛，这是别开生面的创新赛事，参与者众多...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/industry/2026-06-02/doc-inhzzivq4804119.shtml",
+        "time": "2026-06-02T10:30:13.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Post Office scandal victim dedicates OBE to 'sub-postmasters we have lost'",
+        "summary": "The 92-year-old said she dedicate the OBE to 'all sub-postmasters we have lost'.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/videos/cx2186r2vj8o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-02T10:17:50.000Z",
+        "category": "general"
+      },
+      {
+        "title": "美加墨世界杯来袭!主要参赛国家队大名单汇总一览",
+        "summary": "6月12日凌晨，2026美加墨世界杯将拉开大幕，新浪彩票特此整理所有参赛的国家队大名单，供彩民们参考： A组： 韩国大名单：孙兴慜领衔 金玟哉...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-01/doc-inhzwckt8562200.shtml",
+        "time": "2026-06-02T09:00:20.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "巴拿马大名单：戈多伊领衔 穆里略在列",
+        "summary": "5月27日，巴拿马队公布参加美加墨世界杯的大名单。队长戈多伊领衔，贝西克塔斯后卫穆里略在列。 巴拿马世界杯名单： 门将：奥兰多-莫斯克拉（费哈）...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-02/doc-inhzzcpu1662797.shtml",
+        "time": "2026-06-02T08:55:20.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "加纳大名单：塞门约领衔 帕尔特伊在列",
+        "summary": "6月2日，加纳队公布参加美加墨世界杯的大名单。塞门约领衔，帕尔特伊、威廉斯在列。 加纳世界杯名单： 门将：本杰明-阿萨雷(橡树之心)、阿蒂-齐吉(圣加伦)...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-02/doc-inhzzcpq3217583.shtml",
+        "time": "2026-06-02T08:52:54.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "克罗地亚大名单：莫德里奇领衔 格瓦迪奥尔在列",
+        "summary": "6月2日，克罗地亚队公布参加美加墨世界杯的大名单。莫德里奇领衔，曼城双星格瓦迪奥尔、科瓦契奇在列。 克罗地亚世界杯名单： 门将：利瓦科维奇（萨格勒布迪纳摩）...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-02/doc-inhzzcpr1683844.shtml",
+        "time": "2026-06-02T08:49:16.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推收获2连红！关注最新方案",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-02T08:40:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "英格兰大名单：凯恩领衔 福登帕尔默阿诺德落选",
+        "summary": " 5月22日，英格兰队公布参加美加墨世界杯的大名单。凯恩领衔，拉什福德、贝林厄姆在列，福登、帕尔默、阿诺德、马奎尔落选。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-02/doc-inhzzcpr1681295.shtml",
+        "time": "2026-06-02T08:32:52.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "哥伦比亚大名单：J罗领衔 路易斯迪亚斯在列",
+        "summary": "5月26日，哥伦比亚队公布参加美加墨世界杯的大名单。J罗领衔，路易斯迪亚斯、奥斯皮纳在列。 哥伦比亚26人名单 门将：奥斯皮纳（国民竞技）、蒙特罗（萨斯菲尔德）...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-02/doc-inhzzcpr1672328.shtml",
+        "time": "2026-06-02T08:28:51.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "乌兹别克初选名单：胡桑诺夫领衔 卡纳瓦罗执教",
+        "summary": " 5月25日，乌兹别克斯坦公布了026美加墨世界杯的30人大名单，曼城后卫胡桑诺夫领衔阵容，前世界杯冠军、金球奖后卫卡纳瓦罗执教。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-02/doc-inhzzcps4864026.shtml",
+        "time": "2026-06-02T08:22:26.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "民主刚果大名单：万比萨卡领衔 国安旧将巴坎布在列",
+        "summary": "5月18日，民主刚果公布了世界杯26人大名单，万比萨卡领衔，国安旧将巴坎布在列。 门将：法尤鲁(FC阿尔扎赫)、姆帕西(勒阿弗尔)、恩波洛(标准列日...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-02/doc-inhzzcps4859058.shtml",
+        "time": "2026-06-02T08:13:23.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "约旦初选名单：雷恩前锋塔马里领衔 拜仁青训小将在列",
+        "summary": "5月19日，首次参加世界杯的约旦队公布了世界杯初选30人名单，雷恩前锋塔马里领衔，拜仁青训小将卡希在列。约旦队世界杯30人初选名单 门将：亚奇德（侯赛因）...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-02/doc-inhzzcpu1633434.shtml",
+        "time": "2026-06-02T08:05:36.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "6月2日红王解盘比赛解读：比利时有望全身而退",
+        "summary": "友谊赛：克罗地亚 vs 比利时 比赛时间：6月3日00:00 克罗地亚总身价约3.9亿欧元，主教练达利奇偏好4-2-3-1阵型，近10场各项赛事8胜1平1负...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-02/doc-inhzzcpr1654715.shtml",
+        "time": "2026-06-02T07:56:00.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-02T13:58:16.918Z"
+  },
+  "analyses": [
+    {
+      "news_title": "特朗普称美伊或于一周内达成协议",
+      "news_summary": "特朗普称美伊或于一周内达成协议",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普爆粗口 大骂以总理“疯了”",
+      "news_summary": "特朗普爆粗口 大骂以总理“疯了”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "凌晨利好突袭！科技巨头暴涨",
+      "news_summary": "凌晨利好突袭！科技巨头暴涨",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "宇树科技“闪电”过会 融资客埋伏多股",
+      "news_summary": "宇树科技“闪电”过会 融资客埋伏多股",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "具身智能迎里程碑时刻 哪些公司将受益？",
+      "news_summary": "具身智能迎里程碑时刻 哪些公司将受益？",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "宇树科技IPO资本图谱",
+      "news_summary": "宇树科技IPO资本图谱",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "算力金属价格暴涨 稀缺概念股名单出炉",
+      "news_summary": "算力金属价格暴涨 稀缺概念股名单出炉",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及半导体。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "全球大模型第一股冲刺科创板",
+      "news_summary": "全球大模型第一股冲刺科创板",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "连续涨停！多家电力公司澄清传闻",
+      "news_summary": "连续涨停！多家电力公司澄清传闻",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "国务院印发《加快农业农村现代化“十五五”规划》",
+      "news_summary": "国务院印发《加快农业农村现代化“十五五”规划》",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "上海：推动科创50、深证100、创业板股指期货和期权上市",
+      "news_summary": "上海：推动科创50、深证100、创业板股指期货和期权上市",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球首条 正式开通！我国光通信技术实现重要突破",
+      "news_summary": "全球首条 正式开通！我国光通信技术实现重要突破",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "中际旭创登顶第一大权重股",
+      "news_summary": "中际旭创登顶第一大权重股",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "豆包预计6月下旬正式收费",
+      "news_summary": "豆包预计6月下旬正式收费",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "FF转战机器人赛道",
+      "news_summary": "FF转战机器人赛道",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
