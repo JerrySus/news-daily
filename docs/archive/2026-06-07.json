@@ -1,0 +1,586 @@
+{
+  "date": "2026-06-07",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4027.7362,
+        "change": -30.04,
+        "changePercent": -0.74,
+        "high": 4078.9317,
+        "low": 4015.0629,
+        "open": 4044.8292,
+        "prevClose": 4057.7811
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15314.7,
+        "change": -346.87,
+        "changePercent": -2.21,
+        "high": 15710.144,
+        "low": 15243.506,
+        "open": 15595.695,
+        "prevClose": 15661.574
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3957.935,
+        "change": -130.95,
+        "changePercent": -3.2,
+        "high": 4105.21,
+        "low": 3933.065,
+        "open": 4079.952,
+        "prevClose": 4088.884
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4816.9199,
+        "change": -87.83,
+        "changePercent": -1.79,
+        "high": 4924.3438,
+        "low": 4798.9103,
+        "open": 4886.9645,
+        "prevClose": 4904.7454
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1668.3291,
+        "change": -69.73,
+        "changePercent": -4.01,
+        "high": 1735.0783,
+        "low": 1659.4787,
+        "open": 1706.5313,
+        "prevClose": 1738.0589
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 50866.7812,
+        "change": -695.15,
+        "changePercent": -1.35,
+        "high": 51660.3984,
+        "low": 50781.4492,
+        "open": null,
+        "prevClose": 51561.9297
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25709.432,
+        "change": -1121.5255,
+        "changePercent": -4.18,
+        "high": 26572.2483,
+        "low": 25648.4693,
+        "open": null,
+        "prevClose": 26830.9575
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7383.7402,
+        "change": -200.57,
+        "changePercent": -2.64,
+        "high": 7541.8101,
+        "low": 7368.6299,
+        "open": null,
+        "prevClose": 7584.3101
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-06-07T11:45:42.907Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "中际旭创69名员工解锁低价筹码",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606053761034898.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "MLCC高端离型膜涨价？记者求证",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606043760752123.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "周五复牌！嘉美包装易主",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606043760761561.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "吴清最新定调！四大方向清晰了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606063762571319.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "太空概念股普涨 美光科技跌近8%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606053760791627.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "老登股大反攻！特朗普重大利好",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606053760816290.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "股价短期波动较大 12只牛股提示风险！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606043760669840.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI基建催生“算力金属”热潮",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606053760821184.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "算力能源装备订单突破！（附股）",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606053760891456.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "工信部部署专项行动 6G商用有望提速",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606053760921490.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "五大券商把脉A股下半年机遇",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606053760811524.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "SpaceX创纪录 或提振商业航天板块",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606053760784640.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "周末要闻汇总：国常会研究未来产业发展有关工作",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606073762655896.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "吴清最新定调！加快建设一流投资机构 四大方向清晰了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606063762571319.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "十大机构论市：如何看待美股黑色星期五？如何影响A股？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606073762681589.html",
+        "time": "2026-06-07T11:45:42.108Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票名家大乐透第26063期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章，严禁各媒体 公众号等转载，违规必究！严惩不贷！] 佘静安：08 09 10 11 19 25 28 29 30 + 01 02 08 耿书利：02 04 07 08 11 15 16...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-07/doc-iniaqpeu4720389.shtml",
+        "time": "2026-06-07T08:10:15.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透近10期周一奖号分布：2字龙头连开两期",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-07/doc-iniaqpek0833028.shtml",
+        "time": "2026-06-07T08:06:24.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透063期历史同期号码全汇总",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-07/doc-iniaqpek0832342.shtml",
+        "time": "2026-06-07T08:05:48.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "历史上的今天-大乐透6月8日开奖号码汇总",
+        "summary": "大乐透下期开奖是在周一，阳历6月8日，阴历四月二十三。 以下历史阳历6月8日开奖号码汇总：阳历6月8日开奖号码汇总 以下历史阴历四月二十三开奖号码汇总：阴历四月二十三开...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-07/doc-iniaqpen9603035.shtml",
+        "time": "2026-06-07T08:04:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "6月7日红王解盘比赛解读：希腊主场无惧意大利年轻人",
+        "summary": "友谊赛：希腊 vs 意大利 比赛时间：6月8日03:00 希腊身价合计约3.2亿欧元，主教练是约万诺维奇，主打4-2-3-1阵型，注重中场控制与快速反击。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-07/doc-iniaqhwp7725230.shtml",
+        "time": "2026-06-07T07:18:24.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "赢球却添揪心隐患！龚翔宇崴脚被背离场",
+        "summary": " 中国女排3:0零封塞尔维亚，拿下一场干净利落的胜利，全队的拼搏值得点赞。但比起大胜的喜悦，两位核心球员的伤病，让无数球迷满心担忧，胜利的喜悦瞬间大打折扣。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-07/doc-iniaqhws6493315.shtml",
+        "time": "2026-06-07T07:03:55.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "昔日最强武器竟成弱环！中国女排大胜背后仍有隐忧",
+        "summary": " 北京时间6月6日，2026年世界女排国家联赛南京站的一场焦点战，主场作战的中国队3-0击败欧洲劲旅塞尔维亚队取得两连胜。尽管取得一场酣畅淋漓的胜利，但中国女排仍有隐忧。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-07/doc-iniaqhwq9717092.shtml",
+        "time": "2026-06-07T07:03:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国名将柯洁，逆转屠龙韩老牌世冠元晟溱九段！",
+        "summary": "6月7日，看一盘中国名将柯洁与韩国老牌世界冠军元晟溱狭路相逢的一盘厮杀。整场对局起伏不断，柯洁在局势不利的情况下稳住心态、步步周旋，凭借超强韧性完成逆转...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-07/doc-iniaqhwp7721370.shtml",
+        "time": "2026-06-07T07:03:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "跪地捂脸+亲吻奖杯！19岁安德列娃创8纪录 世排升第六",
+        "summary": " 北京时间6月6日，2026年法网女单决赛，安德列娃2-0赫瓦林斯卡夺冠，两盘比分：6-2、6-3。这场比赛19岁的小米辣是按着月亮姐打，安德列娃无愧是网坛的超级天才。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-07/doc-iniaqhwq9717093.shtml",
+        "time": "2026-06-07T07:03:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国女排19岁天才美少女太惊艳！国际排联盛赞",
+        "summary": "北京时间6月6日，2026年世界女排国家联赛南京站的一场焦点战，中国女排在不被看好的情况下发挥出色，直落三局击败欧洲劲旅塞尔维亚队。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-07/doc-iniaqhws6493146.shtml",
+        "time": "2026-06-07T07:03:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩昨日公推红单+私推10中9！",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-07T07:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-逍遥红单长期稳定盈利！看最新稳胆！",
+        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3321502.shtml",
+        "time": "2026-06-07T07:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤竞彩推荐：精选韩K2联串关",
+        "summary": "37 K2联赛 18:20天安城VS水原FC推荐：天安城+0.5推荐：让胜【首选平】比分推荐：0：0！1：1！2：238 K2联赛 18:20 首尔衣恋VS忠北清州两队在近3次交战上忠北清州首次在主场...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-07/doc-iniaqhwn0942875.shtml",
+        "time": "2026-06-07T06:56:44.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤竞彩推荐：韩K2联+挪甲2串1",
+        "summary": "39 K2联赛 18:20 金浦市民VS全南天龙金浦市民目前在联赛积分上是处于升级附加赛的位置，但是与第7的位置仅仅拉开1积分差，就积分而言球队也是面临压力...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-07/doc-iniaqhwq9715645.shtml",
+        "time": "2026-06-07T06:56:44.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国女子公开赛科达与金世煐并列领先 殷若宁T5",
+        "summary": " 北京时间6月7日，内莉·科达在周六的美国女子公开赛上连续第二轮打出67杆，低于标准杆4杆。她连续三只小鸟收官，与金世瑛同以207杆，低于标准杆6杆，并列处于榜首位置。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/lpga/2026-06-07/doc-iniaqaqq1033343.shtml",
+        "time": "2026-06-07T04:30:03.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-07T11:45:43.314Z"
+  },
+  "analyses": [
+    {
+      "news_title": "中际旭创69名员工解锁低价筹码",
+      "news_summary": "中际旭创69名员工解锁低价筹码",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "MLCC高端离型膜涨价？记者求证",
+      "news_summary": "MLCC高端离型膜涨价？记者求证",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "周五复牌！嘉美包装易主",
+      "news_summary": "周五复牌！嘉美包装易主",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "吴清最新定调！四大方向清晰了",
+      "news_summary": "吴清最新定调！四大方向清晰了",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "太空概念股普涨 美光科技跌近8%",
+      "news_summary": "太空概念股普涨 美光科技跌近8%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "老登股大反攻！特朗普重大利好",
+      "news_summary": "老登股大反攻！特朗普重大利好",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "股价短期波动较大 12只牛股提示风险！",
+      "news_summary": "股价短期波动较大 12只牛股提示风险！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "AI基建催生“算力金属”热潮",
+      "news_summary": "AI基建催生“算力金属”热潮",
+      "affected_industries": [
+        "半导体",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "算力能源装备订单突破！（附股）",
+      "news_summary": "算力能源装备订单突破！（附股）",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及半导体。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "工信部部署专项行动 6G商用有望提速",
+      "news_summary": "工信部部署专项行动 6G商用有望提速",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "五大券商把脉A股下半年机遇",
+      "news_summary": "五大券商把脉A股下半年机遇",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "SpaceX创纪录 或提振商业航天板块",
+      "news_summary": "SpaceX创纪录 或提振商业航天板块",
+      "affected_industries": [
+        "军工"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 富国中证军工",
+        "161024 富国中证军工指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "周末要闻汇总：国常会研究未来产业发展有关工作",
+      "news_summary": "周末要闻汇总：国常会研究未来产业发展有关工作",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "吴清最新定调！加快建设一流投资机构 四大方向清晰了",
+      "news_summary": "吴清最新定调！加快建设一流投资机构 四大方向清晰了",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "十大机构论市：如何看待美股黑色星期五？如何影响A股？",
+      "news_summary": "十大机构论市：如何看待美股黑色星期五？如何影响A股？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
