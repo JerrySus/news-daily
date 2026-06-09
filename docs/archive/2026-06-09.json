@@ -1,0 +1,588 @@
+{
+  "date": "2026-06-09",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4010.0307,
+        "change": 50.69,
+        "changePercent": 1.28,
+        "high": 4010.8715,
+        "low": 3955.908,
+        "open": 3977.5394,
+        "prevClose": 3959.3378
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15268.715,
+        "change": 447.53,
+        "changePercent": 3.02,
+        "high": 15274.717,
+        "low": 14846.554,
+        "open": 14992.547,
+        "prevClose": 14821.187
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3961.749,
+        "change": 149.96,
+        "changePercent": 3.93,
+        "high": 3962.898,
+        "low": 3823.76,
+        "open": 3865.693,
+        "prevClose": 3811.785
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4801.8106,
+        "change": 88.17,
+        "changePercent": 1.87,
+        "high": 4802.5047,
+        "low": 4715.3907,
+        "open": 4743.4505,
+        "prevClose": 4713.6358
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1663.1089,
+        "change": 66.54,
+        "changePercent": 4.17,
+        "high": 1666.4805,
+        "low": 1607.5775,
+        "open": 1630.2322,
+        "prevClose": 1596.5656
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 50786.0117,
+        "change": -80.77,
+        "changePercent": -0.16,
+        "high": 51277.1484,
+        "low": 50732.3516,
+        "open": null,
+        "prevClose": 50866.7812
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25929.6626,
+        "change": 220.2306,
+        "changePercent": 0.86,
+        "high": 26179.6534,
+        "low": 25872.6814,
+        "open": null,
+        "prevClose": 25709.432
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7405.73,
+        "change": 21.99,
+        "changePercent": 0.3,
+        "high": 7466.8101,
+        "low": 7395.1299,
+        "open": null,
+        "prevClose": 7383.7402
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-06-09T12:32:43.004Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "22家公司发布股价异动公告",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202606083763952725.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "SpaceX“世纪IPO”质疑声不断",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202606093764262086.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "苹果智能全面升级：新版本Siri登场",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093764020689.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "Siri全新升级 但中国用户还要等等",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093764260160.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "利好来了！数据赋能人工智能",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093764229994.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "OpenAI官宣已递交IPO申请文件",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093764026048.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "OpenAI递交IPO申请 有望四季度上市",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093764260716.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "有些事在没上市时更容易做",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093764263367.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "深夜跌停！焦煤焦炭期货跳水！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606083763940949.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "5月下旬煤炭整体供应有所收缩",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093764265985.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "通信、煤炭等板块净流入资金居前",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093764295972.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "美方将阿里巴巴、比亚迪等列入“涉军”清单 外交部：敦促美方停止无理打压中企",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093765090937.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普称美伊谈判进入“最后关头”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093765145656.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "多个重量级宽基样本调整就在本周五！调入光龙头与芯龙头 涉及ETF规模近7000亿",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093765233876.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "佰维存储：签订18.608亿美元日常经营重大采购合同",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606093765314836.html",
+        "time": "2026-06-09T12:32:41.918Z",
+        "category": "finance"
+      },
+      {
+        "title": "高海拔赛道见证巅峰对决 喜马拉雅越野跑圆满收官",
+        "summary": "六月雪域林海盛景如约，南迦巴瓦雪峰守望征途。6月5日至7日，自然堂喜马拉雅极限越野跑在西藏林芝鲁朗小镇落幕。作为国内海拔最高、风景最美、门槛最高的越野跑赛事之一...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/outdoor/news/2026-06-09/doc-iniavmyp4939157.shtml",
+        "time": "2026-06-09T12:09:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Final piece of 'iconic' Denby Pottery signed",
+        "summary": "The firm, founded in 1809, appointed administrators due to rising energy and labour costs.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/cx2vljzw5ego?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-09T10:09:13.000Z",
+        "category": "general"
+      },
+      {
+        "title": "草原村排赛 以公益护航青少年体育与群众体育盛会",
+        "summary": "第21届中国中学生沙滩排球锦标赛暨草原村排系列赛，于近日在鄂托克前旗大沙头火热举行。赛场内，运动员们挥洒汗水、奋力拼搏；赛场外...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-09/doc-iniavfsq3130787.shtml",
+        "time": "2026-06-09T09:56:34.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "她的新主场——退役女运动员赋能支持计划再启新程",
+        "summary": "告别过去的辉煌，如何在新的人生赛场上续写精彩？由中国妇女发展基金会发起的“她的新主场——退役女运动员赋能支持计划”2026年第二期培训于6月8日在南京开班。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/others/2026-06-09/doc-iniauzkv1884129.shtml",
+        "time": "2026-06-09T09:40:01.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推3连红+私推近15中13！",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-09T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI giants' race to raise funds heats up as ChatGPT-owner plans stock market debut",
+        "summary": "The company behind ChatGPT files its plans one week after Anthropic did the same.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/cd958eqg1n5o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-09T08:02:43.000Z",
+        "category": "general"
+      },
+      {
+        "title": "男子购彩十几年终擒大乐透611万:先买房改善生活",
+        "summary": "6月6日，超级大乐透第26062期开奖。前区开出号码07、15、20、24、29 ；后区开出号码04、10。当期，位于上海崇明区庙镇宏海公路1841号...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-09/doc-iniauzks3190102.shtml",
+        "time": "2026-06-09T07:56:48.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "智能英雄觉醒！你最Pick谁？关羽张飞赵云齐上阵",
+        "summary": "智能小炮十周年，数据最全、算法更新、内容更优——英雄觉醒计划已启动！首批头部英雄率先觉醒，深度覆盖竞彩足球玩法，他们凭借独门绝技，为你精准锁定单场红单。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-09/doc-iniauzkt5044077.shtml",
+        "time": "2026-06-09T07:50:47.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票名家大乐透第26064期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章，严禁各媒体 公众号等转载，违规必究！严惩不贷！] 袁启晨：06、11、12、18、20、21、23、26、34+01、04...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-09/doc-iniauzkv1843648.shtml",
+        "time": "2026-06-09T07:43:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "历史上的今天-大乐透6月10日开奖号码汇总",
+        "summary": "大乐透下期开奖是在周三，阳历6月10日，阴历四月二十五。 以下历史阳历6月10日开奖号码汇总：阳历6月10日开奖号码汇总 以下历史阴历四月二十五开奖号码汇总：阴历四月二十...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-09/doc-iniauzks3170922.shtml",
+        "time": "2026-06-09T07:40:13.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透近10期周三奖号分布：0字头龙头近9期开8期",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-09/doc-iniauzks3167632.shtml",
+        "time": "2026-06-09T07:31:48.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "广东晨星创尔特啃下最硬骨头：这碗韧字牌早茶 真香！",
+        "summary": "来源：大佬鸣（丛硕鸣）的体育天地 6月9日，中冠联赛英德赛区晋级组上演了一场别开生面的“早茶德比”——广东晨星创尔特主场迎战泰州早茶黑马。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/china/2026-06-09/doc-iniauzkq6384038.shtml",
+        "time": "2026-06-09T07:29:51.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "US adds BYD to list of firms with alleged Chinese military ties",
+        "summary": "The Pentagon list warns US firms of risks linked to working with flagged Chinese companies.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c75y6e5p9reo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-09T07:20:59.000Z",
+        "category": "general"
+      },
+      {
+        "title": "大乐透064期历史同期号码全汇总",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-09/doc-iniauvas6509557.shtml",
+        "time": "2026-06-09T07:20:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "24比8！总决赛最大争议诞生，尼克斯主帅直接开炮",
+        "summary": "总决赛终于出现真正的争议之夜。 马刺客场115比111击败尼克斯，将系列赛追到1比2，看似只是一次普通的反弹，但赛后所有讨论几乎都围绕着一个话题展开，本场的判罚尺度。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-06-09/doc-iniauvax1921621.shtml",
+        "time": "2026-06-09T07:11:02.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-09T12:32:42.198Z"
+  },
+  "analyses": [
+    {
+      "news_title": "22家公司发布股价异动公告",
+      "news_summary": "22家公司发布股价异动公告",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "SpaceX“世纪IPO”质疑声不断",
+      "news_summary": "SpaceX“世纪IPO”质疑声不断",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "苹果智能全面升级：新版本Siri登场",
+      "news_summary": "苹果智能全面升级：新版本Siri登场",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "Siri全新升级 但中国用户还要等等",
+      "news_summary": "Siri全新升级 但中国用户还要等等",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "利好来了！数据赋能人工智能",
+      "news_summary": "利好来了！数据赋能人工智能",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及人工智能。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "OpenAI官宣已递交IPO申请文件",
+      "news_summary": "OpenAI官宣已递交IPO申请文件",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "OpenAI递交IPO申请 有望四季度上市",
+      "news_summary": "OpenAI递交IPO申请 有望四季度上市",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "有些事在没上市时更容易做",
+      "news_summary": "有些事在没上市时更容易做",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "深夜跌停！焦煤焦炭期货跳水！",
+      "news_summary": "深夜跌停！焦煤焦炭期货跳水！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "5月下旬煤炭整体供应有所收缩",
+      "news_summary": "5月下旬煤炭整体供应有所收缩",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "通信、煤炭等板块净流入资金居前",
+      "news_summary": "通信、煤炭等板块净流入资金居前",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美方将阿里巴巴、比亚迪等列入“涉军”清单 外交部：敦促美方停止无理打压中企",
+      "news_summary": "美方将阿里巴巴、比亚迪等列入“涉军”清单 外交部：敦促美方停止无理打压中企",
+      "affected_industries": [
+        "汽车",
+        "互联网"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "164906 交银中证海外中国互联网",
+        "513050 易方达中证海外互联ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及汽车、互联网。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普称美伊谈判进入“最后关头”",
+      "news_summary": "特朗普称美伊谈判进入“最后关头”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "多个重量级宽基样本调整就在本周五！调入光龙头与芯龙头 涉及ETF规模近7000亿",
+      "news_summary": "多个重量级宽基样本调整就在本周五！调入光龙头与芯龙头 涉及ETF规模近7000亿",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "佰维存储：签订18.608亿美元日常经营重大采购合同",
+      "news_summary": "佰维存储：签订18.608亿美元日常经营重大采购合同",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
