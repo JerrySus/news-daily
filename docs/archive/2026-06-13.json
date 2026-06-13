@@ -1,0 +1,575 @@
+{
+  "date": "2026-06-13",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4031.5129,
+        "change": 44.5,
+        "changePercent": 1.12,
+        "high": 4060.271,
+        "low": 4008.1769,
+        "open": 4017.8648,
+        "prevClose": 3987.0147
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14963.407,
+        "change": 111.43,
+        "changePercent": 0.75,
+        "high": 15171.224,
+        "low": 14943.433,
+        "open": 15149.52,
+        "prevClose": 14851.976
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3830.353,
+        "change": 19.11,
+        "changePercent": 0.5,
+        "high": 3921.535,
+        "low": 3822.422,
+        "open": 3921.089,
+        "prevClose": 3811.246
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4777.3206,
+        "change": 54.91,
+        "changePercent": 1.16,
+        "high": 4809.8606,
+        "low": 4757.5574,
+        "open": 4784.6396,
+        "prevClose": 4722.4122
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1663.2213,
+        "change": 0.79,
+        "changePercent": 0.05,
+        "high": 1730.8928,
+        "low": 1656.8454,
+        "open": 1726.0051,
+        "prevClose": 1662.436
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51202.2617,
+        "change": 353.51,
+        "changePercent": 0.7,
+        "high": 51409.6992,
+        "low": 50827.8398,
+        "open": null,
+        "prevClose": 50848.75
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25888.844,
+        "change": 79.1845,
+        "changePercent": 0.31,
+        "high": 26010.3135,
+        "low": 25599.9397,
+        "open": null,
+        "prevClose": 25809.6595
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7431.46,
+        "change": 37.16,
+        "changePercent": 0.5,
+        "high": 7456.3999,
+        "low": 7363.0098,
+        "open": null,
+        "prevClose": 7394.2998
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-06-13T11:52:03.576Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "胖东来回应网传员工工资问题",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606123768942681.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "跨界追光 宿迁联盛另有所谋？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606113768644197.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "贝索斯驳斥“AI抢饭碗”论",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606123768727144.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊美就协议文本达成一致",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606133770308451.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普第38次声称和平协议将达成？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606123769032014.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "重大利好突袭！美伊大变局",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606123768771955.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "磷化铟赛道 中字头央企入场（附股）",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606123768942562.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "33家A股公司发布股价异动公告",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606113768646238.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "中巨芯、昊华科技等密集提示风险",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606123768980781.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "史上最大IPO SpaceX发行价定了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606123768978969.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "卫星投资关键节点已至 三类企业或受益",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606123768978166.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "SpaceX将募资750亿美元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606123768832393.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "见证历史！SpaceX收涨超19%！马斯克成全球首位万亿美元富豪",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606133770440717.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "《金融信息服务数据分类分级指南》印发",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606133770580325.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球市场：美股三大指数收涨 国际油价跌近4% 纽约期金涨超3%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606133770290778.html",
+        "time": "2026-06-13T11:52:02.949Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家大洋竞彩推荐：苏格兰难大胜",
+        "summary": "这是2026世界杯 C 组首轮对决，两队纸面实力差距显著。苏格兰时隔28年重返世界杯，全队以英超、意甲主力构建阵容，罗伯逊、麦克托米奈、麦金坐镇中轴线...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-13/doc-inichhan9459613.shtml",
+        "time": "2026-06-13T09:33:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家红单怪兽竞彩推荐：芬超精选串关",
+        "summary": "贾罗VS赫尔辛基作为芬超长久以来的的绝对霸主，赫尔辛基目前积15分排在联赛第4，这显然没有达到他们的预期，距离榜首的国际图尔库还有一定距离，因此球队抢分战意极强。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-13/doc-inichhan9459611.shtml",
+        "time": "2026-06-13T09:33:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家张然竞彩推荐：芬超2串1精选方案",
+        "summary": "芬超 国际图尔库vs奥卢国际图尔库本赛季表现出色，无论是联赛还是杯赛都很强势，上场杯赛客场击败对手，且联赛高居榜首，主场更是多场不败，各项赛事四连胜...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-13/doc-inichhan9459610.shtml",
+        "time": "2026-06-13T09:33:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家辰馨荐球竞彩推荐：芬超精选串关",
+        "summary": "今日竞彩精心推荐二串一，芬超赛事精选！回报拉满，值得你拥有！周六201芬超坦山猫 vsTPS 图尔库。本场比赛是芬超第十一轮。坦山猫主场迎战 TPS 图尔库...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-13/doc-inichhar1448712.shtml",
+        "time": "2026-06-13T09:33:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家三哥解球竞彩推荐：赫尔辛基不败",
+        "summary": "【201坦山猫 VS TPS图尔库】TPS图尔库是本赛季的升班马，表现可圈可点，主要是主场表现相当惊艳，5个主场4胜1平保持不败金身，主场拿下13个积分，而图尔库的总积分才15...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-13/doc-inichhas8225909.shtml",
+        "time": "2026-06-13T09:33:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：芬超精选2串1",
+        "summary": "芬超2026-06-13 20:00 图尔库国际VS奥卢两队在近3次交战上国际图尔库在主场还是客场至今都是保持3连胜的战绩，而且在攻防两端上的状态上也是相对出色的...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-13/doc-inichhas8225910.shtml",
+        "time": "2026-06-13T09:33:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家大洋竞彩推荐：瑞士至多赢一球",
+        "summary": "本场强弱差距明显，瑞士 FIFA 排名第19、全队身价超3亿欧元，是连续多届世界杯淘汰赛常客，扎卡、阿坎吉领衔全五大联赛班底，欧预赛不败仅丢2球，防守硬朗...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-13/doc-inichhan9459612.shtml",
+        "time": "2026-06-13T09:33:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "6月13日红王解盘比赛解读：土耳其实力碾压袋鼠军团",
+        "summary": "世界杯：澳大利亚 vs 土耳其 比赛时间：6月14日12:00 澳大利亚身价合计约7745万欧元，主教练波波维奇主打3-4-2-1阵型，侧重身体对抗和定位球进攻。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-13/doc-inicfvnr2883538.shtml",
+        "time": "2026-06-13T06:44:15.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "只剩一个球？英格兰几乎所有训练装备被盗 2人被捕",
+        "summary": "北京时间6月13日，英国《每日邮报》著名记者Craig Hope独家突发爆料称，三狮军团英格兰队在堪萨斯城进行首场训练前，遭遇了一起令人瞠目结舌的世界杯盗窃案...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-13/doc-inicfvns9654625.shtml",
+        "time": "2026-06-13T06:34:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-逍遥红单公推近4中3！关注世界杯红单",
+        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3321502.shtml",
+        "time": "2026-06-13T06:30:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "精选足篮专家：应天擒8连红！杨计7连红世杯4中4",
+        "summary": "北京时间6月13日（周六），世界杯进入到第3个比赛日，今日有4场世界杯小组赛开战，竞彩赛程包括世界杯和芬超等多场焦点战。专家战绩方面，应天8连红出击世界杯焦点战...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-13/doc-inicfvnr2869165.shtml",
+        "time": "2026-06-13T05:36:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推近7中5+私推近22中17！",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-13T04:30:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界杯第2日竞彩奖金数据统计：美国4-1奖金65倍",
+        "summary": "北京时间6月13日，2026年世界杯第2比赛日结束2场争夺，B组加拿大1-1波黑、美国4-1巴拉圭。截止目前，竞彩竞彩胜平负玩法首赔（三项中的最低赔）打出3次...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-13/doc-inicfret2952349.shtml",
+        "time": "2026-06-13T03:59:10.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "精选大乐透推荐：小霸王擒头奖976万 3大专家中81万",
+        "summary": "北京时间6月13日（周六），今晚开奖的数字彩玩法主要有大乐透、排列三、福彩3D、快乐8等，大乐透第26065期将于明晚停售。专家方案战绩，小霸王中大乐透头奖976万，天星...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-12/doc-iniccnfv0264346.shtml",
+        "time": "2026-06-13T02:00:32.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "LIV老总奥尼尔争分夺秒融资 $3亿方能确保明年安全",
+        "summary": " 北京时间6月13日，LIV高尔夫在西班牙站赛事结束到下一场赛事英格兰站之间有46天的间歇期，而这可能成为首席执行官斯科特·奥尼尔（Scott O‘Neil）本赛季最重要的一段时间。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/pgatour/2026-06-13/doc-inicfkwz1770706.shtml",
+        "time": "2026-06-13T01:48:06.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-13T11:52:02.950Z"
+  },
+  "analyses": [
+    {
+      "news_title": "胖东来回应网传员工工资问题",
+      "news_summary": "胖东来回应网传员工工资问题",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "跨界追光 宿迁联盛另有所谋？",
+      "news_summary": "跨界追光 宿迁联盛另有所谋？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "贝索斯驳斥“AI抢饭碗”论",
+      "news_summary": "贝索斯驳斥“AI抢饭碗”论",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊美就协议文本达成一致",
+      "news_summary": "伊美就协议文本达成一致",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普第38次声称和平协议将达成？",
+      "news_summary": "特朗普第38次声称和平协议将达成？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "重大利好突袭！美伊大变局",
+      "news_summary": "重大利好突袭！美伊大变局",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "磷化铟赛道 中字头央企入场（附股）",
+      "news_summary": "磷化铟赛道 中字头央企入场（附股）",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "33家A股公司发布股价异动公告",
+      "news_summary": "33家A股公司发布股价异动公告",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中巨芯、昊华科技等密集提示风险",
+      "news_summary": "中巨芯、昊华科技等密集提示风险",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "史上最大IPO SpaceX发行价定了",
+      "news_summary": "史上最大IPO SpaceX发行价定了",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "卫星投资关键节点已至 三类企业或受益",
+      "news_summary": "卫星投资关键节点已至 三类企业或受益",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "SpaceX将募资750亿美元",
+      "news_summary": "SpaceX将募资750亿美元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "见证历史！SpaceX收涨超19%！马斯克成全球首位万亿美元富豪",
+      "news_summary": "见证历史！SpaceX收涨超19%！马斯克成全球首位万亿美元富豪",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "《金融信息服务数据分类分级指南》印发",
+      "news_summary": "《金融信息服务数据分类分级指南》印发",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球市场：美股三大指数收涨 国际油价跌近4% 纽约期金涨超3%",
+      "news_summary": "全球市场：美股三大指数收涨 国际油价跌近4% 纽约期金涨超3%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
