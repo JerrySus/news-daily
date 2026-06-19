@@ -1,0 +1,581 @@
+{
+  "date": "2026-06-19",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4090.4813,
+        "change": -17.59,
+        "changePercent": -0.43,
+        "high": 4117.451,
+        "low": 4080.2938,
+        "open": 4094.2301,
+        "prevClose": 4108.0762
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 16030.702,
+        "change": 149.75,
+        "changePercent": 0.94,
+        "high": 16104.768,
+        "low": 15825.316,
+        "open": 15826.794,
+        "prevClose": 15880.951
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4252.39,
+        "change": 85.34,
+        "changePercent": 2.05,
+        "high": 4272.008,
+        "low": 4153.621,
+        "open": 4153.621,
+        "prevClose": 4167.048
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4941.5986,
+        "change": 10.21,
+        "changePercent": 0.21,
+        "high": 4976.8909,
+        "low": 4916.0442,
+        "open": 4916.0442,
+        "prevClose": 4931.3861
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1911.5132,
+        "change": 70.69,
+        "changePercent": 3.84,
+        "high": 1937.3012,
+        "low": 1836.0381,
+        "open": 1837.0702,
+        "prevClose": 1840.8211
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51564.6992,
+        "change": 72.15,
+        "changePercent": 0.14,
+        "high": 51949.2617,
+        "low": 51554.5312,
+        "open": null,
+        "prevClose": 51492.5508
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26517.9314,
+        "change": 496.2758,
+        "changePercent": 1.91,
+        "high": 26559.7431,
+        "low": 26188.6879,
+        "open": null,
+        "prevClose": 26021.6556
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7500.5801,
+        "change": 80.48,
+        "changePercent": 1.08,
+        "high": 7511.0698,
+        "low": 7468.3198,
+        "open": null,
+        "prevClose": 7420.1001
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-06-19T13:32:35.314Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "库克：苹果产品将涨价",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775133155.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "成品油价或迎年内第三降",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775071413.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "多家上市公司出手回购增持",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606173774886394.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "锂矿大消息！宁德时代旗下项目有望复产",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606193776791120.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "凌晨全线跳水 美联储重大宣布",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775060947.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储下一步是加息？特朗普回应",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775300474.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊总统签署谅解备忘录",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775077952.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊签了！美伊双方披露文本内容",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775238665.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊方对周五会谈保持观望态度",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775302023.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "太罕见！72家A股公司集体提示风险",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606173774913372.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "请注意！这些牛股昨晚提示风险",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775305357.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "光纤牛股突遭减持 套现1.21亿元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775118795.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "中东突传大消息！美伊会谈取消！伊朗最新发声！以色列称不会撤军！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606193776821577.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "宁德时代枧下窝锂矿重获用地意见书 锂市供需格局影响几何？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606193776844375.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "国际金价再跳水失守4200美元 国内金饰克价破1300元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606193776829442.html",
+        "time": "2026-06-19T13:32:34.293Z",
+        "category": "finance"
+      },
+      {
+        "title": "Plans to end gazumping with binding agreements in house sales shake-up",
+        "summary": "Sales agreements will be legally binding sooner and making sellers provide more home information up front are part of the planned changes.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c6216g52p8wo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-19T11:41:14.000Z",
+        "category": "general"
+      },
+      {
+        "title": "阿迪达斯拓展混合训练产品线 推出全新ADIZERO DROPSET PRO",
+        "summary": "为跑训混合训练打造的性能之作，ADIZERO DROPSET PRO 完美融合阿迪达斯两大创新基因：专注速度的 ADIZERO 系列与主打力量的 DROPSET 系列，集速度、稳定性...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/run/2026-06-19/doc-inicxyyt9486279.shtml",
+        "time": "2026-06-19T11:15:38.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "闪耀横店！许敬龙70杆登顶2026浙江省业巡赛第三站",
+        "summary": "本赛季首个双冠王诞生 许敬龙70杆登顶“广道杯”2026浙江省业余高尔夫球巡回赛第三站 禹山叠翠迎佳客 绿茵逐风聚高朋！ 6月18日，端午将至，在诗意绵绵...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/industry/2026-06-19/doc-inicxust1484990.shtml",
+        "time": "2026-06-19T10:05:29.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新手彩民中快乐8\"选十\"头奖500万 一晚上没睡着",
+        "summary": " 6月3日，中国福利彩票“快乐8”游戏第2026144期开奖，全国仅中出1注“选十中十”，花落佛山市南海区44130735福彩销售站点。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-19/doc-inicxusv9581828.shtml",
+        "time": "2026-06-19T09:37:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "彩民刮中福彩80万 奖金存进银行努力工作",
+        "summary": " 6月3日晚，江门市江海区44120238销售站点传出中奖喜讯，一彩民在该站点购买“超给力”刮刮乐即开票（20元），幸运刮出一等奖80万元。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-19/doc-inicxusv9581135.shtml",
+        "time": "2026-06-19T09:33:53.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Five ways the Iran peace deal could affect you and your money",
+        "summary": "With fuel and gas prices having fallen in recent days, we look at how the end of hostilities might affect you - in five charts.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c4g5574pwreo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-19T09:31:04.000Z",
+        "category": "general"
+      },
+      {
+        "title": "郑钦文申请外卡网友吵翻了 获得外卡网友更加吵翻了",
+        "summary": "今天凌晨，巴特洪堡官网放在今年赛事外卡名单，郑钦文的名字赫然在列，而围绕这张外卡的争论，外界吵个不停。有人说这是众望所归...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-19/doc-inicxusr4692425.shtml",
+        "time": "2026-06-19T09:20:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "火力全开！孙颖莎3比0娜塔莉亚 锁定全场胜利",
+        "summary": "2026伦敦世乒赛团体赛女子团体1/16决赛，中国女团对阵波兰女团第四盘决胜单打登场。此前团战走势跌宕，国乒大比分2-1领先手握赛点。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-19/doc-inicxusv9575330.shtml",
+        "time": "2026-06-19T09:20:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "王曼昱3-0凯瑟琳·韦格申 助力国乒拿到赛点",
+        "summary": "2026伦敦世乒赛团体赛女子团体1/16决赛，中国女团对阵波兰女团第三盘单打出战，国乒主力王曼昱迎战波兰选手凯瑟琳·韦格申。本场王曼昱全程掌控节奏...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-19/doc-inicxusr4692423.shtml",
+        "time": "2026-06-19T09:20:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "黄荻/刘阳2比0陈政宽/刘广珩 取得开门红",
+        "summary": "BWF超级500马来西亚羽毛球大师赛男双首轮开打，国羽新生代男双组合黄荻/刘阳，对阵中国台北组合陈政宽/刘广珩。国羽组合顶住压力救局点拿下首局，次局彻底掌控攻防节奏...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-19/doc-inicxusu2799240.shtml",
+        "time": "2026-06-19T09:20:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "王星昊领先LG杯2-1申旻埈夺冠 中国围棋锐度提升",
+        "summary": " 6月16日，围棋LG杯决赛三番棋的第三局在韩国进行，前两局，申旻埈先执黑半目赢一局，然后王星昊同样执黑同样以半目还以颜色，双方打成1-1平。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-19/doc-inicxusv9575329.shtml",
+        "time": "2026-06-19T09:20:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "卢布尔雅那球星挑战赛：林诗栋背水一战",
+        "summary": "卢布尔雅那球星挑战赛：7场中日对抗，林诗栋背水一战 卢布尔雅那球星挑战赛：7场中日对抗，林诗栋背水一战 6月19日，卢布尔雅那球星挑战赛进入正赛次日...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-19/doc-inicxusr4692424.shtml",
+        "time": "2026-06-19T09:20:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "3-2险胜德国无含金量！赵勇执教水平肉眼可见拉胯",
+        "summary": "中国女排3:2磕磕绊绊赢下德国，这场胜利根本不值得庆祝，甚至满是绝望。赢球不靠战术、不靠集训成果，全靠庄宇珊硬扛、龚翔宇、王媛媛两位老将兜底，抛开老将...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-19/doc-inicxusr4691863.shtml",
+        "time": "2026-06-19T09:18:14.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "WTA官方官宣：郑钦文斩获巴特洪堡500赛正赛外卡 ",
+        "summary": "北京时间6月19日，WTA官方正式公布赛事外卡名单，中国网球选手郑钦文成功拿到德国巴特洪堡500赛正赛外卡。本站赛事是温布尔登网球锦标赛开赛前...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-19/doc-inicxusu2798605.shtml",
+        "time": "2026-06-19T09:18:14.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊埃拉击败莱巴金娜爆最大冷门 郑钦文外卡定了",
+        "summary": " 一场赛前被外界认为获胜无悬念的比赛，竟然被莱巴金娜演绎成了柏林500赛开赛以来的最大冷门，大家深为前温网冠军出局无缘八强感到震惊！",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-06-19/doc-inicxusv9574682.shtml",
+        "time": "2026-06-19T09:18:14.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-19T13:32:34.295Z"
+  },
+  "analyses": [
+    {
+      "news_title": "库克：苹果产品将涨价",
+      "news_summary": "库克：苹果产品将涨价",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "成品油价或迎年内第三降",
+      "news_summary": "成品油价或迎年内第三降",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "多家上市公司出手回购增持",
+      "news_summary": "多家上市公司出手回购增持",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "锂矿大消息！宁德时代旗下项目有望复产",
+      "news_summary": "锂矿大消息！宁德时代旗下项目有望复产",
+      "affected_industries": [
+        "新能源"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001298 华夏新能源车龙头",
+        "005827 易方达蓝筹精选"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及新能源。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "凌晨全线跳水 美联储重大宣布",
+      "news_summary": "凌晨全线跳水 美联储重大宣布",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美联储下一步是加息？特朗普回应",
+      "news_summary": "美联储下一步是加息？特朗普回应",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及金融。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美伊总统签署谅解备忘录",
+      "news_summary": "美伊总统签署谅解备忘录",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美伊签了！美伊双方披露文本内容",
+      "news_summary": "美伊签了！美伊双方披露文本内容",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊方对周五会谈保持观望态度",
+      "news_summary": "伊方对周五会谈保持观望态度",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "太罕见！72家A股公司集体提示风险",
+      "news_summary": "太罕见！72家A股公司集体提示风险",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "请注意！这些牛股昨晚提示风险",
+      "news_summary": "请注意！这些牛股昨晚提示风险",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "光纤牛股突遭减持 套现1.21亿元",
+      "news_summary": "光纤牛股突遭减持 套现1.21亿元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中东突传大消息！美伊会谈取消！伊朗最新发声！以色列称不会撤军！",
+      "news_summary": "中东突传大消息！美伊会谈取消！伊朗最新发声！以色列称不会撤军！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "宁德时代枧下窝锂矿重获用地意见书 锂市供需格局影响几何？",
+      "news_summary": "宁德时代枧下窝锂矿重获用地意见书 锂市供需格局影响几何？",
+      "affected_industries": [
+        "新能源"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001298 华夏新能源车龙头",
+        "005827 易方达蓝筹精选"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及新能源。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国际金价再跳水失守4200美元 国内金饰克价破1300元",
+      "news_summary": "国际金价再跳水失守4200美元 国内金饰克价破1300元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    }
+  ]
+}
