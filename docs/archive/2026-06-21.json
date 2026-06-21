@@ -1,0 +1,618 @@
+{
+  "date": "2026-06-21",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4090.4813,
+        "change": -17.59,
+        "changePercent": -0.43,
+        "high": 4117.451,
+        "low": 4080.2938,
+        "open": 4094.2301,
+        "prevClose": 4108.0762
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 16030.702,
+        "change": 149.75,
+        "changePercent": 0.94,
+        "high": 16104.768,
+        "low": 15825.316,
+        "open": 15826.794,
+        "prevClose": 15880.951
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4252.39,
+        "change": 85.34,
+        "changePercent": 2.05,
+        "high": 4272.008,
+        "low": 4153.621,
+        "open": 4153.621,
+        "prevClose": 4167.048
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4941.5986,
+        "change": 10.21,
+        "changePercent": 0.21,
+        "high": 4976.8909,
+        "low": 4916.0442,
+        "open": 4916.0442,
+        "prevClose": 4931.3861
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1911.5132,
+        "change": 70.69,
+        "changePercent": 3.84,
+        "high": 1937.3012,
+        "low": 1836.0381,
+        "open": 1837.0702,
+        "prevClose": 1840.8211
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51564.6992,
+        "change": 72.15,
+        "changePercent": 0.14,
+        "high": 51949.2617,
+        "low": 51554.5312,
+        "open": null,
+        "prevClose": 51492.5508
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26517.9314,
+        "change": 496.2758,
+        "changePercent": 1.91,
+        "high": 26559.7431,
+        "low": 26188.6879,
+        "open": null,
+        "prevClose": 26021.6556
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7500.5801,
+        "change": 80.48,
+        "changePercent": 1.08,
+        "high": 7511.0698,
+        "low": 7468.3198,
+        "open": null,
+        "prevClose": 7420.1001
+      }
+    ],
+    "sectors": [
+      {
+        "name": "钨",
+        "code": "BK1625",
+        "price": 12598.21,
+        "changePercent": 8.17,
+        "change": 951.17
+      },
+      {
+        "name": "稀土",
+        "code": "BK1626",
+        "price": 12296.83,
+        "changePercent": 6.73,
+        "change": 775.07
+      },
+      {
+        "name": "非金属材料Ⅲ",
+        "code": "BK1411",
+        "price": 2558.43,
+        "changePercent": 5.96,
+        "change": 143.96
+      },
+      {
+        "name": "非金属材料Ⅱ",
+        "code": "BK1020",
+        "price": 2558.43,
+        "changePercent": 5.96,
+        "change": 143.96
+      },
+      {
+        "name": "磨具磨料",
+        "code": "BK1397",
+        "price": 10421.09,
+        "changePercent": 5.48,
+        "change": 541.02
+      },
+      {
+        "name": "文字媒体",
+        "code": "BK1298",
+        "price": 2550.03,
+        "changePercent": 5.41,
+        "change": 130.96
+      }
+    ],
+    "updatedAt": "2026-06-21T12:08:50.679Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "库克：苹果产品将涨价",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775133155.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "成品油价或迎年内第三降",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775071413.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "多家上市公司出手回购增持",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606173774886394.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "外资机构：中国市场越来越有吸引力",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606203776963533.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "凌晨全线跳水 美联储重大宣布",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775060947.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储下一步是加息？特朗普回应",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775300474.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊总统签署谅解备忘录",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775077952.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊签了！美伊双方披露文本内容",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775238665.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊方对周五会谈保持观望态度",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775302023.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "太罕见！72家A股公司集体提示风险",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606173774913372.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "请注意！这些牛股昨晚提示风险",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775305357.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "光纤牛股突遭减持 套现1.21亿元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775118795.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国与伊朗在瑞士会谈开始",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606213777046990.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国银河策略：向新求质、驭势而行 A股中期投资展望",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606213777044118.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "兴证策略：为何分化更加极致？会收敛吗？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606213777041134.html",
+        "time": "2026-06-21T12:08:47.620Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票名家大乐透第26069期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章，严禁各媒体 公众号等转载，违规必究！严惩不贷！] 云涛：030407101319212531+030512 袁启晨：06、08、10、11、16、20、22、30...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-inieeaqr2981798.shtml",
+        "time": "2026-06-21T07:41:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "历史上的今天-大乐透6月22日开奖号码汇总",
+        "summary": "大乐透下期开奖是在周一，阳历6月22日，阴历五月初八。 以下历史阳历6月22日开奖号码汇总：阳历6月22日开奖号码汇总 以下历史阴历五月初八开奖号码汇总：阴历五月初八开奖...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-inieeaqs9753489.shtml",
+        "time": "2026-06-21T07:39:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透近10期周一奖号分布：前区1尾连开3期",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-inieeaqs9751794.shtml",
+        "time": "2026-06-21T07:32:38.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透第069期历史同期号码全汇总",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-inieeaqv7843621.shtml",
+        "time": "2026-06-21T07:31:17.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "精选足篮专家：长风、孙哥世界杯各擒7连红！",
+        "summary": "北京时间6月21日（周日），世界杯进入到第11个比赛日，今日有4场世界杯小组赛开战，西班牙、比利时纷纷登场。专家战绩方面，长风推球世界杯7连红出击西班牙...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-inieeaqu1071869.shtml",
+        "time": "2026-06-21T07:10:38.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-逍遥红单长跟长盈！关注领取最新方案",
+        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3321502.shtml",
+        "time": "2026-06-21T06:10:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界杯第10日竞彩奖金数据统计：荷兰5-1奖金70倍",
+        "summary": "北京时间6月20日，2026年世界杯第10比赛日结束4场争夺，荷兰5-1瑞典，德国2-1科特迪瓦，厄瓜多尔0-0库拉索，突尼斯-日本。截止目前...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-iniecwhx7897354.shtml",
+        "time": "2026-06-21T06:05:46.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "足彩彩果：德国2-1绝杀科特迪瓦 荷兰5-1瑞典",
+        "summary": "北京时间6月21日，足彩第26087期结束了3场争夺。世界杯小组赛第2轮，荷兰5-1大胜瑞典，德国2-1逆转+绝杀科特迪瓦，日本4-0大胜突尼斯。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-iniecmsx3197605.shtml",
+        "time": "2026-06-21T06:00:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推3连红！昨日擒德国2-1比分",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-21T04:30:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "精选双色球推荐：何颖领衔三大专家同中2等22万",
+        "summary": "北京时间6月21日（周日），今晚开奖的数字彩玩法主要有双色球、排列三、福彩3D、快乐8等。专家预测战绩，何颖中双色球二等22万，鹰长空中22万051期刚擒120万...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-iniecwhx7899384.shtml",
+        "time": "2026-06-21T04:01:44.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "162期老杨福彩3D预测奖号：独胆分析",
+        "summary": "上期回顾：福彩3D第2026161期奖号：529。组六、大小大、奇偶奇。 百位：2026157期-2026161期出号：31935，振幅为8点，分布比较分散，本期预计百位走大，参考7。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-iniecryw9901777.shtml",
+        "time": "2026-06-21T02:41:57.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "162期唐羽福彩3D预测奖号：和值推荐",
+        "summary": " 开奖回顾：福彩3D第2026161期奖号为：529。奖号类型为组六，和值为16，奇偶比为2:1，跨度为7，012路比为1:0:2，大小比为2:1。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-iniecryy1222034.shtml",
+        "time": "2026-06-21T02:41:57.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "162期成毅福彩3D预测奖号：奇偶分析",
+        "summary": "开奖回顾：福彩3D第2026161期奖号：529。 历年第162期福彩3D同期奖号为：180-794-799-516-348-407-132-995-450-573-832-292-587-039-634-398-137-033-810-887-864-022-164-...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-iniecryy1222031.shtml",
+        "time": "2026-06-21T02:41:57.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "162期阿宝福彩3D预测奖号：组选分析",
+        "summary": "开奖回顾：福彩3D第2026161期：奖号529。 第2026161期3D奖号组选为：259，历史上该号码组选出现42次，下期号码分别为：564、689、064、691、389、553、380、103、316...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-iniecryv3124552.shtml",
+        "time": "2026-06-21T02:41:57.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "162期跟班福彩3D预测奖号：和值分析",
+        "summary": "福彩3D第2026161期回顾：奖号为529，奖号奇偶比为2:1，大小比为2:1，和值为16，类型为组六。 百位：上期开出奖号为大号奇数：5，分析最近7期走势...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-21/doc-iniecryy1222030.shtml",
+        "time": "2026-06-21T02:41:57.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-21T12:08:47.621Z"
+  },
+  "analyses": [
+    {
+      "news_title": "库克：苹果产品将涨价",
+      "news_summary": "库克：苹果产品将涨价",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "成品油价或迎年内第三降",
+      "news_summary": "成品油价或迎年内第三降",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "多家上市公司出手回购增持",
+      "news_summary": "多家上市公司出手回购增持",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "外资机构：中国市场越来越有吸引力",
+      "news_summary": "外资机构：中国市场越来越有吸引力",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "凌晨全线跳水 美联储重大宣布",
+      "news_summary": "凌晨全线跳水 美联储重大宣布",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美联储下一步是加息？特朗普回应",
+      "news_summary": "美联储下一步是加息？特朗普回应",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及金融。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美伊总统签署谅解备忘录",
+      "news_summary": "美伊总统签署谅解备忘录",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美伊签了！美伊双方披露文本内容",
+      "news_summary": "美伊签了！美伊双方披露文本内容",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊方对周五会谈保持观望态度",
+      "news_summary": "伊方对周五会谈保持观望态度",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "太罕见！72家A股公司集体提示风险",
+      "news_summary": "太罕见！72家A股公司集体提示风险",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "请注意！这些牛股昨晚提示风险",
+      "news_summary": "请注意！这些牛股昨晚提示风险",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "光纤牛股突遭减持 套现1.21亿元",
+      "news_summary": "光纤牛股突遭减持 套现1.21亿元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国与伊朗在瑞士会谈开始",
+      "news_summary": "美国与伊朗在瑞士会谈开始",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中国银河策略：向新求质、驭势而行 A股中期投资展望",
+      "news_summary": "中国银河策略：向新求质、驭势而行 A股中期投资展望",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "兴证策略：为何分化更加极致？会收敛吗？",
+      "news_summary": "兴证策略：为何分化更加极致？会收敛吗？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
