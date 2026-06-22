@@ -1,0 +1,621 @@
+{
+  "date": "2026-06-22",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4163.0965,
+        "change": 72.62,
+        "changePercent": 1.78,
+        "high": 4164.4178,
+        "low": 4070.1723,
+        "open": 4093.9546,
+        "prevClose": 4090.4813
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 16372.499,
+        "change": 341.8,
+        "changePercent": 2.13,
+        "high": 16374.02,
+        "low": 15914.052,
+        "open": 16095.629,
+        "prevClose": 16030.702
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4359.392,
+        "change": 107,
+        "changePercent": 2.52,
+        "high": 4359.392,
+        "low": 4229.315,
+        "open": 4272.988,
+        "prevClose": 4252.39
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 5059.6582,
+        "change": 118.06,
+        "changePercent": 2.39,
+        "high": 5061.5105,
+        "low": 4928.4582,
+        "open": 4949.3457,
+        "prevClose": 4941.5986
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1948.9281,
+        "change": 37.41,
+        "changePercent": 1.96,
+        "high": 1963.3274,
+        "low": 1879.59,
+        "open": 1922.4741,
+        "prevClose": 1911.5132
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51684.5781,
+        "change": 119.88,
+        "changePercent": 0.23,
+        "high": 51887.8516,
+        "low": 51555.1914,
+        "open": null,
+        "prevClose": 51564.6992
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26230.3429,
+        "change": -287.5885,
+        "changePercent": -1.08,
+        "high": 26561.1184,
+        "low": 26156.4567,
+        "open": null,
+        "prevClose": 26517.9314
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7472.2798,
+        "change": -28.3,
+        "changePercent": -0.38,
+        "high": 7530.0098,
+        "low": 7461.04,
+        "open": null,
+        "prevClose": 7500.5801
+      }
+    ],
+    "sectors": [
+      {
+        "name": "钨",
+        "code": "BK1625",
+        "price": 13832.38,
+        "changePercent": 9.8,
+        "change": 1234.17
+      },
+      {
+        "name": "磷肥及磷化工",
+        "code": "BK1435",
+        "price": 3409.82,
+        "changePercent": 8.97,
+        "change": 280.81
+      },
+      {
+        "name": "钛白粉",
+        "code": "BK1421",
+        "price": 1968.9,
+        "changePercent": 8.82,
+        "change": 159.54
+      },
+      {
+        "name": "铅锌",
+        "code": "BK1614",
+        "price": 2989.41,
+        "changePercent": 8.03,
+        "change": 222.28
+      },
+      {
+        "name": "钼",
+        "code": "BK1623",
+        "price": 2027.52,
+        "changePercent": 7.89,
+        "change": 148.35
+      },
+      {
+        "name": "橡胶助剂",
+        "code": "BK1443",
+        "price": 5098.02,
+        "changePercent": 7.76,
+        "change": 366.96
+      }
+    ],
+    "updatedAt": "2026-06-22T15:21:42.304Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "贵州茅台本周发放350亿分红",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606213777053388.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "格力电器大股东珠海明骏减持",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606213777093039.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "多起券商并购取得实质进展",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223777131656.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊朗外交部：伊美达成协议文件",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202606223777251856.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "卡塔尔与巴基斯坦联合声明",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202606223777184169.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊美举行首轮谈判 特朗普再威胁伊朗",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223777125872.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "中船特气、中巨芯发布风险提示！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223777146577.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "中巨芯30个交易日大涨超180% 公司发声",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606213777092965.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "科技板块还有多少空间？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606213777104039.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "7只半导体个股股东减持套现逾67亿",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223777145616.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "A股解禁达549亿 多只科技牛股迎考验",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223777151117.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "深市史上最大IPO今日申购",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606213777067118.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "李强在辽宁大连调研：要大力发展高端装备制造业 加快建设现代化产业体系",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223778241440.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "三部门发布15条稳外资新政！来看权威解读",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223778219217.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "6月22日晚间上市公司利好消息一览(附名单)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223778288016.html",
+        "time": "2026-06-22T15:21:39.602Z",
+        "category": "finance"
+      },
+      {
+        "title": "Alan Greenspan, architect of the modern American economy, dies aged 100",
+        "summary": "As chairman of the Federal Reserve, Alan Greenspan became the world's most high-profile banker.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/cjer7x7yl12o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-22T11:55:36.000Z",
+        "category": "general"
+      },
+      {
+        "title": "South East Water announces new chief executive",
+        "summary": "John Halsall has previously worked for Thames Water, South West Water and Network Rail.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/cr5jrr1n7ddo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-22T11:25:06.000Z",
+        "category": "general"
+      },
+      {
+        "title": "EasyJet says US bidder trying to buy it 'on the cheap' as it rejects £4.7bn offer",
+        "summary": "The airline describes the latest bid approach from Castlelake as \"highly opportunistic\".",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c30yz76834yo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-22T10:29:11.000Z",
+        "category": "general"
+      },
+      {
+        "title": "2026年全国青少年U系列腰旗橄榄球系列积分赛武汉站落幕",
+        "summary": "江城六月，赛场热浪与青春激情同频涌动。在武汉塔子湖体育中心的绿茵场上，一次次精准传接划破天空，一声声达阵欢呼响彻云霄。6月20日至21日...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/others/2026-06-22/doc-iniehsct9264907.shtml",
+        "time": "2026-06-22T09:39:07.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推4连红!昨日擒西班牙4-0比分",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-22T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "6月22日红王解盘比赛解读：塞内加尔背水一战力拒挪威",
+        "summary": "世界杯：挪威 vs 塞内加尔 比赛时间：6月23日 08:00 挪威身价5.90亿欧元，主教练索尔巴肯，挪威人，4-3-3阵型，执教哥本哈根254场153胜49平52负成绩亮眼...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniehmvv9371231.shtml",
+        "time": "2026-06-22T08:51:45.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家小炜侃球让球推荐：阿尔及利亚赢球",
+        "summary": "让球26067期 第58场 世界杯 约旦 VS 阿尔及利亚阿尔及利亚的身价是约旦的十倍，他们热身赛表现不错，包括战胜荷兰战平乌拉圭。只不过上一场打阿根廷...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniehmvu2584645.shtml",
+        "time": "2026-06-22T08:38:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：瑞典甲精选2串1",
+        "summary": "瑞典甲 奥迪沃特VS卢恩斯基尔 2026-06-23 01:00两队在本赛季瑞典甲是首次交战，奥迪沃特在上赛季仅仅差一步之遥就争取到了升级附加赛的资格...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniehmvu2584641.shtml",
+        "time": "2026-06-22T08:38:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家张然竞彩推荐：塞内加尔不败",
+        "summary": "世界杯 挪威vs塞内加尔挪威首场比赛大胜伊拉克，为小组出线奠定了基础，本场比赛可谓生死战，取胜或者打平都还有晋级的机会，一旦输球末轮就要死拼法国...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniehmvu2584640.shtml",
+        "time": "2026-06-22T08:38:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：爱超精选串关",
+        "summary": "爱超 谢尔伯恩VS波希米亚人 2026-06-23 02:45谢尔伯恩在上赛季是排名在第3，目前在联赛的表现与上赛季相差不大，但是在本赛季从开局至今在联赛突出的问题依旧是在防守端上...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniehmvu2584642.shtml",
+        "time": "2026-06-22T08:38:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "塞内加尔主帅称无反哈兰德计划，专注对阵挪威",
+        "summary": " 塞内加尔主帅帕佩·蒂亚出席了对阵挪威的赛前新闻发布会，他表示球队不会针对哈兰德制定单独计划，而是针对整支挪威队。他称对阵挪威是一场“决赛”，球队已没有犯错空间。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniehfpv7141831.shtml",
+        "time": "2026-06-22T07:04:56.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "意外！本届世界杯最火门将遭抛弃，原因让人无奈",
+        "summary": "2026年美加墨世界杯，佛得角门将沃齐尼亚凭借小组赛与西班牙队的神勇发挥一战成名，社媒粉丝数从不到5万人暴涨200多倍，人数已近1500万。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniehfpu0364374.shtml",
+        "time": "2026-06-22T07:03:38.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "称没义务传给C罗！孔塞桑社媒被冲：你哪位啊",
+        "summary": "葡萄牙边锋小孔塞桑此前出席新闻发布会时，回应了和C罗相关的话题，他对外表示，自己并不觉得有必须给C罗传球的义务。这番言论出来之后，迅速引发了大量C罗球迷的不满...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniehfpv7138509.shtml",
+        "time": "2026-06-22T07:02:10.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "乌龙球将创世界杯新高!37场8个，场均0.21球",
+        "summary": "世界杯小组赛第二轮，西班牙对阵沙特。沙特后卫坦巴克提不慎打入乌龙球，这是本届世界杯打入的第8个乌龙球，场均打入0.21个乌龙球的效率...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniehfpw2626724.shtml",
+        "time": "2026-06-22T07:00:47.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "RMC体育:巴西球迷为恩德里克抱不平",
+        "summary": "RMC体育报道，巴西球迷为恩德里克在国家队的处境抱不平。 恩德里克是全巴西都在呼唤的天才少年，但有一个人充耳不闻，那就是主教练安切洛蒂。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniehfpx9401189.shtml",
+        "time": "2026-06-22T06:57:19.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-22T15:21:40.051Z"
+  },
+  "analyses": [
+    {
+      "news_title": "贵州茅台本周发放350亿分红",
+      "news_summary": "贵州茅台本周发放350亿分红",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "格力电器大股东珠海明骏减持",
+      "news_summary": "格力电器大股东珠海明骏减持",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "多起券商并购取得实质进展",
+      "news_summary": "多起券商并购取得实质进展",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊朗外交部：伊美达成协议文件",
+      "news_summary": "伊朗外交部：伊美达成协议文件",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "卡塔尔与巴基斯坦联合声明",
+      "news_summary": "卡塔尔与巴基斯坦联合声明",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊美举行首轮谈判 特朗普再威胁伊朗",
+      "news_summary": "伊美举行首轮谈判 特朗普再威胁伊朗",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中船特气、中巨芯发布风险提示！",
+      "news_summary": "中船特气、中巨芯发布风险提示！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "中巨芯30个交易日大涨超180% 公司发声",
+      "news_summary": "中巨芯30个交易日大涨超180% 公司发声",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "科技板块还有多少空间？",
+      "news_summary": "科技板块还有多少空间？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "7只半导体个股股东减持套现逾67亿",
+      "news_summary": "7只半导体个股股东减持套现逾67亿",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "A股解禁达549亿 多只科技牛股迎考验",
+      "news_summary": "A股解禁达549亿 多只科技牛股迎考验",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "深市史上最大IPO今日申购",
+      "news_summary": "深市史上最大IPO今日申购",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "李强在辽宁大连调研：要大力发展高端装备制造业 加快建设现代化产业体系",
+      "news_summary": "李强在辽宁大连调研：要大力发展高端装备制造业 加快建设现代化产业体系",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "三部门发布15条稳外资新政！来看权威解读",
+      "news_summary": "三部门发布15条稳外资新政！来看权威解读",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "6月22日晚间上市公司利好消息一览(附名单)",
+      "news_summary": "6月22日晚间上市公司利好消息一览(附名单)",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    }
+  ]
+}
