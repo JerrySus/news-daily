@@ -1,0 +1,578 @@
+{
+  "date": "2026-06-23",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4106.2517,
+        "change": -56.84,
+        "changePercent": -1.37,
+        "high": 4175.3476,
+        "low": 4085.5908,
+        "open": 4153.593,
+        "prevClose": 4163.0965
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15854.196,
+        "change": -518.3,
+        "changePercent": -3.17,
+        "high": 16355.952,
+        "low": 15756.411,
+        "open": 16324.242,
+        "prevClose": 16372.499
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4192.194,
+        "change": -167.2,
+        "changePercent": -3.84,
+        "high": 4350.063,
+        "low": 4159.476,
+        "open": 4343.875,
+        "prevClose": 4359.392
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4919.386,
+        "change": -140.27,
+        "changePercent": -2.77,
+        "high": 5064.2654,
+        "low": 4892.0944,
+        "open": 5048.0255,
+        "prevClose": 5059.6582
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1916.2123,
+        "change": -32.72,
+        "changePercent": -1.68,
+        "high": 1982.9062,
+        "low": 1890.1626,
+        "open": 1929.2657,
+        "prevClose": 1948.9281
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51712.7109,
+        "change": 148.01,
+        "changePercent": 0.29,
+        "high": 51887.8516,
+        "low": 51555.1914,
+        "open": null,
+        "prevClose": 51564.6992
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26166.6018,
+        "change": -351.3296,
+        "changePercent": -1.32,
+        "high": 26561.1184,
+        "low": 26125.4788,
+        "open": null,
+        "prevClose": 26517.9314
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7472.79,
+        "change": -27.79,
+        "changePercent": -0.37,
+        "high": 7530.0098,
+        "low": 7460.0098,
+        "open": null,
+        "prevClose": 7500.5801
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-06-23T12:29:58.586Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "王石致函中央网信办！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606233778729035.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "闪迪专利曝光3D存算架构",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223778420556.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "两家公司预计业绩翻倍",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223778430519.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "三部门发布稳外资15条",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223778349845.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "外资机构密集发声看好中国权益市场",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606233778728529.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "5月实际使用外资同比增5.9%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606233778505048.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "英伟达发文详解核心液冷技术",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606233778461448.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "供应链企业业绩有望快速释放",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606233778688822.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "融资客大举加仓这些概念股(名单)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606233778685912.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "46家公司提示风险！中船特气停牌核查",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606223778416370.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "全线跳水！科技巨头突发利空！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202606233778518694.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "人形机器人场景落地加速(名单)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606233778686889.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "上交所向沪市公司发出“提质增效重回报”2.0专项行动公开倡议",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606233779825624.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球黑色星期二！AI交易“崩盘”原因找到了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606233779694542.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普称允许霍尔木兹海峡保持开放",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606233779865049.html",
+        "time": "2026-06-23T12:29:56.847Z",
+        "category": "finance"
+      },
+      {
+        "title": "Iran says no new commitments on nuclear sites after Vance says inspectors to be invited back",
+        "summary": "Iran's foreign ministry says it made \"no new commitments\" on nuclear inspections after talks in Switzerland.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c3vy3nr63gxo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-23T12:14:58.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Who could be the UK's next chancellor?",
+        "summary": "The prime minister's resignation has fired the starting gun on the race to be in charge of the UK's finances.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-23T12:05:11.000Z",
+        "category": "general"
+      },
+      {
+        "title": "6月23日红王解盘比赛解读：英格兰进攻碾压黑星军团",
+        "summary": "世界杯：英格兰 vs 加纳 比赛时间：6月24日 04:00 英格兰身价13.58亿欧元，主教练图赫尔，执教履历横跨多特蒙德、巴黎、切尔西、拜仁等多家欧洲顶级豪门...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-23/doc-iniekzkr8698996.shtml",
+        "time": "2026-06-23T10:29:04.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Tech giant Oracle cuts 21,000 jobs as it embraces AI",
+        "summary": "The cuts are part of a wider trend among tech firms as they spend hundreds of billions of dollars on AI.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c4gy0x0j5deo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-23T10:18:11.000Z",
+        "category": "general"
+      },
+      {
+        "title": "围甲南京橘中秘专场 江苏体彩2-2主将胜卫冕冠军",
+        "summary": "6月23日，2026年中国围棋甲级联赛常规赛第五轮继续在各主场进行；江苏体彩队本轮在江苏棋院南京橘中秘专场迎战卫冕冠军苏泊尔杭州队...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-06-23/doc-iniekvat8813770.shtml",
+        "time": "2026-06-23T10:03:30.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Can you keep your kids off school or refuse to work during a heatwave?",
+        "summary": "As temperatures increase significantly over the next few days, these are your rights.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c6217nv34rro?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-23T09:58:41.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Ticket reseller StubHub UK customers to get refunds over illegal hidden fees",
+        "summary": "The Competition and Markets Authority said StubHub must refund 50,000 customers and pay a fine.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cd6enx152jlo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-23T09:53:22.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推近5中4!看最新世界杯稳胆",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-23T09:42:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "6月26日-7月2日足彩赛程:停售1期 世界杯淘汰赛打响",
+        "summary": " 北京时间2026年6月23日，国家体彩中心公布了2026年6月26日-7月2日的足彩赛程，6月29日（周一）共1期，第26089期竞猜世界杯淘汰赛。完整公告如下：",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-23/doc-iniekvar6480109.shtml",
+        "time": "2026-06-23T09:26:31.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家小恺说球篮彩推荐：自由vs王牌",
+        "summary": "自由vs王牌主队分析：作为卫冕冠军，王牌本赛季依旧强势，12胜4负，战绩全联盟第二，目前两连胜，球队核心威尔逊，作为全联盟顶级的内线...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-23/doc-iniekvar6470760.shtml",
+        "time": "2026-06-23T09:24:47.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家青乾解球竞彩推荐：英格兰不败可期",
+        "summary": "英格兰目前世界排名第4位，实力极其强悍队内球员大多数来自于英超联赛，全队身价13多亿欧元，阵容强大后防线稳固攻防兼备，平均年龄26岁...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-23/doc-iniekvap9694677.shtml",
+        "time": "2026-06-23T09:24:47.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩第26088期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德世界杯胜平负胜平负胜平负胜平负1瑞士 vs 加拿大2.103.203.502.103.303.502.053.253.401.953.253.6022日14:002.403...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniefuxw9054582.shtml",
+        "time": "2026-06-23T09:00:28.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26088期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负25日03:00(周四)01 瑞士 vs 加拿大2.09半球1.752.093.153.19周一14:002.01平手/半球1.832.263.002...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-22/doc-iniefuxv2276500.shtml",
+        "time": "2026-06-23T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "重磅三方交易落地 里夫斯续约湖人之路再无阻碍",
+        "summary": "今夏自由市场，湖人续约后场核心奥斯汀・里夫斯最大竞争对手原本是布鲁克林篮网。《The Athletic》记者丹・沃伊克此前爆料，篮网准备为里夫斯开出一份4年1...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-06-23/doc-iniekquv8802022.shtml",
+        "time": "2026-06-23T06:52:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "字母交易内幕：多次想和雄鹿分手 绿军拒送年轻人",
+        "summary": "北京时间6月23日，雄鹿和热火达成2换9的重磅交易，字母哥正式离开雄鹿，加盟热火，开启生涯新篇章。名记Shams在节目上揭秘了这笔交易背后的更多内幕，其实早在一年前...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-06-23/doc-iniekqur9714548.shtml",
+        "time": "2026-06-23T06:52:27.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-23T12:29:56.849Z"
+  },
+  "analyses": [
+    {
+      "news_title": "王石致函中央网信办！",
+      "news_summary": "王石致函中央网信办！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "闪迪专利曝光3D存算架构",
+      "news_summary": "闪迪专利曝光3D存算架构",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "两家公司预计业绩翻倍",
+      "news_summary": "两家公司预计业绩翻倍",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "三部门发布稳外资15条",
+      "news_summary": "三部门发布稳外资15条",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "外资机构密集发声看好中国权益市场",
+      "news_summary": "外资机构密集发声看好中国权益市场",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "5月实际使用外资同比增5.9%",
+      "news_summary": "5月实际使用外资同比增5.9%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "英伟达发文详解核心液冷技术",
+      "news_summary": "英伟达发文详解核心液冷技术",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "供应链企业业绩有望快速释放",
+      "news_summary": "供应链企业业绩有望快速释放",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "融资客大举加仓这些概念股(名单)",
+      "news_summary": "融资客大举加仓这些概念股(名单)",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "46家公司提示风险！中船特气停牌核查",
+      "news_summary": "46家公司提示风险！中船特气停牌核查",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "全线跳水！科技巨头突发利空！",
+      "news_summary": "全线跳水！科技巨头突发利空！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "人形机器人场景落地加速(名单)",
+      "news_summary": "人形机器人场景落地加速(名单)",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "上交所向沪市公司发出“提质增效重回报”2.0专项行动公开倡议",
+      "news_summary": "上交所向沪市公司发出“提质增效重回报”2.0专项行动公开倡议",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球黑色星期二！AI交易“崩盘”原因找到了",
+      "news_summary": "全球黑色星期二！AI交易“崩盘”原因找到了",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及人工智能。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "特朗普称允许霍尔木兹海峡保持开放",
+      "news_summary": "特朗普称允许霍尔木兹海峡保持开放",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
