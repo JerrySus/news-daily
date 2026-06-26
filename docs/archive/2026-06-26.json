@@ -1,0 +1,572 @@
+{
+  "date": "2026-06-26",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4027.2648,
+        "change": -93.02,
+        "changePercent": -2.26,
+        "high": 4099.7796,
+        "low": 4007.8593,
+        "open": 4098.6864,
+        "prevClose": 4120.2806
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15782.223,
+        "change": -561.86,
+        "changePercent": -3.44,
+        "high": 16215.448,
+        "low": 15728.839,
+        "open": 16211.406,
+        "prevClose": 16344.083
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4194.209,
+        "change": -177.78,
+        "changePercent": -4.07,
+        "high": 4328.7,
+        "low": 4175.377,
+        "open": 4319.409,
+        "prevClose": 4371.989
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4868.2205,
+        "change": -151.88,
+        "changePercent": -3.03,
+        "high": 4981.983,
+        "low": 4845.1921,
+        "open": 4981.8251,
+        "prevClose": 5020.1038
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 2032.2842,
+        "change": -34.05,
+        "changePercent": -1.65,
+        "high": 2076.4654,
+        "low": 1976.9228,
+        "open": 2034.4327,
+        "prevClose": 2066.3309
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51920.6211,
+        "change": 71.72,
+        "changePercent": 0.14,
+        "high": 52655.6602,
+        "low": 51857.7812,
+        "open": null,
+        "prevClose": 51848.8984
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25358.6029,
+        "change": -118.0327,
+        "changePercent": -0.46,
+        "high": 25724.7791,
+        "low": 25123.4264,
+        "open": null,
+        "prevClose": 25476.6356
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7357.4902,
+        "change": -0.73,
+        "changePercent": -0.01,
+        "high": 7419.0801,
+        "low": 7323.5,
+        "open": null,
+        "prevClose": 7358.2202
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-06-26T12:08:34.555Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "大牛股昀冢科技停牌核查",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606253783365143.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "谁导演了铜冠铜箔股价神话？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783518661.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "新型能源体系建设“十五五”规划出炉",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783486691.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "我国发电装机突破40亿千瓦居全球首位",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783722889.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "电网等领域投资机会涌现",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783501636.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "苹果、微软同日官宣大涨价(附股)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783638798.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "苹果涨价！iPhone未来或跟进",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606253783418070.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "紧随苹果！微软上调Xbox主机售价",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783489050.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "40家A股公司提示风险！回应热点事项",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606253783437933.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "中船特气停牌核查收官今复牌",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783617663.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "坚守茅台的前千亿基金经理疑调仓",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606253783458476.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "史上最重！证监会出手 两家私募合计被罚没近6000万元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263784862257.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "并非“调仓令”！第二批上千只基金调基准 权益基金上调权益基准权重释放什么信号?",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263784889352.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "“国补”继续！第三批625亿元资金已下达",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263784707030.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "全线暴跌！日本股市跌3000点 韩国股市跌近6% 原因找到了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263784759846.html",
+        "time": "2026-06-26T12:08:33.876Z",
+        "category": "finance"
+      },
+      {
+        "title": "Who could be the UK's next chancellor?",
+        "summary": "The prime minister's resignation has fired the starting gun on the race to be in charge of the UK's finances.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-26T10:37:12.000Z",
+        "category": "general"
+      },
+      {
+        "title": "The abundant but expensive energy source that's under your feet",
+        "summary": "Start-ups are taking fresh approaches to geothermal energy, but will the economics work?",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cj3gj1n8yz8o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-26T10:12:42.000Z",
+        "category": "general"
+      },
+      {
+        "title": "新浪大乐透专家连续12期擒头奖！豪揽超1.2亿元",
+        "summary": "近期，新浪专家分析大乐透状态火热，连续12期大乐透方案命中头奖，揽奖金额高达1.2亿元！专家们以枯拉朽之势，频频助力千万大奖，烽火连天，大奖井喷！",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-26/doc-inietsps5203800.shtml",
+        "time": "2026-06-26T09:10:29.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推近7中5!昨擒巴拉圭比分",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-26T09:03:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "6月26日红王解盘比赛解读：佛得角延续不败童话",
+        "summary": "世界杯：佛得角 vs 沙特阿拉伯 比赛时间：6月27日 08:00 佛得角身价约5450万欧，由本土教练布比斯塔执教主打4-3-3阵型侧重快速反击和团队协作。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-26/doc-inietspn0456942.shtml",
+        "time": "2026-06-26T09:02:21.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Asia stock markets slide as tech shares slump",
+        "summary": "Trading on South Korea's Kospi index was halted for the third time this week to prevent panic selling.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/ce8jz40k00ro?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-26T07:33:10.000Z",
+        "category": "general"
+      },
+      {
+        "title": "精选足篮专家：孤注一掷、周通解球、小盼哥6连红",
+        "summary": "北京时间6月26日（周五），世界杯进入到第17个比赛日，今日竞彩开售6场小组赛。专家战绩方面，孤注一掷、周通解球、小盼哥6连红；伟哥看球5连红，老将推球...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-26/doc-inietnfw1932426.shtml",
+        "time": "2026-06-26T06:57:57.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "男子18元机选擒大乐透961万 不抽烟不喝酒爱购彩",
+        "summary": " 5月25日，体彩大乐透第26057期开奖，当期全国中出4注一等奖，单注奖金961万元，均未进行追加投注。本期杭州中出1注一等奖，单票奖金961万元。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-26/doc-inietfxy2047847.shtml",
+        "time": "2026-06-26T06:28:28.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "资深彩民刮中福彩30万难掩激动 奖金用于孩子教育",
+        "summary": " 6月7日，佛山市44131155福彩销售站点传出中奖喜讯，一位彩民在该站点购买“超级弹珠”刮刮乐即开票，幸运刮出一等奖，中奖奖金30万元。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-26/doc-inietfxs0571597.shtml",
+        "time": "2026-06-26T06:25:38.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票双色球名家第26073期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章 严禁各媒体 公众号等转载 违规必究！严惩不贷！] 霍晓虹：08 14 16 19 21 24 28 29 32+05 10 15 郭清晨：02 04 08 16 19 20 21 32...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-26/doc-inietfxt7345044.shtml",
+        "time": "2026-06-26T06:16:29.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "双色球近10期周日奖号分布：红球同尾号连开8期",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-26/doc-inietfxy2034402.shtml",
+        "time": "2026-06-26T06:13:50.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "历史上的今天-双色球6月28日开奖号码汇总",
+        "summary": "双色球下期开奖是在周日，阳历6月28日，阴历五月十四。 以下为历史阳历6月28日开奖号码汇总：阳历6月28日开奖号码汇总 以下为历史阴历五月十四开奖号码汇总：阴历五月十四...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-26/doc-inietfxt7340363.shtml",
+        "time": "2026-06-26T06:11:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "双色球073期历史同期号码全汇总",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-26/doc-inietfxy2031691.shtml",
+        "time": "2026-06-26T06:10:17.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-逍遥红单公推近4中3！扫码看世界杯稳胆",
+        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3321502.shtml",
+        "time": "2026-06-26T05:57:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界杯第15日竞彩奖金数据统计：比分1-1出现8次",
+        "summary": "北京时间6月26日，2026年世界杯第15比赛日结束6场争夺。世界杯E组末轮，厄瓜多尔2-1德国、库拉索0-2科特迪瓦；F组末轮，突尼斯1-3荷兰、日本1-1瑞典；D组末轮...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-26/doc-inieszry5313402.shtml",
+        "time": "2026-06-26T04:05:50.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-26T12:08:33.877Z"
+  },
+  "analyses": [
+    {
+      "news_title": "大牛股昀冢科技停牌核查",
+      "news_summary": "大牛股昀冢科技停牌核查",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "谁导演了铜冠铜箔股价神话？",
+      "news_summary": "谁导演了铜冠铜箔股价神话？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "新型能源体系建设“十五五”规划出炉",
+      "news_summary": "新型能源体系建设“十五五”规划出炉",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "我国发电装机突破40亿千瓦居全球首位",
+      "news_summary": "我国发电装机突破40亿千瓦居全球首位",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "电网等领域投资机会涌现",
+      "news_summary": "电网等领域投资机会涌现",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "苹果、微软同日官宣大涨价(附股)",
+      "news_summary": "苹果、微软同日官宣大涨价(附股)",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "苹果涨价！iPhone未来或跟进",
+      "news_summary": "苹果涨价！iPhone未来或跟进",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "紧随苹果！微软上调Xbox主机售价",
+      "news_summary": "紧随苹果！微软上调Xbox主机售价",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "40家A股公司提示风险！回应热点事项",
+      "news_summary": "40家A股公司提示风险！回应热点事项",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "中船特气停牌核查收官今复牌",
+      "news_summary": "中船特气停牌核查收官今复牌",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "坚守茅台的前千亿基金经理疑调仓",
+      "news_summary": "坚守茅台的前千亿基金经理疑调仓",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "史上最重！证监会出手 两家私募合计被罚没近6000万元",
+      "news_summary": "史上最重！证监会出手 两家私募合计被罚没近6000万元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "并非“调仓令”！第二批上千只基金调基准 权益基金上调权益基准权重释放什么信号?",
+      "news_summary": "并非“调仓令”！第二批上千只基金调基准 权益基金上调权益基准权重释放什么信号?",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "“国补”继续！第三批625亿元资金已下达",
+      "news_summary": "“国补”继续！第三批625亿元资金已下达",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全线暴跌！日本股市跌3000点 韩国股市跌近6% 原因找到了",
+      "news_summary": "全线暴跌！日本股市跌3000点 韩国股市跌近6% 原因找到了",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    }
+  ]
+}
