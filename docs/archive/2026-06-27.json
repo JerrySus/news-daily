@@ -1,0 +1,578 @@
+{
+  "date": "2026-06-27",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4027.2648,
+        "change": -93.02,
+        "changePercent": -2.26,
+        "high": 4099.7796,
+        "low": 4007.8593,
+        "open": 4098.6864,
+        "prevClose": 4120.2806
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15782.223,
+        "change": -561.86,
+        "changePercent": -3.44,
+        "high": 16215.448,
+        "low": 15728.839,
+        "open": 16211.406,
+        "prevClose": 16344.083
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4194.209,
+        "change": -177.78,
+        "changePercent": -4.07,
+        "high": 4328.7,
+        "low": 4175.377,
+        "open": 4319.409,
+        "prevClose": 4371.989
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4868.2205,
+        "change": -151.88,
+        "changePercent": -3.03,
+        "high": 4981.983,
+        "low": 4845.1921,
+        "open": 4981.8251,
+        "prevClose": 5020.1038
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 2032.2842,
+        "change": -34.05,
+        "changePercent": -1.65,
+        "high": 2076.4654,
+        "low": 1976.9228,
+        "open": 2034.4327,
+        "prevClose": 2066.3309
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51876.1094,
+        "change": -44.51,
+        "changePercent": -0.09,
+        "high": 52130.0703,
+        "low": 51614.7383,
+        "open": null,
+        "prevClose": 51920.6211
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25297.6177,
+        "change": -60.9852,
+        "changePercent": -0.24,
+        "high": 25491.3747,
+        "low": 25014.9599,
+        "open": null,
+        "prevClose": 25358.6029
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7354.02,
+        "change": -3.47,
+        "changePercent": -0.05,
+        "high": 7392.9502,
+        "low": 7294.1802,
+        "open": null,
+        "prevClose": 7357.4902
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-06-27T11:24:47.028Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "大牛股昀冢科技停牌核查",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606253783365143.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "谁导演了铜冠铜箔股价神话？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783518661.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "GPT-5.6亮相！性能反超竞品Mythos",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606273785200995.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "我国发电装机突破40亿千瓦居全球首位",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783722889.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "电网等领域投资机会涌现",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783501636.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "苹果、微软同日官宣大涨价(附股)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783638798.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "苹果涨价！iPhone未来或跟进",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606253783418070.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "紧随苹果！微软上调Xbox主机售价",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783489050.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "40家A股公司提示风险！回应热点事项",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606253783437933.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "中船特气停牌核查收官今复牌",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606263783617663.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "坚守茅台的前千亿基金经理疑调仓",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606253783458476.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "外媒：苹果寻求获准从长鑫存储购买内存芯片",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606273785440723.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "国家统计局：2026年1—5月份全国规模以上工业企业利润增长18.8%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606273785405481.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "暴增10000%！A股大牛股突然刷屏！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606273785462356.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球市场：美股三大指数微跌 存储概念全线重挫 国际油价跌超2%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606273785210939.html",
+        "time": "2026-06-27T11:24:38.589Z",
+        "category": "finance"
+      },
+      {
+        "title": "天空体育：里斯-詹姆斯腿筋伤较严重 世界杯恐报销",
+        "summary": "据英国体育媒体天空体育报道，里斯-詹姆斯因腿筋伤病可能无缘世界杯剩余赛事。 天空体育表示，里斯-詹姆斯的世界杯之旅可能因腿筋伤病而结束。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnw3923325.shtml",
+        "time": "2026-06-27T09:16:23.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "图赫尔:率英格兰征战2026年世界杯 感到无比自豪",
+        "summary": "英格兰国家队官方社媒发布消息，图赫尔谈到了执教三狮军团的意义。 图赫尔表示，他并不避讳谈论自己执教英格兰的决定，并直言，吸引他来到这里执教的...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvns4668236.shtml",
+        "time": "2026-06-27T09:14:50.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界杯32强只差4队：比利时、埃及、塞内加尔突围",
+        "summary": "2026年美加墨世界杯小组赛只剩最后一个比赛日，淘汰赛的32强球队也基本落位。 南美区头名阿根廷在J组两连胜提前两轮锁定头名出线...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnu7145345.shtml",
+        "time": "2026-06-27T09:13:24.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "六缺一，南美6队出战世界杯5队出线，仅乌拉圭出局",
+        "summary": " 2026美加墨世界杯，南美区获得了6.5个席位，玻利维亚未能把握住洲际附加赛名额。6支晋级正赛的球队里，有5支球队晋级到了淘汰赛阶段。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvns4667138.shtml",
+        "time": "2026-06-27T09:11:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "佛得角续写黑马传奇 小组赛三连平挺进32强",
+        "summary": "世界杯新军佛得角继续着他们令人着迷的旅程。 周六在休斯顿，这支蓝鲨军团0比0逼平沙特阿拉伯，以H组第二的身份闯进32强。接下来，他们将面对卫冕冠军阿根廷。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnw3921483.shtml",
+        "time": "2026-06-27T09:10:24.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "阿根廷若胜佛得角 1/8决赛战澳大利亚与埃及胜者",
+        "summary": " 美加墨世界杯1/16决赛的分区愈发清晰，卫冕冠军阿根廷将在1/16决赛面对新军佛得角，若能晋级，1/8决赛对手则是澳大利亚与埃及的胜者。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnu1441987.shtml",
+        "time": "2026-06-27T09:08:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "贝尔萨执教阿根廷和乌拉圭均在世界杯小组出局",
+        "summary": "美加墨世界杯小组赛，G组的乌拉圭2平1负出局，70岁的老帅贝尔萨第3次带队出征世界杯，但是结果令人失望。 贝尔萨首次带队出战世界杯在2002年...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnw3919931.shtml",
+        "time": "2026-06-27T09:06:53.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "斯卡洛尼：更希望世界杯明天就结束，我们是冠军",
+        "summary": "世界杯小组赛第三轮对阵约旦的比赛前，阿根廷主帅斯卡洛尼出席了赛前新闻发布会并答记者问，以下为他的发言实录。 两个问题可以概括整场新闻发布会，我的这些小伙子们...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnw3919622.shtml",
+        "time": "2026-06-27T09:04:55.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "佛得角主帅：面对阿根廷是种自豪 踢出自己的比赛",
+        "summary": "北京时间6月27日，世界杯小组赛第3轮，佛得角0-0沙特阿拉伯，首次参加世界杯以小组第二的成绩闯入淘汰赛。赛后，佛得角主帅布比斯塔出席了新闻发布会并答记者问...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvns4663814.shtml",
+        "time": "2026-06-27T09:03:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关键看葡萄牙 世界杯12支种子队有9支头名出线",
+        "summary": " 美加墨世界杯小组赛还有最后一个比赛日，在比利时最后一轮有惊无险锁定头名后，美加墨世界杯的12支种子队里，已经有9支球队锁定头名。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnw3917964.shtml",
+        "time": "2026-06-27T09:00:51.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家足球老怪竞彩推荐：芬超精选2串1",
+        "summary": "201，坦山猫vs塞伊奈坦山猫大致是芬超中游左右，上赛季不错，常规赛拿到第2，这个赛季下滑到第8，主客场差别较大，主场尚可，客场薄弱。6个主场，拿下4胜，输2场。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnw3917283.shtml",
+        "time": "2026-06-27T09:00:44.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家朱天佑竞彩推荐：英格兰大胜可期",
+        "summary": "周六、068 世界杯：巴拿马05:00英格兰【球队分析】英格兰队与加纳队同积 4 分，三狮军团凭借净胜球优势暂时位列小组榜首；而巴拿马队则两战皆负积 0 分...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnu1438328.shtml",
+        "time": "2026-06-27T09:00:44.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤竞彩推荐：芬超2串1组合",
+        "summary": "周六202 芬超 赫尔辛基vs库普斯 2026-06-27 22:00赫尔辛基在上赛季芬超联是排名在榜首，在本赛季的表现是略有下滑的，但是球队在本赛季的进攻端的火力上依旧不俗...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnu7140089.shtml",
+        "time": "2026-06-27T09:00:44.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤竞彩推荐：芬超2串1解析",
+        "summary": "周六204 芬超 TPS土尔库vs雅罗 2026-06-28 00:00TPS土尔库是本赛季联赛的升班马的球队，其实球队在开局的表现还是不错的，但是在近期的取得战绩呈现低迷的状态...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnu1438326.shtml",
+        "time": "2026-06-27T09:00:44.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家朱天佑竞彩推荐：克罗地亚赢球",
+        "summary": "周六、67 世界杯：克罗地亚05:00加纳【球队分析】本场比赛赛场气温28℃，阴转多云，湿热环境对跑动消耗影响显著。克罗地亚属于大赛慢热型队伍，积3分排名小组第三...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-27/doc-inievvnu7140088.shtml",
+        "time": "2026-06-27T09:00:44.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-27T11:24:39.531Z"
+  },
+  "analyses": [
+    {
+      "news_title": "大牛股昀冢科技停牌核查",
+      "news_summary": "大牛股昀冢科技停牌核查",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "谁导演了铜冠铜箔股价神话？",
+      "news_summary": "谁导演了铜冠铜箔股价神话？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "GPT-5.6亮相！性能反超竞品Mythos",
+      "news_summary": "GPT-5.6亮相！性能反超竞品Mythos",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "我国发电装机突破40亿千瓦居全球首位",
+      "news_summary": "我国发电装机突破40亿千瓦居全球首位",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "电网等领域投资机会涌现",
+      "news_summary": "电网等领域投资机会涌现",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "苹果、微软同日官宣大涨价(附股)",
+      "news_summary": "苹果、微软同日官宣大涨价(附股)",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "苹果涨价！iPhone未来或跟进",
+      "news_summary": "苹果涨价！iPhone未来或跟进",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "紧随苹果！微软上调Xbox主机售价",
+      "news_summary": "紧随苹果！微软上调Xbox主机售价",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "40家A股公司提示风险！回应热点事项",
+      "news_summary": "40家A股公司提示风险！回应热点事项",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "中船特气停牌核查收官今复牌",
+      "news_summary": "中船特气停牌核查收官今复牌",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "坚守茅台的前千亿基金经理疑调仓",
+      "news_summary": "坚守茅台的前千亿基金经理疑调仓",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "外媒：苹果寻求获准从长鑫存储购买内存芯片",
+      "news_summary": "外媒：苹果寻求获准从长鑫存储购买内存芯片",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国家统计局：2026年1—5月份全国规模以上工业企业利润增长18.8%",
+      "news_summary": "国家统计局：2026年1—5月份全国规模以上工业企业利润增长18.8%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "暴增10000%！A股大牛股突然刷屏！",
+      "news_summary": "暴增10000%！A股大牛股突然刷屏！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球市场：美股三大指数微跌 存储概念全线重挫 国际油价跌超2%",
+      "news_summary": "全球市场：美股三大指数微跌 存储概念全线重挫 国际油价跌超2%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    }
+  ]
+}
