@@ -1,0 +1,583 @@
+{
+  "date": "2026-07-12",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3996.1616,
+        "change": -40.43,
+        "changePercent": -1,
+        "high": 4074.828,
+        "low": 3995.8072,
+        "open": 4031.5373,
+        "prevClose": 4036.5879
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15046.67,
+        "change": -352.06,
+        "changePercent": -2.29,
+        "high": 15581.943,
+        "low": 15046.67,
+        "open": 15480.406,
+        "prevClose": 15398.729
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3842.731,
+        "change": -175.44,
+        "changePercent": -4.37,
+        "high": 4060.533,
+        "low": 3842.347,
+        "open": 4041.859,
+        "prevClose": 4018.174
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4780.7867,
+        "change": -95.53,
+        "changePercent": -1.96,
+        "high": 4906.4898,
+        "low": 4780.7468,
+        "open": 4887.5355,
+        "prevClose": 4876.3125
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 2064.9756,
+        "change": -120.85,
+        "changePercent": -5.53,
+        "high": 2233.5376,
+        "low": 2064.9756,
+        "open": 2190.1784,
+        "prevClose": 2185.8251
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52637.0117,
+        "change": 149.6,
+        "changePercent": 0.29,
+        "high": 52709.75,
+        "low": 52266.8086,
+        "open": null,
+        "prevClose": 52487.4102
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26281.6069,
+        "change": 74.7167,
+        "changePercent": 0.29,
+        "high": 26301.5382,
+        "low": 26009.4919,
+        "open": null,
+        "prevClose": 26206.8902
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7575.3901,
+        "change": 31.75,
+        "changePercent": 0.42,
+        "high": 7579.9302,
+        "low": 7508.1602,
+        "open": null,
+        "prevClose": 7543.6401
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-07-12T11:07:31.398Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "SK海力士每股定价149美元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607093800449975.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "有研硅提醒股价严重异常波动",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607093800462429.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "存储牛股业绩迎10倍增长",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607093800462370.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "利好突袭：存储芯片传来大消息",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607113802561912.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "培育绿色风口 十五五碳达峰行动方案出台",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800489863.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "碳达峰是约束更是机遇",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800493094.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "长征十号乙首飞在即 可回收技术突破？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800631015.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "商业航天航班化倒逼工业母机升级",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800485456.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "3D打印成为商业火箭制造标配",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800484660.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "华为大动作！国内首个NPO光互连MSA启动",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800740090.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "长鑫科技16日开启申购",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800486533.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI芯片龙头燧原科技 科创板IPO注册获批",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607093800429865.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "国金策略：交易端去杠杆 科技股的交易性波动或持续一小段",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607123802650386.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "中泰策略：国内、海外重要科技IPO周期有何变化？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607123802648068.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "兴证策略：大波动背后浮现的积极信号",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607123802645250.html",
+        "time": "2026-07-12T11:07:30.459Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤竞彩推荐：瑞典超2串1",
+        "summary": "周日204 瑞超 马尔默vs哥德堡 2026-07-12 20:00马尔默在近几个赛季都是在中下游的位置徘徊，整体的实力以及表现并没有如愿的提升...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpymz2812580.shtml",
+        "time": "2026-07-12T09:40:15.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤竞彩推荐：挪超2串1",
+        "summary": "周日210 挪超 布兰vs斯达 2026-07-12 23:00推荐：胜比分推荐：2：0！2：1！3：0周日211 挪超 罗森博格vs克里斯蒂 2026-07-12 23:00罗森博格在本赛季挪超联赛上下滑明显...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpyna9589274.shtml",
+        "time": "2026-07-12T09:40:15.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家刘志贤竞彩推荐：安养FC难逃败绩",
+        "summary": "201 k联赛 仁川联VS安养FC仁川联联赛积21分，排名第6；安养FC积20分，排名第7。近期状态，仁川联近六场2胜1平3，进7球丢3球，状态一般偏差；主场3胜0平5负，进9球丢11球...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpucz4649038.shtml",
+        "time": "2026-07-12T09:27:38.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家罗宋解球竞彩推荐：仁川联赢球",
+        "summary": "仁川vs安养基本面解读仁川联坐镇主场接FC安养，韩K联第17轮的中游卡位战，两边差1分排第6和第7，胜者直接把对手按在身后。仁川联16轮6胜3平7负积21分...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpuee9715749.shtml",
+        "time": "2026-07-12T09:27:38.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家大公子竞彩推荐：仁川联主场奏凯",
+        "summary": "两队战绩都有明显特点，主队仁川联主场3胜5负还未有平局，夏窗也补强了金英焕和金延洙，不过夏窗回来的首场比赛，依然未能打开胜利之门，遗憾败给榜首球队。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpuee9683014.shtml",
+        "time": "2026-07-12T07:50:57.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪竞彩专家招募中 篮彩专家符合条件优先录用",
+        "summary": "小炮APP内汇集了行业顶尖的竞彩、足彩专家，我们始终致力于为彩民提供最优质全面的情报分析以及投注方案。为满足更多有识之士想要加入专家团队的愿望...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2021-10-15/doc-iktzqtyu1569479.shtml",
+        "time": "2026-07-12T07:48:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "鲁尼：半决赛更想踢阿根廷 预测决赛英格兰对阵法国",
+        "summary": "韦恩-鲁尼看好英格兰杀入世界杯决赛，但他表示，球队此番艰难险胜挪威一战表现平平，若半决赛无法打出更高水准，英格兰将会止步四强。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpuee9681498.shtml",
+        "time": "2026-07-12T07:45:14.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "阿根廷本届世杯已入15球 队史仅次于1930年世界杯",
+        "summary": " 2026年世界杯1/4决赛，阿根廷对阵瑞士，上半场麦卡利斯特破门为阿根廷取得领先，至此，阿根廷队本届世界杯已打入15球，队史仅次于1930年世界杯。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpuec2904447.shtml",
+        "time": "2026-07-12T07:44:13.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "贝林厄姆连2场世界杯淘汰赛梅开二度 为历史第7人",
+        "summary": " 在今天凌晨进行的世界杯四分之一决赛英格兰队对阵挪威队的比赛中，贝林厄姆在加时赛第93分钟打入进球，帮助英格兰队取得2-1领先。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpucx7816742.shtml",
+        "time": "2026-07-12T07:42:04.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "继巴黎后!皇马成第2支单届世杯两人进6+球的俱乐部",
+        "summary": "在2026年世界杯1/4决赛英格兰对阵挪威的比赛中，贝林厄姆完成梅开二度，个人本届赛事进球数提升至6球。 与此同时，效力于皇马的另一名球员姆巴佩已代表法国队攻入8球。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpuee9679771.shtml",
+        "time": "2026-07-12T07:40:23.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推3中2+昨日私推10中7",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-07-12T07:40:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "姆巴佩、楚阿梅尼参加周六训练 萨利巴、于帕缺席",
+        "summary": " 据RMC报道，法国队在北京时间周六于波士顿附近的本特利大学训练，备战2026年世界杯半决赛对阵西班牙，姆巴佩和楚阿梅尼均已参加训练。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpuec2902362.shtml",
+        "time": "2026-07-12T07:36:45.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "因凡蒂诺:扩军64队在讨论 每个国家梦想参加世界杯",
+        "summary": " 据瑞士媒体blue Sport报道，国际足联主席因凡蒂诺没有排除世界杯继续扩军到64支球队的可能。他表示，这肯定是个话题，世界杯结束后会被拿到相关机构讨论。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpuec2900740.shtml",
+        "time": "2026-07-12T07:33:46.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "法国总统马克龙:法国若进决赛 我将前往纽约支持",
+        "summary": " 据RMC报道，法国总统马克龙在环法自行车赛探班时通过RMC话筒表示，如果法国队闯进7月20日在纽约进行的决赛，他会到场支持球队。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpucz4586977.shtml",
+        "time": "2026-07-12T07:31:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "阿根廷瑞士第2次打世杯加时赛 英德、阿荷次数更多",
+        "summary": " 阿根廷vs瑞士的世界杯1/4决赛正在进行中，双方在90分子时间内打成1-1，比赛进入加时赛，这也是双方第二次在世界杯打加时赛。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-12/doc-inihpuec2897717.shtml",
+        "time": "2026-07-12T07:26:24.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-07-12T11:07:30.460Z"
+  },
+  "analyses": [
+    {
+      "news_title": "SK海力士每股定价149美元",
+      "news_summary": "SK海力士每股定价149美元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "有研硅提醒股价严重异常波动",
+      "news_summary": "有研硅提醒股价严重异常波动",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "存储牛股业绩迎10倍增长",
+      "news_summary": "存储牛股业绩迎10倍增长",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "利好突袭：存储芯片传来大消息",
+      "news_summary": "利好突袭：存储芯片传来大消息",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及半导体。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "培育绿色风口 十五五碳达峰行动方案出台",
+      "news_summary": "培育绿色风口 十五五碳达峰行动方案出台",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "碳达峰是约束更是机遇",
+      "news_summary": "碳达峰是约束更是机遇",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "长征十号乙首飞在即 可回收技术突破？",
+      "news_summary": "长征十号乙首飞在即 可回收技术突破？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "商业航天航班化倒逼工业母机升级",
+      "news_summary": "商业航天航班化倒逼工业母机升级",
+      "affected_industries": [
+        "军工"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 富国中证军工",
+        "161024 富国中证军工指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "3D打印成为商业火箭制造标配",
+      "news_summary": "3D打印成为商业火箭制造标配",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "华为大动作！国内首个NPO光互连MSA启动",
+      "news_summary": "华为大动作！国内首个NPO光互连MSA启动",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "长鑫科技16日开启申购",
+      "news_summary": "长鑫科技16日开启申购",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "AI芯片龙头燧原科技 科创板IPO注册获批",
+      "news_summary": "AI芯片龙头燧原科技 科创板IPO注册获批",
+      "affected_industries": [
+        "半导体",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国金策略：交易端去杠杆 科技股的交易性波动或持续一小段",
+      "news_summary": "国金策略：交易端去杠杆 科技股的交易性波动或持续一小段",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中泰策略：国内、海外重要科技IPO周期有何变化？",
+      "news_summary": "中泰策略：国内、海外重要科技IPO周期有何变化？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "兴证策略：大波动背后浮现的积极信号",
+      "news_summary": "兴证策略：大波动背后浮现的积极信号",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    }
+  ]
+}
