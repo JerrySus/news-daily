@@ -1,0 +1,637 @@
+{
+  "date": "2026-07-16",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3882.4126,
+        "change": -73.17,
+        "changePercent": -1.85,
+        "high": 3940.4505,
+        "low": 3867.6012,
+        "open": 3912.3812,
+        "prevClose": 3955.5781
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14488.654,
+        "change": -290.74,
+        "changePercent": -1.97,
+        "high": 14780.46,
+        "low": 14386.414,
+        "open": 14497.429,
+        "prevClose": 14779.396
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3692.457,
+        "change": -112.25,
+        "changePercent": -2.95,
+        "high": 3796.346,
+        "low": 3658.068,
+        "open": 3710.507,
+        "prevClose": 3804.704
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4698.4344,
+        "change": -88.35,
+        "changePercent": -1.85,
+        "high": 4771.0573,
+        "low": 4673.3503,
+        "open": 4711.532,
+        "prevClose": 4786.7828
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1846.8766,
+        "change": -77.4,
+        "changePercent": -4.02,
+        "high": 1947.2472,
+        "low": 1828.5734,
+        "open": 1869.9362,
+        "prevClose": 1924.2735
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52658.6406,
+        "change": 150.37,
+        "changePercent": 0.29,
+        "high": 52823.9492,
+        "low": 52428.5391,
+        "open": null,
+        "prevClose": 52508.2695
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26269.2272,
+        "change": 162.2194,
+        "changePercent": 0.62,
+        "high": 26316.8139,
+        "low": 26041.1279,
+        "open": null,
+        "prevClose": 26107.0078
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7572.3999,
+        "change": 28.81,
+        "changePercent": 0.38,
+        "high": 7581.5,
+        "low": 7526.9502,
+        "open": null,
+        "prevClose": 7543.5898
+      }
+    ],
+    "sectors": [
+      {
+        "name": "院线",
+        "code": "BK1300",
+        "price": 644.62,
+        "changePercent": 6.42,
+        "change": 38.9
+      },
+      {
+        "name": "影视院线",
+        "code": "BK1222",
+        "price": 3337.69,
+        "changePercent": 5.54,
+        "change": 175.14
+      },
+      {
+        "name": "影视动漫制作",
+        "code": "BK1299",
+        "price": 3332.01,
+        "changePercent": 5.29,
+        "change": 167.29
+      },
+      {
+        "name": "医美耗材",
+        "code": "BK1500",
+        "price": 1449.9,
+        "changePercent": 4.96,
+        "change": 68.48
+      },
+      {
+        "name": "专业连锁Ⅲ",
+        "code": "BK1555",
+        "price": 1295.82,
+        "changePercent": 4.64,
+        "change": 57.46
+      },
+      {
+        "name": "专业连锁Ⅱ",
+        "code": "BK1270",
+        "price": 1295.82,
+        "changePercent": 4.64,
+        "change": 57.46
+      }
+    ],
+    "updatedAt": "2026-07-16T11:29:50.049Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "一批上市公司业绩报喜",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163807893050.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "20家上市券商上半年业绩预喜",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153807766752.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "SpaceX破发！散户压力山大",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163808161758.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "长鑫科技今天申购 中一签能赚多少？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163807936881.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "中一签或赚2万元 长鑫科技今日申购",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163808168629.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "长鑫科技309倍PE是否高估？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153807762720.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "利好来了！手机AI“准生证”获批(附股)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163808045951.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI智能体产业化或加速(附股)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163808167747.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI手机有望打开全产业链增长空间",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163808126631.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "万亿赛道！高层强调高质量推进城市更新",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163808125641.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "央行最新数据！上半年社融规模增量超20万亿元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153807825850.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "长鑫科技：网上发行最终中签率约为0.4714%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163809184076.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "商务部：将根据国内外氦气供需变化适时调整出口管理",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163809004161.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "市场人士：长鑫科技IPO抽血是个“伪命题”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163809002367.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球最大内存接口芯片公司突遭变故 韩国检方突击搜查澜起科技",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607163808974074.html",
+        "time": "2026-07-16T11:29:48.511Z",
+        "category": "finance"
+      },
+      {
+        "title": "Investigation into parking charges for drivers queuing at petrol stations ",
+        "summary": "It's part of a wider crackdown from the consumer regulator into potentially unfair practices by private parking operators.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cnvnyr75r48o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-16T11:12:21.000Z",
+        "category": "general"
+      },
+      {
+        "title": "TikTok faces Ofcom investigation over child age checks",
+        "summary": "It follows a review by the regulator in May that criticised the platform for not being \"safe enough\" for children.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/ce8l1zk9dk9o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-16T11:08:33.000Z",
+        "category": "general"
+      },
+      {
+        "title": "British Steel taken into public ownership to protect 'vital' UK supply",
+        "summary": "The Scunthorpe steelworks has been officially nationalised under new government powers passed this week.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c5y680w62wno?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-16T10:49:14.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Chip giant TSMC pledges another $100bn to expand US production",
+        "summary": "The company says it will create \"high-tech, high-paying jobs\", and raises its total commitment to the US to $265bn.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c62x8ldxr7eo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-16T10:23:00.000Z",
+        "category": "general"
+      },
+      {
+        "title": "公益润边疆 体彩暖民生——彩票公益金深耕伊犁赋能普惠发展",
+        "summary": "7月，中国体育彩票“走近公益——彩票公益金媒体采风团”走进新疆伊宁，对当地彩票公益金资助项目进行走访，深入养老福利、精神障碍康复、社区全民健身...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-16/doc-inihyyvy4457567.shtml",
+        "time": "2026-07-16T10:07:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Who is frontrunner to be the UK's next chancellor?",
+        "summary": "Andy Burnham will be moving into Downing Street next week, and a question remains over who will be his neighbour in Number 11.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c36yj4pn7jdo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-16T10:03:05.000Z",
+        "category": "general"
+      },
+      {
+        "title": "7月16日红王解盘比赛解读：日利纳背水一战",
+        "summary": "欧联：日利纳 vs 哈伊杜克 比赛时间：7月17日 02:30 日利纳全队身价约970万欧元，是斯洛伐克杯冠军得主，上赛季斯伐超22轮11胜7平4负位居中上游...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-16/doc-inihyywc8055939.shtml",
+        "time": "2026-07-16T09:18:16.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "围甲南京棋院专场 江苏体彩3-1山东银丰暂列第四",
+        "summary": "7月16日，2026年中国围棋甲级联赛常规赛第7轮继续在各主场进行；江苏体彩队本轮在南京棋院专场迎战山东银丰队，最终凭借芈昱廷、赵晨宇、陈贤三人的胜利...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-07-16/doc-inihyuqa4515245.shtml",
+        "time": "2026-07-16T09:04:23.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩连续3天公推中比分!关注新方案",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-07-16T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "超级大乐透奖池持续站稳8亿，规则利好惠及广大购彩者",
+        "summary": " 自2026年2月超级大乐透规则调整以来，“奖池达8亿元即上调三至七等奖奖金”的创新机制多次触发，不少购彩者都实实在在拿到了更多奖金。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/lottery/ztc/2026-07-16/doc-inihyuqf8153513.shtml",
+        "time": "2026-07-16T08:54:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "UK economy returns to growth in May",
+        "summary": "The modest growth reverses a slight contraction that had been seen the previous month.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c8xnllq944go?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-16T08:43:28.000Z",
+        "category": "general"
+      },
+      {
+        "title": "2026广东省业巡赛·深圳站 谢宇皓绝杀SWAGGER卫冕",
+        "summary": "7月14日-15日，燕口福杯·2026广东省业余高尔夫球巡回赛·深圳站在深圳隐秀高尔夫俱乐部圆满落幕。谢宇皓在决赛轮交出73杆，两轮成绩150杆，以2杆优势逆转夺冠...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/information/2026-07-16/doc-inihyupy7704448.shtml",
+        "time": "2026-07-16T08:31:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "三位彩民中大乐透二等奖共揽38万 偏爱小额投注",
+        "summary": "幸运从不偏爱投机，美好皆源于理性。近期，河南多地接连传出体彩好运，平顶山鲁山、卫东区及郑州中牟的三位购彩者，先后中得体彩超级大乐透二等奖。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-16/doc-inihyuqe1309229.shtml",
+        "time": "2026-07-16T07:48:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "老彩民6元中双色球598万 机选3注蓝球全部中奖",
+        "summary": "连日来，我省捷报频传，双色球大奖接力棒在三秦大地火热传递，西安彩民再度接棒，机选又中598万元。 7月9日晚，双色球第2026078期开奖，一等奖全国中出15注...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-16/doc-inihyuqf8062694.shtml",
+        "time": "2026-07-16T07:39:20.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "资深彩民刮中福彩40万 端午假期三次购彩中奖",
+        "summary": "福彩好运连连，惊喜花落汉口！6月22日，江岸区42010502福彩站点传来重磅喜讯，资深购彩者李先生（化姓），凭借一张\"好运十倍\"刮刮乐，成功斩获40万元一等奖...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-16/doc-inihyupy7651346.shtml",
+        "time": "2026-07-16T07:37:29.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-07-16T11:29:48.512Z"
+  },
+  "analyses": [
+    {
+      "news_title": "一批上市公司业绩报喜",
+      "news_summary": "一批上市公司业绩报喜",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "20家上市券商上半年业绩预喜",
+      "news_summary": "20家上市券商上半年业绩预喜",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "SpaceX破发！散户压力山大",
+      "news_summary": "SpaceX破发！散户压力山大",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "长鑫科技今天申购 中一签能赚多少？",
+      "news_summary": "长鑫科技今天申购 中一签能赚多少？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中一签或赚2万元 长鑫科技今日申购",
+      "news_summary": "中一签或赚2万元 长鑫科技今日申购",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "长鑫科技309倍PE是否高估？",
+      "news_summary": "长鑫科技309倍PE是否高估？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "利好来了！手机AI“准生证”获批(附股)",
+      "news_summary": "利好来了！手机AI“准生证”获批(附股)",
+      "affected_industries": [
+        "消费电子",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "008888 华夏国证半导体芯片ETF联接",
+        "001475 易方达消费行业",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及消费电子、人工智能。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "AI智能体产业化或加速(附股)",
+      "news_summary": "AI智能体产业化或加速(附股)",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "AI手机有望打开全产业链增长空间",
+      "news_summary": "AI手机有望打开全产业链增长空间",
+      "affected_industries": [
+        "消费电子",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "008888 华夏国证半导体芯片ETF联接",
+        "001475 易方达消费行业",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及消费电子、人工智能。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "万亿赛道！高层强调高质量推进城市更新",
+      "news_summary": "万亿赛道！高层强调高质量推进城市更新",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "央行最新数据！上半年社融规模增量超20万亿元",
+      "news_summary": "央行最新数据！上半年社融规模增量超20万亿元",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "长鑫科技：网上发行最终中签率约为0.4714%",
+      "news_summary": "长鑫科技：网上发行最终中签率约为0.4714%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "商务部：将根据国内外氦气供需变化适时调整出口管理",
+      "news_summary": "商务部：将根据国内外氦气供需变化适时调整出口管理",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "市场人士：长鑫科技IPO抽血是个“伪命题”",
+      "news_summary": "市场人士：长鑫科技IPO抽血是个“伪命题”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球最大内存接口芯片公司突遭变故 韩国检方突击搜查澜起科技",
+      "news_summary": "全球最大内存接口芯片公司突遭变故 韩国检方突击搜查澜起科技",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
