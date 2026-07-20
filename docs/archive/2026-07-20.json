@@ -1,0 +1,618 @@
+{
+  "date": "2026-07-20",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3796.2814,
+        "change": 32.13,
+        "changePercent": 0.85,
+        "high": 3831.6593,
+        "low": 3741.1099,
+        "open": 3791.6616,
+        "prevClose": 3764.1547
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13610.231,
+        "change": -96.65,
+        "changePercent": -0.71,
+        "high": 13972.992,
+        "low": 13342.933,
+        "open": 13869.056,
+        "prevClose": 13706.884
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3443.102,
+        "change": 14.47,
+        "changePercent": 0.42,
+        "high": 3550.594,
+        "low": 3338.213,
+        "open": 3504.116,
+        "prevClose": 3428.63
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4598.3208,
+        "change": 69.23,
+        "changePercent": 1.53,
+        "high": 4628.7985,
+        "low": 4521.1808,
+        "open": 4575.6712,
+        "prevClose": 4529.0953
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1718.6895,
+        "change": 3.29,
+        "changePercent": 0.19,
+        "high": 1776.0733,
+        "low": 1646.3869,
+        "open": 1764.5933,
+        "prevClose": 1715.4044
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52146.4219,
+        "change": -406.55,
+        "changePercent": -0.77,
+        "high": 52610.9688,
+        "low": 51986.7383,
+        "open": null,
+        "prevClose": 52552.9688
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25520.2437,
+        "change": -361.7026,
+        "changePercent": -1.4,
+        "high": 25703.0087,
+        "low": 25250.628,
+        "open": null,
+        "prevClose": 25881.9463
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7457.6899,
+        "change": -76.08,
+        "changePercent": -1.01,
+        "high": 7498.4702,
+        "low": 7431.2598,
+        "open": null,
+        "prevClose": 7533.77
+      }
+    ],
+    "sectors": [
+      {
+        "name": "油气及炼化工程",
+        "code": "BK1572",
+        "price": 1715.42,
+        "changePercent": 8.37,
+        "change": 132.45
+      },
+      {
+        "name": "油服工程",
+        "code": "BK1275",
+        "price": 1825.52,
+        "changePercent": 6.71,
+        "change": 114.78
+      },
+      {
+        "name": "油气开采Ⅲ",
+        "code": "BK1574",
+        "price": 3442.63,
+        "changePercent": 6.51,
+        "change": 210.53
+      },
+      {
+        "name": "油气开采Ⅱ",
+        "code": "BK1276",
+        "price": 3442.63,
+        "changePercent": 6.51,
+        "change": 210.53
+      },
+      {
+        "name": "火力发电",
+        "code": "BK1377",
+        "price": 2482.78,
+        "changePercent": 6.46,
+        "change": 150.6
+      },
+      {
+        "name": "电能综合服务",
+        "code": "BK1373",
+        "price": 3349.95,
+        "changePercent": 6.45,
+        "change": 203.01
+      }
+    ],
+    "updatedAt": "2026-07-20T12:13:07.278Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "Kimi宣布暂停会员开放",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203811891237.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "公募基金看好长鑫科技上市",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203811907164.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "天孚通信业绩最多预增45%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607193811876616.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "证监会今开座谈会 促进市场稳定发展",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203811942763.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "证监会将就稳市场召开专题座谈会",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607193811871440.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "刷屏！大批A股公司 出手回购",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203811886243.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "国家队率先出手护盘 稳市机制护航A股",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203811889342.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国国新、中国诚通增持中国股票资产",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203811885888.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "“国家队”出手增持股票",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203811965497.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "稳定信号出现 五大A股主力联袂力挺",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203811956168.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "证券业回购潮再起 3家券商上限7亿护盘",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203811936098.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "A股又一波业绩利好来了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203811886114.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "证监会召开投资者座谈会听取意见建议：全力维护市场平稳运行",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203813223029.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "国常会听取对服务业扩能提质和“六张网”规划建设督查情况汇报",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203813469519.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "外交部：中美双方就年内元首互动安排保持沟通",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607203813250620.html",
+        "time": "2026-07-20T12:13:05.500Z",
+        "category": "finance"
+      },
+      {
+        "title": "Ryanair profits drop as Iran war puts off passengers and lifts fuel costs",
+        "summary": "The Irish airline said oil prices had increased costs meanwhile Brent crude surpassed $90.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cn8nldwj12jo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-20T10:12:36.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关注微信-狼王荐彩公私推5中4！关注最新信心推荐",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-07-20T09:58:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：冰岛超精选2串1",
+        "summary": "冰岛超 凯夫拉维克VSIA阿克拉内斯 2026-07-21 03:15在本场初步的数据上是对两队平的数据，就两队在近期的整体的表现来看IA阿克拉内斯是处于劣势的...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimzhh4986813.shtml",
+        "time": "2026-07-20T09:31:17.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：瑞典甲罗甲2串1",
+        "summary": "瑞典甲 诺尔比VS松兹瓦尔 2026-07-21 01:00诺尔比是上赛季瑞典排名在第2，也是本赛季瑞典甲的升班马的球队，球队也是时隔一个赛季再次回归瑞典甲的联赛...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimzfz2978670.shtml",
+        "time": "2026-07-20T09:31:17.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家伟哥看球竞彩推荐：卡尔马不败",
+        "summary": "【瑞典超】 | 07-21 01:00 | 87 | 卡尔马 VS 马尔默马尔默不用多介绍，在瑞超就是冠军专业户，常年打欧战，队内射手博海姆14球领跑联赛射手榜，底蕴、球星...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimzha9755413.shtml",
+        "time": "2026-07-20T09:31:17.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "第四届“福田杯”艺术体操精英邀请赛圆满落幕",
+        "summary": "伴随着跃动的旋律与优美的舞姿，备受瞩目的第四届“福田杯”艺术体操精英邀请赛（以下简称“福田杯”）于7月18日在深圳完美落幕。本届赛事汇聚了来自国内外的30支参赛队伍...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/eurythmics/2026-07-20/doc-iniimzfz2967642.shtml",
+        "time": "2026-07-20T09:17:52.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Jobs, benefits and taxes: What Andy Burnham means for your finances",
+        "summary": "The person in charge of the country will change but the financial challenges remain the same.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/crkvj0ngzexo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-20T09:03:48.000Z",
+        "category": "general"
+      },
+      {
+        "title": "胜负彩26094期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德欧冠胜平负胜平负胜平负胜平负1萨巴赫 vs 古比斯1.733.604.001.604.334.801.533.904.751.873.603.9020日09:001.703...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimeas4891004.shtml",
+        "time": "2026-07-20T09:00:33.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26094期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负22日00:00(周三)01 萨巴赫 vs 古比斯1.71半球/一球2.071.534.104.45周一09:001.97半球/一球1.811.743.653...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimeaq8111532.shtml",
+        "time": "2026-07-20T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "7月20日红王解盘比赛解读：佐加顿斯客场强取三分",
+        "summary": "瑞典超：奥尔格里特 vs 佐加顿斯 比赛时间：7月21日01:00 奥尔格里特身价合计约810万欧元，主教练霍姆伯格主打3-4-3阵型，偏重边路推进与身体对抗。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuye9838560.shtml",
+        "time": "2026-07-20T08:36:56.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "东西南北中羽毛球大赛青少年赛鄂尔多斯分站赛收官",
+        "summary": "暑期羽球盛宴落地草原名城。由中国羽毛球协会主办、鄂尔多斯市教育体育局承办的2026年全国东西南北中羽毛球大赛青少年赛内蒙古鄂尔多斯分站赛...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/badmin/2026-07-20/doc-iniimuyh8227044.shtml",
+        "time": "2026-07-20T07:50:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-逍遥红单昨日公推命中！每日公推送稳胆",
+        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4995447.shtml",
+        "time": "2026-07-20T07:44:28.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "雷霆再送一人！多特离队背后的精算账",
+        "summary": "雷霆再送一人！多特离队背后的精算账 俄克拉荷马的夏天比往年更烫手。当所有人的目光还停留在选秀大会的余温里，普雷斯蒂已经在办公室里敲定了新的交易方案。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-20/doc-iniimuyc3012601.shtml",
+        "time": "2026-07-20T07:41:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "状元换落选秀！NBA这笔三方大交易彻底炸锅",
+        "summary": "状元换落选秀！NBA这笔三方大交易彻底炸锅 雷霆老鹰独行侠这波操作什么路数 雷霆、老鹰、独行侠这三家球队凑在一起，把交易市场搅得天翻地覆。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-20/doc-iniimuyc3012604.shtml",
+        "time": "2026-07-20T07:41:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "NBA历史真实命中率榜出炉！约基奇63.6%高居第一",
+        "summary": " 美媒《Stat Defender》公布了NBA历史真实命中率排行榜，统计条件为生涯出手数至少达到10000次，其中约基奇以63.6%高居第一，库里、唐斯和杜兰特紧随其后。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-20/doc-iniimuyk4990948.shtml",
+        "time": "2026-07-20T07:41:58.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-07-20T12:13:05.718Z"
+  },
+  "analyses": [
+    {
+      "news_title": "Kimi宣布暂停会员开放",
+      "news_summary": "Kimi宣布暂停会员开放",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "公募基金看好长鑫科技上市",
+      "news_summary": "公募基金看好长鑫科技上市",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "天孚通信业绩最多预增45%",
+      "news_summary": "天孚通信业绩最多预增45%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "证监会今开座谈会 促进市场稳定发展",
+      "news_summary": "证监会今开座谈会 促进市场稳定发展",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "证监会将就稳市场召开专题座谈会",
+      "news_summary": "证监会将就稳市场召开专题座谈会",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "刷屏！大批A股公司 出手回购",
+      "news_summary": "刷屏！大批A股公司 出手回购",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国家队率先出手护盘 稳市机制护航A股",
+      "news_summary": "国家队率先出手护盘 稳市机制护航A股",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中国国新、中国诚通增持中国股票资产",
+      "news_summary": "中国国新、中国诚通增持中国股票资产",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "“国家队”出手增持股票",
+      "news_summary": "“国家队”出手增持股票",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "稳定信号出现 五大A股主力联袂力挺",
+      "news_summary": "稳定信号出现 五大A股主力联袂力挺",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "证券业回购潮再起 3家券商上限7亿护盘",
+      "news_summary": "证券业回购潮再起 3家券商上限7亿护盘",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "A股又一波业绩利好来了",
+      "news_summary": "A股又一波业绩利好来了",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "证监会召开投资者座谈会听取意见建议：全力维护市场平稳运行",
+      "news_summary": "证监会召开投资者座谈会听取意见建议：全力维护市场平稳运行",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国常会听取对服务业扩能提质和“六张网”规划建设督查情况汇报",
+      "news_summary": "国常会听取对服务业扩能提质和“六张网”规划建设督查情况汇报",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "外交部：中美双方就年内元首互动安排保持沟通",
+      "news_summary": "外交部：中美双方就年内元首互动安排保持沟通",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
