@@ -1,0 +1,581 @@
+{
+  "date": "2026-07-30",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3804.6926,
+        "change": -23.78,
+        "changePercent": -0.62,
+        "high": 3839.3407,
+        "low": 3767.5033,
+        "open": 3812.111,
+        "prevClose": 3828.469
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13285.801,
+        "change": -372.64,
+        "changePercent": -2.73,
+        "high": 13619.032,
+        "low": 13068.558,
+        "open": 13531.069,
+        "prevClose": 13658.443
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3244.618,
+        "change": -134.08,
+        "changePercent": -3.97,
+        "high": 3353.81,
+        "low": 3158.139,
+        "open": 3331.321,
+        "prevClose": 3378.696
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4549.7201,
+        "change": -50.54,
+        "changePercent": -1.1,
+        "high": 4596.2056,
+        "low": 4478.2093,
+        "open": 4566.0467,
+        "prevClose": 4600.2624
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1588.4149,
+        "change": -90.32,
+        "changePercent": -5.38,
+        "high": 1671.5089,
+        "low": 1561.9961,
+        "open": 1653.4672,
+        "prevClose": 1678.7376
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51594.1406,
+        "change": -1153.1801,
+        "changePercent": -2.19,
+        "high": 52674.2109,
+        "low": 51551.1797,
+        "open": null,
+        "prevClose": 52747.3203
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 24442.9419,
+        "change": -433.9703,
+        "changePercent": -1.74,
+        "high": 25054.5271,
+        "low": 24425.3389,
+        "open": null,
+        "prevClose": 24876.9122
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7316.1499,
+        "change": -112.63,
+        "changePercent": -1.52,
+        "high": 7450.8398,
+        "low": 7313.9199,
+        "open": null,
+        "prevClose": 7428.7798
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-07-30T11:48:11.258Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "华锦股份：副总经理被查",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293825421958.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储如预期按兵不动",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303825507175.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "3张反对票主张加息25个基点",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303825571633.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "道指跌超2% 光通信、存储板块下挫",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303825534360.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "三星电子第二季度净利润超预期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303825669441.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "三星电子半导体业务利润增长逾250倍",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303825795380.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "下半年芯片需求将保持强劲",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303825748795.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "盘后涨超8%！微软全年资本支出不变",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303825784847.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "第四季度营收超市场预期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303825520683.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "日线10连跌后 Meta发完财报股价又崩了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303825520743.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "中共中央政治局召开会议 分析研究当前经济形势和经济工作",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303826626131.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "兆易创新、德明利、佰维存储、江波龙深V反弹！什么情况？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303826740827.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "超4500亿元净流入！大量资金借道ETF入市",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303826740010.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "北交所召开公募基金座谈会听取意见建议",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303826878663.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "狂热退潮！全球硬科技直面“黑七月”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607303826875411.html",
+        "time": "2026-07-30T11:48:11.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "Interest rates held as Bank of England says inflation set to rise",
+        "summary": "The Bank also expects the economy to grow more than previously forecast this year, although uncertainties remain because of the Iran war.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-30T11:14:06.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Virtual interviews don't show bosses your personality, says Burnham",
+        "summary": "Interviews online may not allow young people to \"shine\" and communicate their \"passion\", the prime minister says.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c4g4dkr40deo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-30T09:48:21.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推近6中5 关注周四方案",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-07-30T09:40:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Shell profits double as oil prices rise due to Iran war",
+        "summary": "Disruption to global supplies of oil and liquid natural gas through the Strait of Hormuz has pushed up prices.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cpq8n45r5e8o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-30T09:16:29.000Z",
+        "category": "general"
+      },
+      {
+        "title": "男子18元套餐票中大乐透16万 认为中奖纯属偶然",
+        "summary": " 7月1日，体彩超级大乐透第26073期开奖，郑州一家体彩实体店传来喜讯，购彩者刘先生（化姓）中得当期大乐透二等奖，奖金16万余元。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-30/doc-inikqqhm1939218.shtml",
+        "time": "2026-07-30T09:06:46.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "彩民2张票刮中福彩\"多喜乐\"100万:中午吃饭刮中的",
+        "summary": " 7月27日下午，午休时间刚过，重庆市南岸区彩民冉先生（化姓）便来到福彩兑奖大厅，顺利兑领了刮刮乐“多喜乐”30元大奖100万元。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-30/doc-inikqqhm1930317.shtml",
+        "time": "2026-07-30T08:54:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "20年老彩民中大乐透724万 守号+复式两步走",
+        "summary": " 7月25日，体彩大乐透第26083期开奖，当期全国中出8注一等奖，单注奖金721万元。本期我省温州中出1注一等奖，单票奖金724万元。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-30/doc-inikqqhm1925363.shtml",
+        "time": "2026-07-30T08:45:37.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "男子36元中大乐透618万:买彩票很有趣还能做公益",
+        "summary": " 在7月18日开奖的体彩大乐透第26080期，来自扬州的购彩者田先生，凭借一张36元复式票，中得618万余元大奖。近日，他现身省体彩中心兑奖大厅，领走了这份幸运。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-30/doc-inikqqhf1275730.shtml",
+        "time": "2026-07-30T08:42:48.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家小恺说球竞篮推荐：自由王牌防守大战",
+        "summary": "自由和王牌可以说是联盟顶级的宿敌，两大MVP级内线对位，威尔逊vs斯图尔特，作为4届常规赛MVP的威尔逊，无论是内线得分、篮板、护框都是顶级的，只要威尔逊坐镇内线...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-30/doc-inikqqhf1251460.shtml",
+        "time": "2026-07-30T08:13:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：国际图尔库可信",
+        "summary": "38 芬甲 基柏vs查普斯 2026-07-30 23:30推荐：让负比分推荐：1：0！1：1！2：139欧协资格 图尔库国际vs巴萨克赛尔 2026-07-31 00:00两队在本届的欧协资格赛上以平局收尾...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-30/doc-inikqqhm1902566.shtml",
+        "time": "2026-07-30T08:12:33.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家红哥篮球竞篮推荐：天猫节奏看小分",
+        "summary": "8点，wnba，明尼苏达山猫（也叫天猫）vs节奏推荐：186.5小分山猫昨天在主场100-93击败节奏，豪取8连胜。本场比赛山猫新科榜眼秀迈尔斯延续出色的状态，打了31分钟...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-30/doc-inikqqhi5120088.shtml",
+        "time": "2026-07-30T08:11:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家小盼哥竞彩推荐：本菲卡大胜圣加伦",
+        "summary": "本菲卡vs圣加伦这场比赛是欧联杯赛事。本场比赛数据给出的是本菲卡让2球，双方在首回合圣加伦这支球队主场2-1爆冷取胜本菲卡。这场比赛是葡超球队和瑞士超球队的较量...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-30/doc-inikqqhi5120089.shtml",
+        "time": "2026-07-30T08:11:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Burnham says nuclear sub investment will protect UK and boost jobs",
+        "summary": "Speaking ahead of a visit to Barrow-in-Furness, the PM seeks to stress the economic benefits of defence spending.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/crl70x0nxr9o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-30T08:02:17.000Z",
+        "category": "general"
+      },
+      {
+        "title": "鲁尼接到东子电话脸笑开花！湖人4天短训开启",
+        "summary": " 北京时间7月30日，根据ESPN记者戴夫-麦克梅纳明的报道，卢卡-东契奇邀请湖人队友前往自己的家乡斯洛文尼亚参与为期四天的迷你训练营。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-30/doc-inikqqhf1239954.shtml",
+        "time": "2026-07-30T08:02:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "美媒评30队首发排名：76人力压雷霆纽约居首",
+        "summary": "北京时间7月28日，NBA进入休赛期。随着各支球队引援逐渐进入尾声，美媒Bleacher Report评选出NBA新赛季最佳首发阵容排名，其中76人队力压雷霆、尼克斯等豪强排名第一位...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-30/doc-inikqqhm1894803.shtml",
+        "time": "2026-07-30T08:02:08.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-07-30T11:48:11.723Z"
+  },
+  "analyses": [
+    {
+      "news_title": "华锦股份：副总经理被查",
+      "news_summary": "华锦股份：副总经理被查",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美联储如预期按兵不动",
+      "news_summary": "美联储如预期按兵不动",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "3张反对票主张加息25个基点",
+      "news_summary": "3张反对票主张加息25个基点",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及金融。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "道指跌超2% 光通信、存储板块下挫",
+      "news_summary": "道指跌超2% 光通信、存储板块下挫",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "三星电子第二季度净利润超预期",
+      "news_summary": "三星电子第二季度净利润超预期",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "三星电子半导体业务利润增长逾250倍",
+      "news_summary": "三星电子半导体业务利润增长逾250倍",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及半导体。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "下半年芯片需求将保持强劲",
+      "news_summary": "下半年芯片需求将保持强劲",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及半导体。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "盘后涨超8%！微软全年资本支出不变",
+      "news_summary": "盘后涨超8%！微软全年资本支出不变",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "第四季度营收超市场预期",
+      "news_summary": "第四季度营收超市场预期",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "日线10连跌后 Meta发完财报股价又崩了",
+      "news_summary": "日线10连跌后 Meta发完财报股价又崩了",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中共中央政治局召开会议 分析研究当前经济形势和经济工作",
+      "news_summary": "中共中央政治局召开会议 分析研究当前经济形势和经济工作",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "兆易创新、德明利、佰维存储、江波龙深V反弹！什么情况？",
+      "news_summary": "兆易创新、德明利、佰维存储、江波龙深V反弹！什么情况？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "超4500亿元净流入！大量资金借道ETF入市",
+      "news_summary": "超4500亿元净流入！大量资金借道ETF入市",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "北交所召开公募基金座谈会听取意见建议",
+      "news_summary": "北交所召开公募基金座谈会听取意见建议",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "狂热退潮！全球硬科技直面“黑七月”",
+      "news_summary": "狂热退潮！全球硬科技直面“黑七月”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
