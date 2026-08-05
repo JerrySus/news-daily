@@ -1,0 +1,624 @@
+{
+  "date": "2026-08-05",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3878.4296,
+        "change": 56.14,
+        "changePercent": 1.47,
+        "high": 3884.3971,
+        "low": 3815.1217,
+        "open": 3815.1217,
+        "prevClose": 3822.2846
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14144.204,
+        "change": 258.49,
+        "changePercent": 1.86,
+        "high": 14246.383,
+        "low": 13644.835,
+        "open": 13644.835,
+        "prevClose": 13885.711
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3535.143,
+        "change": 46.18,
+        "changePercent": 1.32,
+        "high": 3584.062,
+        "low": 3372.042,
+        "open": 3372.082,
+        "prevClose": 3488.966
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4658.1549,
+        "change": 57.22,
+        "changePercent": 1.24,
+        "high": 4679.8585,
+        "low": 4550.1888,
+        "open": 4550.1888,
+        "prevClose": 4600.9304
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1693.6677,
+        "change": 77.31,
+        "changePercent": 4.78,
+        "high": 1715.2759,
+        "low": 1615.2608,
+        "open": 1615.2608,
+        "prevClose": 1616.3582
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 54085.8789,
+        "change": 907.47,
+        "changePercent": 1.71,
+        "high": 54272.6016,
+        "low": 53641.2109,
+        "open": null,
+        "prevClose": 53178.4102
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26584.993,
+        "change": 671.0974,
+        "changePercent": 2.59,
+        "high": 26679.9092,
+        "low": 26088.0422,
+        "open": null,
+        "prevClose": 25913.8956
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7736.52,
+        "change": 136.02,
+        "changePercent": 1.79,
+        "high": 7758.21,
+        "low": 7629.1001,
+        "open": null,
+        "prevClose": 7600.5
+      }
+    ],
+    "sectors": [
+      {
+        "name": "钨",
+        "code": "BK1625",
+        "price": 8261.08,
+        "changePercent": 9.08,
+        "change": 687.88
+      },
+      {
+        "name": "白银",
+        "code": "BK1616",
+        "price": 4697.94,
+        "changePercent": 8.63,
+        "change": 373.3
+      },
+      {
+        "name": "半导体设备",
+        "code": "BK1326",
+        "price": 47455.82,
+        "changePercent": 8.34,
+        "change": 3651.62
+      },
+      {
+        "name": "半导体材料",
+        "code": "BK1325",
+        "price": 12256.84,
+        "changePercent": 8.33,
+        "change": 942.55
+      },
+      {
+        "name": "贵金属",
+        "code": "BK0732",
+        "price": 2374.12,
+        "changePercent": 7.87,
+        "change": 173.21
+      },
+      {
+        "name": "黄金",
+        "code": "BK1617",
+        "price": 6224.76,
+        "changePercent": 7.64,
+        "change": 441.86
+      }
+    ],
+    "updatedAt": "2026-08-05T11:55:08.981Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "AI短剧市场有多火？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831676555.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "诺和诺德Q2利润超预期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831565025.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "Meta盯上卫星通信！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831560310.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国拟禁止进口中国新型数据中心设备",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831620851.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "人民日报钟声：中美经贸需要“合作清单”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831598422.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "A股算力牛股突然爆单",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831840969.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "直线跳水！SpaceX和AMD遭遇“业绩杀”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831641923.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "SpaceX二季度营收增长92%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831606864.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "AMD第二季度营收115.4亿美元增长50%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831578350.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "高阶自动驾驶强制性国标发布！(附股)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831787248.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "宇树科技全明星朋友圈揭晓",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831594280.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "电子布龙头企业上半年业绩大幅预增",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053831568491.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国拟禁止进口中国产新型光收发模块 外交部回应",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053832716814.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "商务部：如美方执意出台新的对华限制性措施 中方将进一步反制",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053832574244.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国将禁止出口钨废料和电池碎片！一文读懂：影响几何？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053832522252.html",
+        "time": "2026-08-05T11:55:07.480Z",
+        "category": "finance"
+      },
+      {
+        "title": "山海同心体育赋能 教师培训进阶班及运动会举办",
+        "summary": "7月28日至8月2日，中国青少年发展基金会首次将面向乡村孩子的“希望工程·安踏运动会”与面向基层体育教师的“体育课体育教师培训进阶班”合并举办...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhiem1365411.shtml",
+        "time": "2026-08-05T11:33:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Han Feng止步WSOP主赛第五，粉色羽毛成经典",
+        "summary": "北京时间8月5日，2026 WSOP（世界扑克大赛）主赛事决赛桌结束首日争夺。美国职业牌手Han Feng不仅凭借一身粉色羽毛披肩搭配白色开胸衬衫成为全场焦点...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhiei4591249.shtml",
+        "time": "2026-08-05T11:27:34.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "坐拥10位世界前100 捷克网球缘何如此成功？",
+        "summary": " 本周一，当WTA发布最新一期单打世界排名时，一个数字引起了不少网球人的注意：世界前100名女子球员中，来自捷克的球员多达10人。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhicz3545933.shtml",
+        "time": "2026-08-05T10:10:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "陈熠身体不适仍让二追三进16强 林昀儒又止步首轮",
+        "summary": "8月5日，WTT横滨冠军赛继续进行首轮的争夺。国乒的蒯曼3-0战胜印度的巴特拉；陈熠让二追三，3-2逆转战胜韩国的李恩惠，两人均顺利晋级16强。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhicz3545937.shtml",
+        "time": "2026-08-05T10:10:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "3-0横扫晋级！中国女乒22岁王牌闪耀横滨冠军赛",
+        "summary": "8月5日，WTT横滨冠军赛进行了女单1/16决赛，22岁的蒯曼以3比0横扫特殊打法选手玛尼卡·巴特拉，取得开门红。本次横滨冠军赛，孙颖莎和王曼昱缺席比赛，蒯曼、王艺迪...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhicz3545931.shtml",
+        "time": "2026-08-05T10:10:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "淘汰卫冕级大热萨巴伦卡 施耐德豪取连赢十局",
+        "summary": "2026年法网女单1/4决赛上演全场炸裂的超级冷门，头号种子、世界排名第一的萨巴伦卡迎战25号种子施耐德。萨巴伦卡率先拿下首盘且次盘手握赛点优势，却突然遭遇状态崩盘...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhiem1332130.shtml",
+        "time": "2026-08-05T10:10:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "别再觉得国乒稳赢日本小将！周启豪1-3一轮游",
+        "summary": "很多球迷一直有个固有想法：哪怕是国乒非主力、内战名将，打日本年轻球员基本稳拿。但横滨这场球直接推翻这个看法，国内多次赢主力的周启豪...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhicz3545932.shtml",
+        "time": "2026-08-05T10:10:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "优势碾压却被逼入绝境！张本美和3-2死里逃生绝杀",
+        "summary": "谁都没看懂这场队内德比！明明打法克制、手握心理优势，结果差点爆冷出局。 8月5日下午，2026年WTT横滨冠军赛女单首轮迎来日本队内焦点对决...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhicz3545930.shtml",
+        "time": "2026-08-05T10:10:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "从6-1轻松碾压到一轮游 王欣瑜看得人满心憋屈",
+        "summary": "早上八点半开赛的这场多伦多首轮，完整看完，午饭都吃得满心憋屈。 WTA1000多伦多站女单首轮，王欣瑜迎战卡萨金娜。赛前纸面条件完全占优：世界排名41位高于对手的61位...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhiem1332147.shtml",
+        "time": "2026-08-05T10:10:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "伤愈复出连救赛点 商竣程2-1绝杀10号种子创历史",
+        "summary": "谁能提前想到？一场赛前全方位落于下风的对决，被中国00后小将硬生生打成大师赛翻盘名场面。 球迷心里一直有固定看法：久伤停赛、体能存在短板的年轻球员，很难打赢排名...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhiec5149606.shtml",
+        "time": "2026-08-05T10:10:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "西尼亚科娃/汤森德直落两盘 晋级法网女双四强",
+        "summary": "2026年法国网球公开赛女双1/4决赛正式打响，跨国组合西尼亚科娃/汤森德迎战肯彭/克莱派奇组合，双方争夺四强晋级席位。西尼亚科娃与汤森德配合默契...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhiei4559682.shtml",
+        "time": "2026-08-05T10:10:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国女乒1米77王牌大逆转！下一战对决张本美和",
+        "summary": " 2026WTT横滨冠军赛进行了女单1/16决赛，陈熠在0比2落后的情况下完成3比2大逆转杀进16强，她将在1/8决赛对阵同样在本轮3-2获胜的日乒一姐张本美和。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhiem1332128.shtml",
+        "time": "2026-08-05T10:10:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Government to prioritise job creation in awarding public contracts under new rules",
+        "summary": "The changes are part of government efforts to tackle the youth unemployment crisis.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/ckgdmv7elg8o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-05T10:10:02.000Z",
+        "category": "general"
+      },
+      {
+        "title": "李盈莹心脏手术缺席亚锦赛 健康远比赛场成绩重要",
+        "summary": " 刚刚，中国女排传来让人无比揪心的坏消息！核心主攻李盈莹更新社交媒体，自曝心脏出现问题，已经顺利完成手术，目前正在休养恢复。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhiei4557387.shtml",
+        "time": "2026-08-05T10:04:49.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "创历史！上海大师赛82.5万英镑 8位世锦赛冠军同台",
+        "summary": "82.5万英镑总奖金，刷新上海大师赛历史纪录——这不是噱头，是真金白银砸出来的分量。今年的赛场，八位世锦赛冠军扎堆亮相：赵心童、吴宜泽、特鲁姆普、罗伯逊、墨菲...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-05/doc-inimhiem1329828.shtml",
+        "time": "2026-08-05T10:04:49.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-05T11:55:07.482Z"
+  },
+  "analyses": [
+    {
+      "news_title": "AI短剧市场有多火？",
+      "news_summary": "AI短剧市场有多火？",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "诺和诺德Q2利润超预期",
+      "news_summary": "诺和诺德Q2利润超预期",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "Meta盯上卫星通信！",
+      "news_summary": "Meta盯上卫星通信！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国拟禁止进口中国新型数据中心设备",
+      "news_summary": "美国拟禁止进口中国新型数据中心设备",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "人民日报钟声：中美经贸需要“合作清单”",
+      "news_summary": "人民日报钟声：中美经贸需要“合作清单”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "A股算力牛股突然爆单",
+      "news_summary": "A股算力牛股突然爆单",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "直线跳水！SpaceX和AMD遭遇“业绩杀”",
+      "news_summary": "直线跳水！SpaceX和AMD遭遇“业绩杀”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "SpaceX二季度营收增长92%",
+      "news_summary": "SpaceX二季度营收增长92%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "AMD第二季度营收115.4亿美元增长50%",
+      "news_summary": "AMD第二季度营收115.4亿美元增长50%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "高阶自动驾驶强制性国标发布！(附股)",
+      "news_summary": "高阶自动驾驶强制性国标发布！(附股)",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "宇树科技全明星朋友圈揭晓",
+      "news_summary": "宇树科技全明星朋友圈揭晓",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "电子布龙头企业上半年业绩大幅预增",
+      "news_summary": "电子布龙头企业上半年业绩大幅预增",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国拟禁止进口中国产新型光收发模块 外交部回应",
+      "news_summary": "美国拟禁止进口中国产新型光收发模块 外交部回应",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "商务部：如美方执意出台新的对华限制性措施 中方将进一步反制",
+      "news_summary": "商务部：如美方执意出台新的对华限制性措施 中方将进一步反制",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国将禁止出口钨废料和电池碎片！一文读懂：影响几何？",
+      "news_summary": "美国将禁止出口钨废料和电池碎片！一文读懂：影响几何？",
+      "affected_industries": [
+        "新能源"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001298 华夏新能源车龙头",
+        "005827 易方达蓝筹精选"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及新能源。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
