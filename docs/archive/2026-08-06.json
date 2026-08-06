@@ -1,0 +1,621 @@
+{
+  "date": "2026-08-06",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3900.3523,
+        "change": 21.92,
+        "changePercent": 0.57,
+        "high": 3902.0543,
+        "low": 3864.2734,
+        "open": 3864.2734,
+        "prevClose": 3878.4296
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14110.121,
+        "change": -34.08,
+        "changePercent": -0.24,
+        "high": 14252.14,
+        "low": 13922.405,
+        "open": 13981.443,
+        "prevClose": 14144.204
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3515.56,
+        "change": -19.58,
+        "changePercent": -0.55,
+        "high": 3574.406,
+        "low": 3444.358,
+        "open": 3472.146,
+        "prevClose": 3535.143
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4651.3098,
+        "change": -6.85,
+        "changePercent": -0.15,
+        "high": 4675.6455,
+        "low": 4611.0655,
+        "open": 4621.803,
+        "prevClose": 4658.1549
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1701.2916,
+        "change": 7.62,
+        "changePercent": 0.45,
+        "high": 1727.7348,
+        "low": 1651.1078,
+        "open": 1651.1078,
+        "prevClose": 1693.6677
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 54349.1211,
+        "change": 263.24,
+        "changePercent": 0.49,
+        "high": 54744.3281,
+        "low": 54266.1211,
+        "open": null,
+        "prevClose": 54085.8789
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26363.4393,
+        "change": -221.5537,
+        "changePercent": -0.83,
+        "high": 26738.9959,
+        "low": 26348.5085,
+        "open": null,
+        "prevClose": 26584.993
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7723.5498,
+        "change": -12.97,
+        "changePercent": -0.17,
+        "high": 7793.6802,
+        "low": 7720.1699,
+        "open": null,
+        "prevClose": 7736.52
+      }
+    ],
+    "sectors": [
+      {
+        "name": "钨",
+        "code": "BK1625",
+        "price": 8827.22,
+        "changePercent": 6.85,
+        "change": 566.14
+      },
+      {
+        "name": "种子",
+        "code": "BK1518",
+        "price": 3785.86,
+        "changePercent": 6.07,
+        "change": 216.49
+      },
+      {
+        "name": "焦煤",
+        "code": "BK1494",
+        "price": 1223.68,
+        "changePercent": 5.82,
+        "change": 67.31
+      },
+      {
+        "name": "煤炭开采",
+        "code": "BK1250",
+        "price": 1883.77,
+        "changePercent": 5.43,
+        "change": 97.01
+      },
+      {
+        "name": "动力煤",
+        "code": "BK1493",
+        "price": 2417.6,
+        "changePercent": 5.2,
+        "change": 119.48
+      },
+      {
+        "name": "煤炭",
+        "code": "BK0437",
+        "price": 13521.24,
+        "changePercent": 4.88,
+        "change": 628.6
+      }
+    ],
+    "updatedAt": "2026-08-06T11:59:24.383Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "“抗生素牛蛙”后续",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063833210414.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "Anthropic确认组建芯片团队",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053832903832.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "国瓷材料披露2026年半年报",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608053832896614.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "协议接近达成 美方再提“倒计时”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063833202594.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普“一厢情愿”？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063833206133.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊阿接近达成协议 海峡现有两条航道关闭",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063832957385.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "闪迪、西部数据盘后直线跳水！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063833031020.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "净利润暴增12倍！西部数据财报强劲",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063833203373.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "闪迪8份长协+140亿美元回购",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063833203426.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "外资最新潜伏这23股 最强牛股在列",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063833100188.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "创新药迎商业化兑现与出海共振",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063833100861.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "三大上市猪企销售收入同比减少",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063833203587.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "网信办对派拓公司在华销售产品启动网络安全审查",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063833917746.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "宇树科技：本次发行价格150.80元/股 网上申购日为8月10日",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063834005445.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "高盛、摩根大通大幅增持中际旭创H股 多头持仓比例分别升至12.19%和13.72%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063833932821.html",
+        "time": "2026-08-06T11:59:23.212Z",
+        "category": "finance"
+      },
+      {
+        "title": "WTT冠军赛变阵！8月6日陈熠硬碰硬张本美和",
+        "summary": "WTT冠军赛变阵！8月6日陈熠硬碰硬张本美和，央视直播改时间 横滨体育馆的灯光照得人睁不开眼，8月6日的赛程表又换了。国乒男队的几张新面孔在第一轮碰了钉子...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimksmf3783948.shtml",
+        "time": "2026-08-06T10:53:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "周启豪被松岛淘汰！前国乒名将：他占据绝对上风",
+        "summary": " 2026WTT横滨冠军赛，中国选手周启豪1-3输给日本选手松岛辉空，止步男单第一轮，但是前国乒名将程靖淇和闫安都认为他打得很不错。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimksmi0556390.shtml",
+        "time": "2026-08-06T10:53:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "WTT冠军赛横滨打响 陈垣宇能否接招张禹珍？",
+        "summary": "WTT冠军赛横滨打响，男单冷门迭出，陈垣宇能否接招张禹珍？ 6日WTT横滨冠军赛男单赛场，火药味十足。 巴黎奥运会男团亚军卡尔伯格在第一局先下一城的情况下...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimksmi0556392.shtml",
+        "time": "2026-08-06T10:53:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "恭喜女排！恭喜赵勇！最强核心回归 最大短板解决了",
+        "summary": "下周，中国女排即将官宣亚锦赛的参赛名单，相对于其他的球队早早就官宣了参赛球员的名单，中国女排主教练赵勇这边的名单又是迟迟出不来，这样的情况...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimkskx2946131.shtml",
+        "time": "2026-08-06T10:53:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "法温冠军等同遭爆冷！五金花战双打 WTA牵手IMG",
+        "summary": " 每天三分钟，知晓天下网球事。球迷朋友大家好，今天是2026年8月6日星期四，欢迎收听收看由《网球之家》为您提供的新闻午报。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimksmf3783947.shtml",
+        "time": "2026-08-06T10:53:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "WTT横滨冠军赛：陈熠死里逃生 张本美和在等她",
+        "summary": "WTT横滨冠军赛：陈熠死里逃生，张本美和在等她 5号的横滨体育馆，空气里全是胶皮摩擦地板的尖叫。WTT冠军赛女单首轮还没打完，看台上的呼喊声就没停过。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimkskx2946130.shtml",
+        "time": "2026-08-06T10:53:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "7-10落后逆转状态回暖！陈垣宇终破3站首轮游魔咒",
+        "summary": "北京时间8月6日，WTT横滨冠军赛丨男单1/16决赛，陈垣宇3-0横扫西蒙-高茨，三局比分：【11-5,12-10,11-2】。这场比赛21岁的陈垣宇爆冷击败了31岁的西蒙-高茨...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimkskz4549843.shtml",
+        "time": "2026-08-06T10:53:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "遗憾惜败！ATP伯明翰挑战赛 张之臻不敌维尔塔宁",
+        "summary": "2026年ATP CH125伯明翰草地挑战赛火热开打，男单首轮迎来一场焦点对决，从资格赛顺利突围的中国名将张之臻，迎战本站赛事卫冕冠军、芬兰实力派选手维尔塔宁。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimksmi0556393.shtml",
+        "time": "2026-08-06T10:53:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "针对中间位全程碾压！陈幸同横扫晋级横滨冠军赛8强",
+        "summary": "WTT横滨冠军赛女单1/8决赛：普利蒂卡·帕瓦德 vs 陈幸同 首局陈幸同的准备还是可以的，3-1领先。劣势下对手疯狂提速和加质量，双方打成了4平。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimksmf3783946.shtml",
+        "time": "2026-08-06T10:53:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "WTT横滨冠军赛：郑怡静挺进16强 王艺迪迎来硬仗",
+        "summary": "WTT横滨冠军赛：郑怡静挺进16强，王艺迪迎来硬仗 5日晚间的横滨体育馆，WTT冠军赛女单赛场灯光通明。中国台北老将郑怡静站在球台前，对面是罗马尼亚名将萨马拉。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimkskz4549840.shtml",
+        "time": "2026-08-06T10:53:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "WTA大冷门：前世界第一被打0-6 中国金花连输9局",
+        "summary": "WTA今天凌晨结束了多场比赛，安德列娃与高芙成功晋级多伦多站下一轮的争夺，袁悦在华沙站爆冷输球。 米拉・安德列娃重返硬地赛场，耗时54分钟以6-0...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimkskz4546411.shtml",
+        "time": "2026-08-06T10:48:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界冠军2‑3遗憾出局 国乒男单只剩两位选手坚守",
+        "summary": "8月4日晚，日本横滨文化体育馆。 周启豪坐在场边椅子上，拿毛巾盖了盖头。 四局比分打在屏幕上，12-14、9-11、11-9、9-11。 对面那个19岁的日本小将松岛辉空...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimkskx2942699.shtml",
+        "time": "2026-08-06T10:48:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "三局均逆转！向鹏3-1西多伦科晋级横滨冠军赛16强",
+        "summary": "WTT横滨冠军赛男单1/16决赛：向鹏 vs 弗拉基米尔·西多伦科 首局对手针对周鹏中间位打，导致1-3落后。局中向鹏还频繁出现无谓失误，导致2-6被拉开分差。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimksmf3780880.shtml",
+        "time": "2026-08-06T10:48:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "孙颖莎深夜发微博宣布暂别：身体“罢工”了！",
+        "summary": "8月3日晚，北京国家奥林匹克体育中心灯光璀璨，亚运会中国体育代表团领奖装备发布仪式如期举行。王楚钦、王曼昱、黄友政站在C位唱响《亚洲雄风》...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimkskx2942696.shtml",
+        "time": "2026-08-06T10:48:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "WTT美国大满贯男双对决 温瑞博/袁励岑3-1薛飞贾哈",
+        "summary": "2026年WTT美国大满贯赛事火热开打，男双1/16决赛迎来一场极具看点的交锋，国乒新生代组合温瑞博/袁励岑登场作战，对阵薛飞与美国名将贾哈组成的跨国组合。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-06/doc-inimkskz4546409.shtml",
+        "time": "2026-08-06T10:48:08.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-06T11:59:23.213Z"
+  },
+  "analyses": [
+    {
+      "news_title": "“抗生素牛蛙”后续",
+      "news_summary": "“抗生素牛蛙”后续",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "Anthropic确认组建芯片团队",
+      "news_summary": "Anthropic确认组建芯片团队",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国瓷材料披露2026年半年报",
+      "news_summary": "国瓷材料披露2026年半年报",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "协议接近达成 美方再提“倒计时”",
+      "news_summary": "协议接近达成 美方再提“倒计时”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普“一厢情愿”？",
+      "news_summary": "特朗普“一厢情愿”？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊阿接近达成协议 海峡现有两条航道关闭",
+      "news_summary": "伊阿接近达成协议 海峡现有两条航道关闭",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "闪迪、西部数据盘后直线跳水！",
+      "news_summary": "闪迪、西部数据盘后直线跳水！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "净利润暴增12倍！西部数据财报强劲",
+      "news_summary": "净利润暴增12倍！西部数据财报强劲",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "闪迪8份长协+140亿美元回购",
+      "news_summary": "闪迪8份长协+140亿美元回购",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "外资最新潜伏这23股 最强牛股在列",
+      "news_summary": "外资最新潜伏这23股 最强牛股在列",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "创新药迎商业化兑现与出海共振",
+      "news_summary": "创新药迎商业化兑现与出海共振",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "三大上市猪企销售收入同比减少",
+      "news_summary": "三大上市猪企销售收入同比减少",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "网信办对派拓公司在华销售产品启动网络安全审查",
+      "news_summary": "网信办对派拓公司在华销售产品启动网络安全审查",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "宇树科技：本次发行价格150.80元/股 网上申购日为8月10日",
+      "news_summary": "宇树科技：本次发行价格150.80元/股 网上申购日为8月10日",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "高盛、摩根大通大幅增持中际旭创H股 多头持仓比例分别升至12.19%和13.72%",
+      "news_summary": "高盛、摩根大通大幅增持中际旭创H股 多头持仓比例分别升至12.19%和13.72%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
