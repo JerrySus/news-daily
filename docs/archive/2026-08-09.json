@@ -1,0 +1,586 @@
+{
+  "date": "2026-08-09",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3940.0371,
+        "change": 39.68,
+        "changePercent": 1.02,
+        "high": 3940.9347,
+        "low": 3885.6248,
+        "open": 3896.4854,
+        "prevClose": 3900.3523
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14311.008,
+        "change": 200.89,
+        "changePercent": 1.42,
+        "high": 14396.075,
+        "low": 14049.342,
+        "open": 14152.782,
+        "prevClose": 14110.121
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3563.116,
+        "change": 47.56,
+        "changePercent": 1.35,
+        "high": 3613.871,
+        "low": 3507.615,
+        "open": 3537.44,
+        "prevClose": 3515.56
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4694.4365,
+        "change": 43.13,
+        "changePercent": 0.93,
+        "high": 4706.7288,
+        "low": 4649.5763,
+        "open": 4656.0976,
+        "prevClose": 4651.3098
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1744.0236,
+        "change": 42.73,
+        "changePercent": 2.51,
+        "high": 1747.7367,
+        "low": 1686.6608,
+        "open": 1697.3702,
+        "prevClose": 1701.2916
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 54036.9297,
+        "change": 151.83,
+        "changePercent": 0.28,
+        "high": 54094.6484,
+        "low": 53807.9414,
+        "open": null,
+        "prevClose": 53885.1016
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26690.615,
+        "change": 342.2628,
+        "changePercent": 1.3,
+        "high": 26712.6167,
+        "low": 26478.0059,
+        "open": null,
+        "prevClose": 26348.3522
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7757.6401,
+        "change": 47.68,
+        "changePercent": 0.62,
+        "high": 7763.0801,
+        "low": 7719.1899,
+        "open": null,
+        "prevClose": 7709.96
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-08-09T10:28:35.280Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "多地上调！第八代五粮液涨价",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063834145493.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "葛卫东加仓存储龙头兆易创新",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063834184950.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "智能手机告别“高配低价”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063834107995.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "楼市新政力度超预期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608083835847895.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "道指终结日线五连涨",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608073834254568.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储鹰风四起！曝沃什为9月加息敞开大门",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608073834495422.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "这国宣布：禁止铜精矿出口！影响多大？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608073834494342.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普政府禁止钨废料、电池废料出口",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608073834266961.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "磷化铟景气度高涨(附股)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608073834284382.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "DeepSeek等参与 宇树科技战略配售名单",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608063834143196.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "宇树科技王兴兴身家有望超200亿元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202608073834493676.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "宇树科技网上路演于今日举行",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202608073834455915.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "广发策略：再看筹码结构对AI板块的影响",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608093835939243.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "兴证策略：大跌之后如何收复失地 三类典型案例",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608093835928089.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "国信策略：再议科技M顶 科技第二波何时来？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608093835926176.html",
+        "time": "2026-08-09T10:28:35.176Z",
+        "category": "finance"
+      },
+      {
+        "title": "8月9日红王笔记比赛解读：桑托斯残阵难挡强敌",
+        "summary": "联赛：巴西甲 桑托斯 vs 巴拉纳竞技 比赛时间：8月10日05:30 桑托斯全队身价合计约9035万欧，主帅偏好控球型打法，本赛季5胜7平8负仅积22分排在第16位...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-09/doc-inimtiqm8773336.shtml",
+        "time": "2026-08-09T09:54:49.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26102期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德荷甲胜平负胜平负胜平负胜平负1格罗宁根 vs 乌德勒支2.303.252.882.303.502.872.353.502.802.373.502.8007日14:002...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-06/doc-inimkfvm3871839.shtml",
+        "time": "2026-08-09T09:00:30.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26102期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负09日20:30(周日)01 格罗宁根 vs 乌德勒支1.99平手/半球1.792.183.372.72周五14:001.98平手/半球1.802.183.372...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-06/doc-inimkfvp0643913.shtml",
+        "time": "2026-08-09T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推近4中3！还命中3场比分！",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-08-09T08:50:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI能预测彩票中奖号码？NO！",
+        "summary": "近期，一些不法分子打着“AI预测彩票号码，百分百中奖”的幌子，诱导购彩者付费购买所谓“预测服务”，让不少人上当受骗。面对诱惑，请务必警醒：所谓AI预测彩票号码...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-09/doc-inimtchm1874649.shtml",
+        "time": "2026-08-09T08:37:10.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "双色球朋友：这种玩法要注意",
+        "summary": "双色球玩法很多，单式、复式、胆拖。有网友问：什么是复式？我们一起了解双色球的游戏规则。 什么是复式投注 复式投注是指所选号码个数超过单式投注的号码个数...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-09/doc-inimtchp3476702.shtml",
+        "time": "2026-08-09T08:34:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI能预测彩票号码？套路太深，千万别上当！",
+        "summary": "最近，有些商家和自媒体博主盯上AI这个热词，想利用它做点生意，他们推出了一些收费软件，号称能用人工智能算出彩票的下一期中奖号码。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-09/doc-inimtchr5638341.shtml",
+        "time": "2026-08-09T08:26:51.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "福彩的哲学",
+        "summary": " 中国人过年，要贴福字，有的地方还倒着贴，取个“福到了”的口彩。迎春纳福，这是中国人的习俗。但有关幸福的憧憬，则是人类社会共通的心理。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-09/doc-inimtchp8861248.shtml",
+        "time": "2026-08-09T08:17:36.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "一场关于信任的“电商式”体验：从选球箱到公益链",
+        "summary": "作为一名研究电子商务专业老师，我习惯于用“供应链”“信任机制”“用户体验”来解构商业世界。前段时间，我到福彩开奖现场实地观看了一次双色球直播开奖。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-09/doc-inimtchp8859929.shtml",
+        "time": "2026-08-09T08:15:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "第18个全民健身日 全国普拉提公益活动北京站举办",
+        "summary": "8月8日，第18个“全民健身日”，为深入贯彻落实体育强国和健康中国战略，推动全民健身与全民健康深度融合，国家奥林匹克体育中心紧扣“全民健身·践行长征路”主题...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/others/2026-08-09/doc-inimtchm1861562.shtml",
+        "time": "2026-08-09T08:11:50.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "防污损、防高温，请保护好手中彩票",
+        "summary": " 彩票中奖是购彩者的幸运时刻，然而，有些中奖者却因彩票丢失、污损等意外情况，错失奖金，留下遗憾。保护好手中的彩票，是兑奖前的“关键课题”。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-09/doc-inimtchp8858201.shtml",
+        "time": "2026-08-09T08:11:48.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "3认识快乐8（3）",
+        "summary": "1.快乐8，一个号码不中也有奖？ 是的！这是我国唯一一款，一个号码不中也有机会中奖的彩票游戏。“选七”、“选八”、“选九”、“选十”玩法，若投注号码与当期开奖号码全部不同...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-09/doc-inimtchm1860465.shtml",
+        "time": "2026-08-09T08:08:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "认识快乐8（2）",
+        "summary": "1.快乐8是开奖号码最多的彩票游戏吗？ 是的。快乐8游戏每期开奖摇出20个开奖号码，并且，开奖号码比投注号码多。 2.快乐8游戏怎么玩？ 很简单。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-09/doc-inimtchm1858932.shtml",
+        "time": "2026-08-09T08:02:35.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票名家大乐透第26090期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章，严禁各媒体 公众号等转载，违规必究！严惩不贷！] 周横：010309131720272831+010811 袁军师：1012172428303132+081012...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-09/doc-inimtchp3452369.shtml",
+        "time": "2026-08-09T07:37:17.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "读懂双色球① | 福运奖",
+        "summary": "双色球，作为广受欢迎的彩票游戏，陪伴了无数购彩者多年的休闲时光。自2026年第2026014期起，双色球开始执行新规则。其中，新增的“福运奖”成为广大购彩者最为关注的亮点之...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-09/doc-inimtchm1845515.shtml",
+        "time": "2026-08-09T07:35:46.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-09T10:28:35.178Z"
+  },
+  "analyses": [
+    {
+      "news_title": "多地上调！第八代五粮液涨价",
+      "news_summary": "多地上调！第八代五粮液涨价",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "葛卫东加仓存储龙头兆易创新",
+      "news_summary": "葛卫东加仓存储龙头兆易创新",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "智能手机告别“高配低价”",
+      "news_summary": "智能手机告别“高配低价”",
+      "affected_industries": [
+        "消费电子",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "008888 华夏国证半导体芯片ETF联接",
+        "001475 易方达消费行业",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及消费电子、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "楼市新政力度超预期",
+      "news_summary": "楼市新政力度超预期",
+      "affected_industries": [
+        "房地产"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及房地产。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "道指终结日线五连涨",
+      "news_summary": "道指终结日线五连涨",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美联储鹰风四起！曝沃什为9月加息敞开大门",
+      "news_summary": "美联储鹰风四起！曝沃什为9月加息敞开大门",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及金融。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "这国宣布：禁止铜精矿出口！影响多大？",
+      "news_summary": "这国宣布：禁止铜精矿出口！影响多大？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普政府禁止钨废料、电池废料出口",
+      "news_summary": "特朗普政府禁止钨废料、电池废料出口",
+      "affected_industries": [
+        "新能源"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001298 华夏新能源车龙头",
+        "005827 易方达蓝筹精选"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及新能源。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "磷化铟景气度高涨(附股)",
+      "news_summary": "磷化铟景气度高涨(附股)",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "DeepSeek等参与 宇树科技战略配售名单",
+      "news_summary": "DeepSeek等参与 宇树科技战略配售名单",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "宇树科技王兴兴身家有望超200亿元",
+      "news_summary": "宇树科技王兴兴身家有望超200亿元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "宇树科技网上路演于今日举行",
+      "news_summary": "宇树科技网上路演于今日举行",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "广发策略：再看筹码结构对AI板块的影响",
+      "news_summary": "广发策略：再看筹码结构对AI板块的影响",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "兴证策略：大跌之后如何收复失地 三类典型案例",
+      "news_summary": "兴证策略：大跌之后如何收复失地 三类典型案例",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "国信策略：再议科技M顶 科技第二波何时来？",
+      "news_summary": "国信策略：再议科技M顶 科技第二波何时来？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
