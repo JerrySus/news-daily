@@ -1,0 +1,595 @@
+{
+  "date": "2026-08-13",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3926.9648,
+        "change": -19.71,
+        "changePercent": -0.5,
+        "high": 3968.4758,
+        "low": 3924.6418,
+        "open": 3957.1612,
+        "prevClose": 3946.6752
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14289.442,
+        "change": -124.99,
+        "changePercent": -0.87,
+        "high": 14584.3,
+        "low": 14289.011,
+        "open": 14536.479,
+        "prevClose": 14414.427
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3586.043,
+        "change": -16.04,
+        "changePercent": -0.45,
+        "high": 3681.799,
+        "low": 3585.272,
+        "open": 3656.876,
+        "prevClose": 3602.083
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4663.9513,
+        "change": -26.97,
+        "changePercent": -0.57,
+        "high": 4727.2344,
+        "low": 4661.8816,
+        "open": 4716.9748,
+        "prevClose": 4690.9165
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1717.7477,
+        "change": -19.24,
+        "changePercent": -1.11,
+        "high": 1782.7817,
+        "low": 1715.335,
+        "open": 1763.4555,
+        "prevClose": 1736.9912
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 53770.2695,
+        "change": -21.58,
+        "changePercent": -0.04,
+        "high": 53969.3594,
+        "low": 53731.9609,
+        "open": null,
+        "prevClose": 53791.8516
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26588.4881,
+        "change": 143.0419,
+        "changePercent": 0.54,
+        "high": 26688.2403,
+        "low": 26531.9256,
+        "open": null,
+        "prevClose": 26445.4462
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7748.5,
+        "change": 20.3,
+        "changePercent": 0.26,
+        "high": 7766.0098,
+        "low": 7737.9502,
+        "open": null,
+        "prevClose": 7728.2002
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-08-13T10:57:23.672Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "百花医药再发风险提示",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123839472118.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "传智教育紧急提示风险",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133839791393.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "荣耀发布全球首款机器人手机",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123839516250.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "事关货币政策、汇率 央行释放新信号",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123839438894.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "央行：实施好适度宽松货币政策",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://biz.eastmoney.com/a/202608133839798580.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "及时谋划出台务实管用增量政策",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133839567693.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "DeepSeek V4 Pro正式版来了！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133839731078.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "DeepSeek V4 Pro大幅增强Agent能力",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133839555648.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "增强Agent能力 比肩Fable 5",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133839789133.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "“英伟达挑战者”业绩利空来袭",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133839588950.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "黄仁勋推5000亿美元AI融资",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133839751172.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球市场：AI概念大涨 SpaceX涨超9%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133839550496.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "商务部：对原产于印度的进口单模光纤继续征收反倾销税",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840404218.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "黑天鹅突袭！大宗商品集体跳水！日本加息突生大变数",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840399541.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "史上最大IPO要易主了？据称Anthropic将于10月IPO 估值或突破2万亿美元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840399452.html",
+        "time": "2026-08-13T10:57:22.721Z",
+        "category": "finance"
+      },
+      {
+        "title": "读懂双色球① | 福运奖",
+        "summary": "双色球，作为广受欢迎的彩票游戏，陪伴了无数购彩者多年的休闲时光。自2026年第2026014期起，双色球开始执行新规则。其中，新增的“福运奖”成为广大购彩者最为关注的亮点之...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/lottery/faq/2026-08-13/doc-inineqhh4616843.shtml",
+        "time": "2026-08-13T10:48:37.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Twitch users outraged as Amazon uses their content to train AI in opt-out feature",
+        "summary": "Users of the popular streaming platform criticised allowing Amazon to use their data by dafault.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-13T10:39:02.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Zero hours crackdown could cost firms up to £2.9bn a year",
+        "summary": "Labour's employment rights bill crackdown on zero hours contracts could cost businesses up to £2.9bn a year, new official analysis has found.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c0l525k76d0o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-13T10:37:13.000Z",
+        "category": "general"
+      },
+      {
+        "title": "UK economy grows but experts warn of challenging months ahead",
+        "summary": "Hot weather and the men's football World Cup boosted the economy but the Iran war may weigh on growth",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cx2d1gpx2k0o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-13T10:17:56.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推两连红！关注领取最新稳胆",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-08-13T10:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "切勿陷入“购彩误区”",
+        "summary": " “买得越多越容易中”“没中就要翻本”“分析历史数据能预测中奖号码”…… 购彩时，您是否也有过这些想法？小心，这些都是容易陷入的“购彩误区”。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/lottery/faq/2026-08-13/doc-inineiys0018499.shtml",
+        "time": "2026-08-13T09:37:04.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪竞技彩专家招募中 篮彩专家符合条件优先录用",
+        "summary": "小炮APP内汇集了行业顶尖的竞彩、足彩专家，我们始终致力于为彩民提供最优质全面的情报分析以及投注方案。为满足更多有识之士想要加入专家团队的愿望...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-21/doc-iniippii2619457.shtml",
+        "time": "2026-08-13T08:18:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家足球老怪竞彩推荐：欧联二串一",
+        "summary": "6，流浪者vs比亚韦流浪者身价不低，有着1.2亿欧，实力也不弱，为苏超2巨头之一，最近多个赛季都被另外一个巨头凯尔特人压着，屈居第2。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-13/doc-ininecsr3493155.shtml",
+        "time": "2026-08-13T08:09:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家足球老怪竞彩推荐：沙特联+欧联",
+        "summary": "5，利雅青年vs胡巴卡德利雅青年在沙特联中不弱，大致在中上游位置，上赛季不大乐观，只维持在中下游。参考其以往赛季，球队的主场都不算弱，当然，上赛季成绩不理想...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-13/doc-ininecsn4765755.shtml",
+        "time": "2026-08-13T08:09:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关小刀竞彩：解放者杯 米拉索尔抢占先机！",
+        "summary": "【周四009】米拉索尔vs基多体大 米拉索尔上周末的巴甲做客1:3不敌克鲁塞罗，连续三轮的不败势头宣告终结，目前排名积分榜第15位的米拉索尔领先降级区只有1分优势。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-13/doc-ininecss3295827.shtml",
+        "time": "2026-08-13T07:30:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "8月13日红王笔记比赛解读：科林蒂安有望取分",
+        "summary": "解放者杯：罗萨里奥中央 vs 科林蒂安 比赛时间：8月14日 08:30 罗萨里奥中央全队身价合计约5632.5万欧，阿尔米隆执掌4-2-3-1体系...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-13/doc-ininecss3295514.shtml",
+        "time": "2026-08-13T07:29:15.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "45岁邹市明重返拳击赛场，拳王选择重新支棱起来！",
+        "summary": "45岁邹市明官宣年底重返拳击赛场，拳王选择重新支棱起来？背后是创业亏损2亿的财务困境与听从妻子冉莹颖的家庭动力。邹市明曾经集齐全国、亚洲、世锦赛、奥运会...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-13/doc-ininecsn4719600.shtml",
+        "time": "2026-08-13T07:15:01.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "勒克莱尔惊艳银石，登顶F1英国大奖赛",
+        "summary": "2026赛季F1英国大奖赛在经典银石赛道落下帷幕，本场正赛剧情跌宕，成为本赛季最具戏剧性的对决之一。法拉利车手勒克莱尔凭借稳定极致的赛场发挥，全程稳住领跑位置...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-13/doc-ininecsn4719599.shtml",
+        "time": "2026-08-13T07:15:01.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "张本兄妹一个第三一个第四！国乒男前十只剩俩",
+        "summary": "8月10号，国际乒联第33周世界排名出来了。 先说最炸裂的——男单前十，中国队只有两个人。 王楚钦，第一。林诗栋，第六。 没了。 温瑞博第12，向鹏第18，周启豪第27...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-13/doc-ininecsn4719407.shtml",
+        "time": "2026-08-13T07:14:40.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "2.0版本斯瓦泰克来袭！绝境中完成自我救赎！",
+        "summary": " WTA1000多伦多站女单半决赛，斯瓦泰克拒绝被逆转，以6-3 1-6 6-3力克9号种子斯维托丽娜，在与后者本赛季的三次交手中首次获胜，终于打进了今年的首个巡回赛决赛！",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-13/doc-ininecsr3446795.shtml",
+        "time": "2026-08-13T07:14:40.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-13T10:57:22.859Z"
+  },
+  "analyses": [
+    {
+      "news_title": "百花医药再发风险提示",
+      "news_summary": "百花医药再发风险提示",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及医药。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "传智教育紧急提示风险",
+      "news_summary": "传智教育紧急提示风险",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "荣耀发布全球首款机器人手机",
+      "news_summary": "荣耀发布全球首款机器人手机",
+      "affected_industries": [
+        "消费电子",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "008888 华夏国证半导体芯片ETF联接",
+        "001475 易方达消费行业",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及消费电子、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "事关货币政策、汇率 央行释放新信号",
+      "news_summary": "事关货币政策、汇率 央行释放新信号",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "央行：实施好适度宽松货币政策",
+      "news_summary": "央行：实施好适度宽松货币政策",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "及时谋划出台务实管用增量政策",
+      "news_summary": "及时谋划出台务实管用增量政策",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "DeepSeek V4 Pro正式版来了！",
+      "news_summary": "DeepSeek V4 Pro正式版来了！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "DeepSeek V4 Pro大幅增强Agent能力",
+      "news_summary": "DeepSeek V4 Pro大幅增强Agent能力",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "增强Agent能力 比肩Fable 5",
+      "news_summary": "增强Agent能力 比肩Fable 5",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "“英伟达挑战者”业绩利空来袭",
+      "news_summary": "“英伟达挑战者”业绩利空来袭",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "黄仁勋推5000亿美元AI融资",
+      "news_summary": "黄仁勋推5000亿美元AI融资",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球市场：AI概念大涨 SpaceX涨超9%",
+      "news_summary": "全球市场：AI概念大涨 SpaceX涨超9%",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及人工智能。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "商务部：对原产于印度的进口单模光纤继续征收反倾销税",
+      "news_summary": "商务部：对原产于印度的进口单模光纤继续征收反倾销税",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "黑天鹅突袭！大宗商品集体跳水！日本加息突生大变数",
+      "news_summary": "黑天鹅突袭！大宗商品集体跳水！日本加息突生大变数",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及金融。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "史上最大IPO要易主了？据称Anthropic将于10月IPO 估值或突破2万亿美元",
+      "news_summary": "史上最大IPO要易主了？据称Anthropic将于10月IPO 估值或突破2万亿美元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    }
+  ]
+}
