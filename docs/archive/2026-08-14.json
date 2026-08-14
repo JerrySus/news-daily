@@ -1,0 +1,588 @@
+{
+  "date": "2026-08-14",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3927.1764,
+        "change": 0.21,
+        "changePercent": 0.01,
+        "high": 3932.6405,
+        "low": 3903.7048,
+        "open": 3930.0215,
+        "prevClose": 3926.9648
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14354.306,
+        "change": 64.86,
+        "changePercent": 0.45,
+        "high": 14384.178,
+        "low": 14203.995,
+        "open": 14335.409,
+        "prevClose": 14289.442
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3626.296,
+        "change": 40.25,
+        "changePercent": 1.12,
+        "high": 3633.034,
+        "low": 3578.614,
+        "open": 3610.194,
+        "prevClose": 3586.043
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4665.8812,
+        "change": 1.93,
+        "changePercent": 0.04,
+        "high": 4676.7124,
+        "low": 4637.1282,
+        "open": 4672.9752,
+        "prevClose": 4663.9513
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1717.6793,
+        "change": -0.07,
+        "changePercent": 0,
+        "high": 1741.3474,
+        "low": 1690.6753,
+        "open": 1738.8165,
+        "prevClose": 1717.7477
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 53839.9883,
+        "change": 69.72,
+        "changePercent": 0.13,
+        "high": 54049.1406,
+        "low": 53622.4609,
+        "open": null,
+        "prevClose": 53770.2695
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26803.025,
+        "change": 214.5369,
+        "changePercent": 0.81,
+        "high": 26875.5203,
+        "low": 26612.8493,
+        "open": null,
+        "prevClose": 26588.4881
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7798.9902,
+        "change": 50.49,
+        "changePercent": 0.65,
+        "high": 7816.7002,
+        "low": 7763.1802,
+        "open": null,
+        "prevClose": 7748.5
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-08-14T10:54:03.853Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "高争民爆上半年净利润下降53%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840819914.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "德龙汇能凭什么10天拉了6个板",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840772319.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "秦安股份自己“泼冷水”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840767618.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国将对进口无人机及零部件征收关税",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143840872285.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "美股三大指数收涨 标普500指数创新高",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143840861291.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊朗称“完全掌控”海峡",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143841172481.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "DeepSeek涨价！国产AI芯片或迎价值重估",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143840965939.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "DeepSeek不再白菜价？API最高涨11倍",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840744175.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI编程工具打响开源之战？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840768934.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "中芯国际三季度收入预计环比增长2%到4%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143840890948.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "中芯国际华虹宏力二季度业绩齐增",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840755654.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "赵海军：AI配套芯片需求旺盛",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143841189921.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "央行：前七个月社会融资规模增量累计为22.25万亿元 人民币贷款增加10.38万亿元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143841758688.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "四部门发布集成电路企业、工业母机企业非货币性资产交换企业所得税政策",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143841693061.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "广东省首个词元经济专项金融产品“Token贷”在广州海珠发布",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143841738783.html",
+        "time": "2026-08-14T10:54:03.248Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界冠军来了！这场纹枰之约真的火爆了荆楚",
+        "summary": "11日下午，湖北天元棋院二楼正在上演2026中国围棋甲级联赛“武汉大方学校专场”的鲁黔焦点厮杀。 比赛尚未及鸣金，一场更浩大的“对弈”，却已经在一楼大厅激情上演。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-08-14/doc-ininhtfh4098186.shtml",
+        "time": "2026-08-14T09:59:25.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推3连红！私推7中6状态火热",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-08-14T09:50:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26104期欧洲四大机构最新数据(17:00)",
+        "summary": "td {text-align:center;font-size:12px} .t2 td{height:18px;line-height:18px;}     专家推荐 智能预测 彩票首页  胜负彩对阵 威廉 立博365伟德 英冠 胜平负胜平负...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-13/doc-inincnuy3403403.shtml",
+        "time": "2026-08-14T09:01:23.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26104期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负15日03:00(周六)01狼队 vs 布莱克本1.95一球1.831.483.955.00周四09:001.95一球1.831.483.955.00周四17:001...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-13/doc-inincnva0175723.shtml",
+        "time": "2026-08-14T09:01:09.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "US says dozens of countries helped China dodge Trump's tariffs",
+        "summary": "A new US report said China had moved goods through nations with lower tariffs to dodge higher levies.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-14T08:39:46.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关小刀任九：圣埃蒂安里斯本做胆 甘冈埃尔夫斯堡防平",
+        "summary": "【周五004】不伦瑞克vs波鸿 不伦瑞克上赛季和保级附加赛位置的菲尔特以及降级的杜塞尔多夫同分，仅以净胜球的微弱优势堪堪保级。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-14/doc-ininhnxk4157035.shtml",
+        "time": "2026-08-14T08:27:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "西甲周末揭幕！足球老怪30中26超高命中率领衔",
+        "summary": "2026-27赛季西甲联赛大幕将在本周末拉开，揭幕战为8月16日凌晨1:30，由阿拉维斯主场对阵赫塔费。随后塞维利亚、比利亚雷亚尔、西班牙人和马竞等球队相继登场...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-14/doc-ininhnxk4159281.shtml",
+        "time": "2026-08-14T08:23:03.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "8月14日红王笔记比赛解读：埃尔夫斯堡恐难取胜",
+        "summary": "瑞典超：埃尔夫斯堡 vs 瓦斯特拉斯 比赛时间：8月15日 01:00 埃尔夫斯堡全队身价合计约1675万欧，哈姆贝格执掌4-2-3-1体系。近期状态明显走低——近10场仅2胜5平3负...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-14/doc-ininhnxr9384332.shtml",
+        "time": "2026-08-14T08:20:32.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "詹姆斯最值得期待10场大战！76人完整赛程出炉",
+        "summary": "北京时间8月14日，2026-27赛季，费城76人队的比赛将会成为万众瞩目的必看赛事，球队最多拥有34场全美直播场次，与尼克斯、湖人、马刺并列第一。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-14/doc-ininhnxq2597933.shtml",
+        "time": "2026-08-14T08:04:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "定了！森林狼明年3月1日将退役加内特球衣",
+        "summary": "北京时间8月14日，据森林狼随队记者戴恩・摩尔报道，当地时间2027年2月28日（北京时间3月1日），森林狼将在标靶中心主场迎战波士顿凯尔特人...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-14/doc-ininhnxp2865910.shtml",
+        "time": "2026-08-14T08:04:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "威少官宣退役23小时10分钟后 湖人官方一句话祝贺",
+        "summary": " 北京时间8月14日，威少官宣退役23小时10分钟后，湖人官方终于发声，晒出了威少的照片并配文写道：“祝贺你拥有一段传奇生涯。”",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-14/doc-ininhnxk4138488.shtml",
+        "time": "2026-08-14T08:04:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "KD终于发声了！杜兰特长文祝贺前队友威少退役",
+        "summary": "北京时间8月14日，威少昨日宣布退役后，詹姆斯、哈登等前队友纷纷发文祝贺，但杜兰特一直保持沉默。今天，KD终于在社媒上发声，和其他人的寥寥数语不同，杜兰特写了很多...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-14/doc-ininhnxr9370343.shtml",
+        "time": "2026-08-14T08:04:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "ESPN揭秘湖人再次易主！未征询东契奇意见",
+        "summary": "北京时间8月14日，据此前报道，沃尔特将湖人股权出售给风投家乔希・库什纳与前迪士尼首席执行官鲍勃・艾格，本次交易估值125亿美元。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-14/doc-ininhnxk4138486.shtml",
+        "time": "2026-08-14T08:04:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "杜兰特长文致敬威少 雷霆三少仍然是令人难忘的青春",
+        "summary": "杜兰特在个人社媒发长文致敬了在昨天宣布退役的威少。 全文如下👇 “我记得我曾问过助理教练莫·奇克斯，‘什么更难？训练后加练，还是训练前加练？",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-14/doc-ininhnxr9369519.shtml",
+        "time": "2026-08-14T08:03:32.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "哈利伯顿表不满 步行者新赛季困难重重",
+        "summary": "北京时间8月14日，NBA公布了新赛季的赛程，步行者首站是客场对阵鹈鹕，对此哈利伯顿在播客节目中对此表达了不满。对此哈利伯顿如此说道：说出一个和我级别相当的篮球运动员...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-14/doc-ininhnxq2597103.shtml",
+        "time": "2026-08-14T08:03:32.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-14T10:54:03.249Z"
+  },
+  "analyses": [
+    {
+      "news_title": "高争民爆上半年净利润下降53%",
+      "news_summary": "高争民爆上半年净利润下降53%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "德龙汇能凭什么10天拉了6个板",
+      "news_summary": "德龙汇能凭什么10天拉了6个板",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "秦安股份自己“泼冷水”",
+      "news_summary": "秦安股份自己“泼冷水”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国将对进口无人机及零部件征收关税",
+      "news_summary": "美国将对进口无人机及零部件征收关税",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美股三大指数收涨 标普500指数创新高",
+      "news_summary": "美股三大指数收涨 标普500指数创新高",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "伊朗称“完全掌控”海峡",
+      "news_summary": "伊朗称“完全掌控”海峡",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "DeepSeek涨价！国产AI芯片或迎价值重估",
+      "news_summary": "DeepSeek涨价！国产AI芯片或迎价值重估",
+      "affected_industries": [
+        "半导体",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "DeepSeek不再白菜价？API最高涨11倍",
+      "news_summary": "DeepSeek不再白菜价？API最高涨11倍",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "AI编程工具打响开源之战？",
+      "news_summary": "AI编程工具打响开源之战？",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中芯国际三季度收入预计环比增长2%到4%",
+      "news_summary": "中芯国际三季度收入预计环比增长2%到4%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "中芯国际华虹宏力二季度业绩齐增",
+      "news_summary": "中芯国际华虹宏力二季度业绩齐增",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "赵海军：AI配套芯片需求旺盛",
+      "news_summary": "赵海军：AI配套芯片需求旺盛",
+      "affected_industries": [
+        "半导体",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "央行：前七个月社会融资规模增量累计为22.25万亿元 人民币贷款增加10.38万亿元",
+      "news_summary": "央行：前七个月社会融资规模增量累计为22.25万亿元 人民币贷款增加10.38万亿元",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "四部门发布集成电路企业、工业母机企业非货币性资产交换企业所得税政策",
+      "news_summary": "四部门发布集成电路企业、工业母机企业非货币性资产交换企业所得税政策",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "广东省首个词元经济专项金融产品“Token贷”在广州海珠发布",
+      "news_summary": "广东省首个词元经济专项金融产品“Token贷”在广州海珠发布",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
