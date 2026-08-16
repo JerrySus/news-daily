@@ -1,0 +1,585 @@
+{
+  "date": "2026-08-16",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3927.1764,
+        "change": 0.21,
+        "changePercent": 0.01,
+        "high": 3932.6405,
+        "low": 3903.7048,
+        "open": 3930.0215,
+        "prevClose": 3926.9648
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14354.306,
+        "change": 64.86,
+        "changePercent": 0.45,
+        "high": 14384.178,
+        "low": 14203.995,
+        "open": 14335.409,
+        "prevClose": 14289.442
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3626.296,
+        "change": 40.25,
+        "changePercent": 1.12,
+        "high": 3633.034,
+        "low": 3578.614,
+        "open": 3610.194,
+        "prevClose": 3586.043
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4665.8812,
+        "change": 1.93,
+        "changePercent": 0.04,
+        "high": 4676.7124,
+        "low": 4637.1282,
+        "open": 4672.9752,
+        "prevClose": 4663.9513
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1717.6793,
+        "change": -0.07,
+        "changePercent": 0,
+        "high": 1741.3474,
+        "low": 1690.6753,
+        "open": 1738.8165,
+        "prevClose": 1717.7477
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 53732.4102,
+        "change": -107.58,
+        "changePercent": -0.2,
+        "high": 53890.8398,
+        "low": 53673.4688,
+        "open": null,
+        "prevClose": 53839.9883
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26729.1644,
+        "change": -73.8606,
+        "changePercent": -0.28,
+        "high": 26862.1673,
+        "low": 26661.9537,
+        "open": null,
+        "prevClose": 26803.025
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7785.7598,
+        "change": -13.23,
+        "changePercent": -0.17,
+        "high": 7810.0098,
+        "low": 7776.3101,
+        "open": null,
+        "prevClose": 7798.9902
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-08-16T10:17:34.175Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "高争民爆上半年净利润下降53%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840819914.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "德龙汇能凭什么10天拉了6个板",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840772319.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "秦安股份自己“泼冷水”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840767618.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "茅台上半年净利下滑1.95%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608153842242593.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "美股三大指数收涨 标普500指数创新高",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143840861291.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊朗称“完全掌控”海峡",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143841172481.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "DeepSeek涨价！国产AI芯片或迎价值重估",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143840965939.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "DeepSeek不再白菜价？API最高涨11倍",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840744175.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI编程工具打响开源之战？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840768934.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "中芯国际三季度收入预计环比增长2%到4%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143840890948.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "中芯国际华虹宏力二季度业绩齐增",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608133840755654.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "赵海军：AI配套芯片需求旺盛",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608143841189921.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国银河策略：三因素仍是A股定价的关键",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608163842514845.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "光大策略：内外流动性改善 市场或继续震荡修复",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608163842511012.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "兴证策略：当更多景气线索被“看见”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608163842509890.html",
+        "time": "2026-08-16T10:17:33.599Z",
+        "category": "finance"
+      },
+      {
+        "title": "斯巴达勇士赛崇礼云顶站 亚太顶尖勇士齐聚冬奥赛场",
+        "summary": "8月7日至9日、15日至16日，2026斯巴达勇士赛崇礼云顶站在崇礼云顶滑雪公园举行。两周赛事共吸引超过5000名勇士参与。本次赛事涵盖障碍赛...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/others/2026-08-16/doc-ininpfmm7666119.shtml",
+        "time": "2026-08-16T09:30:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家足球老怪竞彩推荐：阿森纳信心取胜",
+        "summary": "11、阿森纳vs曼城自2022英超赛季开始，阿森纳连续拿了3次亚军，在实力上已经足够，且憋着一肚子曲折的阿森纳上赛季实至名归的拿到了英超冠军宝座。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-16/doc-ininpfmm7664706.shtml",
+        "time": "2026-08-16T09:27:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家足球老怪竞彩推荐：莫尔德信心不足",
+        "summary": "------------------------------------------------------------------对场次的信心强度：稳&gt;基本稳&gt;估计稳&gt;建议。（“建议”就是把握偏低）可以搏&gt;考虑搏&gt;搏...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-16/doc-ininpfmn9653458.shtml",
+        "time": "2026-08-16T09:27:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家司徒明远竞彩推荐：梦想守住让分",
+        "summary": "推荐：梦想 -1.5 赢下让分这场东部榜首大战，梦想主场让 1.5 分，门槛极浅，本质是判断谁能赢下这场关键卡位战。狂热目前 22 胜 12 负排名东部第一...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-16/doc-ininpfmk0892301.shtml",
+        "time": "2026-08-16T09:27:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26106期欧洲四大机构最新数据(17:00)",
+        "summary": "td {text-align:center;font-size:12px} .t2 td{height:18px;line-height:18px;}     专家推荐 智能预测 彩票首页  胜负彩对阵 威廉 立博365伟德 英冠 胜平负胜平负...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-13/doc-inincxkw0139162.shtml",
+        "time": "2026-08-16T09:07:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26106期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负16日23:00(周日)01伯恩利 vs 西汉姆联1.78受平手/半球2.002.653.412.20周六14:001.78受平手/半球2.002.653.412...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-13/doc-inincxku3366646.shtml",
+        "time": "2026-08-16T09:07:07.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩私推豪取17中14!公推长线5中4",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-08-16T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-逍遥红单昨日公推命中!私推高效19中13",
+        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4995447.shtml",
+        "time": "2026-08-16T07:00:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家老将推球竞彩推荐：海牙让胜过关",
+        "summary": "002荷甲赛事：海牙VS格罗宁根从赛事基本面与数据逻辑分析，2点看好海牙不败格局，核心分析如下：第一，从基本面来看，海牙作为升班马...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-16/doc-ininnuvs9844971.shtml",
+        "time": "2026-08-16T06:40:29.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家老将推球竞彩推荐：阿森纳难胜曼城",
+        "summary": "近9中8【周日，收官4场，金胆组合信心确实好】昨金胆组合继续拿下红单，本周已连续5天稳定红单中，参考兄弟收的很过瘾，历经多次复盘验证打磨...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-16/doc-ininnuvr7857682.shtml",
+        "time": "2026-08-16T06:40:29.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票名家大乐透第26093期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章，严禁各媒体 公众号等转载，违规必究！严惩不贷！] 高洪宇：07 12 20 22 28 30 31 32 34 + 03 04 05 佘静安：04 07 12 18 25 26 28...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-16/doc-ininnuvp1455935.shtml",
+        "time": "2026-08-16T06:21:51.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "波特兰精英赛舒伯特与尤布领先 张维维T16殷若宁T28",
+        "summary": "北京时间8月16日，索菲娅·舒伯特（Sophia Schubert）星期六在最后三个洞抓到两只小鸟，打出67杆，低于标准杆5杆，在波特兰精英赛上与泰国选手阿皮奇差娅·尤布（Arpichaya...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/lpga/2026-08-16/doc-ininnuvq1075928.shtml",
+        "time": "2026-08-16T06:19:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透近10期周一奖号分布：2字头凤尾连开2期",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-16/doc-ininnuvs9835114.shtml",
+        "time": "2026-08-16T06:17:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "历史上的今天-大乐透8月17日开奖号码汇总",
+        "summary": "大乐透下期开奖是在周一，阳历8月17日，阴历七月初五 以下历史阳历8月17日开奖号码汇总：阳历8月17日开奖号码汇总 以下历史阴历七月初五开奖号码汇总：阴历七月初五开奖号...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-16/doc-ininnuvq1075115.shtml",
+        "time": "2026-08-16T06:16:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透第093期历史同期号码全汇总",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-16/doc-ininnuvr7847273.shtml",
+        "time": "2026-08-16T06:15:50.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-16T10:17:33.601Z"
+  },
+  "analyses": [
+    {
+      "news_title": "高争民爆上半年净利润下降53%",
+      "news_summary": "高争民爆上半年净利润下降53%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "德龙汇能凭什么10天拉了6个板",
+      "news_summary": "德龙汇能凭什么10天拉了6个板",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "秦安股份自己“泼冷水”",
+      "news_summary": "秦安股份自己“泼冷水”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "茅台上半年净利下滑1.95%",
+      "news_summary": "茅台上半年净利下滑1.95%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美股三大指数收涨 标普500指数创新高",
+      "news_summary": "美股三大指数收涨 标普500指数创新高",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "伊朗称“完全掌控”海峡",
+      "news_summary": "伊朗称“完全掌控”海峡",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "DeepSeek涨价！国产AI芯片或迎价值重估",
+      "news_summary": "DeepSeek涨价！国产AI芯片或迎价值重估",
+      "affected_industries": [
+        "半导体",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "DeepSeek不再白菜价？API最高涨11倍",
+      "news_summary": "DeepSeek不再白菜价？API最高涨11倍",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "AI编程工具打响开源之战？",
+      "news_summary": "AI编程工具打响开源之战？",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中芯国际三季度收入预计环比增长2%到4%",
+      "news_summary": "中芯国际三季度收入预计环比增长2%到4%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "中芯国际华虹宏力二季度业绩齐增",
+      "news_summary": "中芯国际华虹宏力二季度业绩齐增",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "赵海军：AI配套芯片需求旺盛",
+      "news_summary": "赵海军：AI配套芯片需求旺盛",
+      "affected_industries": [
+        "半导体",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中国银河策略：三因素仍是A股定价的关键",
+      "news_summary": "中国银河策略：三因素仍是A股定价的关键",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "光大策略：内外流动性改善 市场或继续震荡修复",
+      "news_summary": "光大策略：内外流动性改善 市场或继续震荡修复",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "兴证策略：当更多景气线索被“看见”",
+      "news_summary": "兴证策略：当更多景气线索被“看见”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
