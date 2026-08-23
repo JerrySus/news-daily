@@ -1,0 +1,589 @@
+{
+  "date": "2026-08-23",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3905.2026,
+        "change": 1.48,
+        "changePercent": 0.04,
+        "high": 3912.1314,
+        "low": 3883.787,
+        "open": 3891.1751,
+        "prevClose": 3903.721
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14094.168,
+        "change": 121.39,
+        "changePercent": 0.87,
+        "high": 14132.041,
+        "low": 13866.394,
+        "open": 13935.638,
+        "prevClose": 13972.78
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3545.577,
+        "change": 49.99,
+        "changePercent": 1.43,
+        "high": 3563.059,
+        "low": 3478.517,
+        "open": 3495.113,
+        "prevClose": 3495.589
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4618.8952,
+        "change": 26.14,
+        "changePercent": 0.57,
+        "high": 4628.9996,
+        "low": 4579.2608,
+        "open": 4585.4354,
+        "prevClose": 4592.7504
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1653.5551,
+        "change": 0.58,
+        "changePercent": 0.04,
+        "high": 1675.8225,
+        "low": 1640.6231,
+        "open": 1649.2832,
+        "prevClose": 1652.9721
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 53277.0117,
+        "change": 517.8,
+        "changePercent": 0.98,
+        "high": 53355.9219,
+        "low": 52768.8711,
+        "open": null,
+        "prevClose": 52759.2109
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26180.4547,
+        "change": 113.2891,
+        "changePercent": 0.43,
+        "high": 26269.845,
+        "low": 26049.2952,
+        "open": null,
+        "prevClose": 26067.1656
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7674.3701,
+        "change": 33.21,
+        "changePercent": 0.43,
+        "high": 7697.1099,
+        "low": 7660.0601,
+        "open": null,
+        "prevClose": 7641.1602
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-08-23T10:18:07.442Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "中信证券大手笔分红",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203848150417.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "长江存储IPO辅导完成",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608213848461316.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "美债救市升级？特朗普放狠话",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608223850218842.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "贝森特救市效果“一日游”？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608213848503923.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "贝森特“救市妙方”缘何不灵了？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608213848589143.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普签署备忘录以促进美航天发射",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608213848278445.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "探索商业机器人登陆火星",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608213848504260.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "存储、加密货币概念走强 Moderna跌23%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608213848260831.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "两大巨头共振！CPO赛道高景气延续",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608213848393360.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "数据中心相关供应缺口超50%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608213848504553.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "博通算力融资池据传将加码超600亿",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608213848276829.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "周末要闻汇总：国常会再做部署 适度超前统筹推进新一代通信网建设",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608233850265497.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "阿里拟配售800亿港元新股 全部投入AI建设",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608233850258029.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "英伟达服务器传出涨价消息 涨幅“很多情况下超过15%”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608233850227317.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "周末大利好！1361亿项目集中签约！万亿算力赛道迎来重磅驱动",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608223850209561.html",
+        "time": "2026-08-23T10:18:06.724Z",
+        "category": "finance"
+      },
+      {
+        "title": "Struggling households need more help with bills, energy industry says",
+        "summary": "Industry body Energy UK says the current support for households most in need does not go far enough.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cm2g5x7l4mko?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-23T10:11:21.000Z",
+        "category": "general"
+      },
+      {
+        "title": "CrossCountry cancels UK services after power cut",
+        "summary": "Customers say the disruption to virtually all UK CrossCountry services is the \"worst case scenario\".",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cy9w9y0lz5go?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-23T10:03:28.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Mayors to get powers to overrule local councils on planning decisions",
+        "summary": "Housing minister Matthew Pennycook said the change was \"essential\" for helping mayors \"effectively deliver new homes\".",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cy8m0gxexl4o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-23T10:02:23.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推近5中4！聚焦周日方案",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-08-23T09:35:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26110期欧洲四大机构最新数据(17:00)",
+        "summary": "td {text-align:center;font-size:12px} .t2 td{height:18px;line-height:18px;}     专家推荐 智能预测 彩票首页  胜负彩对阵 威廉 立博365伟德 英超 胜平负胜平负...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-20/doc-ininxvfu2077587.shtml",
+        "time": "2026-08-23T09:01:35.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26110期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负23日21:00(周日)01曼城 vs 伯恩茅斯1.92一球/球半1.921.414.755.25周六14:001.98一球/球半1.861.414.755...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-20/doc-ininxvfu2077406.shtml",
+        "time": "2026-08-23T09:01:01.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "2026怀柔长城马拉松暨扎耶德慈善跑新闻发布会成功举行",
+        "summary": "8月20日下午，2026怀柔长城马拉松暨扎耶德慈善跑新闻发布会在雁栖湖国际会议中心举行。阿联酋驻华大使馆、区委区政府、北京市体育局、北京市田径运动协会...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/athletics/2026-08-23/doc-iniphwys2466772.shtml",
+        "time": "2026-08-23T08:15:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票名家大乐透第26096期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章，严禁各媒体 公众号等转载，违规必究！严惩不贷！] 林洪涛：04 05 11 17 18 23 27 30 33 + 02 06 09 水镜：02 08 13 20 22 26 32 33...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-23/doc-iniphwyw3600098.shtml",
+        "time": "2026-08-23T07:27:38.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透近10期周一奖号分布：后区04和10各开4次",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-23/doc-iniphwys2440107.shtml",
+        "time": "2026-08-23T07:22:20.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "历史上的今天-大乐透8月24日开奖号码汇总",
+        "summary": "大乐透下期开奖是在周一，阳历8月24日，阴历七月十二 以下历史阳历8月24日开奖号码汇总：阳历8月24日开奖号码汇总 以下历史阴历七月十二开奖号码汇总：阴历七月十二开奖号...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-23/doc-iniphsst0618118.shtml",
+        "time": "2026-08-23T07:21:21.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透第096期历史同期号码全汇总",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-23/doc-iniphssu2568423.shtml",
+        "time": "2026-08-23T07:20:51.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "8月23日红王解盘比赛解读：利物浦客场取胜可期",
+        "summary": "英超：纽卡斯尔联vs利物浦 比赛时间：8月23日 23:30 纽卡斯尔联全队身价5.86亿欧，今夏遭遇大失血——主帅埃迪·豪离任，托纳利、吉马良斯、戈登等主力全部离队...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-23/doc-iniphssw6954145.shtml",
+        "time": "2026-08-23T07:18:14.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家老将推球竞彩推荐：江原FC客场不败",
+        "summary": "铁粉福利【周日，最看好的早2场，已经推出，有看好比分、半全场】本周二三四3天笔记给比分全拿下，周一到周五连续5天主单都拿下，周六小波动，3单只拿下1单...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-23/doc-iniphssw6949236.shtml",
+        "time": "2026-08-23T07:04:32.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家方火火竞彩推荐：浦和红钻全身而退",
+        "summary": "002，町田泽维亚VS浦和红钻：主队近期联赛豪取两连胜，加上友谊赛就打出了一波3连胜佳绩，整体表现可以说非常火热，尤其进攻端11个进球的攻势火力十足...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-23/doc-iniphssy3721771.shtml",
+        "time": "2026-08-23T07:04:32.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "精选足篮专家：张然&徐庆功5连红出击周日足彩！",
+        "summary": "北京时间8月23日（周日），今日竞彩开售27场比赛，除早场日韩赛事外，还有英超、西甲等五大联赛赛事，胜负彩第26110期也将于今晚停售。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-23/doc-iniphssy3703762.shtml",
+        "time": "2026-08-23T06:01:14.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-23T10:18:06.726Z"
+  },
+  "analyses": [
+    {
+      "news_title": "中信证券大手笔分红",
+      "news_summary": "中信证券大手笔分红",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "长江存储IPO辅导完成",
+      "news_summary": "长江存储IPO辅导完成",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美债救市升级？特朗普放狠话",
+      "news_summary": "美债救市升级？特朗普放狠话",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "贝森特救市效果“一日游”？",
+      "news_summary": "贝森特救市效果“一日游”？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "贝森特“救市妙方”缘何不灵了？",
+      "news_summary": "贝森特“救市妙方”缘何不灵了？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普签署备忘录以促进美航天发射",
+      "news_summary": "特朗普签署备忘录以促进美航天发射",
+      "affected_industries": [
+        "军工"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 富国中证军工",
+        "161024 富国中证军工指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "探索商业机器人登陆火星",
+      "news_summary": "探索商业机器人登陆火星",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "存储、加密货币概念走强 Moderna跌23%",
+      "news_summary": "存储、加密货币概念走强 Moderna跌23%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "两大巨头共振！CPO赛道高景气延续",
+      "news_summary": "两大巨头共振！CPO赛道高景气延续",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "数据中心相关供应缺口超50%",
+      "news_summary": "数据中心相关供应缺口超50%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "博通算力融资池据传将加码超600亿",
+      "news_summary": "博通算力融资池据传将加码超600亿",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "周末要闻汇总：国常会再做部署 适度超前统筹推进新一代通信网建设",
+      "news_summary": "周末要闻汇总：国常会再做部署 适度超前统筹推进新一代通信网建设",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "阿里拟配售800亿港元新股 全部投入AI建设",
+      "news_summary": "阿里拟配售800亿港元新股 全部投入AI建设",
+      "affected_industries": [
+        "人工智能",
+        "互联网"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接",
+        "164906 交银中证海外中国互联网"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能、互联网。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "英伟达服务器传出涨价消息 涨幅“很多情况下超过15%”",
+      "news_summary": "英伟达服务器传出涨价消息 涨幅“很多情况下超过15%”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "周末大利好！1361亿项目集中签约！万亿算力赛道迎来重磅驱动",
+      "news_summary": "周末大利好！1361亿项目集中签约！万亿算力赛道迎来重磅驱动",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及半导体。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    }
+  ]
+}
