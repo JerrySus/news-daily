@@ -1,0 +1,632 @@
+{
+  "date": "2026-08-31",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3986.298,
+        "change": 34.12,
+        "changePercent": 0.86,
+        "high": 3986.298,
+        "low": 3926.5039,
+        "open": 3926.5312,
+        "prevClose": 3952.179
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14014.997,
+        "change": 61.93,
+        "changePercent": 0.44,
+        "high": 14014.997,
+        "low": 13740.736,
+        "open": 13764.41,
+        "prevClose": 13953.065
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3438.681,
+        "change": 14.28,
+        "changePercent": 0.42,
+        "high": 3438.681,
+        "low": 3359.135,
+        "open": 3367.043,
+        "prevClose": 3424.401
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4625.0862,
+        "change": 15.91,
+        "changePercent": 0.35,
+        "high": 4625.0862,
+        "low": 4557.3457,
+        "open": 4561.9861,
+        "prevClose": 4609.1764
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1684.3873,
+        "change": 22.24,
+        "changePercent": 1.34,
+        "high": 1684.3873,
+        "low": 1620.3611,
+        "open": 1623.2012,
+        "prevClose": 1662.1493
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 53228.4883,
+        "change": -331.5,
+        "changePercent": -0.62,
+        "high": 53462.6016,
+        "low": 53123.6211,
+        "open": null,
+        "prevClose": 53559.9883
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26300.5536,
+        "change": -101.8693,
+        "changePercent": -0.39,
+        "high": 26380.5424,
+        "low": 26249.7712,
+        "open": null,
+        "prevClose": 26402.4229
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7675.7002,
+        "change": -36.06,
+        "changePercent": -0.47,
+        "high": 7697.52,
+        "low": 7665.0601,
+        "open": null,
+        "prevClose": 7711.7598
+      }
+    ],
+    "sectors": [
+      {
+        "name": "视频媒体",
+        "code": "BK1296",
+        "price": 820.86,
+        "changePercent": 20,
+        "change": 136.81
+      },
+      {
+        "name": "文字媒体",
+        "code": "BK1298",
+        "price": 2785.35,
+        "changePercent": 15,
+        "change": 363.29
+      },
+      {
+        "name": "教育运营及其他",
+        "code": "BK1556",
+        "price": 989.23,
+        "changePercent": 10.94,
+        "change": 97.57
+      },
+      {
+        "name": "影视动漫制作",
+        "code": "BK1299",
+        "price": 3578.94,
+        "changePercent": 7.75,
+        "change": 257.35
+      },
+      {
+        "name": "数字媒体",
+        "code": "BK1221",
+        "price": 6557.27,
+        "changePercent": 6.78,
+        "change": 416.37
+      },
+      {
+        "name": "影视院线",
+        "code": "BK1222",
+        "price": 3461.99,
+        "changePercent": 6.69,
+        "change": 217.06
+      }
+    ],
+    "updatedAt": "2026-08-31T17:21:36.830Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "国产AI芯片龙头来了！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608313859567918.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "“三桶油”交出中期答卷",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608303859474684.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "沐曦股份上市后首份半年报",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608303859503869.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊又开火！美军空袭伊朗",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608313859559945.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊朗发射导弹 国际原油高开",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608313859564169.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "局势突变！伊朗向美军基地发射导弹",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608313859563319.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "房地产迎历史性政策“组合拳”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608313859567652.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "房地产基础制度全面改革",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608313859599048.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "房地产基础性制度全面重塑！最新解读",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608303859517627.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "多赚5800亿！A股中报全榜单来了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608303859501114.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "“三桶油” 交出2026年中期答卷",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608303859474684.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "周期板块中报：有色、化工回暖",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608313859541447.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "国常会研究促进招商引资高质量发展有关工作 听取城市地下管网建设情况汇报",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608313860225917.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "商务部等7部门：到2030年社会消费品零售总额达60万亿元左右",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608313860128886.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "工信部：开展人工智能应用服务商培育专项行动",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608313860053225.html",
+        "time": "2026-08-31T17:21:34.068Z",
+        "category": "finance"
+      },
+      {
+        "title": "首都高校校友智力运动联盟成立 首届掼牌友谊赛落幕",
+        "summary": "8月的京城，金风送爽，群贤毕至。29日，“联智聚才·以合致远”首都高校校友智力运动联盟启动仪式暨首届高校校友掼牌友谊赛在耕海大厦隆重举行。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-08-31/doc-iniqfkki7825768.shtml",
+        "time": "2026-08-31T11:19:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "第九届“汉酱杯”全国业余围棋大赛（东部赛区）闭幕",
+        "summary": "8月31日上午，第九届“汉酱杯”全国业余围棋大赛（东部赛区）颁奖仪式在济南南郊宾馆蓝色大厅举行。经过三天七轮的纹枰鏖战，各组座次最终落定：来自上海的陈镱夫8段登顶名手...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-08-31/doc-iniqfkkp7207879.shtml",
+        "time": "2026-08-31T11:15:48.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26115期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德英超胜平负胜平负胜平负胜平负1阿斯顿维拉 vs 阿森纳4.333.501.804.333.501.756.254.101.556.004.101.5030日14:006...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-27/doc-inipttca0924716.shtml",
+        "time": "2026-08-31T09:00:01.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26115期澳盘最新赔率(17:00)",
+        "summary": "备注：澳彩官网尚并未对第26115期足彩14场赛事开出数据，给您带来的不便敬请谅解！ 专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负01日03:00(周二...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-27/doc-inipttav5419352.shtml",
+        "time": "2026-08-31T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "233期万人王快乐8预测奖号：和值分析",
+        "summary": "福彩快乐8第2026232期开奖回顾：0105091114272932364154555761636769717379，其中奖号奇偶比为16：4，大小比为11：9，012路比为7：6：7，四区比为5：4：4：7，和值为854...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-31/doc-iniqfeat8886334.shtml",
+        "time": "2026-08-31T08:59:16.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "233期赵海迪快乐8预测奖号：四区分析",
+        "summary": " 福彩快乐8第2026232期开奖回顾：0105091114272932364154555761636769717379，其中奖号四区比为5：4：4：7，奇偶比为16：4。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-31/doc-iniqfeap4600120.shtml",
+        "time": "2026-08-31T08:59:16.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "233期胖头陀快乐8预测奖号：杀八码推荐",
+        "summary": " 福彩快乐8第2026232期开奖回顾：0105091114272932364154555761636769717379，其中奖号奇偶比为16：4，五区比为5：3：2：5：5，012路比为7：6：7，包含3个重号55、61、79。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-31/doc-iniqfeat8886335.shtml",
+        "time": "2026-08-31T08:59:16.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "233期龙九快乐8预测奖号：十五码推荐",
+        "summary": " 福彩快乐8第2026232期开奖回顾：0105091114272932364154555761636769717379，其中奖号大小比为11：9，012路比为7：6：7，和值为854，跨度为78，奇偶比为16：4。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-31/doc-iniqfeat8886331.shtml",
+        "time": "2026-08-31T08:59:16.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "233期彤彤快乐8预测奖号：十七码推荐",
+        "summary": "福彩快乐8第2026232期开奖回顾：0105091114272932364154555761636769717379，其中奖号奇偶比为16：4，大小比为11：9，四区比为5：4：4：7，012路比为7：6：7...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-31/doc-iniqfear7282760.shtml",
+        "time": "2026-08-31T08:59:16.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "233期万妙仙快乐8预测奖号：复式分析",
+        "summary": " 福彩快乐8第2026232期开出奖号：0105091114272932364154555761636769717379，其中奖号四区比为5：4：4：7,奇偶比为16：4，大小比为11：9，012路比为7：6：7。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-31/doc-iniqfear7282758.shtml",
+        "time": "2026-08-31T08:59:16.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "233期孙山望快乐8预测奖号：凤尾分析",
+        "summary": " 福彩快乐8第2026232期开出奖号：0105091114272932364154555761636769717379，其中奖号012路比为7：6：7，尾数012路比为7：10：3。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-31/doc-iniqfeat8886333.shtml",
+        "time": "2026-08-31T08:59:16.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "233期甜瓜排列三预测奖号：双胆参考",
+        "summary": "上期回顾：体彩排列三第2026232期开出奖号：802，其012路比为1:0:2，奖号012路类型为:202。 排列三上期开出奖号为：802，其直选012路类型为202...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-31/doc-iniqfeap4599911.shtml",
+        "time": "2026-08-31T08:59:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "233期司马千排列三预测奖号：和值推荐",
+        "summary": "开奖回顾：排列三第2026232期开出奖号：802，类型为组六，和值为10，奇偶比为0:3，大小比为1:2，跨度为8。 排列三上期奖号为802，开出奇偶类型为【偶偶偶】...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-31/doc-iniqfeat8886234.shtml",
+        "time": "2026-08-31T08:59:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "233期唐龙排列三预测奖号：和值参考",
+        "summary": "排列三第2026232期奖号为802，奇偶比为0：3，大小比为1：2，和值为10，跨度为8。 体彩排列三历年第233期开出奖号分别为：934、714、832、026、738、534、561、250、422...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-31/doc-iniqfeat8886236.shtml",
+        "time": "2026-08-31T08:59:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "233期秀才排列三预测奖号：组六复式推荐",
+        "summary": "上期回顾：排列三第2026232期开奖号码为802。奖号类型为组六，奇偶比为0:3，大小比为1:2，跨度为8，和值为10。 组选类型判断：排列三近期主要以组六号码为主...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-31/doc-iniqfeat8886232.shtml",
+        "time": "2026-08-31T08:59:00.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-31T17:21:34.430Z"
+  },
+  "analyses": [
+    {
+      "news_title": "国产AI芯片龙头来了！",
+      "news_summary": "国产AI芯片龙头来了！",
+      "affected_industries": [
+        "半导体",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "“三桶油”交出中期答卷",
+      "news_summary": "“三桶油”交出中期答卷",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "沐曦股份上市后首份半年报",
+      "news_summary": "沐曦股份上市后首份半年报",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美伊又开火！美军空袭伊朗",
+      "news_summary": "美伊又开火！美军空袭伊朗",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊朗发射导弹 国际原油高开",
+      "news_summary": "伊朗发射导弹 国际原油高开",
+      "affected_industries": [
+        "军工"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 富国中证军工",
+        "161024 富国中证军工指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "局势突变！伊朗向美军基地发射导弹",
+      "news_summary": "局势突变！伊朗向美军基地发射导弹",
+      "affected_industries": [
+        "军工"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 富国中证军工",
+        "161024 富国中证军工指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "房地产迎历史性政策“组合拳”",
+      "news_summary": "房地产迎历史性政策“组合拳”",
+      "affected_industries": [
+        "房地产"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及房地产。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "房地产基础制度全面改革",
+      "news_summary": "房地产基础制度全面改革",
+      "affected_industries": [
+        "房地产"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及房地产。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "房地产基础性制度全面重塑！最新解读",
+      "news_summary": "房地产基础性制度全面重塑！最新解读",
+      "affected_industries": [
+        "房地产"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及房地产。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "多赚5800亿！A股中报全榜单来了",
+      "news_summary": "多赚5800亿！A股中报全榜单来了",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "“三桶油” 交出2026年中期答卷",
+      "news_summary": "“三桶油” 交出2026年中期答卷",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "周期板块中报：有色、化工回暖",
+      "news_summary": "周期板块中报：有色、化工回暖",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "国常会研究促进招商引资高质量发展有关工作 听取城市地下管网建设情况汇报",
+      "news_summary": "国常会研究促进招商引资高质量发展有关工作 听取城市地下管网建设情况汇报",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "商务部等7部门：到2030年社会消费品零售总额达60万亿元左右",
+      "news_summary": "商务部等7部门：到2030年社会消费品零售总额达60万亿元左右",
+      "affected_industries": [
+        "消费"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 易方达消费行业",
+        "002001 华夏回报"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及消费。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "工信部：开展人工智能应用服务商培育专项行动",
+      "news_summary": "工信部：开展人工智能应用服务商培育专项行动",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
