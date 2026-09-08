@@ -1,0 +1,575 @@
+{
+  "date": "2026-09-08",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3940.5509,
+        "change": 7.85,
+        "changePercent": 0.2,
+        "high": 3951.3221,
+        "low": 3925.7198,
+        "open": 3935.5479,
+        "prevClose": 3932.6992
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13703.208,
+        "change": -71.71,
+        "changePercent": -0.52,
+        "high": 13843.923,
+        "low": 13655.835,
+        "open": 13782.861,
+        "prevClose": 13774.915
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3359.716,
+        "change": -38.97,
+        "changePercent": -1.15,
+        "high": 3418.485,
+        "low": 3346.714,
+        "open": 3394.346,
+        "prevClose": 3398.681
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4558.7371,
+        "change": -16.29,
+        "changePercent": -0.36,
+        "high": 4587.7257,
+        "low": 4546.3055,
+        "open": 4575.9905,
+        "prevClose": 4575.0245
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1590.9954,
+        "change": -24.54,
+        "changePercent": -1.52,
+        "high": 1624.6876,
+        "low": 1585.1236,
+        "open": 1614.1876,
+        "prevClose": 1615.5305
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52814.0508,
+        "change": -600.2,
+        "changePercent": -1.12,
+        "high": 53110.4492,
+        "low": 52797.5703,
+        "open": null,
+        "prevClose": 53414.25
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26381.1612,
+        "change": -125.8289,
+        "changePercent": -0.47,
+        "high": 26542.1361,
+        "low": 26364.1923,
+        "open": null,
+        "prevClose": 26506.9901
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7683.5,
+        "change": -35.1,
+        "changePercent": -0.45,
+        "high": 7717.8101,
+        "low": 7681.6899,
+        "open": null,
+        "prevClose": 7718.6001
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-09-08T14:04:19.253Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "六连板龙版传媒紧急澄清",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609073866984533.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "长鑫科技释放景气信号",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083867149519.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "好想来、鸣鸣很忙致歉",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609073866996321.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "3.8万亿！工信部：有序部署智算集群",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609073866977064.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "经济日报金观平：开辟国产芯片新路径",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083867162082.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "险资权益配置创历史新高",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083867403352.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "麒麟9050 Pro首发落地 韬定律量产兑现",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083867270269.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "华为小米折叠屏同日上新 苹果发布在即",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083867059815.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "苹果史上最贵新机要来了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083867264273.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "“黑天鹅”突袭！德国传来大消息",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083867184697.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球第二产糖国产量或大降17%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083867173992.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "概率超90%！A股黑马板块迎来爆发",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083867283029.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "李强主持国务院第二十一次专题学习：坚持以人为本高质量推进城市更新",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083868212968.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "中东突发！沙特多处能源设施遭袭 胡塞武装：沙特“没有安全之地”！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083868023122.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "多部门印发通知 扩大灵活就业人员等群体基本医保参保规模",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083868001439.html",
+        "time": "2026-09-08T14:04:18.369Z",
+        "category": "finance"
+      },
+      {
+        "title": "Borrowers expecting mortgage rates to drop have hopes dashed",
+        "summary": "Major lenders have raised rates on new deals in recent days, leaving many borrowers needing to make a decision.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c770v7y63r0o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-08T13:20:51.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Canada braces for prolonged trade war as counter-tariffs on US take effect",
+        "summary": "The tariffs will apply to $20bn worth of American products, jeopardising the stability of the world's largest bilateral trading relationship.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-08T12:23:22.000Z",
+        "category": "general"
+      },
+      {
+        "title": "迎来全新赛道布局 2026环广西公路自行车世预赛定档",
+        "summary": "9月8日，2026环广西公路自行车世界巡回赛（以下简称“2026环广西世巡赛”）新闻发布会在南宁举行。亚洲自行车联合会公路委员会主席、中国自行车运动协会副秘书长韩峰...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/roadbike/2026-09-08/doc-inircmes6053940.shtml",
+        "time": "2026-09-08T12:01:21.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "农心杯首局杨鼎新对阵福冈航太朗 9日14:30杨舟解说",
+        "summary": "9月8日，第28届农心杯世界围棋团体锦标赛首轮抽签仪式在北京举行。经过抽签揭幕战由中国杨鼎新九段迎战日本福冈航太朗八段。9日14：30，抖音‘棋牌大师’直播间...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-09-08/doc-inircmeq9270328.shtml",
+        "time": "2026-09-08T11:48:49.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Argentina to file criminal case against oil company operating in Falklands",
+        "summary": "The move comes days after President Javier Milei stepped up Argentina's claims of sovereignty over the Falklands.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c8jd14glvneo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-08T11:09:54.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关注微信-狼王荐彩长期保持高命中!关注最新方案",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-09-08T10:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "9月11日-17日足彩赛程：7期停售！亚冠亚运入围",
+        "summary": "北京时间2026年9月8日，国家体彩中心公布了2026年9月11日-9月17的足彩赛程，其中9月11日（周五）、9月12日（周六）、9月13日（周日）、9月14日（周一）、9月15日（周二）...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-08/doc-inircews9312478.shtml",
+        "time": "2026-09-08T09:50:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "UK's third-biggest taxpayer to leave for Greece",
+        "summary": "Chris Rokos plans to open an office in Athens, reports say, and was ranked third in the Sunday Times's list of the UK's top taxpayers.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cvgynjlzk8zo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-08T09:33:35.000Z",
+        "category": "general"
+      },
+      {
+        "title": "足彩伤停：费内巴切主力中场停赛 莱比锡失3主力",
+        "summary": "胜负彩第26121期由欧冠、英联赛杯和葡超赛事组成。欧冠赛场，费耶诺德中后场伤员较多，利物浦失主力前锋埃基蒂克，费内巴切主力中场贡多齐因累积黄牌停赛...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-08/doc-inircmeu4524267.shtml",
+        "time": "2026-09-08T09:29:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI will cure cancer in our lifetime, claims boss of UK chip giant",
+        "summary": "Arm Holding's chief executive Rene Haas says artificial intelligence will find a solution to the disease.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c0m39g7xzevo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-08T09:17:48.000Z",
+        "category": "general"
+      },
+      {
+        "title": "[小炮APP]竞彩情报：赫尔城6员大将本场伤缺",
+        "summary": "桑德兰（主队） 有利情报 1. 本场比赛桑德兰坐拥主场之利，虽然赫尔城新赛季状态超预期，但在双方都可能进行阵容轮换的情况下，桑德兰凭借更为齐整的阵容与杯赛主场之势...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-08/doc-inirceww9445582.shtml",
+        "time": "2026-09-08T09:05:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]竞彩情报：贝蒂斯迎来三大主力复出",
+        "summary": "里尔（主队） 有利情报 1. 本场比赛里尔坐拥主场之利，面对实力接近且有核心缺阵的皇家贝蒂斯，凭借主场之势与新赛季不败的火热状态...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-08/doc-inircewu6030645.shtml",
+        "time": "2026-09-08T09:05:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]竞彩情报：波尔图近14个欧战主场输1场",
+        "summary": "波尔图（主队） 有利情报 1. 波尔图本场迎来近3个赛季以来首次欧冠正赛亮相，这也是球队第28次参加欧冠，参赛次数在葡萄牙球队中位居前列。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-08/doc-inircews9258093.shtml",
+        "time": "2026-09-08T09:05:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]竞彩情报：比利亚雷亚尔场均丢2球",
+        "summary": "多特蒙德（主队） 有利情报 1. 自2024-2025赛季欧冠完成改制以来，多特蒙德在近两个赛季的欧冠首轮比赛中保持不败，取得1胜1平的成绩，整体开局表现较为稳健。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-08/doc-inircews9258095.shtml",
+        "time": "2026-09-08T09:05:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]竞彩情报：吉达国民主力中卫德米拉尔复出",
+        "summary": "胡拜尔库迪西亚（主队） 有利情报 1. 胡拜尔库迪西亚在夏窗截止前再次完成4笔引援，进一步充实了阵容。球队以800万欧元签下萨松姆体育19岁潜力后卫迪亚巴特...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-08/doc-inirceww9445581.shtml",
+        "time": "2026-09-08T09:05:00.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-09-08T14:04:18.371Z"
+  },
+  "analyses": [
+    {
+      "news_title": "六连板龙版传媒紧急澄清",
+      "news_summary": "六连板龙版传媒紧急澄清",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "长鑫科技释放景气信号",
+      "news_summary": "长鑫科技释放景气信号",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "好想来、鸣鸣很忙致歉",
+      "news_summary": "好想来、鸣鸣很忙致歉",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "3.8万亿！工信部：有序部署智算集群",
+      "news_summary": "3.8万亿！工信部：有序部署智算集群",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "经济日报金观平：开辟国产芯片新路径",
+      "news_summary": "经济日报金观平：开辟国产芯片新路径",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "险资权益配置创历史新高",
+      "news_summary": "险资权益配置创历史新高",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "麒麟9050 Pro首发落地 韬定律量产兑现",
+      "news_summary": "麒麟9050 Pro首发落地 韬定律量产兑现",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "华为小米折叠屏同日上新 苹果发布在即",
+      "news_summary": "华为小米折叠屏同日上新 苹果发布在即",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "苹果史上最贵新机要来了",
+      "news_summary": "苹果史上最贵新机要来了",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "“黑天鹅”突袭！德国传来大消息",
+      "news_summary": "“黑天鹅”突袭！德国传来大消息",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球第二产糖国产量或大降17%",
+      "news_summary": "全球第二产糖国产量或大降17%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "概率超90%！A股黑马板块迎来爆发",
+      "news_summary": "概率超90%！A股黑马板块迎来爆发",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "李强主持国务院第二十一次专题学习：坚持以人为本高质量推进城市更新",
+      "news_summary": "李强主持国务院第二十一次专题学习：坚持以人为本高质量推进城市更新",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中东突发！沙特多处能源设施遭袭 胡塞武装：沙特“没有安全之地”！",
+      "news_summary": "中东突发！沙特多处能源设施遭袭 胡塞武装：沙特“没有安全之地”！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "多部门印发通知 扩大灵活就业人员等群体基本医保参保规模",
+      "news_summary": "多部门印发通知 扩大灵活就业人员等群体基本医保参保规模",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    }
+  ]
+}
