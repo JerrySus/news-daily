@@ -1,0 +1,575 @@
+{
+  "date": "2026-09-09",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3951.5068,
+        "change": 10.96,
+        "changePercent": 0.28,
+        "high": 3958.1171,
+        "low": 3933.4692,
+        "open": 3943.9221,
+        "prevClose": 3940.5509
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13723.322,
+        "change": 20.11,
+        "changePercent": 0.15,
+        "high": 13788.942,
+        "low": 13625.119,
+        "open": 13788.942,
+        "prevClose": 13703.208
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3354.969,
+        "change": -4.75,
+        "changePercent": -0.14,
+        "high": 3398.222,
+        "low": 3327.137,
+        "open": 3398.222,
+        "prevClose": 3359.716
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4572.5995,
+        "change": 13.86,
+        "changePercent": 0.3,
+        "high": 4581.9039,
+        "low": 4548.363,
+        "open": 4578.5125,
+        "prevClose": 4558.7371
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1580.0588,
+        "change": -10.94,
+        "changePercent": -0.69,
+        "high": 1609.7023,
+        "low": 1573.0329,
+        "open": 1608.1978,
+        "prevClose": 1590.9954
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52378.9492,
+        "change": -407.12,
+        "changePercent": -0.77,
+        "high": 52707.8984,
+        "low": 52375.9414,
+        "open": null,
+        "prevClose": 52786.0703
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26361.9645,
+        "change": -59.4481,
+        "changePercent": -0.22,
+        "high": 26366.5595,
+        "low": 26288.165,
+        "open": null,
+        "prevClose": 26421.4126
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7653.5601,
+        "change": -19.96,
+        "changePercent": -0.26,
+        "high": 7660.6802,
+        "low": 7646.9102,
+        "open": null,
+        "prevClose": 7673.52
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-09-09T14:06:35.011Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "苹果新CEO迎来首秀",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093868480174.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "诺华制药遭遇重大挫败",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083868383469.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "江波龙港股“破发”！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083868346041.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "国务院专题学习定调城市更新",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093868668115.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "多地鼓励高校租购存量商品房",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093868490619.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "超强厄尔尼诺逼近：尿素日涨百元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093868479619.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "7天6板！多只大牛股紧急公告",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093868521828.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "7天6板龙版传媒停牌核查！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083868357551.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "8天5板、4连板 多只大牛股紧急公告",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609083868289044.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "凌晨全线跳水！美军发动袭击",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093868581163.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国调整对加拿大部分产品从价关税适用范围",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093868548510.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "商务部新闻发言人就美发布中国人工智能企业对美蒸馏活动相关网络安全公告答问",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093869573775.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "消息称DeepSeek拟登陆科创板 聘请中信证券筹备IPO",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093869264162.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "9月9日晚间上市公司利好消息一览(附名单)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093869521917.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "苹果十余年来最重磅发布会：首款折叠iPhone即将亮相 新CEO首秀登场",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093869165933.html",
+        "time": "2026-09-09T14:06:33.611Z",
+        "category": "finance"
+      },
+      {
+        "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+        "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-09T12:36:59.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Petrol prices rise by 5p over a week as Iran war sends oil higher",
+        "summary": "A litre of unleaded now costs 167.17p which is the biggest weekly increase since April, data shows.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cj4jwlx77lro?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-09T12:20:40.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Learner drivers still forced to wait months to book tests",
+        "summary": "The Driver and Vehicle Standards Agency had been given a target to reduce average wait times to seven weeks.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cx2z421xe0zo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-09T11:57:34.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关注微信-狼王荐彩昨日公推擒皇马比分!私推9中7",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-09-09T09:59:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "赋能体育强国 绘就惠民新景——《中国体育彩票2025年社会责任报告》透视",
+        "summary": "近日，《中国体育彩票2025年社会责任报告》正式对外发布。这是中国体育彩票（以下简称体彩）连续第9年发布社会责任报告，也是国家体育总局体育彩票管理中心联合各省...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-09/doc-inirfqcq8890752.shtml",
+        "time": "2026-09-09T09:28:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "携手赴新程 购彩共守护——解读《中国体育彩票2025社会责任报告》",
+        "summary": "8月22日，“1+31”《中国体育彩票2025社会责任报告》（以下简称《报告》）正式发布。这是中国体育彩票连续第9年发布社会责任报告，也是连续第6次以“1+31”全系统矩阵形式亮相...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-09/doc-inirfqcs5656401.shtml",
+        "time": "2026-09-09T09:23:48.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪专家7天7擒双色球大乐透头奖！豪揽5583万",
+        "summary": "近期，新浪专家在双色球、大乐透和快乐8分析中均有亮眼表现！一周内命中7注头奖，其中擒4注双色球一等、擒2注大乐透一等和1注快乐8选九头奖，另外还有百万级二等...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-09/doc-inirfqcs5663351.shtml",
+        "time": "2026-09-09T09:17:53.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "开门红！农心杯杨鼎新胜福冈航太朗 白山水杯曹大元险胜日将",
+        "summary": "来源：东盟棋院官网 9月9日，第28届农心辛拉面杯世界围棋团体锦标赛与第四届农心白山水杯世界围棋元老最强战第一阶段在北京韩国文化院同步打响揭幕战。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-09-09/doc-inirfqcu3699800.shtml",
+        "time": "2026-09-09T09:06:56.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26121期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德欧冠胜平负胜平负胜平负胜平负1巴萨 vs 费耶诺德1.147.5017.001.227.0011.001.187.5015.001.109.5018.0008日14:001...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-07/doc-iniqyeue6428463.shtml",
+        "time": "2026-09-09T09:00:01.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26121期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负10日00:45(周四)01 巴萨 vs 费耶诺德1.90两球半/三球1.881.0111.0023.00周二14:002.01三球1.831.0113.0025...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-07/doc-iniqyeua9655395.shtml",
+        "time": "2026-09-09T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关小刀任九：巴萨巴黎拜仁做胆 阿森纳曼联防平",
+        "summary": "【周三005】特温特vs特尔斯达 荷甲新赛季开赛以来，特温特开局战绩起伏不定，首轮出师不利不敌海伦芬，随后主场3:1力克兹沃勒、客场4:1大胜坎布尔，上轮2:2战平格罗宁根...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-09/doc-inirfivw8634342.shtml",
+        "time": "2026-09-09T08:56:54.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关小刀竞彩：英联杯焦点 切尔西奏凯晋级！",
+        "summary": "【周三011】切尔西vs利兹联 英超新赛季三轮战罢，切尔西斩获2胜1负，先后击败富勒姆、不赖顿，但在上轮客场1:2不敌阿森纳，遭遇赛季首场失利...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-09/doc-inirfivw8633591.shtml",
+        "time": "2026-09-09T08:56:17.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家清风看球竞彩推荐：中国女篮解读",
+        "summary": "23：45，女篮世界杯，中国VS波多黎各（主队）推荐：中国-8.5（竞彩让分主负）中国女篮在最新的实力榜上排名第7，中国女篮小组赛2胜1负位列D组第二，顺利拿到附加赛名额...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-09/doc-inirfivs8951738.shtml",
+        "time": "2026-09-09T08:17:51.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家足球老怪竞彩推荐：全北现代取胜",
+        "summary": "------------------------------------------------------------------对场次的信心强度：稳&gt;基本稳&gt;估计稳&gt;建议。（“建议”就是把握偏低）可以搏&gt;考虑搏&gt;搏...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-09/doc-inirfivu5724284.shtml",
+        "time": "2026-09-09T08:17:51.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤竞彩推荐：韩职重心推荐",
+        "summary": "韩职 江原FCvs全北现代 2026-09-09 18:30江原FC在上赛季是排名在第6，在本赛季韩职联赛的表现还是不错的，在上轮联赛的客场以3比0零封了安养非fc...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-09/doc-inirfivs8951736.shtml",
+        "time": "2026-09-09T08:17:51.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-09-09T14:06:36.563Z"
+  },
+  "analyses": [
+    {
+      "news_title": "苹果新CEO迎来首秀",
+      "news_summary": "苹果新CEO迎来首秀",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "诺华制药遭遇重大挫败",
+      "news_summary": "诺华制药遭遇重大挫败",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "江波龙港股“破发”！",
+      "news_summary": "江波龙港股“破发”！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国务院专题学习定调城市更新",
+      "news_summary": "国务院专题学习定调城市更新",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "多地鼓励高校租购存量商品房",
+      "news_summary": "多地鼓励高校租购存量商品房",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "超强厄尔尼诺逼近：尿素日涨百元",
+      "news_summary": "超强厄尔尼诺逼近：尿素日涨百元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "7天6板！多只大牛股紧急公告",
+      "news_summary": "7天6板！多只大牛股紧急公告",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "7天6板龙版传媒停牌核查！",
+      "news_summary": "7天6板龙版传媒停牌核查！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "8天5板、4连板 多只大牛股紧急公告",
+      "news_summary": "8天5板、4连板 多只大牛股紧急公告",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "凌晨全线跳水！美军发动袭击",
+      "news_summary": "凌晨全线跳水！美军发动袭击",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美国调整对加拿大部分产品从价关税适用范围",
+      "news_summary": "美国调整对加拿大部分产品从价关税适用范围",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "商务部新闻发言人就美发布中国人工智能企业对美蒸馏活动相关网络安全公告答问",
+      "news_summary": "商务部新闻发言人就美发布中国人工智能企业对美蒸馏活动相关网络安全公告答问",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "消息称DeepSeek拟登陆科创板 聘请中信证券筹备IPO",
+      "news_summary": "消息称DeepSeek拟登陆科创板 聘请中信证券筹备IPO",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "9月9日晚间上市公司利好消息一览(附名单)",
+      "news_summary": "9月9日晚间上市公司利好消息一览(附名单)",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "苹果十余年来最重磅发布会：首款折叠iPhone即将亮相 新CEO首秀登场",
+      "news_summary": "苹果十余年来最重磅发布会：首款折叠iPhone即将亮相 新CEO首秀登场",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}
