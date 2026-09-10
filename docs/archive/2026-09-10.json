@@ -1,0 +1,581 @@
+{
+  "date": "2026-09-10",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3934.4036,
+        "change": -17.1,
+        "changePercent": -0.43,
+        "high": 3949.2549,
+        "low": 3927.3472,
+        "open": 3939.0948,
+        "prevClose": 3951.5068
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13617.67,
+        "change": -105.65,
+        "changePercent": -0.77,
+        "high": 13713.875,
+        "low": 13585.598,
+        "open": 13641.181,
+        "prevClose": 13723.322
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3338.422,
+        "change": -16.55,
+        "changePercent": -0.49,
+        "high": 3368.733,
+        "low": 3308.705,
+        "open": 3324.333,
+        "prevClose": 3354.969
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4548.3898,
+        "change": -24.21,
+        "changePercent": -0.53,
+        "high": 4569.8328,
+        "low": 4533.6586,
+        "open": 4550.1865,
+        "prevClose": 4572.5995
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1569.2182,
+        "change": -10.84,
+        "changePercent": -0.69,
+        "high": 1588.0025,
+        "low": 1562.338,
+        "open": 1569.4613,
+        "prevClose": 1580.0588
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52077.9219,
+        "change": -302.74,
+        "changePercent": -0.58,
+        "high": 52291.8516,
+        "low": 52062.8516,
+        "open": null,
+        "prevClose": 52380.6602
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26036.7137,
+        "change": -216.6261,
+        "changePercent": -0.83,
+        "high": 26100.3597,
+        "low": 25979.5355,
+        "open": null,
+        "prevClose": 26253.3398
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7583.4399,
+        "change": -52.92,
+        "changePercent": -0.69,
+        "high": 7603.3398,
+        "low": 7580.0601,
+        "open": null,
+        "prevClose": 7636.3599
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-09-10T14:01:08.622Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "燧原科技周五登陆科创板",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093869520751.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "侨银股份跨界“卖算力”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093869630896.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "301390筹划控制权变更",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609103869662021.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "苹果首款折叠屏手机iPhone Duo亮相",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609103869727256.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "史上最贵的苹果重磅发布（附股）",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609103869806791.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "顶配26499元！A股供应商回应",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609103869732770.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "重磅发布会今日举行 央行等出席",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609103869944186.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "重要发布会事关金融强国建设",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609103869718992.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "A股热点前瞻丨布油破100美元大关",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609103869954662.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "超20只A股提示风险 请投资者审慎决策",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093869607479.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "DeepSeek概念或迎多重催化",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609103869834623.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "铜价新高背后：上游矿企扩产提速难",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609093869637541.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "《金融强国建设“十五五”规划》正式出台",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609103870514176.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "商务部：中美正就300亿美元对等降税框架安排进行磋商",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609103870513919.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "美股三大指数下跌 国际油价大涨 美油盘中升破每桶100美元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609103870813653.html",
+        "time": "2026-09-10T14:01:08.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "Air traffic chaos and compensation: 'Shutdown cost us more than £1,000' ",
+        "summary": "Flight disruption has ruined holidays and left passengers sleeping on airport floors - so what are their rights?",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cy9znljypnjo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-10T13:34:17.000Z",
+        "category": "general"
+      },
+      {
+        "title": "五战三捷！许敬龙71杆登顶2026浙江业巡赛第五站",
+        "summary": "五战三捷！许敬龙71杆登顶“广道杯”2026浙江省业余高尔夫球巡回赛第五站成就赛季三冠王 秋风渐朗，绿茵逐光，高球赴约，知己相逢！",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/industry/2026-09-10/doc-inirkcsq2716776.shtml",
+        "time": "2026-09-10T13:07:10.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "England's mayors to get power to impose tourist tax",
+        "summary": "Hospitality leaders warn the uncapped levy would risk jobs and push prices up for families holidaying in England.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c3wjnv3z8nxo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-10T12:33:48.000Z",
+        "category": "general"
+      },
+      {
+        "title": "2026年第一届“雄安杯”全国青少年围棋公开赛补充通知",
+        "summary": "2026年第一届“雄安杯”全国青少年围棋公开赛将于9月30日至10月4日在河北省雄安新区雄安会展中心（雄安新区容城县容东金湖南街503号）举办，其中9月30日报到...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-09-10/doc-inirixks2769036.shtml",
+        "time": "2026-09-10T10:16:03.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Primark finally set to launch home deliveries",
+        "summary": "The retailer launches the service four years after making its first foray into internet shopping.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c89jdl0j5x4o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-10T10:02:26.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关小刀竞彩：葡超独苗 布拉加做客奏凯！",
+        "summary": "【周四006】阿马多拉vs布拉加 新赛季四轮战罢，阿马多拉取得1胜3平的不败战绩，整体状态较上赛季实现质的提升，球队本赛季最大的亮点在于进攻端，目前已经斩获9粒进球...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-10/doc-iniritau2888457.shtml",
+        "time": "2026-09-10T09:54:59.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "农心杯杨鼎新胜安成浚迎两连胜 元老赛曹大元负金荣三",
+        "summary": "来源：东盟棋院官网 北京时间9月10日，第28届农心辛拉面杯世界围棋团体擂台赛、第4届农心白山水杯元老最强战在北京韩国文化院分别结束了第2局的较量。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-09-10/doc-iniritas5422128.shtml",
+        "time": "2026-09-10T09:54:44.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩连续2日公推中比分!私推8中6",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-09-10T09:54:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小刀汇]竞彩足球推荐：欧冠焦点 曼联大胜在望",
+        "summary": "【周四005】曼联vs萨巴赫 新赛季英超开赛以来，曼联的表现起伏不定，攻防两端问题频发，球队前三轮联赛场均丢2球，后防线磨合不足、失误频发的问题十分突出...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-10/doc-iniritau7719646.shtml",
+        "time": "2026-09-10T09:53:04.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Apple's new boss starts with big gamble on £1,999 first folding iPhone",
+        "summary": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-10T09:32:34.000Z",
+        "category": "general"
+      },
+      {
+        "title": "中国足球彩票26124期胜负游戏14场交战记录",
+        "summary": "曼联 VS 曼城两队近10年的交战次数为29场，曼联12胜4平13负，赢球概率为41.4%，平局概率为13.8%，输球概率为44.8%。 莱比锡 VS 汉堡两队近10年的交战次数为8场...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-10/doc-iniritaq8617855.shtml",
+        "time": "2026-09-10T09:19:46.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26124期欧洲四大机构最新数据(9.10)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德英超胜平负胜平负胜平负胜平负1曼联 vs 曼城3.003.702.153.003.702.053.103.602.103.003.752...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-10/doc-iniritaq8617202.shtml",
+        "time": "2026-09-10T09:19:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26124期澳盘最新赔率(9.10)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负13日23:30(周日)01 曼联 vs 曼城1.95受平手/半球1.892.683.822.0913日21:30(周日)02 莱比锡 vs 汉堡1...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-10/doc-iniritau2870030.shtml",
+        "time": "2026-09-10T09:19:37.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票26123期胜负游戏14场交战记录",
+        "summary": " 阿斯顿维拉 VS 诺丁汉森林两队近10年的交战次数为16场，阿斯顿维拉8胜4平4负，赢球概率为50.0%，平局概率为25.0%，输球概率为25.0%。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-10/doc-iniritaq8602689.shtml",
+        "time": "2026-09-10T09:06:20.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26123期欧洲四大机构最新数据(9.10)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德英超胜平负胜平负胜平负胜平负1阿斯顿维拉 vs 诺丁汉森林1.753.604.602.003.403.401.903.503.801.953.503...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-10/doc-iniritas5374292.shtml",
+        "time": "2026-09-10T09:02:56.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-09-10T14:01:08.719Z"
+  },
+  "analyses": [
+    {
+      "news_title": "燧原科技周五登陆科创板",
+      "news_summary": "燧原科技周五登陆科创板",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "侨银股份跨界“卖算力”",
+      "news_summary": "侨银股份跨界“卖算力”",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "301390筹划控制权变更",
+      "news_summary": "301390筹划控制权变更",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "苹果首款折叠屏手机iPhone Duo亮相",
+      "news_summary": "苹果首款折叠屏手机iPhone Duo亮相",
+      "affected_industries": [
+        "消费电子"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "008888 华夏国证半导体芯片ETF联接",
+        "001475 易方达消费行业"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及消费电子。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "史上最贵的苹果重磅发布（附股）",
+      "news_summary": "史上最贵的苹果重磅发布（附股）",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "顶配26499元！A股供应商回应",
+      "news_summary": "顶配26499元！A股供应商回应",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "重磅发布会今日举行 央行等出席",
+      "news_summary": "重磅发布会今日举行 央行等出席",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "重要发布会事关金融强国建设",
+      "news_summary": "重要发布会事关金融强国建设",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "A股热点前瞻丨布油破100美元大关",
+      "news_summary": "A股热点前瞻丨布油破100美元大关",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "超20只A股提示风险 请投资者审慎决策",
+      "news_summary": "超20只A股提示风险 请投资者审慎决策",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "DeepSeek概念或迎多重催化",
+      "news_summary": "DeepSeek概念或迎多重催化",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "铜价新高背后：上游矿企扩产提速难",
+      "news_summary": "铜价新高背后：上游矿企扩产提速难",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "《金融强国建设“十五五”规划》正式出台",
+      "news_summary": "《金融强国建设“十五五”规划》正式出台",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "商务部：中美正就300亿美元对等降税框架安排进行磋商",
+      "news_summary": "商务部：中美正就300亿美元对等降税框架安排进行磋商",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美股三大指数下跌 国际油价大涨 美油盘中升破每桶100美元",
+      "news_summary": "美股三大指数下跌 国际油价大涨 美油盘中升破每桶100美元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    }
+  ]
+}
