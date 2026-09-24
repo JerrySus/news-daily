@@ -30,6 +30,8 @@ jobs:
       - name: Generate Daily Digest
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          # 分析模型: deepseek-flash (便宜) / deepseek-v4-pro (质量高)
+          DEEPSEEK_MODEL: deepseek-flash
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}

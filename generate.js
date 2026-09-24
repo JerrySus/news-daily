@@ -1,6 +1,7 @@
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
+const cheerio = require('cheerio');
 
 // Reuse existing fetcher modules
 const { fetchAllNews } = require('./modules/fetchers/news');
@@ -11,36 +12,142 @@ const ARCHIVE_DIR = path.join(DOCS_DIR, 'archive');
 
 // --- DeepSeek API Client ---
 const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
+const DEEPSEEK_MODEL = process.env.DEEPSEEK_MODEL || 'deepseek-v4-pro';
 const DEEPSEEK_BASE = 'https://api.deepseek.com/v1';
 
-async function callDeepSeek(messages, maxTokens = 4096) {
+// --- Web search tool ---
+// DeepSeek API has no built-in web search, so we expose one via tool calls.
+// Backed by Bing/Baidu HTML scrape — no extra API key required.
+const WEB_SEARCH_TOOL = {
+  type: 'function',
+  function: {
+    name: 'web_search',
+    description: '联网搜索网页，获取最新信息。用于核实上市公司股票代码、基金代码是否存在，以及新闻事件的后续进展与背景资料。',
+    parameters: {
+      type: 'object',
+      properties: {
+        query: { type: 'string', description: '搜索关键词，中文，具体明确，如"行云科技 688365 主营业务"' },
+      },
+      required: ['query'],
+    },
+  },
+};
+
+async function webSearch(query, num = 5) {
+  const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
+  const endpoints = [
+    { url: `https://cn.bing.com/search?q=${encodeURIComponent(query)}`, sel: 'li.b_algo' },
+    { url: `https://www.baidu.com/s?wd=${encodeURIComponent(query)}`, sel: 'div.result, div.c-container' },
+  ];
+  for (const ep of endpoints) {
+    try {
+      const res = await fetch(ep.url, {
+        headers: { 'User-Agent': UA, 'Accept-Language': 'zh-CN,zh;q=0.9' },
+        signal: AbortSignal.timeout(8000),
+      });
+      if (!res.ok) continue;
+      const $ = cheerio.load(await res.text());
+      const results = [];
+      $(ep.sel).each((_, el) => {
+        if (results.length >= num) return false;
+        const title = $(el).find('h2, h3').first().text().trim();
+        const link = $(el).find('a').first().attr('href') || '';
+        const snippet = $(el).find('p, .c-abstract, .b_caption span, .c-span-last').first().text().trim();
+        if (title && title.length > 4) results.push({ title, url: link, snippet: snippet.slice(0, 200) });
+      });
+      if (results.length) {
+        console.log(`[web_search] "${query}" -> ${results.length} results (${new URL(ep.url).hostname})`);
+        return { query, results };
+      }
+    } catch (e) {
+      console.log(`[web_search] ${new URL(ep.url).hostname} failed: ${e.message}`);
+    }
+  }
+  console.log(`[web_search] "${query}" -> no results`);
+  return { query, results: [], note: '搜索暂不可用，请基于已有新闻信息分析' };
+}
+
+// Run one DeepSeek conversation, executing web_search tool calls on demand.
+// MAX_TOOL_ROUNDS bounds latency/cost per batch.
+const MAX_TOOL_ROUNDS = 3;
+
+async function callDeepSeek(messages, maxTokens = 32768, maxToolRounds = MAX_TOOL_ROUNDS) {
   if (!DEEPSEEK_API_KEY) {
     console.error('[deepseek] No API key. Set DEEPSEEK_API_KEY in env.');
     return null;
   }
 
-  const res = await fetch(`${DEEPSEEK_BASE}/chat/completions`, {
+  let convo = [...messages];
+
+  for (let round = 0; round < maxToolRounds; round++) {
+    const res = await fetch(`${DEEPSEEK_BASE}/chat/completions`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${DEEPSEEK_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: DEEPSEEK_MODEL,
+        messages: convo,
+        max_tokens: maxTokens,
+        temperature: 0.3,
+        tools: [WEB_SEARCH_TOOL],
+      }),
+    });
+
+    if (!res.ok) {
+      const err = await res.text();
+      console.error('[deepseek] API error:', res.status, err);
+      return null;
+    }
+
+    const data = await res.json();
+    const msg = data.choices?.[0]?.message;
+
+    if (!msg) return null;
+
+    // Model wants to search the web — execute and continue the conversation
+    if (msg.tool_calls?.length) {
+      convo = [...convo, { role: 'assistant', content: msg.content ?? null, tool_calls: msg.tool_calls }];
+      for (const tc of msg.tool_calls) {
+        let args = {};
+        try { args = JSON.parse(tc.function.arguments || '{}'); } catch (e) { /* keep {} */ }
+        let result;
+        if (tc.function.name === 'web_search') {
+          result = await webSearch(args.query || '');
+        } else {
+          result = { error: `unknown tool: ${tc.function.name}` };
+        }
+        convo = [...convo, { role: 'tool', tool_call_id: tc.id, name: tc.function.name, content: JSON.stringify(result) }];
+      }
+      continue; // let the model finish with the search results
+    }
+
+    return msg.content || null;
+  }
+
+  // Rounds exhausted (model kept searching) — force a final answer without tools
+  console.log('[deepseek] Tool round limit reached, forcing final answer without tools');
+  const finalRes = await fetch(`${DEEPSEEK_BASE}/chat/completions`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${DEEPSEEK_API_KEY}`,
     },
     body: JSON.stringify({
-      model: 'deepseek-chat',
-      messages,
+      model: DEEPSEEK_MODEL,
+      messages: [...convo, { role: 'user', content: '停止搜索。请立即基于已获得的信息输出最终JSON，个别未核实的信息按最可能结果填写。' }],
       max_tokens: maxTokens,
       temperature: 0.3,
+      // no tools — model must answer now
     }),
   });
-
-  if (!res.ok) {
-    const err = await res.text();
-    console.error('[deepseek] API error:', res.status, err);
+  if (!finalRes.ok) {
+    console.error('[deepseek] Final forced call failed:', finalRes.status, await finalRes.text());
     return null;
   }
-
-  const data = await res.json();
-  return data.choices?.[0]?.message?.content || null;
+  const finalData = await finalRes.json();
+  return finalData.choices?.[0]?.message?.content || null;
 }
 
 // --- Build the analysis prompt ---
@@ -78,6 +185,9 @@ ${newsList || '暂无新闻'}
 【分析要求】
 请对每条新闻逐条分析，输出JSON格式。你不仅要做表面分析，更要挖掘背后逻辑链——一篇关于AI的新闻如何影响芯片需求，一条国际关系新闻如何改变大宗商品价格，一条政策新闻如何传导到具体公司业绩。
 
+【联网搜索】
+你可以调用 web_search 工具联网获取信息。请在以下情况主动搜索：核实公司股票代码是否真实、核实基金代码是否存在、补充新闻事件的背景与后续进展。每条新闻最多搜索1次，优先保证分析覆盖面，不要过度搜索。
+
 每个字段的要求：
 1. news_title: 新闻标题（保持原样）
 2. news_summary: 用1-2句话提炼新闻核心要点
@@ -110,6 +220,37 @@ ${newsList || '暂无新闻'}
 }
 
 // --- Generate analysis via DeepSeek ---
+// Parse JSON (array or object) from model output; salvage complete parts if truncated by max_tokens
+function parseJsonResponse(response, kind = 'array', tag = 'analyze') {
+  if (!response) return null;
+  const re = kind === 'array' ? /\[[\s\S]*\]/ : /\{[\s\S]*\}/;
+  const jsonMatch = response.match(re);
+  const text = jsonMatch ? jsonMatch[0] : response;
+  try {
+    return JSON.parse(text);
+  } catch (e) {
+    // Truncated mid-string/object: keep content up to the last closing brace
+    const lastBrace = Math.max(text.lastIndexOf('}'), text.lastIndexOf(']'));
+    if (lastBrace === -1) return null;
+    let repaired = text.slice(0, lastBrace + 1).replace(/,\s*$/, '');
+    const balance = (o, c) => {
+      const open = (repaired.split(o).length - 1);
+      const close = (repaired.split(c).length - 1);
+      repaired += c.repeat(Math.max(0, open - close));
+    };
+    balance('[', ']');
+    balance('{', '}');
+    try {
+      const parsed = JSON.parse(repaired);
+      console.log(`[${tag}] Salvaged truncated response`);
+      return parsed;
+    } catch (e2) {
+      console.error(`[${tag}] Failed to parse response:`, e.message);
+      return null;
+    }
+  }
+}
+
 async function analyzeNews(marketData, newsData) {
   if (!newsData?.items?.length) {
     console.log('[analyze] No news to analyze');
@@ -121,33 +262,36 @@ async function analyzeNews(marketData, newsData) {
     return fallbackAnalysis(marketData, newsData.items);
   }
 
-  const prompt = buildAnalysisPrompt(marketData, newsData.items);
-  console.log(`[analyze] Sending ${newsData.items.length} news items to DeepSeek...`);
+  // Analyze in small batches so each response stays well under max_tokens
+  const items = newsData.items.slice(0, 20);
+  const CHUNK_SIZE = 5;
+  const analyses = [];
 
-  const response = await callDeepSeek([
-    { role: 'system', content: '你是一位专业证券市场分析师。只输出JSON,不加markdown标记。' },
-    { role: 'user', content: prompt },
-  ]);
+  for (let i = 0; i < items.length; i += CHUNK_SIZE) {
+    const chunk = items.slice(i, i + CHUNK_SIZE);
+    const prompt = buildAnalysisPrompt(marketData, chunk);
+    console.log(`[analyze] Sending items ${i + 1}-${i + chunk.length} of ${items.length} to DeepSeek...`);
 
-  if (!response) {
-    console.log('[analyze] DeepSeek failed, using fallback');
-    return fallbackAnalysis(marketData, newsData.items);
-  }
+    const response = await callDeepSeek([
+      { role: 'system', content: '你是一位专业证券市场分析师。可以调用 web_search 工具联网核实信息。最终只输出JSON数组,不加markdown代码块标记。' },
+      { role: 'user', content: prompt },
+    ]);
 
-  try {
-    // Try to extract JSON from response (in case model adds extra text)
-    const jsonMatch = response.match(/\[[\s\S]*\]/);
-    if (jsonMatch) {
-      const parsed = JSON.parse(jsonMatch[0]);
-      console.log(`[analyze] DeepSeek returned ${parsed.length} analyses`);
-      return parsed;
+    const parsed = parseJsonResponse(response, 'array', 'analyze');
+    if (parsed?.length) {
+      analyses.push(...parsed);
+    } else {
+      console.log(`[analyze] Chunk ${Math.floor(i / CHUNK_SIZE) + 1} failed, skipping`);
     }
-    return JSON.parse(response);
-  } catch (e) {
-    console.error('[analyze] Failed to parse DeepSeek response:', e.message);
-    console.error('[analyze] Raw response:', response.slice(0, 500));
+  }
+
+  if (!analyses.length) {
+    console.log('[analyze] All DeepSeek calls failed, using fallback');
     return fallbackAnalysis(marketData, newsData.items);
   }
+
+  console.log(`[analyze] DeepSeek returned ${analyses.length} analyses`);
+  return analyses;
 }
 
 // --- Rule-based fallback (when API key not available) ---
@@ -327,11 +471,166 @@ function buildSummaryBox(summaryMap) {
   return html;
 }
 
-async function generateHtml(marketData, analyses, newsData, dateStr) {
+// --- Investment forecasts (tomorrow / 1 month / 6 months) ---
+function esc(s) {
+  return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function addDays(dateStr, n) {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  const dt = new Date(y, m - 1, d + n);
+  const p = (x) => String(x).padStart(2, '0');
+  return `${dt.getFullYear()}-${p(dt.getMonth() + 1)}-${p(dt.getDate())}`;
+}
+
+function addMonths(dateStr, n) {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  const dt = new Date(y, m - 1 + n, 1);
+  const lastDay = new Date(dt.getFullYear(), dt.getMonth() + 1, 0).getDate();
+  dt.setDate(Math.min(d, lastDay));
+  const p = (x) => String(x).padStart(2, '0');
+  return `${dt.getFullYear()}-${p(dt.getMonth() + 1)}-${p(dt.getDate())}`;
+}
+
+function buildForecastPrompt(marketData, analyses, dateStr) {
+  let marketSummary = '';
+  for (const idx of [...(marketData.aShares || []), ...(marketData.usShares || [])]) {
+    const sign = idx.changePercent > 0 ? '+' : '';
+    marketSummary += `- ${idx.name}: ${idx.price?.toFixed(2)} (${sign}${idx.changePercent?.toFixed(2)}%)\n`;
+  }
+
+  const digest = (analyses || []).slice(0, 15).map((a, i) =>
+    `${i + 1}. [${a.direction || '中性'}/${a.impact_level || '?'}影响] ${a.news_title}\n   行业: ${(a.affected_industries || []).join('、') || '-'}`
+  ).join('\n');
+
+  const tomorrow = addDays(dateStr, 1);
+
+  return `你是一位资深证券投资策略分析师。今天是 ${dateStr}，A股已收盘（本报告18:00后生成）。请基于今日行情与逐条新闻分析，给出三个时间维度的投资预测。
+
+【今日行情】
+${marketSummary || '暂无数据'}
+
+【今日新闻与分析结论】
+${digest || '暂无'}
+
+【预测要求】
+输出三个时间维度，结构完全相同：
+- tomorrow: 明日预测（下一交易日 ${tomorrow}）
+- oneMonth: 一月后预测
+- halfYear: 半年后预测
+
+每个维度必须包含：
+1. view: 对大盘的1-2句话总体判断
+2. bullish: 利好方向 1-3 项，每项字段：
+   - industry: 受益行业（具体，如"半导体""创新药"）
+   - action: 固定为 "加仓"
+   - reason: 利好逻辑（40字内）
+   - funds: 2-3只代表基金，格式 "6位代码 基金全名"（如 "008887 华夏国证半导体芯片ETF联接A"），必须是真实存在的基金
+3. bearish: 利空方向 1-3 项，每项字段：
+   - industry: 受损行业
+   - action: 按看空程度选 "减仓" 或 "清仓"
+   - reason: 利空逻辑（40字内）
+   - funds: 相关基金（提示已持有者处理/回避），格式同上
+
+要求：
+- 基金代码必须真实，不确定时调用 web_search 核实（如 "XX基金 代码 支付宝"）
+- 搜索预算：最多进行2轮联网搜索（可同轮并行多个查询），之后无论核实与否都必须立即输出最终 JSON，未核实的按最可能结果填写
+- 明日看情绪与资金面，一月看政策与业绩传导，半年看产业趋势与宏观周期
+- 三个维度的判断允许不同甚至相反（如短期避险但长期看好）
+
+【输出格式】严格JSON，不加markdown代码块：
+{
+  "tomorrow": {
+    "view": "大盘判断",
+    "bullish": [{"industry": "行业", "action": "加仓", "reason": "逻辑", "funds": ["代码 基金名"]}],
+    "bearish": [{"industry": "行业", "action": "减仓", "reason": "逻辑", "funds": ["代码 基金名"]}]
+  },
+  "oneMonth": { "view": "", "bullish": [], "bearish": [] },
+  "halfYear": { "view": "", "bullish": [], "bearish": [] }
+}`;
+}
+
+async function generateForecasts(marketData, newsData, analyses) {
+  if (!DEEPSEEK_API_KEY) {
+    console.error('[forecast] No DeepSeek API key, forecasts skipped');
+    return null;
+  }
+
+  const prompt = buildForecastPrompt(marketData, analyses, new Date().toISOString().slice(0, 10));
+  console.log('[forecast] Requesting three-horizon forecasts from DeepSeek...');
+
+  const response = await callDeepSeek([
+    { role: 'system', content: '你是资深证券投资策略分析师。可调用 web_search 工具核实基金代码与事实。搜索要克制（最多2轮），之后必须立即输出最终JSON对象,不加markdown代码块标记。' },
+    { role: 'user', content: prompt },
+  ], 32768, 5);
+
+  const parsed = parseJsonResponse(response, 'object', 'forecast');
+  if (!parsed?.tomorrow || !parsed?.oneMonth || !parsed?.halfYear) {
+    console.error('[forecast] Invalid forecast response, section will show failure notice');
+    return null;
+  }
+
+  console.log('[forecast] OK: tomorrow/oneMonth/halfYear generated');
+  return parsed;
+}
+
+function buildForecastHtml(forecasts, dateStr) {
+  const title = '<div class="section-title">AI 投资预测</div>';
+
+  if (!forecasts) {
+    return title + '<div class="forecast-box fc-error">⚠ 预测生成失败：本期未能获得 AI 预测输出（API 异常或响应解析失败）。逐条分析不受影响，详情见生成日志。</div>';
+  }
+
+  const periods = [
+    ['tomorrow', '📅 明日预测', addDays(dateStr, 1)],
+    ['oneMonth', '📅 一月后预测', addMonths(dateStr, 1)],
+    ['halfYear', '📅 半年后预测', addMonths(dateStr, 6)],
+  ];
+
+  let body = '';
+  for (const [key, label, date] of periods) {
+    const p = forecasts[key];
+    if (!p) {
+      body += `<div class="fc-period"><div class="fc-title">${label}（${date}）</div><div class="fc-view">无预测数据</div></div>`;
+      continue;
+    }
+
+    let sides = '';
+    for (const [side, list, tag] of [
+      ['bull', p.bullish, '📈 利好 · 加仓方向'],
+      ['bear', p.bearish, '📉 利空 · 减仓/清仓方向'],
+    ]) {
+      if (!Array.isArray(list) || !list.length) continue;
+      let items = '';
+      for (const it of list) {
+        const funds = (it.funds || []).map((f) => `<span class="fund-tag">${esc(f)}</span>`).join('');
+        items += `<div class="fc-item">
+          <span class="fc-ind">${esc(it.industry)}</span>${it.action ? `<span class="fc-act">${esc(it.action)}</span>` : ''}
+          ${it.reason ? `<div class="fc-reason">${esc(it.reason)}</div>` : ''}
+          ${funds ? `<div class="fund-list">${funds}</div>` : ''}
+        </div>`;
+      }
+      sides += `<div class="fc-side ${side}"><span class="fc-tag">${tag}</span>${items}</div>`;
+    }
+
+    body += `<div class="fc-period">
+      <div class="fc-title">${label}（${date}）</div>
+      ${p.view ? `<div class="fc-view">${esc(p.view)}</div>` : ''}
+      ${sides}
+    </div>`;
+  }
+
+  return title + `<div class="forecast-box">${body}
+    <div class="fc-disclaimer">⚠ 预测由 AI 生成，仅供参考，不构成投资建议。基金代码来自公开信息，投资前请自行核实。</div>
+  </div>`;
+}
+
+async function generateHtml(marketData, analyses, newsData, dateStr, forecasts) {
   const dayNames = ['日', '一', '二', '三', '四', '五', '六'];
   const dayOfWeek = dayNames[new Date(dateStr).getDay()];
   const { cardsHtml, summaryMap } = buildAnalysisCards(analyses, newsData);
   const summaryHtml = buildSummaryBox(summaryMap);
+  const forecastHtml = buildForecastHtml(forecasts, dateStr);
 
   const template = `<!DOCTYPE html>
 <html lang="zh-CN">
@@ -364,6 +663,23 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#0f0f14;c
 .summary-row{padding:6px 0;font-size:13px;border-bottom:1px solid #2a2a3e}
 .summary-dir{font-weight:600}
 .summary-ind{color:#888;margin-left:8px}
+.forecast-box{background:#1a1a2e;border-radius:10px;padding:16px;margin-bottom:20px;border:1px solid #2a2a3e}
+.forecast-box.fc-error{border-color:#e15241;color:#e15241;font-size:13px}
+.fc-period{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #2a2a3e}
+.fc-period:last-of-type{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.fc-title{font-size:14px;font-weight:700;color:#f0f0f0;margin-bottom:4px}
+.fc-view{font-size:12px;color:#999;margin-bottom:8px;line-height:1.6}
+.fc-side{margin-top:8px;padding:8px 10px;border-radius:6px;font-size:13px}
+.fc-side.bull{background:rgba(225,82,65,.06);border-left:3px solid #e15241}
+.fc-side.bear{background:rgba(26,173,25,.06);border-left:3px solid #1aad19}
+.fc-tag{font-weight:700;font-size:12px}
+.fc-side.bull .fc-tag{color:#e15241}
+.fc-side.bear .fc-tag{color:#1aad19}
+.fc-item{margin-top:8px;line-height:1.6}
+.fc-ind{font-weight:600;color:#f0f0f0}
+.fc-act{font-size:11px;padding:1px 8px;border-radius:8px;margin-left:6px;background:rgba(255,193,7,.15);color:#ffc107;font-weight:600}
+.fc-reason{color:#999;font-size:12px;margin-top:2px}
+.fc-disclaimer{margin-top:12px;padding-top:10px;border-top:1px solid #2a2a3e;font-size:11px;color:#666;line-height:1.6}
 .card{border-radius:10px;padding:16px;margin-bottom:12px;border:1px solid #2a2a3e;background:#1a1a2e}
 .card.bullish{border-left:3px solid #e15241}
 .card.bearish{border-left:3px solid #1aad19}
@@ -411,6 +727,8 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#0f0f14;c
 
   <div class="section-title">市场行情</div>
   <div class="market-grid">${buildMarketCards(marketData)}</div>
+
+  ${forecastHtml}
 
   ${summaryHtml}
 
@@ -489,9 +807,20 @@ async function main() {
   console.log('[generate] Running AI analysis...');
   const analyses = await analyzeNews(marketData, newsData);
 
+  // AI Forecasts (tomorrow / 1 month / 6 months)
+  let forecasts = null;
+  try {
+    forecasts = await generateForecasts(marketData, newsData, analyses);
+  } catch (err) {
+    console.error('[forecast] Error:', err.message);
+  }
+  if (!forecasts) {
+    console.error('[generate] ⚠ Forecast generation failed — page will show an explicit failure notice');
+  }
+
   // Generate HTML
   console.log('[generate] Generating HTML...');
-  const html = await generateHtml(marketData, analyses, newsData, todayStr);
+  const html = await generateHtml(marketData, analyses, newsData, todayStr, forecasts);
 
   // Write today's page
   const todayPath = path.join(DOCS_DIR, 'today.html');
@@ -510,7 +839,7 @@ async function main() {
 
   // Save raw data as JSON
   const jsonPath = path.join(ARCHIVE_DIR, `${todayStr}.json`);
-  fs.writeFileSync(jsonPath, JSON.stringify({ date: todayStr, marketData, newsData, analyses }, null, 2));
+  fs.writeFileSync(jsonPath, JSON.stringify({ date: todayStr, marketData, newsData, analyses, forecasts }, null, 2));
   console.log(`[generate] Written: ${jsonPath}`);
 
   // Update archive index
