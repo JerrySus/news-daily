@@ -1,0 +1,627 @@
+{
+  "date": "2026-08-01",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3832.2624,
+        "change": 27.57,
+        "changePercent": 0.72,
+        "high": 3847.0926,
+        "low": 3822.3736,
+        "open": 3833.5359,
+        "prevClose": 3804.6926
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13578.93,
+        "change": 293.13,
+        "changePercent": 2.21,
+        "high": 13841.957,
+        "low": 13578.93,
+        "open": 13689.995,
+        "prevClose": 13285.801
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3343.964,
+        "change": 99.35,
+        "changePercent": 3.06,
+        "high": 3464.897,
+        "low": 3343.964,
+        "open": 3411.612,
+        "prevClose": 3244.618
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4588.1968,
+        "change": 38.48,
+        "changePercent": 0.85,
+        "high": 4635.5888,
+        "low": 4588.1968,
+        "open": 4623.8536,
+        "prevClose": 4549.7201
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1635.9624,
+        "change": 47.55,
+        "changePercent": 2.99,
+        "high": 1731.2064,
+        "low": 1635.6847,
+        "open": 1721.3552,
+        "prevClose": 1588.4149
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52485.0312,
+        "change": 276.97,
+        "changePercent": 0.53,
+        "high": 52623.1406,
+        "low": 51996.3203,
+        "open": null,
+        "prevClose": 52208.0586
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25373.8534,
+        "change": 251.6763,
+        "changePercent": 1,
+        "high": 25460.8631,
+        "low": 25004.3303,
+        "open": null,
+        "prevClose": 25122.1771
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7489.7202,
+        "change": 52.09,
+        "changePercent": 0.7,
+        "high": 7512.04,
+        "low": 7399.8301,
+        "open": null,
+        "prevClose": 7437.6299
+      }
+    ],
+    "sectors": [
+      {
+        "name": "文字媒体",
+        "code": "BK1298",
+        "price": 2632.35,
+        "changePercent": 14.99,
+        "change": 343.25
+      },
+      {
+        "name": "其他数字媒体",
+        "code": "BK1295",
+        "price": 836.42,
+        "changePercent": 10.24,
+        "change": 77.72
+      },
+      {
+        "name": "会展服务",
+        "code": "BK1565",
+        "price": 1232.85,
+        "changePercent": 9.41,
+        "change": 106.02
+      },
+      {
+        "name": "横向通用软件",
+        "code": "BK1448",
+        "price": 6071.88,
+        "changePercent": 8.61,
+        "change": 481.28
+      },
+      {
+        "name": "数字媒体",
+        "code": "BK1221",
+        "price": 6234.89,
+        "changePercent": 8.28,
+        "change": 476.8
+      },
+      {
+        "name": "营销代理",
+        "code": "BK1293",
+        "price": 4295.64,
+        "changePercent": 7.5,
+        "change": 299.67
+      }
+    ],
+    "updatedAt": "2026-08-01T11:12:40.614Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "宝马上半年汽车利润率跌至3.6%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607313827428694.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "京东方披露玻璃基板最新进展",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607313827506030.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球最大“人造太阳”新进展！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607313827264057.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "政治局会议重磅定调 释放什么信号？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608013828987834.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "提升资本市场韧性和信心",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607313827361237.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "券商：政策更加积极 稳市力度有望增加",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202607313827424010.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "韩国股市熔断！SK海力士、三星电子暴涨",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607313827442842.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "苹果库克的最后一份财报亮相",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607313827195654.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "亚马逊上调资本支出至2200亿美元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607313827171137.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "宇树科技8月10日打新！机器人迎催化",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607313827322552.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "A股人形机器人第一股来了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202607303827079993.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "明新旭腾：不涉及人形机器人整机制造",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202607313827384274.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "商务部新闻发言人就美国将中国企业列入所谓涉疆法案实体清单答记者问",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608013828990530.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球市场：美股三大指数收涨 苹果跌超7% 亚马逊涨超15%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608013828792592.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "美官员称特朗普已下令对伊朗发动新一轮袭击",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608013828793275.html",
+        "time": "2026-08-01T11:12:38.455Z",
+        "category": "finance"
+      },
+      {
+        "title": "丹朱杯业余围棋赛第2日：上海交大领跑高校团体组",
+        "summary": "8月1日，2026 “丹朱杯” 全国业余围棋邀请赛开幕式在山西长子融汇通君亭酒店结束了各组第2日的比赛。高校教授团体组和个人公开组进行了第2至5轮的比赛...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-08-01/doc-inikvhtz0388030.shtml",
+        "time": "2026-08-01T10:58:38.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "西红门镇第十一届“西甲”足球联赛正式开赛",
+        "summary": "为深入贯彻全民健身与乡村振兴战略，加快推进体育强国建设在基层落地见效，8月1日，西红门镇第十一届“西甲”足球联赛在大兴区森源足球场正式拉开帷幕。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/china/other/2026-08-01/doc-inikvhuc3714572.shtml",
+        "time": "2026-08-01T10:01:28.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推近8中6！扫码免费领最新稳胆",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-08-01T09:25:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26098期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德瑞超胜平负胜平负胜平负胜平负1赫根 vs 卡尔马1.624.004.601.574.004.331.664.004.201.654.004.2030日14:001.803...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-29/doc-iniknrrc1627183.shtml",
+        "time": "2026-08-01T09:00:07.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26098期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负01日21:00(周六)01 赫根 vs 卡尔马1.79半球1.991.793.753.33周四14:001.79半球1.991.793.753.33周五09:001...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-29/doc-iniknrqz0023528.shtml",
+        "time": "2026-08-01T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "8月1日红王解盘比赛解读：让步加码 卡尔马难阻赫根",
+        "summary": "瑞典超：赫根vs卡尔马 比赛时间：8月2日01:00 赫根全队身价合计约1490万欧元，瑞典籍主帅延斯·古斯塔弗森执教，本赛季瑞典超14轮6胜6平2负积24分排名第3...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-01/doc-inikvanf3807821.shtml",
+        "time": "2026-08-01T08:33:57.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Stick to spending limits, PM and chancellor tell ministers in joint memo",
+        "summary": "The Chancellor said the Budget on 28 October would “meet our fiscal rules” and give families \"stability\" to plan for the future.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cjd4yz35x8go?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-01T07:48:01.000Z",
+        "category": "general"
+      },
+      {
+        "title": "[小炮APP]专家老将推球让球推荐：富川守住底线",
+        "summary": "铁粉福利【周六，先用信心金胆2场开门，都有比分、半全场、进球】8月新一轮正式开打，祝参考兄弟8月第一天都开门红顺利！",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-01/doc-inikvani0558985.shtml",
+        "time": "2026-08-01T07:33:03.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家渣叔解球竞彩推荐：江原FC净胜1球",
+        "summary": "周六001 江原FCvs富川FC江原FC上赛季排名第6，本赛季20轮联赛之后，球队以8胜8平4负积32分排名第3，实力提升不少。近5场各项赛事1胜2平2负，得失球都为5粒...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-01/doc-inikvanc0412674.shtml",
+        "time": "2026-08-01T07:33:03.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家小炜侃球让球推荐：赫根主场取胜",
+        "summary": "让球26081期 第51场 瑞典超 赫根 VS 卡尔马今天咱们先聊一场瑞典超的比赛，赫根和卡尔马的对决可能会出现一边倒的情况，毕竟赫根本赛季整体表现不错...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-01/doc-inikvanc0412672.shtml",
+        "time": "2026-08-01T07:33:03.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家清风看球竞篮推荐：自由人大胜反弹",
+        "summary": "3点，WNBA，自由人vs水星（主队）推荐：自由人-2.5（竞彩让分主负）凤凰城水银近期斩获三连胜，主场先后击败康涅狄克太阳、客场逆转洛杉矶火花...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-01/doc-inikvanf3777002.shtml",
+        "time": "2026-08-01T07:33:03.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-逍遥红单昨日私推8中6超准！关注最新方案",
+        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4995447.shtml",
+        "time": "2026-08-01T07:08:28.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "精选足篮专家：周通解球中足彩二等+单场近17中15",
+        "summary": "北京时间8月1日（周六），今日竞彩开售16场比赛，涉及韩职、挪超、芬超、美职等多项赛事，让球玩法还有更多选择！另外，足彩第26098期将于今晚20点30分停售。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-01/doc-inikurwp0745600.shtml",
+        "time": "2026-08-01T06:05:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26099期欧洲四大机构最新数据(08.01)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德瑞超胜平负胜平负胜平负胜平负1布鲁马 vs 马尔默3.003.302.202.873.302.153.103.502.152.903.602.1001日14:003.003...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-30/doc-inikpxkp1224812.shtml",
+        "time": "2026-08-01T06:00:50.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26099期澳盘最新赔率(08.01)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负02日20:00(周日)01 布鲁马 vs 马尔默1.93受平手/半球1.852.733.612.08周六14:001.93受平手/半球1.852.733.612...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-30/doc-inikpxkp1224344.shtml",
+        "time": "2026-08-01T06:00:23.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-01T11:12:39.868Z"
+  },
+  "analyses": [
+    {
+      "news_title": "宝马上半年汽车利润率跌至3.6%",
+      "news_summary": "宝马上半年汽车利润率跌至3.6%",
+      "affected_industries": [
+        "汽车"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及汽车。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "京东方披露玻璃基板最新进展",
+      "news_summary": "京东方披露玻璃基板最新进展",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球最大“人造太阳”新进展！",
+      "news_summary": "全球最大“人造太阳”新进展！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "政治局会议重磅定调 释放什么信号？",
+      "news_summary": "政治局会议重磅定调 释放什么信号？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "提升资本市场韧性和信心",
+      "news_summary": "提升资本市场韧性和信心",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "券商：政策更加积极 稳市力度有望增加",
+      "news_summary": "券商：政策更加积极 稳市力度有望增加",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及金融。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "韩国股市熔断！SK海力士、三星电子暴涨",
+      "news_summary": "韩国股市熔断！SK海力士、三星电子暴涨",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "苹果库克的最后一份财报亮相",
+      "news_summary": "苹果库克的最后一份财报亮相",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "亚马逊上调资本支出至2200亿美元",
+      "news_summary": "亚马逊上调资本支出至2200亿美元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "宇树科技8月10日打新！机器人迎催化",
+      "news_summary": "宇树科技8月10日打新！机器人迎催化",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "A股人形机器人第一股来了",
+      "news_summary": "A股人形机器人第一股来了",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "明新旭腾：不涉及人形机器人整机制造",
+      "news_summary": "明新旭腾：不涉及人形机器人整机制造",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "商务部新闻发言人就美国将中国企业列入所谓涉疆法案实体清单答记者问",
+      "news_summary": "商务部新闻发言人就美国将中国企业列入所谓涉疆法案实体清单答记者问",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球市场：美股三大指数收涨 苹果跌超7% 亚马逊涨超15%",
+      "news_summary": "全球市场：美股三大指数收涨 苹果跌超7% 亚马逊涨超15%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美官员称特朗普已下令对伊朗发动新一轮袭击",
+      "news_summary": "美官员称特朗普已下令对伊朗发动新一轮袭击",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

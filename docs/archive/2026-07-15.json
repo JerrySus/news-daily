@@ -1,0 +1,584 @@
+{
+  "date": "2026-07-15",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3955.5781,
+        "change": -11.55,
+        "changePercent": -0.29,
+        "high": 3981.6716,
+        "low": 3943.6953,
+        "open": 3963.7267,
+        "prevClose": 3967.1262
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14779.396,
+        "change": -145.47,
+        "changePercent": -0.97,
+        "high": 15041.33,
+        "low": 14741.801,
+        "open": 14970.771,
+        "prevClose": 14924.868
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3804.704,
+        "change": -46.43,
+        "changePercent": -1.21,
+        "high": 3905.312,
+        "low": 3794.344,
+        "open": 3879.766,
+        "prevClose": 3851.137
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4786.7828,
+        "change": -9.72,
+        "changePercent": -0.2,
+        "high": 4826.8637,
+        "low": 4772.0415,
+        "open": 4797.943,
+        "prevClose": 4796.502
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1924.2735,
+        "change": -85.46,
+        "changePercent": -4.25,
+        "high": 2028.6519,
+        "low": 1908.1784,
+        "open": 2021.5782,
+        "prevClose": 2009.7296
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52508.2695,
+        "change": 9.63,
+        "changePercent": 0.02,
+        "high": 52695.0586,
+        "low": 52046.3594,
+        "open": null,
+        "prevClose": 52498.6406
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26107.0078,
+        "change": 233.8314,
+        "changePercent": 0.9,
+        "high": 26168.8046,
+        "low": 25912.4015,
+        "open": null,
+        "prevClose": 25873.1764
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7543.5898,
+        "change": 28.25,
+        "changePercent": 0.38,
+        "high": 7557.4399,
+        "low": 7513.23,
+        "open": null,
+        "prevClose": 7515.3398
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-07-15T11:25:54.437Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "两家光伏巨头半年预亏超80亿",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607143806097517.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "白酒业绩预告密集出炉",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607143806163987.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "德明利上半年最高预盈65亿",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607143806061731.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "长鑫科技发行价8.66元/股、7月16日申购",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607143806191650.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "详解长鑫科技发行定价逻辑",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202607143806057039.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "分16.67亿股 长鑫战配名单阵容豪华",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153806260913.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊战火没完？特朗普：要打到我喊停",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153806525182.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普：对伊朗的打击将继续",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153806295580.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普威胁打击伊朗桥梁和发电厂",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153806452478.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "一夜变天！美联储本月加息概率降至15%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153806533074.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "美股科技老登崩了！美联储主席最新发声",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153806309983.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "沃什：将做好本职工作",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153806526089.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "习近平在上海考察时强调 全面践行人民城市理念 高质量推进城市更新",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153807595858.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "央行：上半年社会融资规模增量累计为20.84万亿元 人民币贷款增加10.72万亿元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153807397998.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "发行价8.66元 长鑫科技打新中一签能赚多少？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607153807258264.html",
+        "time": "2026-07-15T11:25:53.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "Midnight social media curfew proposed for UK teens aged 16 and 17",
+        "summary": "The government says it will improve teenagers' lives but campaigners call it a \"missed opportunity\".",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c982857nlrlo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-15T11:24:29.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Don't panic - five ways to stop your kids' endless scrolling",
+        "summary": "Parenting experts share their tips on how to keep children's screen time under control.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c86e3q5j992o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-15T11:13:40.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Several flights diverted after plane blocks Gatwick runway",
+        "summary": "An Easyjet flight had to land at Stanstead Airport instead, but then became stuck there when it couldn't find fuel.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c3ryr25gvjdo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-15T10:23:27.000Z",
+        "category": "general"
+      },
+      {
+        "title": "China economic growth falls sharply, missing target",
+        "summary": "Weak demand domestically and the impact of the Iran war on oil prices overshadowed the country's strong exports.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-15T10:21:48.000Z",
+        "category": "general"
+      },
+      {
+        "title": "“都来赣”城市品牌IP发布 开辟文体旅融合全新路径",
+        "summary": "7 月 15 日，江西长天旅游集团 “都来赣” 城市品牌 IP 发布会在南昌嘉莱特沁庐国际酒店隆重举办，江西省长天旅游集团专员余俊峰致辞并与其他嘉宾一起共同为发布会揭幕...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/china/other/2026-07-15/doc-inihwrrf7999902.shtml",
+        "time": "2026-07-15T10:02:17.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Thames Water returns to profit after raising bills",
+        "summary": "But the firm says it only has enough debt funding to keep the business going until the end of 2026.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c4gygy43103o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-15T09:31:07.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关小刀竞彩：比森阿泰尔捍卫主场",
+        "summary": "201 比森阿泰尔vs克拉克斯 比森阿泰尔两年前还在第三级别，上赛季以升班马身份奇迹夺得卢森甲冠军，球队可以说是欧冠赛场的绝对新军，全队缺乏欧冠淘汰赛级别的对抗经验...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-15/doc-inihwrra4762531.shtml",
+        "time": "2026-07-15T09:05:23.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "How will Buy Now Pay Later changes affect you?",
+        "summary": "Consumers should be better protected as Buy Now Pay Later lenders now require authorisation to operate.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c9q283r9px3o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-15T08:43:15.000Z",
+        "category": "general"
+      },
+      {
+        "title": "7月15日红王解盘比赛解读：阿特比森主场力保不败",
+        "summary": "欧冠：阿特比森 vs 克拉克斯维克 比赛时间：7月16日 02:15 阿特比森身价合计约5万欧元，主教练加西亚治下主打控球进攻。球队是卢森甲新科冠军，处子赛季便夺冠...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-15/doc-inihwrrf7912676.shtml",
+        "time": "2026-07-15T08:19:36.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "杜兰特：任何球队都会因詹姆斯加盟而变强",
+        "summary": "北京时间7月15日，火箭球星杜兰特现身费城，来到现场观看了MLB全明星赛，杜兰特戴着墨镜和小黑帽亮相，与众人合影。 杜兰特还在场边接受了采访，谈到杰伦·布朗加盟76人时...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-15/doc-inihwmie4843147.shtml",
+        "time": "2026-07-15T08:00:56.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "曝詹姆斯随时可能宣布决定！多队争抢凸显其影响力",
+        "summary": "北京时间7月15日，詹姆斯又去打高尔夫了，与凯文哈特等人一起在纽约打高尔夫球，勇士悍将追梦格林也来了；期间詹姆斯在社媒上晒出遇到下雨，只能坐在高尔夫球车中避雨...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-15/doc-inihwmie4842379.shtml",
+        "time": "2026-07-15T07:59:46.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "轰23分+大帽5号秀！湖人捡漏21岁臂展2米16侧翼新星",
+        "summary": " 出战29分钟，轰下23分1篮板2助攻1盖帽，卡梅隆·卡尔又交出了一份漂亮的答卷，他帮助湖人在夏季联赛以99比85击败快船，取得三连胜。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-15/doc-inihwmia8065638.shtml",
+        "time": "2026-07-15T07:59:46.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "湖人再签一人！东契奇领衔新阵 仍全力追求库明加",
+        "summary": " 北京时间7月14日，湖人再签一人，扎威一年底薪加盟湖人，湖人18人大名单出炉，东契奇和里夫斯领衔新阵，不过湖人仍在全力追求库明加，把其视为潜在的首发锋线。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-15/doc-inihwmih1248072.shtml",
+        "time": "2026-07-15T07:59:46.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "76人总裁招募詹姆斯！埃奇库姆也称老詹GOAT",
+        "summary": "北京时间7月14日，詹姆斯迎来决定的关键时期，据报道，目前詹姆斯已经听取外界的所有报价并且掌握了所有的必要信息，接下来他本人将在不久后宣布最终决定...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-15/doc-inihwmie4842377.shtml",
+        "time": "2026-07-15T07:59:46.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "奇才能否凭借3个状元+特雷杨 完成夺冠梦想",
+        "summary": "NBA夏季联赛，奇才104-85大胜国王。 本场比赛，奇才状元迪班萨表现不俗，展现出全能手段但进攻效率不算高，首发出战24分钟，投篮15中6，三分球6中1，罚球6中5...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-15/doc-inihwmii8019999.shtml",
+        "time": "2026-07-15T07:56:01.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-07-15T11:25:54.188Z"
+  },
+  "analyses": [
+    {
+      "news_title": "两家光伏巨头半年预亏超80亿",
+      "news_summary": "两家光伏巨头半年预亏超80亿",
+      "affected_industries": [
+        "新能源"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001298 华夏新能源车龙头",
+        "005827 易方达蓝筹精选"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及新能源。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "白酒业绩预告密集出炉",
+      "news_summary": "白酒业绩预告密集出炉",
+      "affected_industries": [
+        "消费"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 易方达消费行业",
+        "002001 华夏回报"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及消费。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "德明利上半年最高预盈65亿",
+      "news_summary": "德明利上半年最高预盈65亿",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "长鑫科技发行价8.66元/股、7月16日申购",
+      "news_summary": "长鑫科技发行价8.66元/股、7月16日申购",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "详解长鑫科技发行定价逻辑",
+      "news_summary": "详解长鑫科技发行定价逻辑",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "分16.67亿股 长鑫战配名单阵容豪华",
+      "news_summary": "分16.67亿股 长鑫战配名单阵容豪华",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美伊战火没完？特朗普：要打到我喊停",
+      "news_summary": "美伊战火没完？特朗普：要打到我喊停",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普：对伊朗的打击将继续",
+      "news_summary": "特朗普：对伊朗的打击将继续",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普威胁打击伊朗桥梁和发电厂",
+      "news_summary": "特朗普威胁打击伊朗桥梁和发电厂",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "一夜变天！美联储本月加息概率降至15%",
+      "news_summary": "一夜变天！美联储本月加息概率降至15%",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及金融。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美股科技老登崩了！美联储主席最新发声",
+      "news_summary": "美股科技老登崩了！美联储主席最新发声",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "沃什：将做好本职工作",
+      "news_summary": "沃什：将做好本职工作",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "习近平在上海考察时强调 全面践行人民城市理念 高质量推进城市更新",
+      "news_summary": "习近平在上海考察时强调 全面践行人民城市理念 高质量推进城市更新",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "央行：上半年社会融资规模增量累计为20.84万亿元 人民币贷款增加10.72万亿元",
+      "news_summary": "央行：上半年社会融资规模增量累计为20.84万亿元 人民币贷款增加10.72万亿元",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "发行价8.66元 长鑫科技打新中一签能赚多少？",
+      "news_summary": "发行价8.66元 长鑫科技打新中一签能赚多少？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

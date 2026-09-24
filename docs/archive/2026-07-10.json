@@ -1,0 +1,583 @@
+{
+  "date": "2026-07-10",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3996.1616,
+        "change": -40.43,
+        "changePercent": -1,
+        "high": 4074.828,
+        "low": 3995.8072,
+        "open": 4031.5373,
+        "prevClose": 4036.5879
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15046.67,
+        "change": -352.06,
+        "changePercent": -2.29,
+        "high": 15581.943,
+        "low": 15046.67,
+        "open": 15480.406,
+        "prevClose": 15398.729
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3842.731,
+        "change": -175.44,
+        "changePercent": -4.37,
+        "high": 4060.533,
+        "low": 3842.347,
+        "open": 4041.859,
+        "prevClose": 4018.174
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4780.7867,
+        "change": -95.53,
+        "changePercent": -1.96,
+        "high": 4906.4898,
+        "low": 4780.7468,
+        "open": 4887.5355,
+        "prevClose": 4876.3125
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 2064.9756,
+        "change": -120.85,
+        "changePercent": -5.53,
+        "high": 2233.5376,
+        "low": 2064.9756,
+        "open": 2190.1784,
+        "prevClose": 2185.8251
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52487.4102,
+        "change": 139.02,
+        "changePercent": 0.27,
+        "high": 52574.8906,
+        "low": 52249.4414,
+        "open": null,
+        "prevClose": 52348.3906
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26206.8902,
+        "change": 336.2379,
+        "changePercent": 1.3,
+        "high": 26215.8248,
+        "low": 25825.8465,
+        "open": null,
+        "prevClose": 25870.6523
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7543.6401,
+        "change": 60.93,
+        "changePercent": 0.81,
+        "high": 7546.8901,
+        "low": 7481.73,
+        "open": null,
+        "prevClose": 7482.71
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-07-10T12:22:30.440Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "SK海力士每股定价149美元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607093800449975.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "有研硅提醒股价严重异常波动",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607093800462429.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "存储牛股业绩迎10倍增长",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607093800462370.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "国务院印发《十五五碳达峰行动方案》",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607093800431064.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "培育绿色风口 十五五碳达峰行动方案出台",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800489863.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "碳达峰是约束更是机遇",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800493094.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "长征十号乙首飞在即 可回收技术突破？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800631015.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "商业航天航班化倒逼工业母机升级",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800485456.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "3D打印成为商业火箭制造标配",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800484660.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "华为大动作！国内首个NPO光互连MSA启动",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800740090.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "长鑫科技16日开启申购",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103800486533.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI芯片龙头燧原科技 科创板IPO注册获批",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607093800429865.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "国常会：全链条推动新兴支柱产业规模化发展 加强基础研究和关键软硬件攻关",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103802030444.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "商务部、海关总署：对氦气实施临时禁止出口管理",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103801871574.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "国务院原则同意《中医药振兴发展“十五五”规划》",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607103801874398.html",
+        "time": "2026-07-10T12:22:29.966Z",
+        "category": "finance"
+      },
+      {
+        "title": "EU threatens Meta with fines over 'addictive' Facebook and Instagram",
+        "summary": "Regulators say features such as infinite scroll contribute to \"compulsive use\" and \"unhealthy habits\".",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c8j2dje3pldo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-10T12:02:40.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Passenger 'nearly sucked out of window mid-air' on Ryanair plane",
+        "summary": "Ryanair confirm a passenger was given medical treatment after an incident on a Malta Air flight, which is owned by Ryanair.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cgk65knkyzdo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-10T11:57:27.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Vapes to have less enticing names and flavours to protect children",
+        "summary": "People are being consulted about plans to stop vape companies using enticing flavour descriptions that \"attract\" children into experimenting.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c9v29d7vml7o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-10T09:54:49.000Z",
+        "category": "general"
+      },
+      {
+        "title": "EasyJet agrees to surprise takeover bid as rival US firm swoops in",
+        "summary": "The airline says a bid from US firm Apollo has trumped a recent takeover offer from Castlelake.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cgjxqq9jg8yo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-10T09:38:07.000Z",
+        "category": "general"
+      },
+      {
+        "title": "新浪竞彩专家招募中 篮彩专家符合条件优先录用",
+        "summary": "小炮APP内汇集了行业顶尖的竞彩、足彩专家，我们始终致力于为彩民提供最优质全面的情报分析以及投注方案。为满足更多有识之士想要加入专家团队的愿望...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2021-10-15/doc-iktzqtyu1569479.shtml",
+        "time": "2026-07-10T09:28:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票双色球名家第26079期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章 严禁各媒体 公众号等转载 违规必究！严惩不贷！] 袁启晨：010507161920212226+040810 袁军师：010810111217252628+0911 文彬：08,14...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-10/doc-inihifxz8448353.shtml",
+        "time": "2026-07-10T08:49:57.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "历史上的今天-双色球7月12日开奖号码汇总",
+        "summary": "双色球下期开奖是在周日，阳历7月12日，阴历五月二十八。 以下为历史阳历7月12日开奖号码汇总：阳历7月12日开奖号码汇总 以下为历史阴历五月二十八开奖号码汇总：阴历五月...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-10/doc-inihifxz8431350.shtml",
+        "time": "2026-07-10T08:30:14.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "We've saved £6,000 on holidays by swapping homes with strangers",
+        "summary": "The BBC looks at the growing trend of people swapping homes to cut holiday costs.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/ce8kkerxz74o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-10T08:26:00.000Z",
+        "category": "general"
+      },
+      {
+        "title": "双色球近10期周日奖号分布：红球连号连开4期",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-10/doc-inihifxy3863509.shtml",
+        "time": "2026-07-10T08:24:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "双色球079期历史同期号码全汇总",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-10/doc-inihifyc5183954.shtml",
+        "time": "2026-07-10T08:20:20.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩长期保持高命中！看最新方案",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-07-10T08:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-逍遥红单昨日公私推6场全红!关注今日红单",
+        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3321502.shtml",
+        "time": "2026-07-10T08:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "男子下班路过彩站刮中福彩80万 准备清账+购买新车",
+        "summary": " 近日，宝鸡市传来喜讯，家住高新区的王先生（化名）在位于高新一路全季酒店楼下的福彩第61030187号投注站，幸运刮中刮刮乐“喜相逢”80万元。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-10/doc-inihifxz8371656.shtml",
+        "time": "2026-07-10T07:43:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]竞彩情报：天空结束2连红颓势",
+        "summary": "天空（客队） 有利情报 1. 上一场比赛，泰勒拿到全队最高的16分，是天空发挥最好的球员。 2. 两队过去五次交手，天空取得4胜1负的战绩，从历史交锋来看天空占据不小优势。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-10/doc-inihifxz8365015.shtml",
+        "time": "2026-07-10T07:41:52.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]竞彩情报：女武神场均失误数仅为10.6个",
+        "summary": "女武神（客队） 有利情报 1. 女武神在过去十场比赛中，取得8胜2负，球队目前状态出色。 2. 本赛季WNBA，女武神的防守非常稳固，球队场均失分能够控制在76.7分...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-10/doc-inihifxz8365010.shtml",
+        "time": "2026-07-10T07:41:52.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-07-10T12:22:29.969Z"
+  },
+  "analyses": [
+    {
+      "news_title": "SK海力士每股定价149美元",
+      "news_summary": "SK海力士每股定价149美元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "有研硅提醒股价严重异常波动",
+      "news_summary": "有研硅提醒股价严重异常波动",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "存储牛股业绩迎10倍增长",
+      "news_summary": "存储牛股业绩迎10倍增长",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "国务院印发《十五五碳达峰行动方案》",
+      "news_summary": "国务院印发《十五五碳达峰行动方案》",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "培育绿色风口 十五五碳达峰行动方案出台",
+      "news_summary": "培育绿色风口 十五五碳达峰行动方案出台",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "碳达峰是约束更是机遇",
+      "news_summary": "碳达峰是约束更是机遇",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "长征十号乙首飞在即 可回收技术突破？",
+      "news_summary": "长征十号乙首飞在即 可回收技术突破？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "商业航天航班化倒逼工业母机升级",
+      "news_summary": "商业航天航班化倒逼工业母机升级",
+      "affected_industries": [
+        "军工"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 富国中证军工",
+        "161024 富国中证军工指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "3D打印成为商业火箭制造标配",
+      "news_summary": "3D打印成为商业火箭制造标配",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "华为大动作！国内首个NPO光互连MSA启动",
+      "news_summary": "华为大动作！国内首个NPO光互连MSA启动",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "长鑫科技16日开启申购",
+      "news_summary": "长鑫科技16日开启申购",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "AI芯片龙头燧原科技 科创板IPO注册获批",
+      "news_summary": "AI芯片龙头燧原科技 科创板IPO注册获批",
+      "affected_industries": [
+        "半导体",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国常会：全链条推动新兴支柱产业规模化发展 加强基础研究和关键软硬件攻关",
+      "news_summary": "国常会：全链条推动新兴支柱产业规模化发展 加强基础研究和关键软硬件攻关",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "商务部、海关总署：对氦气实施临时禁止出口管理",
+      "news_summary": "商务部、海关总署：对氦气实施临时禁止出口管理",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国务院原则同意《中医药振兴发展“十五五”规划》",
+      "news_summary": "国务院原则同意《中医药振兴发展“十五五”规划》",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

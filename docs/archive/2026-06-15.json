@@ -1,0 +1,575 @@
+{
+  "date": "2026-06-15",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4096.4717,
+        "change": 64.96,
+        "changePercent": 1.61,
+        "high": 4097.1657,
+        "low": 4051.0651,
+        "open": 4053.5822,
+        "prevClose": 4031.5129
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15531.109,
+        "change": 567.7,
+        "changePercent": 3.79,
+        "high": 15531.109,
+        "low": 15055.949,
+        "open": 15153.183,
+        "prevClose": 14963.407
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4033.535,
+        "change": 203.18,
+        "changePercent": 5.3,
+        "high": 4033.535,
+        "low": 3844.08,
+        "open": 3896.167,
+        "prevClose": 3830.353
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4891.7126,
+        "change": 114.39,
+        "changePercent": 2.39,
+        "high": 4892.5502,
+        "low": 4803.1836,
+        "open": 4829.2886,
+        "prevClose": 4777.3206
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1748.3264,
+        "change": 85.11,
+        "changePercent": 5.12,
+        "high": 1748.5116,
+        "low": 1658.3235,
+        "open": 1687.6699,
+        "prevClose": 1663.2213
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51848.5312,
+        "change": 646.27,
+        "changePercent": 1.26,
+        "high": 51884.0586,
+        "low": 51364.5508,
+        "open": null,
+        "prevClose": 51202.2617
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26618.6815,
+        "change": 729.8375,
+        "changePercent": 2.82,
+        "high": 26618.6815,
+        "low": 26438.7668,
+        "open": null,
+        "prevClose": 25888.844
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7564.5898,
+        "change": 133.13,
+        "changePercent": 1.79,
+        "high": 7565.4399,
+        "low": 7516.75,
+        "open": null,
+        "prevClose": 7431.46
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-06-15T15:43:01.812Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "“广州第一芯”迎IPO大考",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606143770734432.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "Anthropic最强模型被禁",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606143770757844.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "金海高科控制权易主",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606143770723962.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊和平协议部分细节曝光",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606153770808617.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "重大利好突袭 特朗普宣布",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606153770805579.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊达成协议 19日在瑞士签署",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606153770806813.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "日韩股市暴涨！韩国启动KOSPI熔断机制",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606153770824873.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊和谈迎突破性进展！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606153770827635.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "油价跳水 黄金、白银、美股指期货拉升",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606153770803721.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "十大券商策略：“鱼尾行情”有望重启！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606143770740933.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "风险偏好有望修复 风格再平衡已开始",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606153770834378.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "IPO周报｜本周1只新股申购",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606153770814425.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "《求是》杂志发表习近平总书记重要文章《一体推进教育科技人才发展》",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606153771491440.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普称多艘装载石油船只正通过霍尔木兹海峡",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606153771808254.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "道指再创历史新高 纳指涨超2% 油价大跌金价大涨",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606153771819162.html",
+        "time": "2026-06-15T15:43:00.660Z",
+        "category": "finance"
+      },
+      {
+        "title": "How could the US-Iran deal affect oil prices and the cost of food?",
+        "summary": "Experts warn the impact of the war will continue to affect the global economy for months to come.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/cd0p8me2m5do?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-15T15:20:09.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Fox to buy Roku streaming firm in $22bn deal",
+        "summary": "The move is seen as a bet that combining streaming with its news and sport offering will boost Fox as TV audiences move online.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/cql1yew3vezo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-15T14:28:12.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Oil prices fall and shares jump after US-Iran deal announced",
+        "summary": "Under the agreement, the key Strait of Hormuz waterway will be reopened, US President Donald Trump said.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c6217106px6o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-15T14:21:22.000Z",
+        "category": "general"
+      },
+      {
+        "title": "What's happening to UK petrol and diesel prices now the US and Iran have a deal?",
+        "summary": "When the conflict began on 28 February, fuel costs jumped as the war disrupted the production and transportation of energy across the Middle East.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-15T11:28:39.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推擒德国比分胜其它！看最新",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-15T09:46:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩第26086期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德世界杯胜平负胜平负胜平负胜平负1法国 vs 塞内加尔1.404.207.001.404.507.501.384.507.001.364.407.0015日09:001...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-15/doc-inicmxcc5105118.shtml",
+        "time": "2026-06-15T09:00:01.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26086期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负17日03:00(周三)01 法国 vs 塞内加尔2.05一球/球半1.791.424.305.70周一09:002.06一球/球半1.781.424.305...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-15/doc-inicmxcc5102630.shtml",
+        "time": "2026-06-15T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "二十年磨一剑 小明围棋机器人杯全国团体赛圆满举行",
+        "summary": "来源：明仕棋院 黑白纵横，智汇萧山。6月6日，2026年“小明围棋机器人杯”全国围棋锦标赛（团体）在萧山宝盛宾馆拉开帷幕。 本次比赛由中国围棋协会主办...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-06-15/doc-inicnuhq6702552.shtml",
+        "time": "2026-06-15T08:26:40.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票双色球名家第26068期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章 严禁各媒体 公众号等转载 违规必究！严惩不贷！] 景天枫：03,07,08,11,12,14,20,22,28+02,09,10 申东虎：04,06,08,11,12,16,25,30...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-15/doc-inicnpys6738902.shtml",
+        "time": "2026-06-15T07:13:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "历史上的今天-双色球6月16日开奖号码汇总",
+        "summary": "双色球下期开奖是在周二，阳历6月16日，阴历五月初二。 以下为历史阳历6月16日开奖号码汇总：阳历6月16日开奖号码汇总 以下为历史阴历五月初二开奖号码汇总：阴历五月初二...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-15/doc-inicnpyq9932380.shtml",
+        "time": "2026-06-15T07:08:40.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "双色球近10期周二奖号分布：前区8尾连开3期",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-15/doc-inicnpyq9929484.shtml",
+        "time": "2026-06-15T06:45:21.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "双色球068期历史同期号码全汇总",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-15/doc-inicnisu6813846.shtml",
+        "time": "2026-06-15T06:38:53.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "“亲眼见证”？“轻松上岸”？直播间上演的“天降好运”，全是“自导自演”的骗局",
+        "summary": "听到直播间里喊 “家人们！中了！中了20万！” 别上头 你眼前的画面 根本不是好运，是骗局！ 直播间里 主播看似随意按住彩票 实则始终挡住票号与保安区 其中的猫腻不言而喻...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-15/doc-inicnisu6814172.shtml",
+        "time": "2026-06-15T06:32:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "外滩光影秀联动瑜伽嘉年华 lululemon与社区\"瑜\"见感受",
+        "summary": "2026年6月13日，中国上海——运动生活方式品牌lululemon在上海黄浦江畔展开“瑜伽垫”，举办“瑜”见外滩瑜伽嘉年华。当日，lululemon邀请近1...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/other/2026-06-15/doc-inicnisv8304108.shtml",
+        "time": "2026-06-15T06:02:17.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "精选足篮专家：老贼世界杯豪取8连红！旺哥6连红",
+        "summary": "北京时间6月15日（周一），世界杯进入到第5个比赛日，今日有4场世界杯小组赛开战，西班牙、比利时纷纷登场。专家战绩方面，老贼分析世界杯竞彩豪取8连红...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-15/doc-inicnisv8302930.shtml",
+        "time": "2026-06-15T05:48:00.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-15T15:43:00.980Z"
+  },
+  "analyses": [
+    {
+      "news_title": "“广州第一芯”迎IPO大考",
+      "news_summary": "“广州第一芯”迎IPO大考",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "Anthropic最强模型被禁",
+      "news_summary": "Anthropic最强模型被禁",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "金海高科控制权易主",
+      "news_summary": "金海高科控制权易主",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美伊和平协议部分细节曝光",
+      "news_summary": "美伊和平协议部分细节曝光",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "重大利好突袭 特朗普宣布",
+      "news_summary": "重大利好突袭 特朗普宣布",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "美伊达成协议 19日在瑞士签署",
+      "news_summary": "美伊达成协议 19日在瑞士签署",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "日韩股市暴涨！韩国启动KOSPI熔断机制",
+      "news_summary": "日韩股市暴涨！韩国启动KOSPI熔断机制",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "美伊和谈迎突破性进展！",
+      "news_summary": "美伊和谈迎突破性进展！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "油价跳水 黄金、白银、美股指期货拉升",
+      "news_summary": "油价跳水 黄金、白银、美股指期货拉升",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "十大券商策略：“鱼尾行情”有望重启！",
+      "news_summary": "十大券商策略：“鱼尾行情”有望重启！",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "风险偏好有望修复 风格再平衡已开始",
+      "news_summary": "风险偏好有望修复 风格再平衡已开始",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "IPO周报｜本周1只新股申购",
+      "news_summary": "IPO周报｜本周1只新股申购",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "《求是》杂志发表习近平总书记重要文章《一体推进教育科技人才发展》",
+      "news_summary": "《求是》杂志发表习近平总书记重要文章《一体推进教育科技人才发展》",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普称多艘装载石油船只正通过霍尔木兹海峡",
+      "news_summary": "特朗普称多艘装载石油船只正通过霍尔木兹海峡",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "道指再创历史新高 纳指涨超2% 油价大跌金价大涨",
+      "news_summary": "道指再创历史新高 纳指涨超2% 油价大跌金价大涨",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    }
+  ]
+}

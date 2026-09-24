@@ -1,0 +1,627 @@
+{
+  "date": "2026-08-20",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3903.721,
+        "change": 9.3,
+        "changePercent": 0.24,
+        "high": 3925.0615,
+        "low": 3888.0989,
+        "open": 3907.2058,
+        "prevClose": 3894.4224
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13972.78,
+        "change": 82.63,
+        "changePercent": 0.59,
+        "high": 14101.141,
+        "low": 13870.177,
+        "open": 14032.967,
+        "prevClose": 13890.152
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3495.589,
+        "change": 22.1,
+        "changePercent": 0.64,
+        "high": 3531.923,
+        "low": 3459.569,
+        "open": 3517.652,
+        "prevClose": 3473.493
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4592.7504,
+        "change": 4.05,
+        "changePercent": 0.09,
+        "high": 4631.126,
+        "low": 4569.2282,
+        "open": 4613.2975,
+        "prevClose": 4588.6955
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1652.9721,
+        "change": -14.54,
+        "changePercent": -0.87,
+        "high": 1694.3644,
+        "low": 1638.2945,
+        "open": 1685.4833,
+        "prevClose": 1667.5155
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 53463.0508,
+        "change": 119.65,
+        "changePercent": 0.22,
+        "high": 53710.0586,
+        "low": 53399.5312,
+        "open": null,
+        "prevClose": 53343.3984
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26331.0902,
+        "change": 41.3791,
+        "changePercent": 0.16,
+        "high": 26456.7762,
+        "low": 26185.1286,
+        "open": null,
+        "prevClose": 26289.7111
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7707.98,
+        "change": 16.22,
+        "changePercent": 0.21,
+        "high": 7743.9302,
+        "low": 7700.0698,
+        "open": null,
+        "prevClose": 7691.7598
+      }
+    ],
+    "sectors": [
+      {
+        "name": "疫苗",
+        "code": "BK1598",
+        "price": 4441,
+        "changePercent": 13.64,
+        "change": 533.14
+      },
+      {
+        "name": "诊断服务",
+        "code": "BK1602",
+        "price": 6274.78,
+        "changePercent": 10.11,
+        "change": 576.24
+      },
+      {
+        "name": "生物制品",
+        "code": "BK1044",
+        "price": 1094.44,
+        "changePercent": 8.64,
+        "change": 87.05
+      },
+      {
+        "name": "其他生物制品",
+        "code": "BK1596",
+        "price": 8700.66,
+        "changePercent": 7.45,
+        "change": 603.35
+      },
+      {
+        "name": "医疗研发外包",
+        "code": "BK1600",
+        "price": 9535.44,
+        "changePercent": 6.66,
+        "change": 595.2
+      },
+      {
+        "name": "其他医疗服务",
+        "code": "BK1599",
+        "price": 4408.3,
+        "changePercent": 6.32,
+        "change": 262.15
+      }
+    ],
+    "updatedAt": "2026-08-20T10:23:46.492Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "存储芯片龙头三成利润靠炒股",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203846982419.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "兴业证券上半年净利增长60%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203846986667.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国财政部出手“拯救”债市",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203846814457.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国联邦政府债务首破40万亿美元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203846980047.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "华尔街惊呼：“变相OT”来了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203846985735.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普：对伊朗采取最严厉经济行动",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203846762876.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "美军在霍尔木兹海峡打通运油航道",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203846744817.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储纪要“鹰派声音”不小",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203846736531.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "经济日报：警惕国际资本炒作粮食危机",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203846744644.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "Moderna飙升176.97% 国际金银价格走强",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203846741390.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "癌症疫苗“暴打”做空者",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203846726493.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "美方对无人机及零部件征收232关税 商务部回应",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203847696258.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "上海今出8条楼市新政：精准施策 “卖旧买新”阶段性最高补8万元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203847573786.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "治疗性疫苗获突破 国内mRNA产业链能否接棒？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203847802887.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "莫德纳重大突破！mRNA疫苗概念梳理",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608203847895862.html",
+        "time": "2026-08-20T10:23:45.032Z",
+        "category": "finance"
+      },
+      {
+        "title": "Travelodge boss resigns as chain tackles security after sex assault at hotel",
+        "summary": "Jo Boydell had been criticised for the company's handling of issues with its safety and security.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c2k7e7zwxvyo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-20T10:05:24.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Trump vows tougher economic measures on Iran and supporting countries",
+        "summary": "It comes after a 60-day ceasefire expired on Monday, with no sign of a diplomatic or military off-ramp to the conflict.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-20T09:13:18.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推2连红！私推7中5超准",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-08-20T09:10:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26108期欧洲四大机构最新数据(17:00)",
+        "summary": "td {text-align:center;font-size:12px} .t2 td{height:18px;line-height:18px;}     专家推荐 智能预测 彩票首页  胜负彩对阵 威廉 立博365伟德 英超 胜平负胜平负...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-20/doc-ininxkry2147895.shtml",
+        "time": "2026-08-20T09:01:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26108期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负22日03:00(周六)01阿森纳 vs 考文垂1.91两球1.931.146.4412.00周四09:001.94两球1.901.146.4412.00周四17:001...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-20/doc-ininxkry2147667.shtml",
+        "time": "2026-08-20T09:00:45.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪专家10天内分析大乐透擒8注头奖！豪揽9293万",
+        "summary": "近期，新浪大乐透专家迎来一波集体爆发！自26090期开奖至26094期开奖，连续5期均有专家命中大奖，累擒奖金9293万元！从百万级二等奖到千万级头奖，大奖捷报频传...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-20/doc-ininyfvr8712485.shtml",
+        "time": "2026-08-20T08:59:10.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "骑士14+3名单均高近2米软肋已消 克城夺冠概率提升1%",
+        "summary": "北京时间8月20日，骑士、黄蜂、奇才、掘金、快船完成了一笔五方交易，骑士得到沃特森、惠特莫尔；快船得到斯特鲁斯；掘金得到1个首轮签+1个次轮签；黄蜂得到施罗德；奇才得...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-20/doc-ininxzpp6726148.shtml",
+        "time": "2026-08-20T07:45:04.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "4年8800万！哈登迎来强力帮手 总冠军有戏了",
+        "summary": "哈登在今年2月份被快船交易到骑士，骑士是哈登心仪的下家，他认为在骑士有望夺冠。哈登今年季后赛帮助骑士取得了突破，他们杀入了东决...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-20/doc-ininxzpp6726144.shtml",
+        "time": "2026-08-20T07:45:04.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "揭秘骑士4年8800万抄底沃特森！雷霆送哈登神助攻",
+        "summary": "骑士4年8800万如愿拿下佩顿-沃特森，表面看起来只是一笔普通的先签后换，实际上背后却藏着一连串连锁反应，雷霆在其中扮演了关键的角色，才让骑士趁机捡漏...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-20/doc-ininxzpp6726143.shtml",
+        "time": "2026-08-20T07:45:04.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "湖人出售进展：巴斯家族内斗迎转折 珍妮谋求15%股份",
+        "summary": "北京时间8月20日，The Athletic更新了湖人出售进展，据悉巴斯家族内斗迎来转折点，珍妮·巴斯正谋求保留15%股份。 [篮彩4连红专家权威解读WNBA!][速来!",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-20/doc-ininxzpk7998202.shtml",
+        "time": "2026-08-20T07:45:04.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "火箭湖人新赛季两队谁更强？两队存在哪些问题？",
+        "summary": "火箭：需要升级控球后卫吗？ 火箭在控球后卫位置上有两个半成品的答案，一个已经度过了巅峰期，另一个离迈入巅峰还有数年之遥。 32岁的弗雷德·范弗里特刚从导致他整个2025-...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-20/doc-ininxzpk7998198.shtml",
+        "time": "2026-08-20T07:45:04.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "深度长文分析:NBA五队大交易 谁是最大赢家？",
+        "summary": "NBA休赛期正上演着多场“大戏”。其中之一便是丹佛掘金有意控制薪资总额，尽管他们必须想方设法在竞争惨烈的西部保持顶尖实力。另一场大戏则围绕着佩顿·沃特森的受限制自由球...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-20/doc-ininxzpt8784156.shtml",
+        "time": "2026-08-20T07:42:52.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "火箭新星天赋异禀 他是否能签约5年2.5亿美金顶薪？",
+        "summary": "火箭新星阿门·汤普森今年休赛期有资格进行提前续约，ClutchPoints记者Brett Siegel撰文谈到了这个话题。 原文如下： 阿门·汤普森有资格在2026-27赛季开始前与火箭签下一份5...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-20/doc-ininxzpk7996069.shtml",
+        "time": "2026-08-20T07:42:52.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "勇士老板用忠诚拿捏库里 库里是否被耽误巅峰？",
+        "summary": "近日，记者Anthony Irwin在Lakers Lounge节目中谈到了勇士老板拉科布和库里。 Anthony Irwin说：“勇士老板拉科布利用了斯蒂芬·库里的忠诚来‘拿捏’他...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-20/doc-ininxzps2011647.shtml",
+        "time": "2026-08-20T07:42:52.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "老鹰底薪都不给库明加！拒签湖人1000万亏麻了？",
+        "summary": "北京时间8月20日，随着五方大交易达成，骑士队四年8800先签后换得到顶级锋线沃特森，骑士队已经退出了库明加的争夺战，目前只剩下湖人、森林狼对库明加有意...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-08-20/doc-ininxzpp6724013.shtml",
+        "time": "2026-08-20T07:42:52.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-20T10:23:45.038Z"
+  },
+  "analyses": [
+    {
+      "news_title": "存储芯片龙头三成利润靠炒股",
+      "news_summary": "存储芯片龙头三成利润靠炒股",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "兴业证券上半年净利增长60%",
+      "news_summary": "兴业证券上半年净利增长60%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "美国财政部出手“拯救”债市",
+      "news_summary": "美国财政部出手“拯救”债市",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国联邦政府债务首破40万亿美元",
+      "news_summary": "美国联邦政府债务首破40万亿美元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "华尔街惊呼：“变相OT”来了",
+      "news_summary": "华尔街惊呼：“变相OT”来了",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普：对伊朗采取最严厉经济行动",
+      "news_summary": "特朗普：对伊朗采取最严厉经济行动",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美军在霍尔木兹海峡打通运油航道",
+      "news_summary": "美军在霍尔木兹海峡打通运油航道",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美联储纪要“鹰派声音”不小",
+      "news_summary": "美联储纪要“鹰派声音”不小",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "经济日报：警惕国际资本炒作粮食危机",
+      "news_summary": "经济日报：警惕国际资本炒作粮食危机",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "Moderna飙升176.97% 国际金银价格走强",
+      "news_summary": "Moderna飙升176.97% 国际金银价格走强",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "癌症疫苗“暴打”做空者",
+      "news_summary": "癌症疫苗“暴打”做空者",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美方对无人机及零部件征收232关税 商务部回应",
+      "news_summary": "美方对无人机及零部件征收232关税 商务部回应",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "上海今出8条楼市新政：精准施策 “卖旧买新”阶段性最高补8万元",
+      "news_summary": "上海今出8条楼市新政：精准施策 “卖旧买新”阶段性最高补8万元",
+      "affected_industries": [
+        "房地产"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及房地产。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "治疗性疫苗获突破 国内mRNA产业链能否接棒？",
+      "news_summary": "治疗性疫苗获突破 国内mRNA产业链能否接棒？",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及医药。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "莫德纳重大突破！mRNA疫苗概念梳理",
+      "news_summary": "莫德纳重大突破！mRNA疫苗概念梳理",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及医药。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    }
+  ]
+}

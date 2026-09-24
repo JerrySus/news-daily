@@ -1,0 +1,587 @@
+{
+  "date": "2026-08-11",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3934.0929,
+        "change": -32.5,
+        "changePercent": -0.82,
+        "high": 3966.391,
+        "low": 3930.6386,
+        "open": 3950.7078,
+        "prevClose": 3966.5935
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14259.44,
+        "change": -57.52,
+        "changePercent": -0.4,
+        "high": 14447.098,
+        "low": 14201.293,
+        "open": 14266.442,
+        "prevClose": 14316.961
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3549.164,
+        "change": 11.95,
+        "changePercent": 0.34,
+        "high": 3601.59,
+        "low": 3517.572,
+        "open": 3533.894,
+        "prevClose": 3537.214
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4663.7887,
+        "change": -38.24,
+        "changePercent": -0.81,
+        "high": 4715.8812,
+        "low": 4660.4742,
+        "open": 4689.4493,
+        "prevClose": 4702.0247
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1709.5026,
+        "change": -28.27,
+        "changePercent": -1.63,
+        "high": 1753.1365,
+        "low": 1699.9151,
+        "open": 1713.2581,
+        "prevClose": 1737.7737
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 53975.9805,
+        "change": -60.95,
+        "changePercent": -0.11,
+        "high": 54072.6602,
+        "low": 53850.1914,
+        "open": null,
+        "prevClose": 54036.9297
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26605.3567,
+        "change": -85.2583,
+        "changePercent": -0.32,
+        "high": 26724.6317,
+        "low": 26548.2575,
+        "open": null,
+        "prevClose": 26690.615
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7753.1099,
+        "change": -4.53,
+        "changePercent": -0.06,
+        "high": 7773.7598,
+        "low": 7743.1099,
+        "open": null,
+        "prevClose": 7757.6401
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-08-11T10:45:55.471Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "5连板！百花医药紧急提示",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113837151477.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "宇树科技中签率创科创板新低",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113836989432.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "投行下调苹果股票评级",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113836994646.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普称要向伊朗索赔",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113836985655.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普称美军100%控制霍尔木兹海峡",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113837025892.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "霍尔木兹海峡重启预期降温",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113836984852.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储鹰派释放强硬信号",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113837002035.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储独立性再度引爆担忧？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113837246410.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "芯片、光通信遭抛售！发生了什么",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113837057537.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "煤炭工业发展五年规划落地",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113837185824.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "煤炭工业十五五规划印发",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113836995689.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "到2030年智能化煤矿产能比例提升至75%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113837276765.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "AI产业链利好！上海印发重要规划",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113837965967.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "让“科味”更浓 恒生科技指数大调整 这一次有何不同？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113837721128.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "蓄力下一代DRAM 存储龙头拟提升EUV光刻性能 相移掩模版成关键",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113837821033.html",
+        "time": "2026-08-11T10:45:54.160Z",
+        "category": "finance"
+      },
+      {
+        "title": "第31届亚太业余高尔夫球团体锦标赛新闻发布会举行",
+        "summary": "北京时间8月11日，第31届亚太业余高尔夫球团体锦标赛新闻发布会在赛事承办球场北京北湖九号高尔夫俱乐部举行。 中国高尔夫球协会副主席、亚太高尔夫球联合会执委田晓君...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/chinareport/2026-08-11/doc-inimxvun5836191.shtml",
+        "time": "2026-08-11T10:15:13.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国排名：殷若宁保持第八位 刘艳58位王馨迎72位",
+        "summary": "北京时间8月11日，大部分在LPGA上征战的中国选手上一周都选择休息，致使她们的世界排名无法提升。 殷若宁继续领跑中国军团，第八位保持不变。刘艳下降3位，排在58位。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/chinareport/2026-08-11/doc-inimxvuf0674485.shtml",
+        "time": "2026-08-11T10:10:13.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "女子排名：黄嘉欣闯入前50位 吉泽柚月夺冠115位",
+        "summary": "北京时间8月11日，加拿大华裔17岁姑娘黄嘉欣在11个月中取得4场女子欧巡胜利，世界排名进入前50位。吉泽柚月（Yuzuki Yoshizawa）...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/lpga/2026-08-11/doc-inimxvuf0673819.shtml",
+        "time": "2026-08-11T10:08:57.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国排名：李昊桐窦泽成下降 周彦含袁也淳上升",
+        "summary": " 北京时间8月10日，李昊桐和窦泽成双双在美巡赛常规赛季最后一场比赛中淘汰，这不仅影响了他的世界排名，更大大打击了他们的保卡机会。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/chinareport/2026-08-11/doc-inimxvui7477156.shtml",
+        "time": "2026-08-11T10:06:36.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界排名：布伦南夺冠冲到35位 俞俊安进入前100",
+        "summary": " 北京时间8月10日，迈克尔-布伦南（Michael Brennan）在常规赛季最后一站比赛：温德姆锦标赛中取得胜利，这给他带来了许多远期和近期的福利。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/pgatour/2026-08-11/doc-inimxvuf0671402.shtml",
+        "time": "2026-08-11T10:05:38.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪竞技彩专家招募中 篮彩专家符合条件优先录用",
+        "summary": "小炮APP内汇集了行业顶尖的竞彩、足彩专家，我们始终致力于为彩民提供最优质全面的情报分析以及投注方案。为满足更多有识之士想要加入专家团队的愿望...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-21/doc-iniippii2619457.shtml",
+        "time": "2026-08-11T09:53:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩昨日4场精选私推全红！看方案",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-08-11T09:50:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "8月14日-20日足彩赛程：停售4期 西甲周末开赛",
+        "summary": "北京时间2026年8月11日，国家体彩中心公布了2026年8月14日-8月20日的足彩赛程，其中8月14日（周五）、8月15日（周六）、8月16日（周日）和8月18日（周二）停售。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-11/doc-inimxvuf0667939.shtml",
+        "time": "2026-08-11T09:49:36.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Councils to get more powers to stop vape and betting shops, PM announces",
+        "summary": "Prime Minister Andy Burnham said town centres had been \"hollowed out\" by decades of decline.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cvg90el9236o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-11T09:23:58.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Mars Bar from 1991 found - and it's 56% bigger than today's",
+        "summary": "The woman who found the chocolate bar during a house clearance compares it with today's Mars Bars.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c1j1kjy7gewo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-11T09:08:46.000Z",
+        "category": "general"
+      },
+      {
+        "title": "[小炮APP]专家刘志贤竞彩推荐：大阪钢巴不败",
+        "summary": "001 亚冠资格赛 江原FC VS大阪钢巴近期状态，江原FC近六场2胜2平2负，进6球丢7球，状态一般；主场3胜1平2负，状态一般。大阪钢巴近六场4胜1平1负，进18球丢9球...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-11/doc-inimxvui7441676.shtml",
+        "time": "2026-08-11T09:05:44.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家上官孤诣竞彩推荐：阿拉木图可博平",
+        "summary": "阿拉木图凯拉特vs索非亚列夫斯基首回合较量索非亚列夫斯基凭借塞尔吉尼奥在补时阶段的绝杀，以1-0带走胜利；这一结果让凯拉特陷入了被动；阿拉木图拉特本场必须在90分钟内...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-11/doc-inimxvuf0632756.shtml",
+        "time": "2026-08-11T09:05:44.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：江原FC难有作为",
+        "summary": "亚冠精英 江原FCvs大阪钢巴 2026-08-11 18:30江原FC是上赛季K联赛的亚军，同时史初次踏上亚冠精英联赛的赛事，且在也是晋级到了16强，在近期韩职的整体的表现下滑不少...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-11/doc-inimxvun5791426.shtml",
+        "time": "2026-08-11T09:05:44.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26103期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德欧冠胜平负胜平负胜平负胜平负1阿拉木图 vs 索非亚列夫斯基2.503.002.502.503.202.802.603.202.752.503.132...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-10/doc-inimuriv2949022.shtml",
+        "time": "2026-08-11T09:00:30.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26103期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负11日23:00(周二)01 阿拉木图 vs 索非亚列夫斯基2.01平手/半球1.772.253.022.88周一09:002.01平手/半球1.772...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-10/doc-inimurit1345167.shtml",
+        "time": "2026-08-11T09:00:00.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-11T10:45:54.312Z"
+  },
+  "analyses": [
+    {
+      "news_title": "5连板！百花医药紧急提示",
+      "news_summary": "5连板！百花医药紧急提示",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "宇树科技中签率创科创板新低",
+      "news_summary": "宇树科技中签率创科创板新低",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "投行下调苹果股票评级",
+      "news_summary": "投行下调苹果股票评级",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普称要向伊朗索赔",
+      "news_summary": "特朗普称要向伊朗索赔",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普称美军100%控制霍尔木兹海峡",
+      "news_summary": "特朗普称美军100%控制霍尔木兹海峡",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "霍尔木兹海峡重启预期降温",
+      "news_summary": "霍尔木兹海峡重启预期降温",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美联储鹰派释放强硬信号",
+      "news_summary": "美联储鹰派释放强硬信号",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美联储独立性再度引爆担忧？",
+      "news_summary": "美联储独立性再度引爆担忧？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "芯片、光通信遭抛售！发生了什么",
+      "news_summary": "芯片、光通信遭抛售！发生了什么",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "煤炭工业发展五年规划落地",
+      "news_summary": "煤炭工业发展五年规划落地",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "煤炭工业十五五规划印发",
+      "news_summary": "煤炭工业十五五规划印发",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "到2030年智能化煤矿产能比例提升至75%",
+      "news_summary": "到2030年智能化煤矿产能比例提升至75%",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及人工智能。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "AI产业链利好！上海印发重要规划",
+      "news_summary": "AI产业链利好！上海印发重要规划",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及人工智能。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "让“科味”更浓 恒生科技指数大调整 这一次有何不同？",
+      "news_summary": "让“科味”更浓 恒生科技指数大调整 这一次有何不同？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "蓄力下一代DRAM 存储龙头拟提升EUV光刻性能 相移掩模版成关键",
+      "news_summary": "蓄力下一代DRAM 存储龙头拟提升EUV光刻性能 相移掩模版成关键",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及半导体。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    }
+  ]
+}

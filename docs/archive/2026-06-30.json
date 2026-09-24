@@ -1,0 +1,633 @@
+{
+  "date": "2026-06-30",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4094.3972,
+        "change": 20.5,
+        "changePercent": 0.5,
+        "high": 4097.415,
+        "low": 4052.17,
+        "open": 4058.1695,
+        "prevClose": 4073.9017
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 16205.557,
+        "change": 392.69,
+        "changePercent": 2.48,
+        "high": 16232.232,
+        "low": 15809.651,
+        "open": 15811.668,
+        "prevClose": 15812.871
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4342.712,
+        "change": 126.01,
+        "changePercent": 2.99,
+        "high": 4353.105,
+        "low": 4205.742,
+        "open": 4217.633,
+        "prevClose": 4216.699
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4979.4328,
+        "change": 52.51,
+        "changePercent": 1.07,
+        "high": 4987.5599,
+        "low": 4914.4934,
+        "open": 4914.4934,
+        "prevClose": 4926.921
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 2207.8648,
+        "change": 81.85,
+        "changePercent": 3.85,
+        "high": 2214.6127,
+        "low": 2113.9499,
+        "open": 2132.8822,
+        "prevClose": 2126.0105
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52182.7383,
+        "change": 306.63,
+        "changePercent": 0.59,
+        "high": 52311.6289,
+        "low": 51949.5391,
+        "open": null,
+        "prevClose": 51876.1094
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25820.1438,
+        "change": 522.5261,
+        "changePercent": 2.07,
+        "high": 25834.3545,
+        "low": 25289.7642,
+        "open": null,
+        "prevClose": 25297.6177
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7440.4302,
+        "change": 86.41,
+        "changePercent": 1.18,
+        "high": 7444.3198,
+        "low": 7348.8799,
+        "open": null,
+        "prevClose": 7354.02
+      }
+    ],
+    "sectors": [
+      {
+        "name": "模拟芯片设计",
+        "code": "BK1330",
+        "price": 8403.68,
+        "changePercent": 8.97,
+        "change": 691.6
+      },
+      {
+        "name": "光学元件",
+        "code": "BK1334",
+        "price": 20502.78,
+        "changePercent": 7.93,
+        "change": 1506.63
+      },
+      {
+        "name": "数字芯片设计",
+        "code": "BK1331",
+        "price": 34349.91,
+        "changePercent": 6.85,
+        "change": 2203.09
+      },
+      {
+        "name": "分立器件",
+        "code": "BK1327",
+        "price": 22613.42,
+        "changePercent": 6.61,
+        "change": 1401.63
+      },
+      {
+        "name": "光学光电子",
+        "code": "BK1038",
+        "price": 2567.55,
+        "changePercent": 6.42,
+        "change": 154.83
+      },
+      {
+        "name": "机器人",
+        "code": "BK1408",
+        "price": 10497.36,
+        "changePercent": 6.35,
+        "change": 626.93
+      }
+    ],
+    "updatedAt": "2026-06-30T12:05:52.292Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "中科曙光80亿元加码AI",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293787072449.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "中欧贸易投资磋商机制联合声明",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606303787109564.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "中欧贸易投资磋商机制正式成立",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606303787102539.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "中美贸易近期上升 中欧回升加速",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606303787339282.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "国务院：深入实施“人工智能+”行动",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293787072620.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "加快关键技术攻关和超大规模智算集群建设",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606303787344665.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "教育行业迎成长机遇",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606303787278030.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "商业航天催化不断！可回收火箭发射临近",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606303787290478.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "北京海淀商业航天加速成链",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293786917520.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "西安加速迈向商业航天系统集成高地",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606303787349676.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "中共中央政治局召开会议 习近平主持会议",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606303788308655.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "A股上半年收官！近400股翻倍 最牛股暴涨767%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606303788489155.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "八部门联合印发《关于推动工业互联网高质量发展的实施意见》",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606303788439449.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "寒武纪市值破万亿：里程碑前 更需一份清醒定力",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606303788352292.html",
+        "time": "2026-06-30T12:05:51.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国空调欧洲卖爆！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293787046271.html",
+        "time": "2026-06-30T12:05:51.853Z",
+        "category": "finance"
+      },
+      {
+        "title": "晋城全国公开赛时越不敌李小溪 三位世冠止步首轮",
+        "summary": "6月30日，第三届晋城全国职业围棋公开赛首轮比赛在晋城浩翔金辇大酒店战罢；五位出战的女棋手中，周泓余不敌卫冕冠军丁浩，丁明君遭世界冠军党毅飞逆转...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-06-30/doc-inifesxy3489304.shtml",
+        "time": "2026-06-30T10:49:30.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "商界棋王对决聂门弟子 春城弈汇首期雅集圆满落子",
+        "summary": "据东盟棋院报道，6月27日，“春城弈汇·商界棋王跨界雅集”（第一期）在云南昆明正式启幕。本次活动以“找回人类围棋的浪漫”为核心理念，邀请历届商界棋王及文旅行业嘉宾...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-06-30/doc-inifesxq4813524.shtml",
+        "time": "2026-06-30T10:36:33.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推擒巴西比分!关注新方案",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-30T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "7月3日-7月9日足彩赛程:停售2期 欧冠回归",
+        "summary": "北京时间2026年6月30日，国家体彩中心公布了2026年7月3日-7月9日的足彩赛程，7月4日（周六）和7月9日（周四）共2期停售，第26090期竞猜世界杯欧冠瑞超...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-30/doc-inifesxs1533614.shtml",
+        "time": "2026-06-30T08:41:26.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "第三届晋城全国职业围棋公开赛晋城开幕",
+        "summary": "6月30日，第三届晋城全国职业围棋公开赛开幕式在晋城浩翔金辇大酒店举行；出席开幕式的领导和嘉宾有：中国围棋协会主席常昊，晋城市人民政府副市长杨晓雷...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-06-30/doc-inifenry6726420.shtml",
+        "time": "2026-06-30T08:04:51.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界前十：森川攀升到第六位 斯鲍重回前十",
+        "summary": " 北京时间6月30日，一场拥有高积分的赛事：旅行者锦标赛落幕，世界前十发生了一定变动。科林·森川上升到第六位，JJ斯鲍重回前十。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/pgatour/2026-06-30/doc-inifensa3493555.shtml",
+        "time": "2026-06-30T07:55:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界排名：霍夫兰夺冠升至12位 恰卡拉冲入前60位",
+        "summary": " 北京时间6月30日，维克多·霍夫兰在旅行者锦标赛上赢得生涯第10场全球胜利，以及美巡赛第8胜，他的世界排名回升到第12位。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/pgatour/2026-06-30/doc-inifenrs4841844.shtml",
+        "time": "2026-06-30T07:51:21.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国排名：李昊桐95位保持不变 袁也淳金子豪上升",
+        "summary": " 北京时间6月30日，由于资格排序不够高，“中国一哥”李昊桐不得不再休息一周，他的世界排名保持不变。而几位参赛的中国选手，因为出色的表现，提升了世界排名。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/pgatour/2026-06-30/doc-inifenru1617469.shtml",
+        "time": "2026-06-30T07:49:14.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家小炜侃球让球推荐：法国 VS 瑞典",
+        "summary": "让球26071期 第3场 世界杯 法国 VS 瑞典法国本届世界杯进攻端发挥出色，姆巴佩+登贝莱+奥利塞的进攻组合攻击力十足，上一场面对大幅轮换的挪威...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-30/doc-inifenrs4808112.shtml",
+        "time": "2026-06-30T07:12:23.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家红单怪兽让球推荐：瓦萨VS图尔库国际",
+        "summary": "主场作战的瓦萨近期表现出色，各项赛事已经是连续5场不败，而且值得注意的是，球队在面对联赛排名第三的奥卢时打出了5-1的好成绩...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-30/doc-inifenry6676226.shtml",
+        "time": "2026-06-30T07:12:23.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家天涯侃球竞彩推荐：法国有望大胜",
+        "summary": "078 世界杯 法国 vs 瑞典本场比赛是世界杯1/16决赛，由法国对阵北欧海盗瑞典，比赛场地位于美国纽约新泽西球场，法国队首轮小组赛曾在这个球场打完比赛...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-30/doc-inifenru1585333.shtml",
+        "time": "2026-06-30T07:12:23.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "巴西下一轮1/8决赛对手具体是谁？",
+        "summary": "根据最新比赛结果，巴西在1/16决赛中2-1绝杀日本晋级16强，其下一轮1/8决赛的对手将是科特迪瓦与挪威之间的胜者。 一、巴西晋级之路回顾 北京时间2026年6月30日凌晨...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-30/doc-inifensa3452516.shtml",
+        "time": "2026-06-30T07:12:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "44岁前国脚徐亮4分钟怒斥世界杯假球",
+        "summary": "44岁前国脚徐亮4分钟怒斥世界杯假球，直指阿尔及利亚奥地利踢出默契球 44岁前中国国脚、有着“黄金左脚”美誉的徐亮，在2026年6月29日的直播连线中...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-30/doc-inifenry6675376.shtml",
+        "time": "2026-06-30T07:11:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "西班牙能打破夺冠后淘汰赛不胜魔咒吗？",
+        "summary": "2026年6月30日，随着德国在1/16决赛点球不敌巴拉圭出局，意、西、德三大夺冠后淘汰赛不胜魔咒仅剩西班牙一根独苗，而斗牛士军团即将在1/16决赛对阵奥地利...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-30/doc-inifenru1583354.shtml",
+        "time": "2026-06-30T07:08:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "德国队点球大战为什么会出现三次罚丢？",
+        "summary": "德国队点球大战出现三次罚丢的惨痛失利，是心理压力崩溃、战术准备不足与技术执行失常三重因素叠加导致的必然结果。 一、心理层面：历史光环反成沉重包袱 1...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-30/doc-inifenru1574465.shtml",
+        "time": "2026-06-30T06:54:31.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-30T12:05:51.855Z"
+  },
+  "analyses": [
+    {
+      "news_title": "中科曙光80亿元加码AI",
+      "news_summary": "中科曙光80亿元加码AI",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中欧贸易投资磋商机制联合声明",
+      "news_summary": "中欧贸易投资磋商机制联合声明",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中欧贸易投资磋商机制正式成立",
+      "news_summary": "中欧贸易投资磋商机制正式成立",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中美贸易近期上升 中欧回升加速",
+      "news_summary": "中美贸易近期上升 中欧回升加速",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "国务院：深入实施“人工智能+”行动",
+      "news_summary": "国务院：深入实施“人工智能+”行动",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "加快关键技术攻关和超大规模智算集群建设",
+      "news_summary": "加快关键技术攻关和超大规模智算集群建设",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "教育行业迎成长机遇",
+      "news_summary": "教育行业迎成长机遇",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "商业航天催化不断！可回收火箭发射临近",
+      "news_summary": "商业航天催化不断！可回收火箭发射临近",
+      "affected_industries": [
+        "军工"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 富国中证军工",
+        "161024 富国中证军工指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "北京海淀商业航天加速成链",
+      "news_summary": "北京海淀商业航天加速成链",
+      "affected_industries": [
+        "军工"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 富国中证军工",
+        "161024 富国中证军工指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "西安加速迈向商业航天系统集成高地",
+      "news_summary": "西安加速迈向商业航天系统集成高地",
+      "affected_industries": [
+        "军工"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 富国中证军工",
+        "161024 富国中证军工指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中共中央政治局召开会议 习近平主持会议",
+      "news_summary": "中共中央政治局召开会议 习近平主持会议",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "A股上半年收官！近400股翻倍 最牛股暴涨767%",
+      "news_summary": "A股上半年收官！近400股翻倍 最牛股暴涨767%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "八部门联合印发《关于推动工业互联网高质量发展的实施意见》",
+      "news_summary": "八部门联合印发《关于推动工业互联网高质量发展的实施意见》",
+      "affected_industries": [
+        "互联网"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "164906 交银中证海外中国互联网",
+        "513050 易方达中证海外互联ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及互联网。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "寒武纪市值破万亿：里程碑前 更需一份清醒定力",
+      "news_summary": "寒武纪市值破万亿：里程碑前 更需一份清醒定力",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中国空调欧洲卖爆！",
+      "news_summary": "中国空调欧洲卖爆！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

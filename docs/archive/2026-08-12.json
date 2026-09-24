@@ -1,0 +1,632 @@
+{
+  "date": "2026-08-12",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3946.6752,
+        "change": 12.58,
+        "changePercent": 0.32,
+        "high": 3950.6213,
+        "low": 3927.5489,
+        "open": 3933.5533,
+        "prevClose": 3934.0929
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14414.427,
+        "change": 154.99,
+        "changePercent": 1.09,
+        "high": 14467.003,
+        "low": 14237.195,
+        "open": 14253.119,
+        "prevClose": 14259.44
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3602.083,
+        "change": 52.92,
+        "changePercent": 1.49,
+        "high": 3625.268,
+        "low": 3540.948,
+        "open": 3542.133,
+        "prevClose": 3549.164
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4690.9165,
+        "change": 27.13,
+        "changePercent": 0.58,
+        "high": 4700.4347,
+        "low": 4657.6933,
+        "open": 4660.4658,
+        "prevClose": 4663.7887
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1736.9912,
+        "change": 27.49,
+        "changePercent": 1.61,
+        "high": 1747.9447,
+        "low": 1709.1635,
+        "open": 1720.3639,
+        "prevClose": 1709.5026
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 53791.8516,
+        "change": -184.13,
+        "changePercent": -0.34,
+        "high": 54222.8516,
+        "low": 53746.4297,
+        "open": null,
+        "prevClose": 53975.9805
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26445.4462,
+        "change": -159.9105,
+        "changePercent": -0.6,
+        "high": 26679.2601,
+        "low": 26372.3071,
+        "open": null,
+        "prevClose": 26605.3567
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7728.2002,
+        "change": -24.91,
+        "changePercent": -0.32,
+        "high": 7767.5098,
+        "low": 7717.25,
+        "open": null,
+        "prevClose": 7753.1099
+      }
+    ],
+    "sectors": [
+      {
+        "name": "通信线缆及配套",
+        "code": "BK1592",
+        "price": 23400.43,
+        "changePercent": 6.05,
+        "change": 1333.96
+      },
+      {
+        "name": "其他数字媒体",
+        "code": "BK1295",
+        "price": 1008.87,
+        "changePercent": 6.01,
+        "change": 57.19
+      },
+      {
+        "name": "会展服务",
+        "code": "BK1565",
+        "price": 1304.24,
+        "changePercent": 5,
+        "change": 62.16
+      },
+      {
+        "name": "房产租赁经纪",
+        "code": "BK1341",
+        "price": 1317.03,
+        "changePercent": 4.11,
+        "change": 52.04
+      },
+      {
+        "name": "光伏主材",
+        "code": "BK1318",
+        "price": 11432.1,
+        "changePercent": 3.9,
+        "change": 429.06
+      },
+      {
+        "name": "涂料",
+        "code": "BK1469",
+        "price": 961.75,
+        "changePercent": 3.83,
+        "change": 35.47
+      }
+    ],
+    "updatedAt": "2026-08-12T10:56:49.316Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "中际旭创大举买入鹏鼎控股",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608113838225172.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "工业富联上半年净利突破200亿",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123838272453.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "超微电脑盘后涨超10%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123838291370.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "今晚美国CPI数据 将拉开一场激烈的博弈",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123838609293.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储官员“放鹰”：通胀是当前最大问题",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123838535492.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国CPI是否引爆市场",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123838540677.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "算力期货即将登场！融资客提前布局多股",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123838449743.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "算力租赁行业景气或持续攀升",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123838502460.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "大牛股报警！海外机构调研这些股",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123838416739.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "但斌回应：没有恐慌割肉、没有大幅减仓",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123838537517.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "事关AI支出激增！高盛：多头空头都判断错了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123838642478.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123839262410.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "央行：及时谋划出台务实管用的增量政策 加大逆周期调节力度",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123839277092.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球市场今晚屏息以待：美国CPI还能带来“鸽派惊喜”吗？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123839135870.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "国产算力基建加速落地！阿里云超节点实例上线 后续拟扩至多地域",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608123839106149.html",
+        "time": "2026-08-12T10:56:47.854Z",
+        "category": "finance"
+      },
+      {
+        "title": "男子坚持守号擒大乐透78万：每次购彩不超20元",
+        "summary": " 7月8日，超级大乐透第26076期开奖，开奖号码为“15、20、27、28、35+2、11”，济南购彩者凭借一张5倍投注的单式票，中得二等奖5注，单票奖金达788,115元。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-12/doc-ininaezi3534458.shtml",
+        "time": "2026-08-12T09:53:47.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "老彩民224元擒双色球698万 奖金改善家人生活",
+        "summary": "7月26日，中国福利彩票双色球游戏第2026085期开奖，当期全国共中出一等奖17注，其中1注花落江门市44122419销售站点，中奖彩票是一张“7+16”的复式票...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-12/doc-ininaezk5205588.shtml",
+        "time": "2026-08-12T09:52:03.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "男子88元套餐票擒大乐透674万 领奖时仍觉不真实",
+        "summary": " 8月3日，体彩大乐透第26087期开奖，当期全国中出9注一等奖，单注奖金654万元，其中2注追加投注，追加奖金523万元。本期我省温州中出1注一等奖，单票奖金674万元。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-12/doc-ininaezi3531949.shtml",
+        "time": "2026-08-12T09:49:07.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "莱巴泥潭自救？赞高芙是斗士 点出半决赛一关键！",
+        "summary": "怎么形容今天清晨的两场多伦多女单1/4决赛呢？一个以逸待劳，一个惊心动魄。 先来说高芙，凌晨6.00左右，传来突发消息，本西奇由于训练时髋部受伤...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzytm3656261.shtml",
+        "time": "2026-08-12T09:40:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界冠军吴宜泽状态不佳止步 无缘中国公开赛八强",
+        "summary": "8月12日， 2026斯诺克中国公开赛16进8轮次比赛进行。今年世锦赛冠军吴宜泽出战，对手是大卫-吉尔伯特。本场比赛吉尔伯特手感火热，连续打出单杆高分...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzytn5328304.shtml",
+        "time": "2026-08-12T09:40:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "俄乒一哥被研究透彻？大满贯亚军后连续两站首轮游",
+        "summary": "2026年WTT瑞典大满贯丨男单1/32决赛，卡尔伯格3-0横扫西多伦科晋级，三局比分：【11-5，11-9，11-7】。这场比赛世界排名16的西多伦科被世界排名36的卡尔伯格按在地板上摩擦...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzyti6883854.shtml",
+        "time": "2026-08-12T09:40:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "德约签运不错莱巴艰难逆转 资格赛中国五进四",
+        "summary": " 每天三分钟，知晓天下网球事。球迷朋友大家好，今天是2026年8月12日星期三，欢迎收听收看由《网球之家》为您提供的新闻午报。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzytr4055713.shtml",
+        "time": "2026-08-12T09:40:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "武大靖执掌短道国家队 对归化选手态度成焦点",
+        "summary": "32岁的冬奥会冠军武大靖在中国短道速滑队主教练竞聘中胜出，这是一个众望所归悬念不大的结果，早在体育总局冬季管理中心发布竞聘公告时...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzytn5328303.shtml",
+        "time": "2026-08-12T09:40:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "蒯曼一日三赛！男单卫冕冠军首轮爆冷出局",
+        "summary": " 8月12日，WTT欧洲大满贯瑞典站继续进行。从横滨赶到马尔默的国乒三位女将陈幸同、王艺迪、蒯曼将迎来首秀，而蒯曼将遭遇艰苦的一日三赛考验，王艺迪则双线作战。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzyti6881102.shtml",
+        "time": "2026-08-12T09:35:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "贝塔斯迈尔3-1安宰贤！韩国主力首轮止步",
+        "summary": "2026年6月30日，WTT美国大满贯男单1/32决赛上演一场出人意料的对决，德国小将安德烈·贝塔斯迈尔迎战韩国实力派主力安宰贤。此番较量...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzytm3653505.shtml",
+        "time": "2026-08-12T09:35:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "镌刻传奇！复盘德约2023辛辛那提绝境封神",
+        "summary": "男子网坛的新老巅峰对决，从来不乏经典名局，但 2023 年辛辛那提大师赛男单决赛，绝对是载入 ATP 史册的传世之战。在温网决赛不敌阿尔卡拉斯、吞下失利的遗憾后...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzyti6881105.shtml",
+        "time": "2026-08-12T09:35:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大心脏封神！世界第2绝境翻盘 大坂直美遭绝杀",
+        "summary": "这就是顶级大满贯冠军的抗压能力！越是濒临出局的绝境，越能激发出超强斗志。多伦多WTA1000赛八强焦点大战，全程跌宕起伏、悬念拉满...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzytm3653506.shtml",
+        "time": "2026-08-12T09:35:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "东亚锦标赛首战：司静雨天赋拉满 王音迪难掩短板",
+        "summary": " 东亚女排锦标赛首轮，中国女排二队3‑0完胜日本女排。这场比赛是新生代小将的一次大考，有人打出亮眼发挥，也有球员暴露出明显问题，下面盘点各主要队员赛场表现。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzytm3653508.shtml",
+        "time": "2026-08-12T09:35:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "瑞典赛向鹏逆转林钟勋 接下来要碰林诗栋？",
+        "summary": "瑞典赛向鹏逆转林钟勋，接下来要碰林诗栋？ 11日晚间，WTT瑞典大满贯赛场灯光晃眼，男单1/32决赛打得火星四溅。 向鹏站在台前，对面是韩国名将林钟勋。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzyti6881104.shtml",
+        "time": "2026-08-12T09:35:02.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "辛辛那提金花签表地表最强？王欣瑜挑战萨巴伦卡",
+        "summary": "辛辛那提正赛签表出来后，大家的第一反应是，王欣瑜和张帅谁要是能挺进闯过前三轮，“绝对算是人间奇迹！” 王欣瑜的签表之所以让大家津津乐道...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-12/doc-inimzyti6881103.shtml",
+        "time": "2026-08-12T09:35:02.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-12T10:56:47.907Z"
+  },
+  "analyses": [
+    {
+      "news_title": "中际旭创大举买入鹏鼎控股",
+      "news_summary": "中际旭创大举买入鹏鼎控股",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "工业富联上半年净利突破200亿",
+      "news_summary": "工业富联上半年净利突破200亿",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "超微电脑盘后涨超10%",
+      "news_summary": "超微电脑盘后涨超10%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "今晚美国CPI数据 将拉开一场激烈的博弈",
+      "news_summary": "今晚美国CPI数据 将拉开一场激烈的博弈",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美联储官员“放鹰”：通胀是当前最大问题",
+      "news_summary": "美联储官员“放鹰”：通胀是当前最大问题",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美国CPI是否引爆市场",
+      "news_summary": "美国CPI是否引爆市场",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "算力期货即将登场！融资客提前布局多股",
+      "news_summary": "算力期货即将登场！融资客提前布局多股",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "算力租赁行业景气或持续攀升",
+      "news_summary": "算力租赁行业景气或持续攀升",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "大牛股报警！海外机构调研这些股",
+      "news_summary": "大牛股报警！海外机构调研这些股",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "但斌回应：没有恐慌割肉、没有大幅减仓",
+      "news_summary": "但斌回应：没有恐慌割肉、没有大幅减仓",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "事关AI支出激增！高盛：多头空头都判断错了",
+      "news_summary": "事关AI支出激增！高盛：多头空头都判断错了",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世",
+      "news_summary": "中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "央行：及时谋划出台务实管用的增量政策 加大逆周期调节力度",
+      "news_summary": "央行：及时谋划出台务实管用的增量政策 加大逆周期调节力度",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球市场今晚屏息以待：美国CPI还能带来“鸽派惊喜”吗？",
+      "news_summary": "全球市场今晚屏息以待：美国CPI还能带来“鸽派惊喜”吗？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国产算力基建加速落地！阿里云超节点实例上线 后续拟扩至多地域",
+      "news_summary": "国产算力基建加速落地！阿里云超节点实例上线 后续拟扩至多地域",
+      "affected_industries": [
+        "半导体",
+        "互联网"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接",
+        "164906 交银中证海外中国互联网"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体、互联网。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

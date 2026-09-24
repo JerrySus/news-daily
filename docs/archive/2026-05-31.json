@@ -1,0 +1,624 @@
+{
+  "date": "2026-05-31",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4068.5691,
+        "change": -30.07,
+        "changePercent": -0.73,
+        "high": 4112.9553,
+        "low": 4055.8861,
+        "open": 4110.5212,
+        "prevClose": 4098.6358
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15575.134,
+        "change": -286.76,
+        "changePercent": -1.81,
+        "high": 15981.93,
+        "low": 15492.844,
+        "open": 15957.115,
+        "prevClose": 15861.891
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4037.951,
+        "change": -87.12,
+        "changePercent": -2.11,
+        "high": 4158.694,
+        "low": 4010.119,
+        "open": 4141.914,
+        "prevClose": 4125.075
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4892.1213,
+        "change": -22.09,
+        "changePercent": -0.45,
+        "high": 4954.0703,
+        "low": 4878.7869,
+        "open": 4937.5119,
+        "prevClose": 4914.2133
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1751.3234,
+        "change": -92.93,
+        "changePercent": -5.04,
+        "high": 1855.256,
+        "low": 1727.6214,
+        "open": 1850.2728,
+        "prevClose": 1844.2493
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51032.4609,
+        "change": 363.49,
+        "changePercent": 0.72,
+        "high": 51094.1797,
+        "low": 50698.2695,
+        "open": null,
+        "prevClose": 50668.9688
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26972.62,
+        "change": 55.1486,
+        "changePercent": 0.2,
+        "high": 27094.8025,
+        "low": 26859.2645,
+        "open": null,
+        "prevClose": 26917.4714
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7580.0601,
+        "change": 16.43,
+        "changePercent": 0.22,
+        "high": 7599.3799,
+        "low": 7563.5498,
+        "open": null,
+        "prevClose": 7563.6299
+      }
+    ],
+    "sectors": [
+      {
+        "name": "超市",
+        "code": "BK1552",
+        "price": 1813.75,
+        "changePercent": 5.7,
+        "change": 97.78
+      },
+      {
+        "name": "旅游零售Ⅲ",
+        "code": "BK1549",
+        "price": 6838.68,
+        "changePercent": 5.24,
+        "change": 340.45
+      },
+      {
+        "name": "旅游零售Ⅱ",
+        "code": "BK1269",
+        "price": 6838.68,
+        "changePercent": 5.24,
+        "change": 340.45
+      },
+      {
+        "name": "医美耗材",
+        "code": "BK1500",
+        "price": 1558.12,
+        "changePercent": 5.22,
+        "change": 77.24
+      },
+      {
+        "name": "火力发电",
+        "code": "BK1377",
+        "price": 3086.46,
+        "changePercent": 4.31,
+        "change": 127.42
+      },
+      {
+        "name": "图片媒体",
+        "code": "BK1297",
+        "price": 3476.96,
+        "changePercent": 4.31,
+        "change": 143.53
+      }
+    ],
+    "updatedAt": "2026-05-31T11:39:52.815Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "股价大涨 多只牛股紧急公告",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283753100060.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "上海核心区地块竞争激烈",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753229065.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "多家公司布局固态变压器赛道",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753168366.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "“价格暴涨近1000%”！亿元大单涌来",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605303755011825.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "国务院印发《城市更新“十五五”规划》",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753243666.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "将带动十万亿元级投资",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753190177.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "大基金减持中芯国际等多只半导体股",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283753101829.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "存储超级周期 中国半导体爆发",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202605293753437865.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "三星电子开始出货HBM4E芯片样品",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202605293753477975.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "业绩超预期！戴尔科技盘后暴涨",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753332567.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "戴尔交出炸裂财报 盘后股价暴涨近40%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753443291.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "戴尔第一财季业绩超预期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753441890.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "《求是》杂志发表习近平总书记重要文章《前瞻布局和发展未来产业》",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605313755159067.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "周末要闻汇总：A股多个指数样本调整 “含科量”进一步提升",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605313755153262.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "《关于进一步深化国资国企改革的方案（2026—2029年）》已经下发",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605313755191923.html",
+        "time": "2026-05-31T11:39:50.811Z",
+        "category": "finance"
+      },
+      {
+        "title": "朝阳区击剑队成立 体社融合\"全链条\"人才培养模式落地通惠河畔",
+        "summary": "5月31日上午，艾鲁特击剑北京朝阳馆开馆暨签约授牌仪式正式举行。2008年北京奥运会男子佩剑冠军、北京市击剑协会会长、北京市什刹海体校副校长仲满...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/fencing/2026-05-31/doc-inhzuvri9119000.shtml",
+        "time": "2026-05-31T09:56:21.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "北京温榆河公园二期网球中心启幕 打造首都运动新地标",
+        "summary": "2026年5月30日上午9时30分，振狮体育北京温榆河公园二期网球中心启幕仪式在公园朝阳段隆重举行。阿里巴巴北京党委书记戴威，北京温榆河公园建设管理有限公司副经理张春...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/tennis/china/2026-05-31/doc-inhzuvrh6074932.shtml",
+        "time": "2026-05-31T09:34:47.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩第26083期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德国际赛胜平负胜平负胜平负胜平负1瑞士 vs 约旦1.295.009.501.255.5012.001.305.0010.001.255.259.5030日09:001.225...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-28/doc-inhzmayw0290689.shtml",
+        "time": "2026-05-31T09:00:01.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26083期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负31日21:00(周日)01 瑞士 vs 约旦1.95球半/两球1.831.225.208.90周六09:001.95球半/两球1.831.225.208...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-28/doc-inhzmayw8757470.shtml",
+        "time": "2026-05-31T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "2026年第五届公益媒体足球赛圆满落幕",
+        "summary": "5月31日，2026年第五届公益媒体足球赛正式落下帷幕。这场由中国体育新闻工作者协会与北京市足球运动协会指导的媒体足球盛会，将赛事与公益行动深度结合，汇聚媒体力量...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/china/other/2026-05-31/doc-inhzuris4835694.shtml",
+        "time": "2026-05-31T08:56:03.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "060期陆浩波大乐透预测奖号：后区推荐",
+        "summary": "开奖回顾：大乐透第2026059期奖号：06、13、17、19、26+07、08。其中龙头为06，凤尾为26，质合比为3:2，无连号。大乐透最近15期分析龙头分析：最近15期龙头号码中...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-31/doc-inhzurim9221175.shtml",
+        "time": "2026-05-31T08:30:34.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "060期钱华伟大乐透预测奖号：大复式推荐",
+        "summary": "开奖回顾：大乐透第2026059期奖号为：06、13、17、19、26 + 07、08。 上期的奖号：和值为81，开出1枚重号13，012路比为1:2:2。大乐透历史同期奖号统计图重号分析：在去年同...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-31/doc-inhzurim9221173.shtml",
+        "time": "2026-05-31T08:30:34.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "060期吕俊良大乐透预测奖号：和值分析",
+        "summary": "开奖回顾：大乐透第2026059奖号：06、13、17、19、26+07、08。其中奇偶比为3:2，大小比为2:3，和值为81。大乐透近10期奖号模型图表奇偶分析：近10期前区奇偶比为21:29...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-31/doc-inhzuris4825774.shtml",
+        "time": "2026-05-31T08:30:34.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "060期贺童大乐透预测奖号：后区分析",
+        "summary": " 大乐透第2026059期开奖号码为：06、13、17、19、26 + 07、08。其中前区三区比为1:3:1，奇偶比为3:2，重号开出13，后区按4区划分出现在第3、3区。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-31/doc-inhzurim9221174.shtml",
+        "time": "2026-05-31T08:30:34.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "060期永博伦大乐透预测奖号：012路分析",
+        "summary": "开奖回顾：大乐透第26059期开出奖号，前区06、13、17、19、26，后区07、08。开奖综述：当期前区号码跨度为20，质合比为3:2，012路比为1:2:2，邻孤传比为3:1:1。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-31/doc-inhzuris4825773.shtml",
+        "time": "2026-05-31T08:30:34.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票名家大乐透第26060期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章，严禁各媒体 公众号等转载，违规必究！严惩不贷！] 樊欣易：08,10,11,13,14,21,23,26,33+02,04,10 马德文：01,02,06,15,16,17,27,30...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-31/doc-inhzurip6004590.shtml",
+        "time": "2026-05-31T08:19:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "历史上的今天-大乐透6月1日开奖号码汇总",
+        "summary": "大乐透下期开奖是在周一，阳历6月1日，阴历四月十六。 以下历史阳历6月1日开奖号码汇总：阳历6月1日开奖号码汇总 以下历史阴历四月十六开奖号码汇总：阴历四月十六开奖号码...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-31/doc-inhzuris4815680.shtml",
+        "time": "2026-05-31T07:55:30.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透近10期周一奖号分布:前区2路龙头近4期开3期",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-31/doc-inhzurip5984735.shtml",
+        "time": "2026-05-31T07:50:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩长跟长红！关注最新方案",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-05-31T07:49:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透060期历史同期号码全汇总",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-31/doc-inhzuris4811313.shtml",
+        "time": "2026-05-31T06:45:14.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-05-31T11:39:50.813Z"
+  },
+  "analyses": [
+    {
+      "news_title": "股价大涨 多只牛股紧急公告",
+      "news_summary": "股价大涨 多只牛股紧急公告",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "上海核心区地块竞争激烈",
+      "news_summary": "上海核心区地块竞争激烈",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "多家公司布局固态变压器赛道",
+      "news_summary": "多家公司布局固态变压器赛道",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "“价格暴涨近1000%”！亿元大单涌来",
+      "news_summary": "“价格暴涨近1000%”！亿元大单涌来",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "国务院印发《城市更新“十五五”规划》",
+      "news_summary": "国务院印发《城市更新“十五五”规划》",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "将带动十万亿元级投资",
+      "news_summary": "将带动十万亿元级投资",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "大基金减持中芯国际等多只半导体股",
+      "news_summary": "大基金减持中芯国际等多只半导体股",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "存储超级周期 中国半导体爆发",
+      "news_summary": "存储超级周期 中国半导体爆发",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "三星电子开始出货HBM4E芯片样品",
+      "news_summary": "三星电子开始出货HBM4E芯片样品",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "业绩超预期！戴尔科技盘后暴涨",
+      "news_summary": "业绩超预期！戴尔科技盘后暴涨",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "戴尔交出炸裂财报 盘后股价暴涨近40%",
+      "news_summary": "戴尔交出炸裂财报 盘后股价暴涨近40%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "戴尔第一财季业绩超预期",
+      "news_summary": "戴尔第一财季业绩超预期",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "《求是》杂志发表习近平总书记重要文章《前瞻布局和发展未来产业》",
+      "news_summary": "《求是》杂志发表习近平总书记重要文章《前瞻布局和发展未来产业》",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "周末要闻汇总：A股多个指数样本调整 “含科量”进一步提升",
+      "news_summary": "周末要闻汇总：A股多个指数样本调整 “含科量”进一步提升",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "《关于进一步深化国资国企改革的方案（2026—2029年）》已经下发",
+      "news_summary": "《关于进一步深化国资国企改革的方案（2026—2029年）》已经下发",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

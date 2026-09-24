@@ -1,0 +1,608 @@
+{
+  "date": "2026-07-03",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4043.6432,
+        "change": 14.74,
+        "changePercent": 0.37,
+        "high": 4073.8802,
+        "low": 4027.2553,
+        "open": 4031.3351,
+        "prevClose": 4028.9038
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15597.512,
+        "change": 98.7,
+        "changePercent": 0.64,
+        "high": 15823.054,
+        "low": 15432.893,
+        "open": 15480.117,
+        "prevClose": 15498.811
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4019.934,
+        "change": 2.66,
+        "changePercent": 0.07,
+        "high": 4115.628,
+        "low": 3985.363,
+        "open": 4010.819,
+        "prevClose": 4017.273
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4842.1737,
+        "change": 29.88,
+        "changePercent": 0.62,
+        "high": 4890.9652,
+        "low": 4809.4988,
+        "open": 4809.4988,
+        "prevClose": 4812.2957
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1975.6001,
+        "change": -11.69,
+        "changePercent": -0.59,
+        "high": 2039.3056,
+        "low": 1948.1723,
+        "open": 1978.7546,
+        "prevClose": 1987.291
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52900.0703,
+        "change": 594.83,
+        "changePercent": 1.14,
+        "high": 52903.8516,
+        "low": 52395.2188,
+        "open": null,
+        "prevClose": 52305.2383
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25832.6716,
+        "change": -207.3598,
+        "changePercent": -0.8,
+        "high": 26261.0906,
+        "low": 25630.5065,
+        "open": null,
+        "prevClose": 26040.0314
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7483.2402,
+        "change": 0.01,
+        "changePercent": null,
+        "high": 7540.75,
+        "low": 7427.5498,
+        "open": null,
+        "prevClose": 7483.23
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-07-03T12:06:00.885Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "三星光刻技术引入量子",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792527516.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "半导体涨价潮能持续多久？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792553335.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "“AI搅局者”突然崩跌！发生了什么？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792391649.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "扎克伯格：AI智能体开发速度不及预期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792593511.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "算力过剩 还是过度恐慌？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607023792300438.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国6月非农就业仅增5.7万远逊预期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607023792266914.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普谈非农“爆冷”：沃什必须做他该干的事",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792595483.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "A股“具身智能第一股”宇树科技将登场",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792343740.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "002747，拟收购具身智能机器人企业",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792592029.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "102家公司回应机器人等热点",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607023792280166.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "证监会就完善上市公司再融资规则公开征求意见",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033793713738.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "三部门：调整节能汽车、新能源汽车车船税优惠政策",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033793618111.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "江波龙：预计上半年净利润92亿元-110亿元 同比增长62204%-74394%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033793700061.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "国务院：合理控制煤电装机规模和发电量 全面提升可再生能源电力消费比重",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033793634248.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "三星传获Meta超10万亿韩元AI芯片代工订单 2纳米中长期积压订单看涨",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033793556465.html",
+        "time": "2026-07-03T12:05:59.195Z",
+        "category": "finance"
+      },
+      {
+        "title": "Burnham says there is some room for movement on tax",
+        "summary": "But the likely next PM says he will stick to Labour's pledges to not raise VAT, income tax or national insurance.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c5yz9j7v0z6o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-03T11:29:12.000Z",
+        "category": "general"
+      },
+      {
+        "title": "'Less than 10% sheep': How millions may have unknowingly eaten goat, skin and fat kebabs",
+        "summary": "Millions are likely to have eaten \"lamb\" kebabs that were actually made with goat, skin and fat.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/ce95y1zlzyxo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-03T11:24:03.000Z",
+        "category": "general"
+      },
+      {
+        "title": "No-gift policy for Taylor Swift, but how much should you give at a wedding?",
+        "summary": "Wedding lists are being replaced by cash requests, but guests are divided over how much to give.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c78yj9p0m91o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-03T10:46:34.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Tackle workplace sickness to unlock hidden growth, former John Lewis boss says",
+        "summary": "More than 250 of the UK's biggest employers have signed up to his 'Get Britain Working' taskforce.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cq61j11r577o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-03T09:50:56.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推4连红+命中西班牙比分！",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-07-03T09:40:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家罗宋解球竞彩推荐：阿根廷大胜可期",
+        "summary": "阿根廷vs佛得角基本面解读阿根廷这边不用多吹，J组头名3战全胜，小组赛踢了阿尔及利亚、奥地利、约旦，8进1失，三线没死角。梅西三场场场进球，已经刷到6球领跑射手榜...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-03/doc-inifpkca0461469.shtml",
+        "time": "2026-07-03T09:14:59.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：冰岛超爱甲2串1",
+        "summary": "爱甲 雷流浪者vs阿斯隆城 2026-07-04 02:45推荐：胜比分推荐：2：0！2：1！3：1冰岛超 哈夫纳夫约杜尔vs斯塔尔南 2026-07-04 03:15哈夫纳夫约杜尔的整体实力在冰岛超是处于...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-03/doc-inifpkca0461471.shtml",
+        "time": "2026-07-03T09:14:59.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家张然竞彩推荐：澳大利亚90分钟不败",
+        "summary": "世界杯 澳大利亚vs埃及埃及小组赛一胜两平保持不败，小组第二出现，上场比赛战平伊朗状态比较一般，球队攻击力出色，依靠萨拉赫和马尔穆什，每场比赛都有进球...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-03/doc-inifpkca0461470.shtml",
+        "time": "2026-07-03T09:14:59.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "凯斯勒4年1.3亿美元加盟湖人 他被视为完美中锋",
+        "summary": " 北京时间7月3日消息，据知名体育记者Shams Charania报道，沃克·凯斯勒将通过先签后换（Sign-and-Trade）的方式加盟洛杉矶湖人，双方达成了一份4年1.3亿美元的新合同。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-03/doc-inifpkca0379813.shtml",
+        "time": "2026-07-03T07:35:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "勇士的新秀能否大放异彩成为潜力新星？",
+        "summary": "据尼克·博伊德的经济公司ProMondo Sports透露，尼克·博伊德将与金州勇士签约。 ProMondo Sports社媒写道：“尼克·博伊德将签约金州勇士，恭喜！",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-03/doc-inifpkau5565297.shtml",
+        "time": "2026-07-03T07:35:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "下赛季伦纳德若再帮猛龙夺冠 就是球队队史第一人",
+        "summary": " 北京时间7月3日，“队史第一人”这种话，平时听着像球迷吵架的情绪词。但伦纳德这件事不一样——因为他和猛龙的关系，从来不只是“来过”，而是“改写过”。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-03/doc-inifpkay3602587.shtml",
+        "time": "2026-07-03T07:35:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "致敬开拓者队史名宿！莫兰特告别标志性12号",
+        "summary": "莫兰特曾两次入选全明星，他在灰熊的最后几个赛季风波不断，饱受伤病、联盟禁赛与场外负面争议困扰。这笔交易开拓者没有送出任何选秀权...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-03/doc-inifpkay3602586.shtml",
+        "time": "2026-07-03T07:35:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "詹姆斯时代正式落幕！里夫斯成队内最老球员",
+        "summary": "今年夏天，湖人应该是全联盟阵容变化最大的球队之一。在詹姆斯宣布离队之后，詹姆斯时代也正式落幕了，湖人也开始彻底围绕东契奇建队...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-03/doc-inifpkay3602589.shtml",
+        "time": "2026-07-03T07:35:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "托拜亚斯·哈里斯加盟马刺 马刺还需要老詹加盟吗？",
+        "summary": " 詹姆斯告知湖人将离队，今日，著名记者Marc Spears在ESPN的《NBA TODAY FREE AGENCY SPECIAL》特别节目中谈到詹姆斯想夺冠就该去马刺。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-03/doc-inifpkca0379809.shtml",
+        "time": "2026-07-03T07:35:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "76人尼克斯热火勇士骑士 多支强队希望老詹加盟",
+        "summary": "今日名记Shams在《NBA Today》节目中谈到了76人。76人交易得到FMVP杰伦布朗，同时签约悍将安芬尼西蒙斯。 据此前报道，安芬尼·西蒙斯2年1230万加盟76人...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-07-03/doc-inifpkaw2341402.shtml",
+        "time": "2026-07-03T07:35:43.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-07-03T12:05:59.547Z"
+  },
+  "analyses": [
+    {
+      "news_title": "三星光刻技术引入量子",
+      "news_summary": "三星光刻技术引入量子",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "半导体涨价潮能持续多久？",
+      "news_summary": "半导体涨价潮能持续多久？",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "“AI搅局者”突然崩跌！发生了什么？",
+      "news_summary": "“AI搅局者”突然崩跌！发生了什么？",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "扎克伯格：AI智能体开发速度不及预期",
+      "news_summary": "扎克伯格：AI智能体开发速度不及预期",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "算力过剩 还是过度恐慌？",
+      "news_summary": "算力过剩 还是过度恐慌？",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及半导体。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美国6月非农就业仅增5.7万远逊预期",
+      "news_summary": "美国6月非农就业仅增5.7万远逊预期",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普谈非农“爆冷”：沃什必须做他该干的事",
+      "news_summary": "特朗普谈非农“爆冷”：沃什必须做他该干的事",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "A股“具身智能第一股”宇树科技将登场",
+      "news_summary": "A股“具身智能第一股”宇树科技将登场",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "002747，拟收购具身智能机器人企业",
+      "news_summary": "002747，拟收购具身智能机器人企业",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "102家公司回应机器人等热点",
+      "news_summary": "102家公司回应机器人等热点",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "证监会就完善上市公司再融资规则公开征求意见",
+      "news_summary": "证监会就完善上市公司再融资规则公开征求意见",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "三部门：调整节能汽车、新能源汽车车船税优惠政策",
+      "news_summary": "三部门：调整节能汽车、新能源汽车车船税优惠政策",
+      "affected_industries": [
+        "新能源",
+        "汽车"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001298 华夏新能源车龙头",
+        "005827 易方达蓝筹精选"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及新能源、汽车。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "江波龙：预计上半年净利润92亿元-110亿元 同比增长62204%-74394%",
+      "news_summary": "江波龙：预计上半年净利润92亿元-110亿元 同比增长62204%-74394%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "国务院：合理控制煤电装机规模和发电量 全面提升可再生能源电力消费比重",
+      "news_summary": "国务院：合理控制煤电装机规模和发电量 全面提升可再生能源电力消费比重",
+      "affected_industries": [
+        "消费"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 易方达消费行业",
+        "002001 华夏回报"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及消费。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "三星传获Meta超10万亿韩元AI芯片代工订单 2纳米中长期积压订单看涨",
+      "news_summary": "三星传获Meta超10万亿韩元AI芯片代工订单 2纳米中长期积压订单看涨",
+      "affected_industries": [
+        "半导体",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

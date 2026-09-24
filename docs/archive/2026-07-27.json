@@ -1,0 +1,608 @@
+{
+  "date": "2026-07-27",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3858.245,
+        "change": 44.05,
+        "changePercent": 1.15,
+        "high": 3858.3097,
+        "low": 3793.4489,
+        "open": 3808.9032,
+        "prevClose": 3814.1978
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14148.73,
+        "change": 374.05,
+        "changePercent": 2.72,
+        "high": 14148.73,
+        "low": 13689.015,
+        "open": 13768.603,
+        "prevClose": 13774.676
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3590.787,
+        "change": 109.92,
+        "changePercent": 3.16,
+        "high": 3592.1,
+        "low": 3449.205,
+        "open": 3482.045,
+        "prevClose": 3480.87
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4702.4272,
+        "change": 53.24,
+        "changePercent": 1.15,
+        "high": 4702.5249,
+        "low": 4615.531,
+        "open": 4656.0272,
+        "prevClose": 4649.1917
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1807.951,
+        "change": 20.76,
+        "changePercent": 1.16,
+        "high": 1816.4301,
+        "low": 1724.4658,
+        "open": 1780.7201,
+        "prevClose": 1787.1958
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51947.25,
+        "change": 235.6,
+        "changePercent": 0.46,
+        "high": 52118.1914,
+        "low": 51682.3594,
+        "open": null,
+        "prevClose": 51711.6484
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 24975.8238,
+        "change": -161.8686,
+        "changePercent": -0.64,
+        "high": 25222.1378,
+        "low": 24918.093,
+        "open": null,
+        "prevClose": 25137.6924
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7411.98,
+        "change": 3.68,
+        "changePercent": 0.05,
+        "high": 7460.98,
+        "low": 7396.5298,
+        "open": null,
+        "prevClose": 7408.2998
+      }
+    ],
+    "sectors": [
+      {
+        "name": "个护小家电",
+        "code": "BK1458",
+        "price": 767.77,
+        "changePercent": 10.03,
+        "change": 69.98
+      },
+      {
+        "name": "玻纤制造",
+        "code": "BK1462",
+        "price": 15244.47,
+        "changePercent": 9.43,
+        "change": 1313.2
+      },
+      {
+        "name": "会展服务",
+        "code": "BK1565",
+        "price": 1101.96,
+        "changePercent": 7.64,
+        "change": 78.25
+      },
+      {
+        "name": "文字媒体",
+        "code": "BK1298",
+        "price": 2189.51,
+        "changePercent": 7.48,
+        "change": 152.37
+      },
+      {
+        "name": "品牌化妆品",
+        "code": "BK1498",
+        "price": 1451.25,
+        "changePercent": 7.09,
+        "change": 96.14
+      },
+      {
+        "name": "汽车综合服务",
+        "code": "BK1524",
+        "price": 1020.47,
+        "changePercent": 6.93,
+        "change": 66.11
+      }
+    ],
+    "updatedAt": "2026-07-27T12:52:59.387Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "How wildfires in France and Spain may affect your travel plans",
+        "summary": "For those who have upcoming holidays to the affected regions, here is what you should know about how it might impact your plans.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/ce3qv0ggndno?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-27T12:09:48.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Oil price dives as US and Iran pause attacks",
+        "summary": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-27T11:50:23.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Businessman and philanthropist Sir Ian Wood dies aged 84",
+        "summary": "The Aberdeen-based businessman turned his family's boat repair firm into an oil and gas engineering giant.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/ce3qv0p9105o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-27T10:33:08.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
+        "summary": "The company's shares soared by nearly 470% in its market debut, as the AI boom drives chip demand.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c9q9w3x9qn2o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-27T10:19:36.000Z",
+        "category": "general"
+      },
+      {
+        "title": "00后女彩民刮中福彩100万 次日一早携俩好友兑奖",
+        "summary": "7月17日晚上7点多，位于武汉盘龙城万达广场里的一家福彩站点内，突然传来一阵叫声，“老板、老板！我这是不是中了大奖？”发出这声音的，是一位做服装销售的00后小妹...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfxaz3025886.shtml",
+        "time": "2026-07-27T09:16:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "男子336元复式票擒大乐透600万 心态十分从容",
+        "summary": "7月18日晚，超级大乐透第26080期开出10注头奖，北京购彩者喜揽7注头奖，其中，5注追加投注一等奖出自朝阳区1105049247体彩代销店；2注基本投注一等奖分别出自海淀区1106050...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfxaw8389129.shtml",
+        "time": "2026-07-27T09:12:51.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪竞技彩专家招募中 篮彩专家符合条件优先录用",
+        "summary": "小炮APP内汇集了行业顶尖的竞彩、足彩专家，我们始终致力于为彩民提供最优质全面的情报分析以及投注方案。为满足更多有识之士想要加入专家团队的愿望...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-21/doc-iniippii2619457.shtml",
+        "time": "2026-07-27T09:00:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26097期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德欧冠胜平负胜平负胜平负胜平负1古比斯 vs 萨巴赫2.453.102.632.703.402.452.903.402.302.303.402.9027日09:003.003...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikezxr0644820.shtml",
+        "time": "2026-07-27T09:00:03.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26097期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负28日23:00(周二)01 古比斯 vs 萨巴赫2.16平手1.622.753.332.17周一09:002.20平手1.582.863.302.12周一17:002...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikezxh8362604.shtml",
+        "time": "2026-07-27T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪专家连9期分析中双色球大奖！豪揽8626万",
+        "summary": "近期，新浪双色球专家迎来一波集体爆发！自26077期开奖至26085期开奖，连续9期均有专家命中大奖，累擒奖金8626万元！从百万级二等奖到千万级头奖，大奖捷报频传...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsvc3138325.shtml",
+        "time": "2026-07-27T08:38:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票双色球名家第26086期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章 严禁各媒体 公众号等转载 违规必究！严惩不贷！] 吕俊良：02,03,06,08,09,16,27,31,33+01,10,12 丁荣春：02,14,15,16,17,20,23,29...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsuy8468216.shtml",
+        "time": "2026-07-27T08:12:49.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "历史上的今天-双色球7月28日开奖号码汇总",
+        "summary": "双色球下期开奖是在周二，阳历7月28日，阴历六月十五。 以下为历史阳历7月28日开奖号码汇总：阳历7月28日开奖号码汇总 以下为历史阴历六月十五开奖号码汇总：阴历六月十五...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsvc3112157.shtml",
+        "time": "2026-07-27T08:09:54.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "双色球近10期周二奖号分布：蓝球1路码近4期开3期",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsve9887377.shtml",
+        "time": "2026-07-27T08:05:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "双色球086期历史同期号码全汇总",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsvc3109942.shtml",
+        "time": "2026-07-27T08:04:35.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "福彩3D第2026198牛魔王中奖诗",
+        "summary": "198期：粽香飘二里，锣鼓随五声开（）197期：水虎潜孤峰，龙影随古河开（232）196期：幽夜落十里，梅花映万林开（419）195期：山高二鹰飞...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsvi0712047.shtml",
+        "time": "2026-07-27T07:41:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "福彩3D第2026198期曾老师和值跨度字谜",
+        "summary": "198期：以眼还眼开奖197期：宿命回转开奖232196期：指鹿为马开奖419195期：积少成多开奖275194期：虎运镇煞开奖283193期：寸步难行开奖254192期：数命相参开奖425191期：一...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsvi0712049.shtml",
+        "time": "2026-07-27T07:41:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "福彩3D第2026198期逸飞道人四字真经",
+        "summary": "开奖回顾：福彩3D第2026197期开出奖号为232。 [扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsuy8430041.shtml",
+        "time": "2026-07-27T07:41:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "福彩3D第2026198期神算天五行和值胆码图",
+        "summary": "开奖回顾：福彩3D第2026197期开出奖号为232。 [扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsuy8430038.shtml",
+        "time": "2026-07-27T07:41:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "福彩3D第2026198期关公胆码杀号图",
+        "summary": "开奖回顾：福彩3D第2026197期开出奖号为232。 [扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsuy8430034.shtml",
+        "time": "2026-07-27T07:41:11.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "084期胡晶大乐透预测奖号：012路比分析",
+        "summary": "上期回顾：大乐透2026083开奖号码为：14、15、16、23、26 + 07、09。 其中前区奖号012路比为1:1:3，奇偶比为2:3，大小比为2:3；后区开出1路、0路号码07、09。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsuy8428969.shtml",
+        "time": "2026-07-27T07:40:21.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "084期蒋利大乐透预测奖号：大小比分析",
+        "summary": "开奖回顾：大乐透第2026083期奖号为：14、15、16、23、26 + 07、09。 上期奖号中开出奇偶比为2:3，邻孤传比为1:2:2，三区比为0:4:1。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsvi0710982.shtml",
+        "time": "2026-07-27T07:40:21.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "084期老牛大乐透预测奖号：前区分析",
+        "summary": "上期回顾：大乐透26083期开出奖号：前区14、15、16、23、26，后区07、09。当期前区号码大小比为2:3，三区比为0:4:1，奇偶比为2:3。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsuy8428972.shtml",
+        "time": "2026-07-27T07:40:21.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "084期沈继楠大乐透预测奖号：大复式分析",
+        "summary": "开奖回顾：大乐透第2026083期奖号为：14、15、16、23、26 + 07、09。 其中质合比为1:4，大小比为2:3，开出2组连号14,15,16。大乐透近十周同星期奖号统计表质合分析：近十周...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsvc3090160.shtml",
+        "time": "2026-07-27T07:39:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "084期钱晓惠大乐透预测奖号：后区参考",
+        "summary": "开奖回顾：大乐透第2026083期奖号为：14、15、16、23、26 + 07、09。 上期的奖号；开出2组连号14,15,16 ，开出2枚重号16,26 ，邻孤传比为1:2:2 。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikfsvc3090156.shtml",
+        "time": "2026-07-27T07:39:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Shein swings to $99m loss as Trump tariffs hit sales",
+        "summary": "The announcement comes as the fast fashion giant prepares for its stock market debut in Hong Kong.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-27T02:08:36.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Would you choose £50,000 over the chance of £1m?",
+        "summary": "The vast majority of people - particularly women - answer a survey saying they'd take the certainty over chance.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cn0njd4e2evo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-26T23:11:36.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Primark's new 'supermarket tactic' to woo customers in online price war",
+        "summary": "Competition from ultra-cheap Chinese retailers and the cost of living crisis could be putting some people off shopping at the store, analysts say.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c4g3x4j8pgro?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-26T00:17:50.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Rental searches for pet friendly properties drop after law change",
+        "summary": "Agents say some renters wrongly believe permission to have a pet is guaranteed.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cj3gd312d8yo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-26T00:00:49.000Z",
+        "category": "general"
+      }
+    ],
+    "count": 28,
+    "updatedAt": "2026-07-27T12:53:11.138Z"
+  },
+  "analyses": [
+    {
+      "news_title": "How wildfires in France and Spain may affect your travel plans",
+      "news_summary": "For those who have upcoming holidays to the affected regions, here is what you should know about how it might impact your plans.",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "Oil price dives as US and Iran pause attacks",
+      "news_summary": "The US says attacks on Iran have been halted to give \"talks some space\", raising hopes of a resolution to the conflict.",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "Businessman and philanthropist Sir Ian Wood dies aged 84",
+      "news_summary": "The Aberdeen-based businessman turned his family's boat repair firm into an oil and gas engineering giant.",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "Chinese chipmaker shares surge nearly 470% in blockbuster stock market debut",
+      "news_summary": "The company's shares soared by nearly 470% in its market debut, as the AI boom drives chip demand.",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及人工智能。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "00后女彩民刮中福彩100万 次日一早携俩好友兑奖",
+      "news_summary": "7月17日晚上7点多，位于武汉盘龙城万达广场里的一家福彩站点内，突然传来一阵叫声，“老板、老板！我这是不是中了大奖？”发出这声音的，是一位做服装销售的00后小妹...",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "男子336元复式票擒大乐透600万 心态十分从容",
+      "news_summary": "7月18日晚，超级大乐透第26080期开出10注头奖，北京购彩者喜揽7注头奖，其中，5注追加投注一等奖出自朝阳区1105049247体彩代销店；2注基本投注一等奖分别出自海淀区1106050...",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "新浪竞技彩专家招募中 篮彩专家符合条件优先录用",
+      "news_summary": "小炮APP内汇集了行业顶尖的竞彩、足彩专家，我们始终致力于为彩民提供最优质全面的情报分析以及投注方案。为满足更多有识之士想要加入专家团队的愿望...",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "胜负彩26097期欧洲四大机构最新数据(17:00)",
+      "news_summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德欧冠胜平负胜平负胜平负胜平负1古比斯 vs 萨巴赫2.453.102.632.703.402.452.903.402.302.303.402.9027日09:003.003...",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中国足球彩票胜负彩26097期澳盘最新赔率(17:00)",
+      "news_summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负28日23:00(周二)01 古比斯 vs 萨巴赫2.16平手1.622.753.332.17周一09:002.20平手1.582.863.302.12周一17:002...",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "新浪专家连9期分析中双色球大奖！豪揽8626万",
+      "news_summary": "近期，新浪双色球专家迎来一波集体爆发！自26077期开奖至26085期开奖，连续9期均有专家命中大奖，累擒奖金8626万元！从百万级二等奖到千万级头奖，大奖捷报频传...",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "新浪彩票双色球名家第26086期推荐汇总",
+      "news_summary": "[特别声明：此文章为新浪彩票独家文章 严禁各媒体 公众号等转载 违规必究！严惩不贷！] 吕俊良：02,03,06,08,09,16,27,31,33+01,10,12 丁荣春：02,14,15,16,17,20,23,29...",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "历史上的今天-双色球7月28日开奖号码汇总",
+      "news_summary": "双色球下期开奖是在周二，阳历7月28日，阴历六月十五。 以下为历史阳历7月28日开奖号码汇总：阳历7月28日开奖号码汇总 以下为历史阴历六月十五开奖号码汇总：阴历六月十五...",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "双色球近10期周二奖号分布：蓝球1路码近4期开3期",
+      "news_summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "双色球086期历史同期号码全汇总",
+      "news_summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "福彩3D第2026198牛魔王中奖诗",
+      "news_summary": "198期：粽香飘二里，锣鼓随五声开（）197期：水虎潜孤峰，龙影随古河开（232）196期：幽夜落十里，梅花映万林开（419）195期：山高二鹰飞...",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

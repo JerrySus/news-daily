@@ -1,0 +1,627 @@
+{
+  "date": "2026-05-30",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4068.5691,
+        "change": -30.07,
+        "changePercent": -0.73,
+        "high": 4112.9553,
+        "low": 4055.8861,
+        "open": 4110.5212,
+        "prevClose": 4098.6358
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15575.134,
+        "change": -286.76,
+        "changePercent": -1.81,
+        "high": 15981.93,
+        "low": 15492.844,
+        "open": 15957.115,
+        "prevClose": 15861.891
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4037.951,
+        "change": -87.12,
+        "changePercent": -2.11,
+        "high": 4158.694,
+        "low": 4010.119,
+        "open": 4141.914,
+        "prevClose": 4125.075
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4892.1213,
+        "change": -22.09,
+        "changePercent": -0.45,
+        "high": 4954.0703,
+        "low": 4878.7869,
+        "open": 4937.5119,
+        "prevClose": 4914.2133
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1751.3234,
+        "change": -92.93,
+        "changePercent": -5.04,
+        "high": 1855.256,
+        "low": 1727.6214,
+        "open": 1850.2728,
+        "prevClose": 1844.2493
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51032.4609,
+        "change": 363.49,
+        "changePercent": 0.72,
+        "high": 51094.1797,
+        "low": 50698.2695,
+        "open": null,
+        "prevClose": 50668.9688
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26972.62,
+        "change": 55.1486,
+        "changePercent": 0.2,
+        "high": 27094.8025,
+        "low": 26859.2645,
+        "open": null,
+        "prevClose": 26917.4714
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7580.0601,
+        "change": 16.43,
+        "changePercent": 0.22,
+        "high": 7599.3799,
+        "low": 7563.5498,
+        "open": null,
+        "prevClose": 7563.6299
+      }
+    ],
+    "sectors": [
+      {
+        "name": "超市",
+        "code": "BK1552",
+        "price": 1813.75,
+        "changePercent": 5.7,
+        "change": 97.78
+      },
+      {
+        "name": "旅游零售Ⅲ",
+        "code": "BK1549",
+        "price": 6838.68,
+        "changePercent": 5.24,
+        "change": 340.45
+      },
+      {
+        "name": "旅游零售Ⅱ",
+        "code": "BK1269",
+        "price": 6838.68,
+        "changePercent": 5.24,
+        "change": 340.45
+      },
+      {
+        "name": "医美耗材",
+        "code": "BK1500",
+        "price": 1558.12,
+        "changePercent": 5.22,
+        "change": 77.24
+      },
+      {
+        "name": "火力发电",
+        "code": "BK1377",
+        "price": 3086.46,
+        "changePercent": 4.31,
+        "change": 127.42
+      },
+      {
+        "name": "图片媒体",
+        "code": "BK1297",
+        "price": 3476.96,
+        "changePercent": 4.31,
+        "change": 143.53
+      }
+    ],
+    "updatedAt": "2026-05-30T11:17:35.796Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "股价大涨 多只牛股紧急公告",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283753100060.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "上海核心区地块竞争激烈",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753229065.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "多家公司布局固态变压器赛道",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753168366.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "“价格暴涨近1000%”！亿元大单涌来",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605303755011825.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "国务院印发《城市更新“十五五”规划》",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753243666.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "将带动十万亿元级投资",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753190177.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "大基金减持中芯国际等多只半导体股",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605283753101829.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "存储超级周期 中国半导体爆发",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202605293753437865.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "三星电子开始出货HBM4E芯片样品",
+        "summary": "",
+        "source": "东方财富",
+        "url": "http://finance.eastmoney.com/a/202605293753477975.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "业绩超预期！戴尔科技盘后暴涨",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753332567.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "戴尔交出炸裂财报 盘后股价暴涨近40%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753443291.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "戴尔第一财季业绩超预期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605293753441890.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "商务部新闻发言人就欧委会开展对华关系讨论答记者问",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605303755064581.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国财政部对伊朗实施新制裁",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605303754835744.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "市值超2600亿港元！MiniMax再冲A股 港股“大模型双雄”即将又会师",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202605303755030162.html",
+        "time": "2026-05-30T11:17:34.178Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩昨日私推8场全红！关注最新方案",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-05-30T09:10:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩第26083期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德国际赛胜平负胜平负胜平负胜平负1瑞士 vs 约旦1.295.009.501.255.5012.001.305.0010.001.255.259.5030日09:001.225...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-28/doc-inhzmayw0290689.shtml",
+        "time": "2026-05-30T09:00:30.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26083期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负31日21:00(周日)01 瑞士 vs 约旦1.95球半/两球1.831.225.208.90周六09:001.95球半/两球1.831.225.208...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-28/doc-inhzmayw8757470.shtml",
+        "time": "2026-05-30T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "5月30日红王解盘比赛解读：莫尔德主场迎反弹",
+        "summary": "挪超：莫尔德 vs 桑德菲杰 比赛时间：5月30日 22:00 莫尔德是挪超传统豪门，本赛季10轮联赛5胜1平4负积16分暂列第6位，总身价约2955万欧元。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-30/doc-inhzshan7187125.shtml",
+        "time": "2026-05-30T07:10:16.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "德约五盘憾负止步法网第三轮，赛后采访尽显大将风范",
+        "summary": "2026 年法网男单第三轮，一场跌宕起伏的五盘大战落下帷幕，网坛传奇德约科维奇历经近五小时鏖战，在先赢两盘的绝佳局面下，惨遭巴西新星丰塞卡逆转...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-05-30/doc-inhzshan7178002.shtml",
+        "time": "2026-05-30T06:42:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "将对阵王曦雨！乌克兰名将：男友说我进世界前50就求婚",
+        "summary": "法网女单第二轮，乌克兰选手斯塔罗杜布采娃以3-6 6-1 7-6(10-4)爆冷逆转2号种子莱巴金娜，职业生涯首胜世界前十。 斯塔罗杜布采娃今年26岁，世界排名最高第53...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-05-30/doc-inhzshar6950891.shtml",
+        "time": "2026-05-30T06:42:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "山口茜2-1王祉怡晋级决赛！终结6连败魔咒",
+        "summary": " 北京时间5月30日，新加坡羽毛球公开赛女单半决赛，山口茜2-1击败王祉怡挺进决赛，三局比分 ：21-13、17-21、21-15。这场比赛后山口茜将等待安洗莹VS陈雨菲的胜者。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-05-30/doc-inhzsham8710564.shtml",
+        "time": "2026-05-30T06:42:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "阿尔卡拉斯宣布，退出马德里大师赛",
+        "summary": " 近期，西班牙网球巨星、两届马德里大师赛冠军阿尔卡拉斯通过个人社交媒体正式官宣，退出ATP1000马德里大师赛，这也是他连续第二年缺席自己的本土主场赛事。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-05-30/doc-inhzshar6950892.shtml",
+        "time": "2026-05-30T06:42:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "惊天大逆转！19岁丰塞卡五盘绝杀39岁德约",
+        "summary": "网球史上总有一些比赛，不止是胜负较量，更是传奇落幕与新生代接棒的历史时刻。 昨晚的菲利普・夏蒂埃球场，一场足以载入史册的五盘大战惊艳整个网坛：19岁巴西天才丰塞卡...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-05-30/doc-inhzshar6950890.shtml",
+        "time": "2026-05-30T06:42:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "140期李阳福彩3D预测奖号：双胆参考",
+        "summary": "上期回顾：福彩3D第2026139期奖号：286。福彩3D上期奖号为286，去年同期与今年同期前20期奖号对比。2025120期开奖号码：912；2026120期开奖号码：7342025121期开奖号码：12...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-30/doc-inhzshan7172905.shtml",
+        "time": "2026-05-30T06:26:53.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "140期杨波福彩3D预测奖号：奇偶分析",
+        "summary": "开奖回顾：第2026139期福彩3D奖号开出286，奖号奇偶比开出0:3，012路比开出1:0:2，跨度为6。 首位跨度分析：首位号码最近3期奖号为1-7-2，连续两期跨度为6、5...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-30/doc-inhzshar6945059.shtml",
+        "time": "2026-05-30T06:26:53.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "140期郑飞福彩3D预测奖号：遗漏分析",
+        "summary": "上期回顾：福彩3D第2026139期开奖号码为286，组选类型为组六，奇偶比为0:3，大小比为2:1。 福彩3D第2026139期奖号为：286，分析最近20期组选号码发现...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-30/doc-inhzshan7172906.shtml",
+        "time": "2026-05-30T06:26:53.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "140期杨光福彩3D预测奖号：百位分析",
+        "summary": "开奖回顾：福彩3D第2026139期：奖号为286，奖号质合比为1:2，大小比为2:1，跨度为6，类型为组六。 百位分析：上期出现号码2为：小号、质数，在连续9期开奖中...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-30/doc-inhzshan7172907.shtml",
+        "time": "2026-05-30T06:26:53.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "140期黄欢福彩3D预测奖号：和值分析",
+        "summary": " 开奖回顾：福彩3D第2026139期开出奖号286。奖号形态为组六，奇偶比为0:3，012路比为1:0:2，大小比为2:1，和值为16，跨度为6。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-30/doc-inhzshan7172904.shtml",
+        "time": "2026-05-30T06:26:53.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "福彩3D第2026140期关公胆码杀号图",
+        "summary": "开奖回顾：福彩3D第2026139期奖号开出286。 [扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-30/doc-inhzshan7172783.shtml",
+        "time": "2026-05-30T06:26:24.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-05-30T11:17:34.868Z"
+  },
+  "analyses": [
+    {
+      "news_title": "股价大涨 多只牛股紧急公告",
+      "news_summary": "股价大涨 多只牛股紧急公告",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "上海核心区地块竞争激烈",
+      "news_summary": "上海核心区地块竞争激烈",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "多家公司布局固态变压器赛道",
+      "news_summary": "多家公司布局固态变压器赛道",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "“价格暴涨近1000%”！亿元大单涌来",
+      "news_summary": "“价格暴涨近1000%”！亿元大单涌来",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "国务院印发《城市更新“十五五”规划》",
+      "news_summary": "国务院印发《城市更新“十五五”规划》",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "将带动十万亿元级投资",
+      "news_summary": "将带动十万亿元级投资",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "大基金减持中芯国际等多只半导体股",
+      "news_summary": "大基金减持中芯国际等多只半导体股",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "存储超级周期 中国半导体爆发",
+      "news_summary": "存储超级周期 中国半导体爆发",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "三星电子开始出货HBM4E芯片样品",
+      "news_summary": "三星电子开始出货HBM4E芯片样品",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "业绩超预期！戴尔科技盘后暴涨",
+      "news_summary": "业绩超预期！戴尔科技盘后暴涨",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "戴尔交出炸裂财报 盘后股价暴涨近40%",
+      "news_summary": "戴尔交出炸裂财报 盘后股价暴涨近40%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "戴尔第一财季业绩超预期",
+      "news_summary": "戴尔第一财季业绩超预期",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "商务部新闻发言人就欧委会开展对华关系讨论答记者问",
+      "news_summary": "商务部新闻发言人就欧委会开展对华关系讨论答记者问",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国财政部对伊朗实施新制裁",
+      "news_summary": "美国财政部对伊朗实施新制裁",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "市值超2600亿港元！MiniMax再冲A股 港股“大模型双雄”即将又会师",
+      "news_summary": "市值超2600亿港元！MiniMax再冲A股 港股“大模型双雄”即将又会师",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

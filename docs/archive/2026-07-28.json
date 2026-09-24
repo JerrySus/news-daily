@@ -1,0 +1,575 @@
+{
+  "date": "2026-07-28",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3813.3146,
+        "change": -44.93,
+        "changePercent": -1.16,
+        "high": 3844.0118,
+        "low": 3797.3727,
+        "open": 3823.1331,
+        "prevClose": 3858.245
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13509.679,
+        "change": -639.05,
+        "changePercent": -4.52,
+        "high": 13940.992,
+        "low": 13470.114,
+        "open": 13830.35,
+        "prevClose": 14148.73
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3327.03,
+        "change": -263.76,
+        "changePercent": -7.35,
+        "high": 3511.7,
+        "low": 3312.305,
+        "open": 3478.864,
+        "prevClose": 3590.787
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4569.5235,
+        "change": -132.9,
+        "changePercent": -2.83,
+        "high": 4646.487,
+        "low": 4552.2287,
+        "open": 4623.7986,
+        "prevClose": 4702.4272
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1693.4786,
+        "change": -114.47,
+        "changePercent": -6.33,
+        "high": 1797.5839,
+        "low": 1675.988,
+        "open": 1755.8671,
+        "prevClose": 1807.951
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52210.0781,
+        "change": 262.83,
+        "changePercent": 0.51,
+        "high": 52607.7812,
+        "low": 51985.3789,
+        "open": null,
+        "prevClose": 51947.25
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 24932.0815,
+        "change": -43.7423,
+        "changePercent": -0.18,
+        "high": 25261.9122,
+        "low": 24774.8672,
+        "open": null,
+        "prevClose": 24975.8238
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7413.1802,
+        "change": 1.2,
+        "changePercent": 0.02,
+        "high": 7480.5698,
+        "low": 7382.7402,
+        "open": null,
+        "prevClose": 7411.98
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-07-28T11:53:26.154Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "亚马逊入局卫星通信大战",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283822495132.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "长鑫科技上市首日刷纪录",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283822547432.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "东方证券与上海证券重组草案出炉",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607273822449132.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普：有足够耐心与伊朗达成新协议",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283822507617.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普边夸沃什边呼吁降息！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283822765178.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "凌晨全线大跌！特朗普重磅发声！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283822547733.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "单周530亿资金流入宽基ETF 创年内次高",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283822544931.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "ETF追踪丨7月27日ETF净申购113.23亿元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283822761826.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "海外基金经理上演攻防战",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283822500449.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球市场：苹果重夺全球市值第一",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283822515715.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "英伟达被苹果反超 风向彻底变了？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283822763798.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "英伟达五年期CDS创纪录狂飙",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283822766021.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "商务部回应美针对产能问题发起301调查",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283823487979.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "财政部、税务总局：调整部分能源资源行业企业城镇土地使用税政策",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283823499481.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "怕散户爆仓 韩国考虑为“借钱炒股”封顶20%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283823391471.html",
+        "time": "2026-07-28T11:53:25.440Z",
+        "category": "finance"
+      },
+      {
+        "title": "What you wear can help you get a job - here's how",
+        "summary": "While you need to answer the questions in an interview, your appearance and mannerisms are also crucial.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c80neg5rd81o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-28T11:07:13.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Schools to offer technical subjects to pupils from age 14 in England, Burnham says",
+        "summary": "The government wants pupils to take courses like AI and manufacturing which are linked to local jobs.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cj4k2djd5qpo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-28T10:25:52.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Chip stocks slide in US and Asia as AI jitters rattle investors",
+        "summary": "Trading on South Korea's Kospi index was paused temporarily on Tuesday morning after slumping by 8%.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cly8zng43npo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-28T10:15:47.000Z",
+        "category": "general"
+      },
+      {
+        "title": "中国足球彩票胜负彩26097期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负28日23:00(周二)01古比斯 vs 萨巴赫2.16平手1.622.753.332.17周一09:002.20平手1.582.863.302.12周一17:002...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikezxh8362604.shtml",
+        "time": "2026-07-28T09:10:01.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26097期欧洲四大机构最新数据(17:00)",
+        "summary": "td {text-align:center;font-size:12px} .t2 td{height:18px;line-height:18px;}     专家推荐 智能预测 彩票首页  胜负彩对阵 威廉 立博365伟德 欧冠 胜平负胜平负...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-27/doc-inikezxr0644820.shtml",
+        "time": "2026-07-28T09:09:10.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Is it safe to travel to France and Spain right now?",
+        "summary": "For those who have upcoming holidays to the affected regions, here is what you should know about how it might impact your plans.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/ce3qv0ggndno?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-28T08:50:39.000Z",
+        "category": "general"
+      },
+      {
+        "title": "中国排名：张维维跃升至128位 石昱婷鲁婉遥上升",
+        "summary": " 北京时间7月28日，多位中国选手凭借国际舞台的好表现，改善世界排名，最耀眼的是张维维。她在苏格兰女子公开赛表现不错，收获不小。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/lpga/2026-07-28/doc-inikkaaf0367483.shtml",
+        "time": "2026-07-28T08:32:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "女子排名：申珍妮夺冠升至36位 王培红闯入前500",
+        "summary": "北京时间7月28日，申珍妮结束10年等待，在LPGA巡回赛上再次夺冠，她的世界排名升入前40位。与此同时，王培红（Christine Wang）首次赢得爱普生巡回赛...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/lpga/2026-07-28/doc-inikizzz2462586.shtml",
+        "time": "2026-07-28T08:30:45.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国排名：窦泽成世界排名升至189位 李昊桐109位",
+        "summary": " 北京时间7月27日，窦泽成和李昊桐携手打入3M公开赛周末，其中窦泽成把握住了这个好机会，在TPC双子城取得一个不错的名次，世界排名得到提高。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/chinareport/2026-07-28/doc-inikkaaa9238278.shtml",
+        "time": "2026-07-28T08:28:23.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界排名：科伊文夺冠跃升至73位 赫伯特进前50位",
+        "summary": "北京时间7月27日，英国公开赛之后一周，绝大部分大牌选手选择休息，这给了新秀杰克逊-科伊文（Jackson Koivun）闪光的机会，而他没有错过...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/pgatour/2026-07-28/doc-inikizzw8081559.shtml",
+        "time": "2026-07-28T08:27:14.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Some people's chats with Claude AI found to be publicly available online",
+        "summary": "Hundreds of conversations with Anthropic’s chatbot were discovered as being publicly accessible.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cly5qgjk5ywo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-28T07:10:37.000Z",
+        "category": "general"
+      },
+      {
+        "title": "[小炮APP]专家司徒明远竞篮推荐：太阳神秘人出大分",
+        "summary": "推荐：157.5 大分很多人看到两队都是防守标签的球队，下意识会认定是低比分对决，但实际走势要复杂得多。神秘人本赛季的防守底子确实扎实...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-28/doc-inikivue9289816.shtml",
+        "time": "2026-07-28T06:50:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：阿甲+巴西乙串关",
+        "summary": "阿职联 圣洛伦索VS门多萨体操击剑 2026-07-29 06:00推荐：让负巴西乙 尤文图德VS阿瓦伊 2026-07-29 06:30尤文图德在上赛季巴甲联赛上表现不佳导致降级了，作为降级的球队...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-28/doc-inikivty8107731.shtml",
+        "time": "2026-07-28T06:48:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：竞技俱乐部客场不败",
+        "summary": "11 阿职联 罗萨里奥中央VS竞技俱乐部 2026-07-29 08:15罗萨里奥中央是上赛季阿甲联赛是排名在第1，在联赛的揭幕战是的客场以1比1战败给了贝尔格拉诺，目前是解放者杯...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-28/doc-inikivui0390252.shtml",
+        "time": "2026-07-28T06:48:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：瑞典甲2串1",
+        "summary": "瑞典甲 兰斯科罗纳VS北雪平 2026-07-29 01:00两队是在本赛季瑞典超甲联赛上首次交战，北雪平是在主场以1比3战败给了兰斯科罗纳，两队在近2次交战上fen胜负的战绩...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-28/doc-inikivui0390253.shtml",
+        "time": "2026-07-28T06:48:06.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-07-28T11:53:25.455Z"
+  },
+  "analyses": [
+    {
+      "news_title": "亚马逊入局卫星通信大战",
+      "news_summary": "亚马逊入局卫星通信大战",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "长鑫科技上市首日刷纪录",
+      "news_summary": "长鑫科技上市首日刷纪录",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "东方证券与上海证券重组草案出炉",
+      "news_summary": "东方证券与上海证券重组草案出炉",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普：有足够耐心与伊朗达成新协议",
+      "news_summary": "特朗普：有足够耐心与伊朗达成新协议",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普边夸沃什边呼吁降息！",
+      "news_summary": "特朗普边夸沃什边呼吁降息！",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "凌晨全线大跌！特朗普重磅发声！",
+      "news_summary": "凌晨全线大跌！特朗普重磅发声！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "单周530亿资金流入宽基ETF 创年内次高",
+      "news_summary": "单周530亿资金流入宽基ETF 创年内次高",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "ETF追踪丨7月27日ETF净申购113.23亿元",
+      "news_summary": "ETF追踪丨7月27日ETF净申购113.23亿元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "海外基金经理上演攻防战",
+      "news_summary": "海外基金经理上演攻防战",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球市场：苹果重夺全球市值第一",
+      "news_summary": "全球市场：苹果重夺全球市值第一",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "英伟达被苹果反超 风向彻底变了？",
+      "news_summary": "英伟达被苹果反超 风向彻底变了？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "英伟达五年期CDS创纪录狂飙",
+      "news_summary": "英伟达五年期CDS创纪录狂飙",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "商务部回应美针对产能问题发起301调查",
+      "news_summary": "商务部回应美针对产能问题发起301调查",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "财政部、税务总局：调整部分能源资源行业企业城镇土地使用税政策",
+      "news_summary": "财政部、税务总局：调整部分能源资源行业企业城镇土地使用税政策",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "怕散户爆仓 韩国考虑为“借钱炒股”封顶20%",
+      "news_summary": "怕散户爆仓 韩国考虑为“借钱炒股”封顶20%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

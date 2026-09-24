@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-23",
+  "date": "2026-05-24",
   "marketData": {
     "aShares": [
       {
@@ -93,8 +93,51 @@
         "prevClose": 7445.7202
       }
     ],
-    "sectors": [],
-    "updatedAt": "2026-05-23T11:06:59.461Z"
+    "sectors": [
+      {
+        "name": "玻纤制造",
+        "code": "BK1462",
+        "price": 16390.66,
+        "changePercent": 8.41,
+        "change": 1271.99
+      },
+      {
+        "name": "印制电路板",
+        "code": "BK1340",
+        "price": 12112.47,
+        "changePercent": 8.21,
+        "change": 918.52
+      },
+      {
+        "name": "元件",
+        "code": "BK0459",
+        "price": 57949.18,
+        "changePercent": 8.04,
+        "change": 4312.8
+      },
+      {
+        "name": "被动元件",
+        "code": "BK1339",
+        "price": 13317.58,
+        "changePercent": 7.64,
+        "change": 945.5
+      },
+      {
+        "name": "磨具磨料",
+        "code": "BK1397",
+        "price": 8923.19,
+        "changePercent": 7.12,
+        "change": 592.78
+      },
+      {
+        "name": "膜材料",
+        "code": "BK1439",
+        "price": 4267.12,
+        "changePercent": 5.81,
+        "change": 234.41
+      }
+    ],
+    "updatedAt": "2026-05-24T11:13:03.622Z"
   },
   "newsData": {
     "items": [
@@ -103,7 +146,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745914980.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
@@ -111,15 +154,15 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745694275.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
-        "title": "机器人行业资本化加速",
+        "title": "DeepSeek宣布永久降价",
         "summary": "",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202605233747304273.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "url": "https://finance.eastmoney.com/a/202605233747372030.html",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
@@ -127,7 +170,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745669122.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
@@ -135,7 +178,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745705197.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
@@ -143,7 +186,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745736561.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
@@ -151,7 +194,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745913441.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
@@ -159,7 +202,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605213745617326.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
@@ -167,7 +210,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745740193.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
@@ -175,7 +218,7 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745897134.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
@@ -183,164 +226,164 @@
         "summary": "",
         "source": "东方财富",
         "url": "https://finance.eastmoney.com/a/202605223745692967.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
-        "title": "证监会等八部门联合出手 整治非法跨境证券期货基金经营活动",
+        "title": "国金策略：市场定价正进入关键节点 两个变量值得重点关注",
         "summary": "",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202605233747123362.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "url": "https://finance.eastmoney.com/a/202605243747478975.html",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
-        "title": "SpaceX完成IPO前“大考”：升级版星舰V3成功发射",
+        "title": "中泰策略：如何把握本轮“鱼尾行情”？",
         "summary": "",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202605233747307016.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "url": "https://finance.eastmoney.com/a/202605243747471539.html",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
-        "title": "神二十三发射时间、乘组定了！",
+        "title": "周末要闻汇总：八部门联合整治非法跨境证券期货基金经营活动",
         "summary": "",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202605233747308478.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "url": "https://finance.eastmoney.com/a/202605243747442977.html",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
-        "title": "股东减持、询价转让！多只大牛股披露最新公告！",
+        "title": "有待最终敲定 特朗普称美伊协议基本谈成 细节将于近期公布",
         "summary": "",
         "source": "东方财富",
-        "url": "https://finance.eastmoney.com/a/202605233747328930.html",
-        "time": "2026-05-23T11:06:58.296Z",
+        "url": "https://finance.eastmoney.com/a/202605243747406766.html",
+        "time": "2026-05-24T11:13:01.603Z",
         "category": "finance"
       },
       {
-        "title": "天台山杯於之莹不敌老对手崔精 日本队全员淘汰",
-        "summary": "5月23日，第九届“天台山·天境云庐杯”世界女子围棋团体锦标赛第7-8局在天台文化馆战罢；上午进行的比赛中中国队於之莹不敌崔精，崔精乘胜追击下午再胜日本队主将上野爱咲美...",
+        "title": "'Shameful' more spent on benefits than jobs for young people, says Milburn",
+        "summary": "Reforms are needed of the welfare system to tackle the high numbers of young people not in work or education, says Alan Milburn.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.com/news/articles/crrpx4p1z71o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-05-24T10:21:58.000Z",
+        "category": "general"
+      },
+      {
+        "title": "大兴区企业乒乓球邀请赛（临空新国门赛区）开赛",
+        "summary": "5月23日，大兴区企业乒乓球邀请赛（临空新国门赛区）在大兴区辉鲸体育馆正式拉开帷幕。北京市大兴区体育局党组书记杨宝权，北京市大兴区机场办党组成员、副主任巩国防...",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/go/2026-05-23/doc-inhywqpk4361915.shtml",
-        "time": "2026-05-23T09:53:50.000Z",
+        "url": "https://sports.sina.com.cn/others/pingpang/2026-05-24/doc-inhyyxuh3279566.shtml",
+        "time": "2026-05-24T09:10:24.000Z",
         "category": "finance"
       },
       {
-        "title": "胜负彩第26079期欧洲四大机构最新数据(17:00)",
-        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德德国杯胜平负胜平负胜平负胜平负1拜仁 vs 斯图加特1.305.507.001.335.006.001.305.258.501.285.508.0021日14:001...",
+        "title": "胜负彩第26080期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德英超胜平负胜平负胜平负胜平负1伯恩利 vs 狼队2.403.302.802.403.402.802.383.402.802.383.402.7523日14:002.383...",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/l/2026-05-21/doc-inhyrfcw6024864.shtml",
-        "time": "2026-05-23T09:00:01.000Z",
+        "url": "https://sports.sina.com.cn/l/2026-05-21/doc-inhyrmmr6396721.shtml",
+        "time": "2026-05-24T09:00:01.000Z",
         "category": "finance"
       },
       {
-        "title": "中国足球彩票胜负彩26079期澳盘最新赔率(17:00)",
-        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负24日02:00(周日)01 拜仁 vs 斯图加特1.84球半1.941.255.506.70周四14:001.84球半1.941.255.506.70周五09:001...",
+        "title": "中国足球彩票胜负彩26080期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负24日23:00(周日)01 伯恩利 vs 狼队1.82平手2.022.233.522.62周六14:001.82平手2.022.323.522.52周日09:001...",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/l/2026-05-21/doc-inhyrfct6503168.shtml",
-        "time": "2026-05-23T09:00:00.000Z",
+        "url": "https://sports.sina.com.cn/l/2026-05-21/doc-inhyrmmu5915386.shtml",
+        "time": "2026-05-24T09:00:00.000Z",
         "category": "finance"
       },
       {
-        "title": "[小炮APP]专家伟哥看球竞彩推荐：京都主场难胜",
-        "summary": "2026-05-23 18:00:00 周六004 | 【日职】 京都 VS 长崎航海 京都现在排名西区垫底，17轮才拿了20分，保级形势那叫一个严峻。但比排名更吓人的是他们最近的状态——联赛3连败...",
+        "title": "希格PGA锦标赛迟到被罚 前球童打破沉默承担责任",
+        "summary": " 北京时间5月24日，加里克·希格（Garrick Higgo）的前球童奥斯汀·高格特（Austin Gaugert）承担起了责任，公开表示南非球员在PGA锦标赛上迟到而被罚，是自己的问题。",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/l/2026-05-23/doc-inhywqpm6850015.shtml",
-        "time": "2026-05-23T07:53:38.000Z",
+        "url": "https://sports.sina.com.cn/golf/pgatour/2026-05-24/doc-inhyytnn4407304.shtml",
+        "time": "2026-05-24T08:52:41.000Z",
         "category": "finance"
       },
       {
-        "title": "亚历山大26分麦凯恩24分雷霆逆转马刺 文班真的累了",
-        "summary": "今天的西决G3，雷霆123:108逆转马刺，总比分2:1。 一，裁判的单方面允许雷霆搓澡，已经说明文班的恐怖。 在主控福克斯伤停，副控哈珀中途伤退的情况下...",
+        "title": "浙江广厦签的三名外援是谁？下赛季还能成功卫冕吗？",
+        "summary": "浙江广厦男篮上赛季夺得了队史第一座CBA总冠军。上赛季的总决赛MVP小巴里布朗有点飘飘然了。面对王博的登门拜访，一下子开出了300万美元的高价，是上赛季的5倍之多。",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfp6939308.shtml",
-        "time": "2026-05-23T06:50:07.000Z",
+        "url": "https://sports.sina.com.cn/basketball/cba/2026-05-24/doc-inhyytnk3397044.shtml",
+        "time": "2026-05-24T08:26:03.000Z",
         "category": "finance"
       },
       {
-        "title": "马刺两大败因出炉 文班错误明显！雷霆创纪录",
-        "summary": "北京时间5月23日马刺主场对阵雷霆，全场比赛结束马刺以108-123输给了雷霆。本场比赛开始后马刺硬是打出15-0开局，当马刺打出这样的表现时...",
+        "title": "CBA总决赛对阵出炉！广厦PK上海冲2连冠，王博能过卢伟这一关吗？",
+        "summary": "北京时间5月23日，CBA季后赛半决赛G4在深圳宝安体育馆落下帷幕，广厦控股在客场完成15分惊天逆转，以112-97击败深圳马可波罗，从而以总比分3-1淘汰对手...",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfq5406375.shtml",
-        "time": "2026-05-23T06:49:27.000Z",
+        "url": "https://sports.sina.com.cn/basketball/cba/2026-05-24/doc-inhyytnh6619377.shtml",
+        "time": "2026-05-24T08:24:43.000Z",
         "category": "finance"
       },
       {
-        "title": "雷霆替补76分创纪录 麦卡立功+28冠绝全场",
-        "summary": "北京时间5月23日，NBA季后赛西部决赛G3，雷霆在客场123-108击败马刺，西决2-1领先夺回主场优势，此役亚历山大17投6中、三分4中2、罚球12中12轰下26分2篮板12助攻...",
+        "title": "末节隐身零出手！哈登6次失误拖垮全队，骑士东部之旅也就此结束",
+        "summary": "108-121被羞辱输掉了比赛。骑士队在主场被尼克斯队以3-0的大比分被淘汰出局，在本赛季冲击东部冠军的路上已经彻底失败了。相比起比赛的结果来说...",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfn4439708.shtml",
-        "time": "2026-05-23T06:48:34.000Z",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-24/doc-inhyytnn4395983.shtml",
+        "time": "2026-05-24T08:20:24.000Z",
         "category": "finance"
       },
       {
-        "title": "SGA先抑后扬雷霆攻克马刺主场 调整能力也是MVP必需",
-        "summary": "亚历山大先抑后扬，雷霆高歌猛进。在今天，雷霆奔赴客场，迎战马刺，结果以123-108获胜，总比分2-1领先。亚历山大在首节一分未得的情况下，三节得到26分12次助攻2个篮板...",
+        "title": "卡斯尔11失误给文班亚马上难度，他未来能否成为马刺队后场支柱？",
+        "summary": "谁也想不到上赛季仅取得34胜48负战绩、排名西部第13的圣安东尼奥马刺队能一跃成为总冠军级别的竞争者,队内的年轻球员各个老成持重、堪当大任...",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfk7662177.shtml",
-        "time": "2026-05-23T06:47:46.000Z",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-24/doc-inhyytnm5928164.shtml",
+        "time": "2026-05-24T08:19:15.000Z",
         "category": "finance"
       },
       {
-        "title": "NBA西部决赛：雷霆123-108大胜马刺！大比分2-1！",
-        "summary": "NBA西部决赛G3，圣安东尼奥马刺回到主场，马刺迎战雷霆。在系列赛前两轮比赛中，双方各胜一场。第三场在马刺队的主场进行，马刺球星文班亚马拿到26分，瓦塞尔贡献20分...",
+        "title": "阿特金森被指“哈登最差教练”？深度梳理篮网帅位更迭风波与角色球员进化论",
+        "summary": "近日，一则源自社交媒体博主的观点“阿特金森是哈登最差教练”引发热议，将前布鲁克林篮网主教练肯尼·阿特金森与球星詹姆斯·哈登的合作关系推上风口浪尖。",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfq5405483.shtml",
-        "time": "2026-05-23T06:46:32.000Z",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-24/doc-inhyytnk3394695.shtml",
+        "time": "2026-05-24T08:17:45.000Z",
         "category": "finance"
       },
       {
-        "title": "SGA率雷霆123-108胜马刺 系列赛2-1领先",
-        "summary": "谢伊-吉尔杰斯-亚历山大率领雷霆队在客场以123-108击败马刺队，从而在系列赛中以2-1领先。 比赛回顾 比赛开局，马刺队气势如虹，凭借达龙-福克斯的回...",
+        "title": "森林狼无法匹配马刺强度遗憾收场！戈贝尔有资格与森林狼提前续约",
+        "summary": "今年休赛期，戈贝尔有资格进行提前续约，最多可以和森林狼签下一份3年1.656亿美元的合同，最后期限是10月24日。戈贝尔本赛季薪资是3500万美元...",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfn4438672.shtml",
-        "time": "2026-05-23T06:45:49.000Z",
+        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-24/doc-inhyytnn4394827.shtml",
+        "time": "2026-05-24T08:16:41.000Z",
         "category": "finance"
       },
       {
-        "title": "关注微信-逍遥红单长期稳定盈利！聚焦今日红单",
-        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "title": "逾1400名龙舟健儿逐浪羊城",
+        "summary": "5月23日至24日的广州橙马麓湖锣鼓喧天、百舸争流，广州工行·2026年广州市龙舟锦标赛23日至24日在此举行。54支龙舟劲旅、逾1400名龙舟健儿逐浪麓湖...",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3321502.shtml",
-        "time": "2026-05-23T06:45:36.000Z",
+        "url": "https://sports.sina.com.cn/o/2026-05-24/doc-inhyytnh6616720.shtml",
+        "time": "2026-05-24T08:15:36.000Z",
         "category": "finance"
       },
       {
-        "title": "雷霆再擒马刺总分2-1！亚历山大26+12替补合砍76分",
-        "summary": "北京时间5月23日，NBA季后赛西决G3，雷霆在客场123-108击败马刺，系列赛总比分2-1领先；此役雷霆开局被马刺打出15-0攻势，之后雷霆众将疯狂反扑并且扭转局面...",
+        "title": "连续两周获亚军！马来西亚大师赛：陈雨菲决赛0-2不敌因达农",
+        "summary": "5月24日，马来西亚羽毛球大师赛迎来收官之日。在女单决赛的对决当中，头号种子陈雨菲同2号种子因达农相遇。本场比赛陈雨菲连丢两局0-2不敌对手...",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfn4438396.shtml",
-        "time": "2026-05-23T06:43:56.000Z",
+        "url": "https://sports.sina.com.cn/o/2026-05-24/doc-inhyytnh6616349.shtml",
+        "time": "2026-05-24T08:12:10.000Z",
         "category": "finance"
       },
       {
-        "title": "薪资专家建议湖人3000万续约詹姆斯 附带交易否决权",
-        "summary": "ESPN薪资专家鲍比·马克斯近期评选出了2026年NBA20大自由球员名单，在分析詹姆斯下赛季的个人前景时，马克斯给出了明确的签约建议：为詹姆斯提供一年3000万美元的合同...",
+        "title": "重庆狼队赢下挑战者杯，王者电竞打造十年完美闭环",
+        "summary": "5月23日晚，2026年王者荣耀挑战者杯决赛在上海久事体育场旗忠网球中心正式落下帷幕，重庆狼队在上半场1比3落后的逆境下，上演惊天翻盘...",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfq5403810.shtml",
-        "time": "2026-05-23T06:43:08.000Z",
+        "url": "https://sports.sina.com.cn/o/2026-05-24/doc-inhyytnk3392766.shtml",
+        "time": "2026-05-24T08:11:10.000Z",
         "category": "finance"
       },
       {
-        "title": "马刺板凳仅23分 雷霆板凳狂轰76分平本赛季纪录！",
-        "summary": "5月23日开战的NBA西部决赛G3已经结束全部争夺，马刺最终以108-123不敌雷霆，双方本轮系列赛的大比分也更新为1-2。本场比赛最引人注目的差距，出现在两队的替补阵容当中...",
+        "title": "国羽女双新组合再夺冠，强势崛起背后的制胜密码解析",
+        "summary": "在国际羽坛，中国羽毛球队女双项目的梯队建设与传承再次成为焦点。近日，国羽一对年轻的女双新组合在备受瞩目的国际赛事中，延续了近期以来的火热状态，再次夺得冠军...",
         "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfk7660135.shtml",
-        "time": "2026-05-23T06:42:22.000Z",
-        "category": "finance"
-      },
-      {
-        "title": "马刺自1月份后首次连败 上次对手是森林狼、雷霆",
-        "summary": " NBA西部决赛G3已经落下帷幕，本场对决中马刺拿到108分，雷霆拿到123分，最终马刺不敌对手，本轮系列赛的大比分暂时定格为马刺1-2落后。",
-        "source": "新浪财经",
-        "url": "https://sports.sina.com.cn/basketball/nba/2026-05-23/doc-inhywkfn4436591.shtml",
-        "time": "2026-05-23T06:39:46.000Z",
+        "url": "https://sports.sina.com.cn/o/2026-05-24/doc-inhyytnk3392507.shtml",
+        "time": "2026-05-24T08:09:39.000Z",
         "category": "finance"
       }
     ],
     "count": 43,
-    "updatedAt": "2026-05-23T11:06:58.297Z"
+    "updatedAt": "2026-05-24T11:13:02.750Z"
   },
   "analyses": [
     {
@@ -374,21 +417,18 @@
       "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
-      "news_title": "机器人行业资本化加速",
-      "news_summary": "机器人行业资本化加速",
+      "news_title": "DeepSeek宣布永久降价",
+      "news_summary": "DeepSeek宣布永久降价",
       "affected_industries": [
-        "人工智能"
+        "需进一步分析"
       ],
       "affected_companies": [
         "待AI启用后自动分析"
       ],
-      "funds": [
-        "012349 天弘中证人工智能主题",
-        "008087 华夏中证人工智能主题ETF联接"
-      ],
+      "funds": [],
       "direction": "中性",
       "impact_level": "弱",
-      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
       "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
@@ -523,8 +563,8 @@
       "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
-      "news_title": "证监会等八部门联合出手 整治非法跨境证券期货基金经营活动",
-      "news_summary": "证监会等八部门联合出手 整治非法跨境证券期货基金经营活动",
+      "news_title": "国金策略：市场定价正进入关键节点 两个变量值得重点关注",
+      "news_summary": "国金策略：市场定价正进入关键节点 两个变量值得重点关注",
       "affected_industries": [
         "需进一步分析"
       ],
@@ -538,8 +578,8 @@
       "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
-      "news_title": "SpaceX完成IPO前“大考”：升级版星舰V3成功发射",
-      "news_summary": "SpaceX完成IPO前“大考”：升级版星舰V3成功发射",
+      "news_title": "中泰策略：如何把握本轮“鱼尾行情”？",
+      "news_summary": "中泰策略：如何把握本轮“鱼尾行情”？",
       "affected_industries": [
         "需进一步分析"
       ],
@@ -553,8 +593,8 @@
       "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
-      "news_title": "神二十三发射时间、乘组定了！",
-      "news_summary": "神二十三发射时间、乘组定了！",
+      "news_title": "周末要闻汇总：八部门联合整治非法跨境证券期货基金经营活动",
+      "news_summary": "周末要闻汇总：八部门联合整治非法跨境证券期货基金经营活动",
       "affected_industries": [
         "需进一步分析"
       ],
@@ -568,8 +608,8 @@
       "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
     },
     {
-      "news_title": "股东减持、询价转让！多只大牛股披露最新公告！",
-      "news_summary": "股东减持、询价转让！多只大牛股披露最新公告！",
+      "news_title": "有待最终敲定 特朗普称美伊协议基本谈成 细节将于近期公布",
+      "news_summary": "有待最终敲定 特朗普称美伊协议基本谈成 细节将于近期公布",
       "affected_industries": [
         "需进一步分析"
       ],

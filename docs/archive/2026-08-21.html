@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 投资分析日报 - 2026-08-21</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#0f0f14;color:#e0e0e0;line-height:1.6;min-height:100vh}
+.header{background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);padding:28px 20px;text-align:center;border-bottom:1px solid #2a2a3e}
+.header h1{font-size:22px;color:#e15241;margin-bottom:4px}
+.header .date{font-size:14px;color:#888}
+.header .badge-row{margin-top:8px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap}
+.container{max-width:800px;margin:0 auto;padding:16px}
+.nav{display:flex;gap:8px;margin-bottom:20px}
+.nav a{color:#e15241;text-decoration:none;font-size:13px;padding:6px 12px;background:#1a1a2e;border-radius:6px;border:1px solid #2a2a3e}
+.nav a:hover{background:#2a2a3e}
+.section-title{font-size:16px;font-weight:600;margin:20px 0 12px;padding-left:10px;border-left:3px solid #e15241}
+.market-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-bottom:16px}
+.mc{background:#1a1a2e;border-radius:10px;padding:14px;border:1px solid #2a2a3e}
+.mc-name{font-size:12px;color:#888}
+.mc-code{color:#555;font-size:10px}
+.mc-price{font-size:20px;font-weight:700;margin:4px 0;color:#f0f0f0}
+.mc-chg{font-size:13px;font-weight:600}
+.mc-chg.up{color:#e15241}
+.mc-chg.down{color:#1aad19}
+.summary-box{background:#1a1a2e;border-radius:10px;padding:16px;margin-bottom:20px;border:1px solid #2a2a3e}
+.summary-box h3{font-size:15px;margin-bottom:10px}
+.summary-row{padding:6px 0;font-size:13px;border-bottom:1px solid #2a2a3e}
+.summary-dir{font-weight:600}
+.summary-ind{color:#888;margin-left:8px}
+.card{border-radius:10px;padding:16px;margin-bottom:12px;border:1px solid #2a2a3e;background:#1a1a2e}
+.card.bullish{border-left:3px solid #e15241}
+.card.bearish{border-left:3px solid #1aad19}
+.card.neutral{border-left:3px solid #666}
+.card-header{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.card-dir{font-weight:700;font-size:14px}
+.card-date{font-size:13px;color:#aaa;flex:1}
+.badge{font-size:11px;padding:2px 8px;border-radius:10px;font-weight:600}
+.badge-strong{background:rgba(225,82,65,.2);color:#e15241}
+.badge-mid{background:rgba(255,193,7,.2);color:#ffc107}
+.badge-weak{background:rgba(102,102,102,.2);color:#999}
+.card-row{margin-bottom:4px;font-size:13px}
+.card-row.analysis{color:#bbb;margin-top:6px;padding:8px;background:rgba(255,255,255,.03);border-radius:6px}
+.card-news-link{color:#e0e0e0;text-decoration:none;font-size:13px;flex:1;line-height:1.4}
+.card-news-link:hover{color:#e15241;text-decoration:underline}
+.card-source{font-size:10px;color:#666;background:rgba(255,255,255,.05);padding:1px 6px;border-radius:3px;flex-shrink:0}
+.card-summary{font-size:12px;color:#888;margin-bottom:8px;padding:6px 10px;background:rgba(255,255,255,.02);border-radius:4px;line-height:1.5}
+.card-row.chain{color:#bbb;margin-top:8px;padding:10px;background:rgba(225,82,65,.05);border-radius:6px;line-height:1.7;font-size:13px}
+.card-row.suggestion{color:#e15241;margin-top:8px;font-weight:500;line-height:1.6}
+.card-funds{margin-top:6px}
+.card-funds strong{font-size:12px;color:#aaa}
+.fund-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.fund-tag{display:inline-block;padding:5px 10px;background:rgba(225,82,65,.1);color:#e15241;border-radius:6px;font-size:12px;text-decoration:none;border:1px solid rgba(225,82,65,.2);transition:all .2s}
+.fund-tag:hover{background:rgba(225,82,65,.2);border-color:#e15241}
+.footer{text-align:center;padding:30px;color:#555;font-size:12px}
+.na{color:#666}
+@media(max-width:480px){.market-grid{grid-template-columns:repeat(2,1fr)}.header h1{font-size:18px}}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>AI 投资分析日报</h1>
+  <div class="date">2026-08-21 星期五</div>
+  <div class="badge-row">
+    <span class="badge badge-strong">AI分析师: DeepSeek</span>
+    <span class="badge badge-mid">仅供参考，不构成投资建议</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="nav">
+    <a href="/">首页</a>
+    <a href="/archive/">历史日报</a>
+  </div>
+
+  <div class="section-title">市场行情</div>
+  <div class="market-grid"><div class="mc">
+      <div class="mc-name">上证指数 <span class="mc-code">000001</span></div>
+      <div class="mc-price">3905.20</div>
+      <div class="mc-chg up">+0.04%</div>
+    </div><div class="mc">
+      <div class="mc-name">深证成指 <span class="mc-code">399001</span></div>
+      <div class="mc-price">14094.17</div>
+      <div class="mc-chg up">+0.87%</div>
+    </div><div class="mc">
+      <div class="mc-name">创业板指 <span class="mc-code">399006</span></div>
+      <div class="mc-price">3545.58</div>
+      <div class="mc-chg up">+1.43%</div>
+    </div><div class="mc">
+      <div class="mc-name">沪深300 <span class="mc-code">000300</span></div>
+      <div class="mc-price">4618.90</div>
+      <div class="mc-chg up">+0.57%</div>
+    </div><div class="mc">
+      <div class="mc-name">科创50 <span class="mc-code">000688</span></div>
+      <div class="mc-price">1653.56</div>
+      <div class="mc-chg up">+0.04%</div>
+    </div><div class="mc">
+      <div class="mc-name">道琼斯 <span class="mc-code">DJI</span></div>
+      <div class="mc-price">52759.21</div>
+      <div class="mc-chg down">-1.32%</div>
+    </div><div class="mc">
+      <div class="mc-name">纳斯达克 <span class="mc-code">IXIC</span></div>
+      <div class="mc-price">26067.17</div>
+      <div class="mc-chg down">-1.00%</div>
+    </div><div class="mc">
+      <div class="mc-name">标普500 <span class="mc-code">SPX</span></div>
+      <div class="mc-price">7641.16</div>
+      <div class="mc-chg down">-0.87%</div>
+    </div></div>
+
+  <div class="summary-box"><h3>今日投资情绪汇总</h3><div class="summary-row">
+      <span class="summary-dir">➖ 中性 (12条)</span>
+      <span class="summary-ind">涉及: 需进一步分析、军工、人工智能、半导体、新能源、汽车</span>
+    </div><div class="summary-row">
+      <span class="summary-dir">📈 利好 (2条)</span>
+      <span class="summary-ind">涉及: 需进一步分析</span>
+    </div><div class="summary-row">
+      <span class="summary-dir">📉 利空 (1条)</span>
+      <span class="summary-ind">涉及: 需进一步分析</span>
+    </div></div>
+
+  <div class="section-title">AI 逐条分析</div>
+  <div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608203848150417.html" target="_blank" title="查看原文">中信证券大手笔分红</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 中信证券大手笔分红</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213848461316.html" target="_blank" title="查看原文">长江存储IPO辅导完成</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 长江存储IPO辅导完成</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213848344030.html" target="_blank" title="查看原文">美债风暴突袭！美国财长重磅发声</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 美债风暴突袭！美国财长重磅发声</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213848503923.html" target="_blank" title="查看原文">贝森特救市效果“一日游”？</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 贝森特救市效果“一日游”？</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213848589143.html" target="_blank" title="查看原文">贝森特“救市妙方”缘何不灵了？</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 贝森特“救市妙方”缘何不灵了？</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213848278445.html" target="_blank" title="查看原文">特朗普签署备忘录以促进美航天发射</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 特朗普签署备忘录以促进美航天发射</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 军工</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/001475.html" target="_blank" title="查看基金详情">001475 富国中证军工</a><a class="fund-tag" href="https://fund.eastmoney.com/161024.html" target="_blank" title="查看基金详情">161024 富国中证军工指数</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213848504260.html" target="_blank" title="查看原文">探索商业机器人登陆火星</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 探索商业机器人登陆火星</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 人工智能</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/012349.html" target="_blank" title="查看基金详情">012349 天弘中证人工智能主题</a><a class="fund-tag" href="https://fund.eastmoney.com/008087.html" target="_blank" title="查看基金详情">008087 华夏中证人工智能主题ETF联接</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213848260831.html" target="_blank" title="查看原文">存储、加密货币概念走强 Moderna跌23%</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 存储、加密货币概念走强 Moderna跌23%</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。</div>
+        <div class="card-row suggestion">💡 短期: 关注板块龙头及活跃标的，回调可适当参与。<br>中期: 若行业景气度持续验证，可逐步加仓至标配以上。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213848393360.html" target="_blank" title="查看原文">两大巨头共振！CPO赛道高景气延续</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 两大巨头共振！CPO赛道高景气延续</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213848504553.html" target="_blank" title="查看原文">数据中心相关供应缺口超50%</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 数据中心相关供应缺口超50%</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213848276829.html" target="_blank" title="查看原文">博通算力融资池据传将加码超600亿</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 博通算力融资池据传将加码超600亿</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 半导体</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/007301.html" target="_blank" title="查看基金详情">007301 国联安中证全指半导体ETF联接</a><a class="fund-tag" href="https://fund.eastmoney.com/008888.html" target="_blank" title="查看基金详情">008888 华夏国证半导体芯片ETF联接</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213849370838.html" target="_blank" title="查看原文">重大警报！美国国债变数再起！五大风险信号浮现 美股泡沫即将破灭？</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 重大警报！美国国债变数再起！五大风险信号浮现 美股泡沫即将破灭？</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。</div>
+        <div class="card-row suggestion">💡 短期: 建议减仓回避，不急于抄底。<br>中期: 观察影响是否被市场消化，待企稳后再评估入场时机。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213849244475.html" target="_blank" title="查看原文">我国牵头固态电池首项国际标准正式立项 推动新能源产业快速发展</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 我国牵头固态电池首项国际标准正式立项 推动新能源产业快速发展</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 新能源</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/001298.html" target="_blank" title="查看基金详情">001298 华夏新能源车龙头</a><a class="fund-tag" href="https://fund.eastmoney.com/005827.html" target="_blank" title="查看基金详情">005827 易方达蓝筹精选</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及新能源。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213849244771.html" target="_blank" title="查看原文">黄金牛市即将回归？华尔街热情高涨 矿业大佬喊出5万美元目标价！</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 黄金牛市即将回归？华尔街热情高涨 矿业大佬喊出5万美元目标价！</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 需进一步分析</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。</div>
+        <div class="card-row suggestion">💡 短期: 关注板块龙头及活跃标的，回调可适当参与。<br>中期: 若行业景气度持续验证，可逐步加仓至标配以上。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202608213849412217.html" target="_blank" title="查看原文">特斯拉（上海）有限公司、特斯拉汽车（北京）有限公司召回部分国产及进口纯电动汽车</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 特斯拉（上海）有限公司、特斯拉汽车（北京）有限公司召回部分国产及进口纯电动汽车</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 汽车</div>
+        <div class="card-row"><strong>相关公司:</strong> 待AI启用后自动分析</div>
+        
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>该新闻涉及汽车。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。</div>
+        <div class="card-row suggestion">💡 短期: 观望为主，控制仓位。<br>中期: 等待确定性信号出现后再做配置。</div>
+      </div>
+    </div>
+
+  <div class="footer">
+    <p>AI 投资分析日报 &middot; 每日 18:00 自动生成</p>
+    <p style="margin-top:4px">分析由 DeepSeek AI 生成，数据来源于新浪财经、东方财富等公开渠道</p>
+    <p style="margin-top:4px;color:#e15241">⚠ 以上分析仅供参考，不构成任何投资建议。投资有风险，入市需谨慎。</p>
+  </div>
+</div>
+</body>
+</html>

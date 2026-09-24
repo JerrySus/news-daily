@@ -1,0 +1,575 @@
+{
+  "date": "2026-07-24",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3814.1978,
+        "change": -62.58,
+        "changePercent": -1.61,
+        "high": 3861.0404,
+        "low": 3808.6359,
+        "open": 3853.6316,
+        "prevClose": 3876.7774
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13774.676,
+        "change": -348.63,
+        "changePercent": -2.47,
+        "high": 14061.027,
+        "low": 13774.676,
+        "open": 13915.037,
+        "prevClose": 14123.307
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3480.87,
+        "change": -94.65,
+        "changePercent": -2.65,
+        "high": 3561.35,
+        "low": 3480.87,
+        "open": 3515.504,
+        "prevClose": 3575.52
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4649.1917,
+        "change": -78.81,
+        "changePercent": -1.67,
+        "high": 4704.0843,
+        "low": 4642.9387,
+        "open": 4685.4082,
+        "prevClose": 4728.0018
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1787.1958,
+        "change": -2.5,
+        "changePercent": -0.14,
+        "high": 1831.2755,
+        "low": 1748.7968,
+        "open": 1766.2589,
+        "prevClose": 1789.6941
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51711.6484,
+        "change": -506.93,
+        "changePercent": -0.97,
+        "high": 51885.1406,
+        "low": 51542.0586,
+        "open": null,
+        "prevClose": 52218.5781
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25137.6924,
+        "change": -553.2105,
+        "changePercent": -2.15,
+        "high": 25358.2821,
+        "low": 24954.7738,
+        "open": null,
+        "prevClose": 25690.9029
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7408.2998,
+        "change": -90.66,
+        "changePercent": -1.21,
+        "high": 7450.1201,
+        "low": 7376,
+        "open": null,
+        "prevClose": 7498.96
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-07-24T11:38:42.181Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "东方甄选业绩大幅增长",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243819449539.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "江波龙、澜起科技领衔回购",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243819343380.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "欧盟再对谷歌罚款10亿美元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607233819288230.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国公布新关税措施 24日生效",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243819376964.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "特斯拉重挫14.52% 国际油价涨逾6%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243819376242.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储9月行动概率已超八成",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243819684718.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "韩股外资流入创单周最高纪录",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243819645327.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "韩国将杠杆ETF交易现金存款要求提高",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243819450770.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "欧洲央行如期维持利率不变",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607233819247692.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国或加大打击力度 伊朗做准备",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607233819330036.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "将用伊朗资金赔偿船只及损失",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243819390025.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊朗、胡塞武装：已做好应战准备",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243819388285.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "中方回应美对贸易伙伴征收新关税：反对单边关税措施",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243820435474.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "“两高”修改司法解释 加大力度惩治内幕交易、泄露内幕信息犯罪",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243820419541.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "两部门明确离岸信托个税事项：需按照规定申报缴纳个人所得税 适用20%税率",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607243820458864.html",
+        "time": "2026-07-24T11:38:41.698Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国台球俱乐部职业联赛上饶赛区 车侑蓝助阵开幕式",
+        "summary": "7月21日，2026年中国台球俱乐部职业联赛（CBL）上饶星牌赛区开幕式举行。这项由国家体育总局小球运动管理中心、中国台球协会共同主办的全国性职业台球联赛...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/snooker/2026-07-24/doc-iniixfyi1567050.shtml",
+        "time": "2026-07-24T11:36:28.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Why are UK fuel prices rising again?",
+        "summary": "UK petrol and diesel prices are going up again as the price of oil returns to around $100 a barrel.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-24T10:45:41.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Watch: Are Trump's tariffs delivering on his objectives?",
+        "summary": "The BBC's Samira Hussain explains how President Trump's tariffs affect US economy, who pays the price, and whether they're working.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/videos/c5yw2xgnv2jo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-24T10:21:31.000Z",
+        "category": "general"
+      },
+      {
+        "title": "7月24日红王笔记比赛解读：塞那乔其剑指客场三分",
+        "summary": "芬超：雅罗vs塞那乔其 比赛时间：7月25日00:00 雅罗全队身价合计约220万欧元，不足塞那乔其的一半，主教练詹斯·卡尔松来自瑞典，今年年初才接手球队，主打4-2-3-1阵型。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-24/doc-iniiwzsa9328541.shtml",
+        "time": "2026-07-24T10:03:31.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩私推7中5！每日公推送稳胆",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-07-24T10:00:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "UK mortgage rates rise to highest level for a month",
+        "summary": "Renewed tensions in the Middle East feed through to the costs faced by lenders, pushing up borrowing costs.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c70gknr7z1eo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-24T09:44:53.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Scotch whisky levy lifted as Trump imposes new wave of US tariffs",
+        "summary": "The Scottish government welcomed the lifting of the 10% levy, which the US President agreed after the state visit of King Charles.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c7vgz680977o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-24T09:35:23.000Z",
+        "category": "general"
+      },
+      {
+        "title": "胜负彩26095期欧洲四大机构最新数据(17:00)",
+        "summary": "td {text-align:center;font-size:12px} .t2 td{height:18px;line-height:18px;}     专家推荐 智能预测 彩票首页  胜负彩对阵 威廉 立博365伟德 瑞超 胜平负胜平负...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-23/doc-iniiunaz1500749.shtml",
+        "time": "2026-07-24T09:03:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26095期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负25日21:00(周六)01代格福什 vs 佐加顿斯1.91受半球/一球1.874.003.811.63周四14:001.91受半球/一球1.874.003...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-23/doc-iniiunaz1499812.shtml",
+        "time": "2026-07-24T09:03:24.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-逍遥红单公推3连红！私推擒高回报",
+        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4995447.shtml",
+        "time": "2026-07-24T09:00:28.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "US hits dozens of countries with new wave of tariffs",
+        "summary": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-24T08:59:31.000Z",
+        "category": "general"
+      },
+      {
+        "title": "[小炮APP]专家张然让球推荐：瑞典超+阿甲2串1",
+        "summary": "阿甲 萨斯菲尔德vs科尔多瓦学院萨斯菲尔德作为阿甲老牌劲旅纸面实力明显强于对手，新赛季还是力争冲冠，不过近期状态比较一般，近五场比赛只有一胜，主场不败率较高...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-24/doc-iniiwvke4466128.shtml",
+        "time": "2026-07-24T07:27:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家小恺说球让球推荐：韦斯特罗难取大胜",
+        "summary": "韦斯特罗斯目前联赛5胜4平4负，处在联赛中游的位置，球队是典型的主场虫、客场龙，6个主场仅1胜3平2负，本场比赛球队迎来利好消息，球队头号射手拉迪福格德停赛解禁复出...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-24/doc-iniiwvkm1703662.shtml",
+        "time": "2026-07-24T07:27:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：精选韩K2联串关",
+        "summary": "K2联赛 首尔衣恋VS天安城 2026-07-24 18:30首尔衣恋在韩职联赛的表现依旧不俗，在本赛季联赛联赛积分榜上想要在争取直接升级的位置差3积分了...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-24/doc-iniiwvke9293002.shtml",
+        "time": "2026-07-24T07:27:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家黄海涛竞彩推荐：芬超+瑞典超2串1",
+        "summary": "瑞典超 第14轮 瓦斯特拉斯VS奥尔格里特比赛时间：2026-07-25 1:00 星期六天气：多云 温度：20℃～21℃瓦斯特拉斯上轮客场逼和米亚尔比延续近期不败走势...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-24/doc-iniiwvke4466127.shtml",
+        "time": "2026-07-24T07:27:58.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-07-24T11:38:41.700Z"
+  },
+  "analyses": [
+    {
+      "news_title": "东方甄选业绩大幅增长",
+      "news_summary": "东方甄选业绩大幅增长",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "江波龙、澜起科技领衔回购",
+      "news_summary": "江波龙、澜起科技领衔回购",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "欧盟再对谷歌罚款10亿美元",
+      "news_summary": "欧盟再对谷歌罚款10亿美元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国公布新关税措施 24日生效",
+      "news_summary": "美国公布新关税措施 24日生效",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特斯拉重挫14.52% 国际油价涨逾6%",
+      "news_summary": "特斯拉重挫14.52% 国际油价涨逾6%",
+      "affected_industries": [
+        "汽车"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及汽车。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美联储9月行动概率已超八成",
+      "news_summary": "美联储9月行动概率已超八成",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "韩股外资流入创单周最高纪录",
+      "news_summary": "韩股外资流入创单周最高纪录",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "韩国将杠杆ETF交易现金存款要求提高",
+      "news_summary": "韩国将杠杆ETF交易现金存款要求提高",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "欧洲央行如期维持利率不变",
+      "news_summary": "欧洲央行如期维持利率不变",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国或加大打击力度 伊朗做准备",
+      "news_summary": "美国或加大打击力度 伊朗做准备",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "将用伊朗资金赔偿船只及损失",
+      "news_summary": "将用伊朗资金赔偿船只及损失",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊朗、胡塞武装：已做好应战准备",
+      "news_summary": "伊朗、胡塞武装：已做好应战准备",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中方回应美对贸易伙伴征收新关税：反对单边关税措施",
+      "news_summary": "中方回应美对贸易伙伴征收新关税：反对单边关税措施",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "“两高”修改司法解释 加大力度惩治内幕交易、泄露内幕信息犯罪",
+      "news_summary": "“两高”修改司法解释 加大力度惩治内幕交易、泄露内幕信息犯罪",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "两部门明确离岸信托个税事项：需按照规定申报缴纳个人所得税 适用20%税率",
+      "news_summary": "两部门明确离岸信托个税事项：需按照规定申报缴纳个人所得税 适用20%税率",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

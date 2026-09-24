@@ -1,0 +1,588 @@
+{
+  "date": "2026-06-29",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4073.9017,
+        "change": 46.64,
+        "changePercent": 1.16,
+        "high": 4075.3343,
+        "low": 3992.5522,
+        "open": 4026.6858,
+        "prevClose": 4027.2648
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15812.871,
+        "change": 30.65,
+        "changePercent": 0.19,
+        "high": 15938.231,
+        "low": 15487.925,
+        "open": 15781.786,
+        "prevClose": 15782.223
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4216.699,
+        "change": 22.49,
+        "changePercent": 0.54,
+        "high": 4265.463,
+        "low": 4103.633,
+        "open": 4200.674,
+        "prevClose": 4194.209
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4926.921,
+        "change": 58.7,
+        "changePercent": 1.21,
+        "high": 4928.5987,
+        "low": 4827.149,
+        "open": 4866.0432,
+        "prevClose": 4868.2205
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 2126.0105,
+        "change": 93.73,
+        "changePercent": 4.61,
+        "high": 2127.8008,
+        "low": 2013.5122,
+        "open": 2039.6674,
+        "prevClose": 2032.2842
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52136.3398,
+        "change": 260.23,
+        "changePercent": 0.5,
+        "high": 52311.6289,
+        "low": 51995.1406,
+        "open": null,
+        "prevClose": 51876.1094
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25521.627,
+        "change": 224.0093,
+        "changePercent": 0.89,
+        "high": 25697.2241,
+        "low": 25479.476,
+        "open": null,
+        "prevClose": 25297.6177
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7390.5298,
+        "change": 36.51,
+        "changePercent": 0.5,
+        "high": 7427.7998,
+        "low": 7384.8101,
+        "open": null,
+        "prevClose": 7354.02
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-06-29T14:01:05.417Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "国常会听取人工智能发展情况汇报：要加力推进人工智能创新突破",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293786838165.html",
+        "time": "2026-06-29T14:01:04.892Z",
+        "category": "finance"
+      },
+      {
+        "title": "三星正式宣布2655万亿韩元的投资计划 涉及半导体、AI算力数据中心等",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293786605050.html",
+        "time": "2026-06-29T14:01:04.892Z",
+        "category": "finance"
+      },
+      {
+        "title": "涉嫌操纵DRAM价格及供应 三星、SK海力士和美光在美遭集体诉讼",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293786841048.html",
+        "time": "2026-06-29T14:01:04.892Z",
+        "category": "finance"
+      },
+      {
+        "title": "美股三大指数集体上涨 纳指涨幅接近1% 半导体设备股普遍走强",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293786923822.html",
+        "time": "2026-06-29T14:01:04.892Z",
+        "category": "finance"
+      },
+      {
+        "title": "6月29日晚间上市公司利好消息一览(附名单)",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293786892389.html",
+        "time": "2026-06-29T14:01:04.892Z",
+        "category": "finance"
+      },
+      {
+        "title": "银河微电披露资产收购预案",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606283785618651.html",
+        "time": "2026-06-29T14:01:04.891Z",
+        "category": "finance"
+      },
+      {
+        "title": "王兴给美团摁下理性重启键",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606283785607198.html",
+        "time": "2026-06-29T14:01:04.891Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊同意停止互袭 30日在多哈继续谈判",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293785661840.html",
+        "time": "2026-06-29T14:01:04.891Z",
+        "category": "finance"
+      },
+      {
+        "title": "美股期指拉升！美伊谈判突传重磅",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293785665817.html",
+        "time": "2026-06-29T14:01:04.891Z",
+        "category": "finance"
+      },
+      {
+        "title": "以军摧毁黎真主党地下发射井",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293785672967.html",
+        "time": "2026-06-29T14:01:04.891Z",
+        "category": "finance"
+      },
+      {
+        "title": "人造太阳有新突破！融资客提前埋伏多股",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293785665691.html",
+        "time": "2026-06-29T14:01:04.891Z",
+        "category": "finance"
+      },
+      {
+        "title": "多只翻倍牛股公告！涉电子布等赛道",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606283785619071.html",
+        "time": "2026-06-29T14:01:04.891Z",
+        "category": "finance"
+      },
+      {
+        "title": "多家公司预计净利增超100%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606283785612646.html",
+        "time": "2026-06-29T14:01:04.891Z",
+        "category": "finance"
+      },
+      {
+        "title": "券商：本轮AI科技抱团 不会轻易结束",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606283785630047.html",
+        "time": "2026-06-29T14:01:04.891Z",
+        "category": "finance"
+      },
+      {
+        "title": "2只新股申购 北方华创、中微公司供应商来了",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606293785666873.html",
+        "time": "2026-06-29T14:01:04.891Z",
+        "category": "finance"
+      },
+      {
+        "title": "Inspired by Wimbledon and the World Cup? Here's how to play sport for free",
+        "summary": "As the world's best players begin play at Wimbledon, how can you get into sport on a budget.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/crlw2xw1yy2o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-29T13:00:12.000Z",
+        "category": "general"
+      },
+      {
+        "title": "British American Tobacco to cut 9,000 jobs",
+        "summary": "The company had said earlier this year it was planning savings to make it  \"more digital and AI-focused\".",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c3vyen243dno?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-29T12:58:22.000Z",
+        "category": "general"
+      },
+      {
+        "title": "YONEX尤尼克斯携手张连伟 公益授课赋能高球少年",
+        "summary": "为积极推广青少年高尔夫运动，夯实青少年体育启蒙教育，激发青少年体育运动热情，培育专业运动兴趣，2026年6月27日，2026YONEX尤尼克斯青少年高尔夫学园·深圳站活动在深圳...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/golf/information/2026-06-29/doc-inifauhq2060889.shtml",
+        "time": "2026-06-29T12:12:07.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Ford rehires human engineers after AI fails to match quality checks",
+        "summary": "The car-maker found AI quality checks failed to match the skill of veteran technicians.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cgrkd41n2v9o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-29T11:58:01.000Z",
+        "category": "general"
+      },
+      {
+        "title": "第九届“汉酱杯”全国业余围棋大赛西部赛区闭幕",
+        "summary": "第九届“汉酱杯”全国业余围棋大赛（西部赛区）于6月26日至29日在河南省郑州市举办。作为本年度“汉酱杯”的揭幕之战，西部赛区汇聚了来自河南、陕西、山西、甘肃...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-06-29/doc-inifapyy3815808.shtml",
+        "time": "2026-06-29T11:22:36.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "深化治理粤彩行丨省体育局督导调研组到深圳体彩开展体育彩票综合督导调研",
+        "summary": "为纵深推进体育彩票领域“深化治理年”行动走深走实，全面检视年度重点工作推进质效，近日，广东省体育局联合省体彩中心组成综合督导调研组一行到深圳市...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-29/doc-inifapyy3753969.shtml",
+        "time": "2026-06-29T09:50:46.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "“深”·度聊彩丨专访黄永志：安心购彩，是对公益的尊重，也是对生活的守护",
+        "summary": "彩票，究竟是运气游戏，还是可被驯服的概率？是通往财富的捷径，还是一种需要被理性约束的娱乐？黄永志认为“安心购彩”不是一句口号，而是一整套需要被理解、被践行...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-29/doc-inifaiss5476468.shtml",
+        "time": "2026-06-29T09:47:39.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26089期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负30日01:00(周二)01 巴西 vs 日本2.04半球/一球1.801.803.403.77周一09:001.88半球/一球1.961.643.504...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-28/doc-inieykzq6066643.shtml",
+        "time": "2026-06-29T09:00:24.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩第26089期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德世界杯胜平负胜平负胜平负胜平负1巴西 vs 日本1.733.504.801.753.504.801.753.604.751.723.604.8029日09:001.703...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-28/doc-inieykzs2843938.shtml",
+        "time": "2026-06-29T09:00:07.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩私推2中2!擒世界杯淘汰赛比分",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-29T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "South Korea unveils $880bn chip and AI investment plan",
+        "summary": "It comes as regional rivals like Taiwan, China and Japan are investing heavily in chip factories and other technology.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c9q2pwzngjqo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-06-29T08:55:29.000Z",
+        "category": "general"
+      },
+      {
+        "title": "第28届北京将军杯木兰杯青少年网球赛第三站激战收官",
+        "summary": "2026年6月27日至28日，第28届北京“将军杯、木兰杯”青少年网球赛（CTJ-B600）第三站在北京市网球运动管理中心火热收官。继首站“开门红”、次站“温情父亲节”之后...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/t/2026-06-29/doc-inifaisu2204147.shtml",
+        "time": "2026-06-29T08:28:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "阿迪达斯正式发布2026草地网球大满贯系列",
+        "summary": "草地大满贯赛事将至，阿迪达斯正式推出2026草地网球大满贯系列。整套装备兼顾草地网球标志性纯白视觉与专业赛场性能，以简约设计诠释纯粹竞技态度...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/t/2026-06-29/doc-inifacku5510192.shtml",
+        "time": "2026-06-29T07:28:35.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "女子购彩十多年擒体彩1032万 号码由家人生日组合",
+        "summary": " 6月27日，超级大乐透第26071期开奖，前区开出号码05、13、22、26、32；后区开出号码02、03, 当期全国唯一一注一等奖花落上海。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-29/doc-inifacma7113015.shtml",
+        "time": "2026-06-29T07:24:45.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家陈志平篮彩推荐：约旦伊拉克看小分",
+        "summary": "约旦男篮：C组领头羊，Hollis-Jefferson领衔约旦男篮目前以C组三连胜的战绩高居小组第一，先后击败叙利亚（两次）和伊朗。球队拥有亚洲区具知名度的归化球员朗戴·霍利斯-杰...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-29/doc-inifackz0325684.shtml",
+        "time": "2026-06-29T07:21:54.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-29T14:01:04.893Z"
+  },
+  "analyses": [
+    {
+      "news_title": "国常会听取人工智能发展情况汇报：要加力推进人工智能创新突破",
+      "news_summary": "国常会听取人工智能发展情况汇报：要加力推进人工智能创新突破",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及人工智能。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "三星正式宣布2655万亿韩元的投资计划 涉及半导体、AI算力数据中心等",
+      "news_summary": "三星正式宣布2655万亿韩元的投资计划 涉及半导体、AI算力数据中心等",
+      "affected_industries": [
+        "半导体",
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接",
+        "012349 天弘中证人工智能主题"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体、人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "涉嫌操纵DRAM价格及供应 三星、SK海力士和美光在美遭集体诉讼",
+      "news_summary": "涉嫌操纵DRAM价格及供应 三星、SK海力士和美光在美遭集体诉讼",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美股三大指数集体上涨 纳指涨幅接近1% 半导体设备股普遍走强",
+      "news_summary": "美股三大指数集体上涨 纳指涨幅接近1% 半导体设备股普遍走强",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及半导体。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "6月29日晚间上市公司利好消息一览(附名单)",
+      "news_summary": "6月29日晚间上市公司利好消息一览(附名单)",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "银河微电披露资产收购预案",
+      "news_summary": "银河微电披露资产收购预案",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "王兴给美团摁下理性重启键",
+      "news_summary": "王兴给美团摁下理性重启键",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美伊同意停止互袭 30日在多哈继续谈判",
+      "news_summary": "美伊同意停止互袭 30日在多哈继续谈判",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美股期指拉升！美伊谈判突传重磅",
+      "news_summary": "美股期指拉升！美伊谈判突传重磅",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "以军摧毁黎真主党地下发射井",
+      "news_summary": "以军摧毁黎真主党地下发射井",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "人造太阳有新突破！融资客提前埋伏多股",
+      "news_summary": "人造太阳有新突破！融资客提前埋伏多股",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "多只翻倍牛股公告！涉电子布等赛道",
+      "news_summary": "多只翻倍牛股公告！涉电子布等赛道",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "多家公司预计净利增超100%",
+      "news_summary": "多家公司预计净利增超100%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "券商：本轮AI科技抱团 不会轻易结束",
+      "news_summary": "券商：本轮AI科技抱团 不会轻易结束",
+      "affected_industries": [
+        "人工智能",
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接",
+        "001553 天弘中证银行指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能、金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "2只新股申购 北方华创、中微公司供应商来了",
+      "news_summary": "2只新股申购 北方华创、中微公司供应商来了",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

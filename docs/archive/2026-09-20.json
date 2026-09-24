@@ -1,0 +1,581 @@
+{
+  "date": "2026-09-20",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3911.8714,
+        "change": 36.27,
+        "changePercent": 0.94,
+        "high": 3919.6691,
+        "low": 3888.4959,
+        "open": 3891.9608,
+        "prevClose": 3875.6044
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13640.873,
+        "change": 230.97,
+        "changePercent": 1.72,
+        "high": 13689.36,
+        "low": 13470.766,
+        "open": 13563.738,
+        "prevClose": 13409.908
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3372.676,
+        "change": 74.37,
+        "changePercent": 2.25,
+        "high": 3398.158,
+        "low": 3313.208,
+        "open": 3351.559,
+        "prevClose": 3298.31
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4507.3926,
+        "change": 47.24,
+        "changePercent": 1.06,
+        "high": 4523.0915,
+        "low": 4480.5856,
+        "open": 4492.3233,
+        "prevClose": 4460.1557
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1652.631,
+        "change": 46.34,
+        "changePercent": 2.89,
+        "high": 1671.0127,
+        "low": 1630.1044,
+        "open": 1634.6348,
+        "prevClose": 1606.2869
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51682.6406,
+        "change": -95.4,
+        "changePercent": -0.18,
+        "high": 51826.7812,
+        "low": 51497.4688,
+        "open": null,
+        "prevClose": 51778.0391
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26522.5453,
+        "change": 104.2472,
+        "changePercent": 0.39,
+        "high": 26544.9303,
+        "low": 26333.9828,
+        "open": null,
+        "prevClose": 26418.2981
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7650.5,
+        "change": 12.74,
+        "changePercent": 0.17,
+        "high": 7657.1699,
+        "low": 7610.52,
+        "open": null,
+        "prevClose": 7637.7598
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-09-20T13:53:29.501Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "浪潮信息定增募资90亿",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609193879256544.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "黄仁勋减持英伟达？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609193879259839.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊朗已向美方提出停战条件",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879266892.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "美军司令：油气运输达六个月峰值",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879281731.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "胡塞武装称袭击沙特敏感目标",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879273470.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普称将组建一支“人工智能部队”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879272992.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普称将成立“AI特别工作组”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879265348.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "“电子工业大米” 价格飙涨！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879272237.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "沈鼓集团部分投资者遭暂停账户交易",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879281496.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "A股中长期利好！中国突围的背后逻辑",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879276788.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "多只千亿市值科技股被盯上",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879276658.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "周末要闻汇总：国常会部署深入实施积极应对人口老龄化国家战略",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879356443.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "国投策略：Q4定胜负 谁才是胜负手？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879435128.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "中泰策略：科技行情正式启动 中东变数决定反弹成色",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202609203879430951.html",
+        "time": "2026-09-20T13:53:28.052Z",
+        "category": "finance"
+      },
+      {
+        "title": "大兴区企业乒乓球邀请赛开赛 百余名职工齐聚赛场",
+        "summary": "9 月 19 日，大兴区企业乒乓球邀请赛（生物医药基地站）在大兴生物医药产业基地红松果运动中心举办。来自生物医药基地及周边园区的 13家企业百余名职工齐聚赛场...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/others/pingpang/2026-09-20/doc-inisnssr1349981.shtml",
+        "time": "2026-09-20T11:27:29.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Billionaire Man United owner loses moral high ground after tax exile, Labour chair says",
+        "summary": "The billionaire businessman told the BBC he has lost confidence in the UK due to a combination of high taxes and high immigration.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cm0rexrwjj1vo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-20T11:22:21.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Lib Dems vow to end 'computer says no' economy to boost growth",
+        "summary": "Deputy leader Daisy Cooper also proposes a Growth and Defence Partnership with the EU in a speech to her party conference.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cqrk31k7pprlo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-20T11:21:34.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Chiltern Railways renationalised after 30 years",
+        "summary": "It joins Great British Railways as part of government plans to save money and improve services.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c68xk701d975o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-20T10:45:39.000Z",
+        "category": "general"
+      },
+      {
+        "title": "跃上赛场 策马逐风！体彩公益金护航深圳少年逐梦征程",
+        "summary": "2026年7月，广东省黄村体育训练中心内旋律悠扬，马蹄声踏响赛场。 行进、回转、步伐转换……吴童雨、原若琳、雷葭伊、徐畅四名深圳少年骑手，与各自马匹步调同频...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-20/doc-inisnnky6611488.shtml",
+        "time": "2026-09-20T09:54:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "以小博大！贵州彩民6元机选票擒双色球690万-票",
+        "summary": "2026年9月15日，中国福利彩票双色球第2026107期开奖。 本期开奖号码：红球09、01、05、17、33、24，蓝球04。全国开出双色球一等奖9注，单注奖金6900239元；二等奖249注...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-20/doc-inisnnky6607523.shtml",
+        "time": "2026-09-20T09:45:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "彩民10元中双色球659万 中奖彩站大肆庆祝-图",
+        "summary": "9月8日，中国福利彩票“双色球”第2026104期，开出的红球号码11、19、13、20、12、31，蓝球号码3；当期一等奖全国开出11注，单注奖金6596605元，花落全国8个省市，其中...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-20/doc-inisnnkv2491722.shtml",
+        "time": "2026-09-20T09:40:20.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "Ed Davey calls for immediate 10p cut to fuel duty",
+        "summary": "Sir Ed blamed Donald Trump's war with Iran for damaging the UK economy and pushing fuel prices up.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cr89j514dly2o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-09-20T09:32:50.000Z",
+        "category": "general"
+      },
+      {
+        "title": "胜负彩26131期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德英超胜平负胜平负胜平负胜平负1伯恩茅斯 vs 利物浦3.003.602.152.903.702.103.103.702.053.003.902.0519日14:003...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-17/doc-inisayai3616836.shtml",
+        "time": "2026-09-20T09:00:01.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26131期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负20日21:00(周日)01 伯恩茅斯 vs 利物浦1.99受平手/半球1.852.713.872.05周六14:001.99受平手/半球1.852.713...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-17/doc-inisayam0388523.shtml",
+        "time": "2026-09-20T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票名家大乐透第26108期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章，严禁各媒体 公众号等转载，违规必究！严惩不贷！] 张雨：041417202223253435+020307 周横：050608121315222534+060710 袁启晨：08...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-20/doc-inisnnkw9239684.shtml",
+        "time": "2026-09-20T08:56:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "历史上的今天-大乐透9月21日开奖号码汇总",
+        "summary": "大乐透下期开奖是在周一，阳历9月21日，阴历八月十一。 以下历史阳历9月21日开奖号码汇总：阳历9月21日开奖号码汇总 以下历史阴历八月十一开奖号码汇总：阴历八月十一开奖...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-20/doc-inisnhca6714436.shtml",
+        "time": "2026-09-20T08:52:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透近10期周一奖号分布：前区连号近4期开出3期",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-20/doc-inisnhay9356482.shtml",
+        "time": "2026-09-20T08:50:56.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "大乐透第108期历史同期号码全汇总",
+        "summary": "[扫码下载app，中过数字彩1千万以上的专家都在这儿！]",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-20/doc-inisnhca6711925.shtml",
+        "time": "2026-09-20T08:50:14.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-逍遥红单公推2连红！命中率超稳看方案",
+        "summary": "逍遥红单起源于国内竞彩店主联盟，盟主逍遥王长期为了给彩民提供服务，聚集了国内国内众多竞彩高手，对各类比赛进行精准的解读和分析，同时会不定期分享各类联赛干货...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4995447.shtml",
+        "time": "2026-09-20T08:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "火线必看！周日竞彩赛事数据异动：皇马不妙！",
+        "summary": "北京时间9月20日，竞彩开售多场足球赛事，包含日职联、韩职、五大联赛等。越是临近开赛，赔率变动越值得留意。笔者对比30场比赛16日0点至当前的赔率数据...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-09-20/doc-inisnhay9251794.shtml",
+        "time": "2026-09-20T07:20:25.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 42,
+    "updatedAt": "2026-09-20T13:53:28.249Z"
+  },
+  "analyses": [
+    {
+      "news_title": "浪潮信息定增募资90亿",
+      "news_summary": "浪潮信息定增募资90亿",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "黄仁勋减持英伟达？",
+      "news_summary": "黄仁勋减持英伟达？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊朗已向美方提出停战条件",
+      "news_summary": "伊朗已向美方提出停战条件",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美军司令：油气运输达六个月峰值",
+      "news_summary": "美军司令：油气运输达六个月峰值",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "胡塞武装称袭击沙特敏感目标",
+      "news_summary": "胡塞武装称袭击沙特敏感目标",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普称将组建一支“人工智能部队”",
+      "news_summary": "特朗普称将组建一支“人工智能部队”",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普称将成立“AI特别工作组”",
+      "news_summary": "特朗普称将成立“AI特别工作组”",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "“电子工业大米” 价格飙涨！",
+      "news_summary": "“电子工业大米” 价格飙涨！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "沈鼓集团部分投资者遭暂停账户交易",
+      "news_summary": "沈鼓集团部分投资者遭暂停账户交易",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "A股中长期利好！中国突围的背后逻辑",
+      "news_summary": "A股中长期利好！中国突围的背后逻辑",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "多只千亿市值科技股被盯上",
+      "news_summary": "多只千亿市值科技股被盯上",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "周末要闻汇总：国常会部署深入实施积极应对人口老龄化国家战略",
+      "news_summary": "周末要闻汇总：国常会部署深入实施积极应对人口老龄化国家战略",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "国投策略：Q4定胜负 谁才是胜负手？",
+      "news_summary": "国投策略：Q4定胜负 谁才是胜负手？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中泰策略：科技行情正式启动 中东变数决定反弹成色",
+      "news_summary": "中泰策略：科技行情正式启动 中东变数决定反弹成色",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "大兴区企业乒乓球邀请赛开赛 百余名职工齐聚赛场",
+      "news_summary": "9 月 19 日，大兴区企业乒乓球邀请赛（生物医药基地站）在大兴生物医药产业基地红松果运动中心举办。来自生物医药基地及周边园区的 13家企业百余名职工齐聚赛场...",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

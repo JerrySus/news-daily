@@ -1,0 +1,575 @@
+{
+  "date": "2026-06-20",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4090.4813,
+        "change": -17.59,
+        "changePercent": -0.43,
+        "high": 4117.451,
+        "low": 4080.2938,
+        "open": 4094.2301,
+        "prevClose": 4108.0762
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 16030.702,
+        "change": 149.75,
+        "changePercent": 0.94,
+        "high": 16104.768,
+        "low": 15825.316,
+        "open": 15826.794,
+        "prevClose": 15880.951
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4252.39,
+        "change": 85.34,
+        "changePercent": 2.05,
+        "high": 4272.008,
+        "low": 4153.621,
+        "open": 4153.621,
+        "prevClose": 4167.048
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4941.5986,
+        "change": 10.21,
+        "changePercent": 0.21,
+        "high": 4976.8909,
+        "low": 4916.0442,
+        "open": 4916.0442,
+        "prevClose": 4931.3861
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1911.5132,
+        "change": 70.69,
+        "changePercent": 3.84,
+        "high": 1937.3012,
+        "low": 1836.0381,
+        "open": 1837.0702,
+        "prevClose": 1840.8211
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 51564.6992,
+        "change": 72.15,
+        "changePercent": 0.14,
+        "high": 51949.2617,
+        "low": 51554.5312,
+        "open": null,
+        "prevClose": 51492.5508
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26517.9314,
+        "change": 496.2758,
+        "changePercent": 1.91,
+        "high": 26559.7431,
+        "low": 26188.6879,
+        "open": null,
+        "prevClose": 26021.6556
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7500.5801,
+        "change": 80.48,
+        "changePercent": 1.08,
+        "high": 7511.0698,
+        "low": 7468.3198,
+        "open": null,
+        "prevClose": 7420.1001
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-06-20T11:53:46.401Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "库克：苹果产品将涨价",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775133155.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "成品油价或迎年内第三降",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775071413.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "多家上市公司出手回购增持",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606173774886394.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "上交所拟完善股票期权组合策略业务",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606203776931284.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "凌晨全线跳水 美联储重大宣布",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775060947.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储下一步是加息？特朗普回应",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775300474.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊总统签署谅解备忘录",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775077952.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊签了！美伊双方披露文本内容",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775238665.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊方对周五会谈保持观望态度",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775302023.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "太罕见！72家A股公司集体提示风险",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606173774913372.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "请注意！这些牛股昨晚提示风险",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775305357.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "光纤牛股突遭减持 套现1.21亿元",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606183775118795.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "重大转机？伊朗外长将赴瑞士 特朗普女婿已在瑞士",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606203776913646.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "伊朗称正讨论伊美谈判新计划 以色列“同意停火”后对黎空袭未停",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606203776905390.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "局势突变！国际原油暗盘大幅拉升！伊朗：正在做两手准备！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202606203776927623.html",
+        "time": "2026-06-20T11:53:50.381Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩昨日公推擒巴西3-0比分！",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-05-19/doc-inhykxfn3324466.shtml",
+        "time": "2026-06-20T10:30:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩第26087期欧洲四大机构最新数据(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页 胜负彩对阵威廉立博365伟德世界杯胜平负胜平负胜平负胜平负1荷兰 vs 瑞典1.623.704.801.653.905.001.604.105.251.553.755.5018日14:001.703...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-18/doc-inicuupz5619632.shtml",
+        "time": "2026-06-20T09:00:30.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26087期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负21日01:00(周日)01 荷兰 vs 瑞典1.71半球2.131.713.374.40周四14:001.88半球/一球1.961.683.704.07周五09:001...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-18/doc-inicuupz5617919.shtml",
+        "time": "2026-06-20T09:00:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "竞彩欧亚对照：日本盘口存差异",
+        "summary": "下载小炮APP领166元红包",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxru1942073.shtml",
+        "time": "2026-06-20T08:25:32.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "町野修斗缺席日本队训练，基本无缘对阵突尼斯",
+        "summary": "北京时间6月20日，据足球频道消息，町野修斗缺席日本队训练，基本无缘对阵突尼斯。 据报道，日本队于当地时间6月19日白天前往蒙特雷体育场进行踩场训练...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxrr3831875.shtml",
+        "time": "2026-06-20T08:15:09.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "除点球大战外荷兰连续13场世界杯不败",
+        "summary": "北京时间6月21日凌晨1:00，世界杯小组赛第二轮，荷兰将对阵瑞典。 在美加墨世界小组赛首轮2-2战平日本后，荷兰连续两场世界杯不胜...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxru1936956.shtml",
+        "time": "2026-06-20T08:14:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "德容训练中与廷贝尔发生碰撞 战瑞典出战存疑",
+        "summary": "荷兰队在世界杯小组赛第二轮比赛中可能无法派出弗朗基-德容，荷兰主帅罗纳德-科曼在新闻发布会上透露了这一情况。 由于在训练中与昆滕-廷贝尔发生碰撞...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxru1936592.shtml",
+        "time": "2026-06-20T08:12:58.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "基米希:迪奥曼德的成长速度惊人 我们都渴望冠军",
+        "summary": "在2026年世界杯小组赛首轮7比1大胜库拉索之后，德国队后卫基米希接受了国际足联采访，谈到了球队目前的状态、接下来对阵科特迪瓦和厄瓜多尔的挑战...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxru1935691.shtml",
+        "time": "2026-06-20T08:10:28.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "交锋占优，德国队世界杯对非洲球队8战赢5场",
+        "summary": "北京时间6月21日凌晨4:00，美加墨世界小组赛第二轮，德国将对阵科特迪瓦。据统计，在世界杯上与非洲球队交手，德国队8战仅1负（5胜2平），1982年曾以1-2不敌阿尔及利亚...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxrr3829109.shtml",
+        "time": "2026-06-20T08:09:06.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "土耳其0-1十人巴拉圭小组出局，加拉尔萨闪击",
+        "summary": "北京时间6月20日11:00，世界杯小组赛D组第2轮，土耳其与巴拉圭在旧金山湾区体育场展开角逐，本场主裁判为伊万-巴顿。上半场，加拉尔萨贴地斩闪击...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxrv8710329.shtml",
+        "time": "2026-06-20T08:07:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "凌晨4点 世界杯14.7亿焦点战！夺冠热门vs大黑马",
+        "summary": "北京时间6月21日凌晨4点，世界杯小组赛E组第2轮，德国vs科特迪瓦。这是世界杯夺冠热门与大黑马的交锋，两支收获开门红的球队，谁拿到胜利，谁就能出线。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxrv8708865.shtml",
+        "time": "2026-06-20T08:03:48.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "土耳其1.65亿欧双星23射0球耻辱出局",
+        "summary": "总身价1.65亿欧双星集体哑火！居莱尔+伊尔迪兹两轮23射0球，土耳其耻辱出局 北京时间中午，世界杯D组小组赛第二轮生死战落下帷幕，土耳其0-1不敌少打一人的巴拉圭...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxrv8707851.shtml",
+        "time": "2026-06-20T08:01:37.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界杯首张“捂嘴红牌” 阿尔米隆是新规实验员？",
+        "summary": " 在巴拉圭对土耳其的比赛中，上半场补时阶段，巴拉圭的阿尔米隆因在争执中捂嘴被直红罚下，这是本届世界杯新规则下首次有球员因此行为被罚下。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxrv8707502.shtml",
+        "time": "2026-06-20T08:00:26.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "开场65秒破门 巴拉圭1-0土耳其 创最快进球纪录",
+        "summary": " 北京时间6月20日，世界杯小组赛D组第二轮比赛中，土耳其队对阵巴拉圭队。最终巴拉圭队以1比0战胜对手。这场失利使得土耳其队在本届世界杯小组赛中遭遇两连败并提前出局。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxrt0602125.shtml",
+        "time": "2026-06-20T07:57:14.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤竞彩推荐：隆德里纳+塞阿拉",
+        "summary": "巴西乙 2026-06-20 22:00 隆德里纳VS巴西竞技两队在近2次在西乙联赛上交战，阿尔梅里亚在主场和客场都是保持不败的战绩，在往绩交战上阿尔梅里亚是处于优势的；但是就两队...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-06-20/doc-iniczxrt0600891.shtml",
+        "time": "2026-06-20T07:55:37.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-06-20T11:53:50.382Z"
+  },
+  "analyses": [
+    {
+      "news_title": "库克：苹果产品将涨价",
+      "news_summary": "库克：苹果产品将涨价",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "成品油价或迎年内第三降",
+      "news_summary": "成品油价或迎年内第三降",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "多家上市公司出手回购增持",
+      "news_summary": "多家上市公司出手回购增持",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "上交所拟完善股票期权组合策略业务",
+      "news_summary": "上交所拟完善股票期权组合策略业务",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "凌晨全线跳水 美联储重大宣布",
+      "news_summary": "凌晨全线跳水 美联储重大宣布",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美联储下一步是加息？特朗普回应",
+      "news_summary": "美联储下一步是加息？特朗普回应",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及金融。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美伊总统签署谅解备忘录",
+      "news_summary": "美伊总统签署谅解备忘录",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美伊签了！美伊双方披露文本内容",
+      "news_summary": "美伊签了！美伊双方披露文本内容",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊方对周五会谈保持观望态度",
+      "news_summary": "伊方对周五会谈保持观望态度",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "太罕见！72家A股公司集体提示风险",
+      "news_summary": "太罕见！72家A股公司集体提示风险",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "请注意！这些牛股昨晚提示风险",
+      "news_summary": "请注意！这些牛股昨晚提示风险",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "光纤牛股突遭减持 套现1.21亿元",
+      "news_summary": "光纤牛股突遭减持 套现1.21亿元",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "重大转机？伊朗外长将赴瑞士 特朗普女婿已在瑞士",
+      "news_summary": "重大转机？伊朗外长将赴瑞士 特朗普女婿已在瑞士",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "伊朗称正讨论伊美谈判新计划 以色列“同意停火”后对黎空袭未停",
+      "news_summary": "伊朗称正讨论伊美谈判新计划 以色列“同意停火”后对黎空袭未停",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "局势突变！国际原油暗盘大幅拉升！伊朗：正在做两手准备！",
+      "news_summary": "局势突变！国际原油暗盘大幅拉升！伊朗：正在做两手准备！",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

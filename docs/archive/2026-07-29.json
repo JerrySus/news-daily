@@ -1,0 +1,630 @@
+{
+  "date": "2026-07-29",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3828.469,
+        "change": 15.15,
+        "changePercent": 0.4,
+        "high": 3845.7661,
+        "low": 3782.4811,
+        "open": 3823.2931,
+        "prevClose": 3813.3146
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13658.443,
+        "change": 148.76,
+        "changePercent": 1.1,
+        "high": 13756.71,
+        "low": 13267.641,
+        "open": 13498.753,
+        "prevClose": 13509.679
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3378.696,
+        "change": 51.67,
+        "changePercent": 1.55,
+        "high": 3411.032,
+        "low": 3249.647,
+        "open": 3333.481,
+        "prevClose": 3327.03
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4600.2624,
+        "change": 30.74,
+        "changePercent": 0.67,
+        "high": 4626.7058,
+        "low": 4516.3162,
+        "open": 4582.0949,
+        "prevClose": 4569.5235
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1678.7376,
+        "change": -14.74,
+        "changePercent": -0.87,
+        "high": 1711.5787,
+        "low": 1608.1411,
+        "open": 1704.5847,
+        "prevClose": 1693.4786
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52747.3203,
+        "change": 537.24,
+        "changePercent": 1.03,
+        "high": 52901.8711,
+        "low": 52443.5195,
+        "open": null,
+        "prevClose": 52210.0781
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 24876.9122,
+        "change": -55.1693,
+        "changePercent": -0.22,
+        "high": 24984.5008,
+        "low": 24581.0056,
+        "open": null,
+        "prevClose": 24932.0815
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7428.7798,
+        "change": 15.6,
+        "changePercent": 0.21,
+        "high": 7452.0898,
+        "low": 7382.9502,
+        "open": null,
+        "prevClose": 7413.1802
+      }
+    ],
+    "sectors": [
+      {
+        "name": "教育运营及其他",
+        "code": "BK1556",
+        "price": 737.01,
+        "changePercent": 7.59,
+        "change": 52
+      },
+      {
+        "name": "乳品",
+        "code": "BK1585",
+        "price": 2095.99,
+        "changePercent": 7.06,
+        "change": 138.26
+      },
+      {
+        "name": "饮料乳品",
+        "code": "BK1282",
+        "price": 2161.05,
+        "changePercent": 6.9,
+        "change": 139.43
+      },
+      {
+        "name": "软饮料",
+        "code": "BK1586",
+        "price": 1852.11,
+        "changePercent": 6.5,
+        "change": 113.12
+      },
+      {
+        "name": "培训教育",
+        "code": "BK1557",
+        "price": 4422.17,
+        "changePercent": 5.33,
+        "change": 223.87
+      },
+      {
+        "name": "教育",
+        "code": "BK0740",
+        "price": 538.87,
+        "changePercent": 5.32,
+        "change": 27.23
+      }
+    ],
+    "updatedAt": "2026-07-29T11:57:46.282Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "中际旭创：有信心保持毛利率稳定",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293824193992.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "永辉超市称将“休养生息”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283823864071.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "2000亿面板巨头实控人计划增持",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283823861363.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "SK海力士HBM4将于下半年扩产",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293824194872.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "营业利润增近6倍仍不及市场预期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293824196891.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "暂无新增晶圆厂建厂的详细规划",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293824361698.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储决议陷入史诗级不确定性",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293824322465.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "全球市场：光通信、存储板块大跌",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293823946045.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "SpaceX一度较发行价跌幅超20%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293823931629.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "美方称伊朗发射多枚导弹袭击驻中东美军",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293823963457.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "美参院通过制裁俄伊法案程序性投票",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293824201971.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "胡塞武装发射多枚弹道导弹",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293824194529.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "外交部回应美国实施先进机器人进口限制",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293825070450.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "美股三大指数收盘涨跌不一 光通信、存储板块大跌 国际油价下跌",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607283823780919.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "美联储决议今夜来袭！华尔街紧盯这四大看点",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607293825032287.html",
+        "time": "2026-07-29T11:57:44.717Z",
+        "category": "finance"
+      },
+      {
+        "title": "Data centres could pay hundreds of millions in deposits for power demands",
+        "summary": "The regulator said a fee of between £237,500 to £712,500 per megawatt should be charged for upcoming projects.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c9q90q9qnn2o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-29T11:35:35.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Andy Burnham wants to fix social care - what are the options?",
+        "summary": "With Andy Burnham saying he wants to bring \"substantial change\" to social care in England, BBC Verify looks at what could be done.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cj4k54g0ldjo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-29T10:47:08.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Matcha and protein pivot pays off for Greggs as profits rise",
+        "summary": "UK's largest fast-food chain says it is changing its menu \"in line with changing tastes and trends\".",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cx2r0nyx99yo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-29T10:37:33.000Z",
+        "category": "general"
+      },
+      {
+        "title": "关注微信-狼王荐彩公推5连红+昨私推4场全中超高！",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-07-29T09:30:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "春城弈汇探索高质量社交平台的商业价值",
+        "summary": "在数字化沟通日益便捷的今天，人与人建立联系似乎变得越来越容易。行业论坛、企业沙龙、商务酒会、资源对接会……各类商业活动层出不穷。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-07-29/doc-iniknmif1622545.shtml",
+        "time": "2026-07-29T09:14:57.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "OpenAI says its rogue AI tried to hack other companies",
+        "summary": "The out-of-control AI found four logins which allowed it to access multiple unnamed online services.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c2el319vzr3o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-29T08:49:27.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Ticket prices set to rise by 15p as Heathrow able to recover runway project money",
+        "summary": "UK airport gets green light to charge airlines more to use the hub, which is expected to mean higher fares for flyers.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cdx8ke9gpnko?at_medium=RSS&at_campaign=rss",
+        "time": "2026-07-29T08:22:53.000Z",
+        "category": "general"
+      },
+      {
+        "title": "乐小星带你逛深圳③·千园之城",
+        "summary": "不必远行，处处是景逛公园早已是深圳人日常里最治愈的风景今天，跟着乐小星一起打卡鹏城千园景致解锁藏在绿意里的城市烟火与公益温度在深圳绿意无处不在大大小小的公园填满...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-29/doc-iniknezp2659995.shtml",
+        "time": "2026-07-29T08:07:28.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家阿宇侃球竞篮推荐：飞翼VS梦想",
+        "summary": "1. 达拉斯飞翼飞翼这赛季的表现确实对得起西部第4的排名。目前18胜9负，主场8胜4负，整体攻防数据也够硬——场均90.2分、失86.2分。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-29/doc-iniknezf0073298.shtml",
+        "time": "2026-07-29T07:47:39.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家球场小毅竞彩推荐：波兹南不败可期",
+        "summary": "首回合主队波兹南莱赫4比1大胜手握巨大晋级优势。客队奥胡斯人员问题严重，主力门将红牌停赛，多名中场、后防主力伤缺，夏窗又流失多名核心球员，防线实力大幅下滑...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-29/doc-iniknezf0072746.shtml",
+        "time": "2026-07-29T07:47:14.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家清风看球竞篮推荐：女武神进攻大战",
+        "summary": "10点，WNBA，女武神VS水星金州女武神作为联盟排名第二的强队，赛季表现强势，目前取得19胜8负的佳绩，胜值达到70.4%。球队客场作战能力同样出色，客场战绩为8胜4负...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-29/doc-iniknezf0071888.shtml",
+        "time": "2026-07-29T07:46:31.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家马芝壤让球推荐：韩国杯2串1",
+        "summary": "14 韩足总杯 光州FCvs天安城 2026-07-29 18:00推荐：胜比分推荐：2：0！1：0！2：115 韩足总杯 仁川联合vs金浦市民 2026-07-29 18:00仁川联合是上赛季K2联赛的冠军...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-29/doc-iniknezp2636505.shtml",
+        "time": "2026-07-29T07:45:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家红哥篮球竞篮推荐：水星守住数据",
+        "summary": "10点，WNBA，女武神VS水星推荐：水星+6.5（竞彩让分主胜）凤凰城水银本赛季整体表现低迷，目前以10胜18负的战绩位列联盟第十二位，胜值仅为35.7%。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-29/doc-iniknezf0067187.shtml",
+        "time": "2026-07-29T07:43:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪竞技彩专家招募中 篮彩专家符合条件优先录用",
+        "summary": "小炮APP内汇集了行业顶尖的竞彩、足彩专家，我们始终致力于为彩民提供最优质全面的情报分析以及投注方案。为满足更多有识之士想要加入专家团队的愿望...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-21/doc-iniippii2619457.shtml",
+        "time": "2026-07-29T07:20:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪彩票双色球名家第26087期推荐汇总",
+        "summary": "[特别声明：此文章为新浪彩票独家文章 严禁各媒体 公众号等转载 违规必究！严惩不贷！] 周横：02,03,06,08,09,16,27,31,33+01,10...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-29/doc-iniknezp2635235.shtml",
+        "time": "2026-07-29T07:18:11.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-07-29T11:57:44.724Z"
+  },
+  "analyses": [
+    {
+      "news_title": "中际旭创：有信心保持毛利率稳定",
+      "news_summary": "中际旭创：有信心保持毛利率稳定",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "永辉超市称将“休养生息”",
+      "news_summary": "永辉超市称将“休养生息”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "2000亿面板巨头实控人计划增持",
+      "news_summary": "2000亿面板巨头实控人计划增持",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "SK海力士HBM4将于下半年扩产",
+      "news_summary": "SK海力士HBM4将于下半年扩产",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "营业利润增近6倍仍不及市场预期",
+      "news_summary": "营业利润增近6倍仍不及市场预期",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "暂无新增晶圆厂建厂的详细规划",
+      "news_summary": "暂无新增晶圆厂建厂的详细规划",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美联储决议陷入史诗级不确定性",
+      "news_summary": "美联储决议陷入史诗级不确定性",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "全球市场：光通信、存储板块大跌",
+      "news_summary": "全球市场：光通信、存储板块大跌",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "SpaceX一度较发行价跌幅超20%",
+      "news_summary": "SpaceX一度较发行价跌幅超20%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美方称伊朗发射多枚导弹袭击驻中东美军",
+      "news_summary": "美方称伊朗发射多枚导弹袭击驻中东美军",
+      "affected_industries": [
+        "军工"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 富国中证军工",
+        "161024 富国中证军工指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美参院通过制裁俄伊法案程序性投票",
+      "news_summary": "美参院通过制裁俄伊法案程序性投票",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "胡塞武装发射多枚弹道导弹",
+      "news_summary": "胡塞武装发射多枚弹道导弹",
+      "affected_industries": [
+        "军工"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001475 富国中证军工",
+        "161024 富国中证军工指数"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及军工。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "外交部回应美国实施先进机器人进口限制",
+      "news_summary": "外交部回应美国实施先进机器人进口限制",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美股三大指数收盘涨跌不一 光通信、存储板块大跌 国际油价下跌",
+      "news_summary": "美股三大指数收盘涨跌不一 光通信、存储板块大跌 国际油价下跌",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美联储决议今夜来袭！华尔街紧盯这四大看点",
+      "news_summary": "美联储决议今夜来袭！华尔街紧盯这四大看点",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

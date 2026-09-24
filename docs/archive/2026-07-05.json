@@ -1,0 +1,593 @@
+{
+  "date": "2026-07-05",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 4043.6432,
+        "change": 14.74,
+        "changePercent": 0.37,
+        "high": 4073.8802,
+        "low": 4027.2553,
+        "open": 4031.3351,
+        "prevClose": 4028.9038
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 15597.512,
+        "change": 98.7,
+        "changePercent": 0.64,
+        "high": 15823.054,
+        "low": 15432.893,
+        "open": 15480.117,
+        "prevClose": 15498.811
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 4019.934,
+        "change": 2.66,
+        "changePercent": 0.07,
+        "high": 4115.628,
+        "low": 3985.363,
+        "open": 4010.819,
+        "prevClose": 4017.273
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4842.1737,
+        "change": 29.88,
+        "changePercent": 0.62,
+        "high": 4890.9652,
+        "low": 4809.4988,
+        "open": 4809.4988,
+        "prevClose": 4812.2957
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1975.6001,
+        "change": -11.69,
+        "changePercent": -0.59,
+        "high": 2039.3056,
+        "low": 1948.1723,
+        "open": 1978.7546,
+        "prevClose": 1987.291
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 52900.0703,
+        "change": 594.83,
+        "changePercent": 1.14,
+        "high": 52903.8516,
+        "low": 52395.2188,
+        "open": null,
+        "prevClose": 52305.2383
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 25832.6716,
+        "change": -207.3598,
+        "changePercent": -0.8,
+        "high": 26261.0906,
+        "low": 25630.5065,
+        "open": null,
+        "prevClose": 26040.0314
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7483.2402,
+        "change": 0.01,
+        "changePercent": null,
+        "high": 7540.75,
+        "low": 7427.5498,
+        "open": null,
+        "prevClose": 7483.23
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-07-05T11:27:07.382Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "三星光刻技术引入量子",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792527516.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "半导体涨价潮能持续多久？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792553335.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "三星第三季DRAM拟提价20%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607043794144125.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "扎克伯格：AI智能体开发速度不及预期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792593511.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "算力过剩 还是过度恐慌？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607023792300438.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国6月非农就业仅增5.7万远逊预期",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607023792266914.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普谈非农“爆冷”：沃什必须做他该干的事",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792595483.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "A股“具身智能第一股”宇树科技将登场",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792343740.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "002747，拟收购具身智能机器人企业",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607033792592029.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "102家公司回应机器人等热点",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607023792280166.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "利好来了！证监会最新发文 再融资“松绑不松闸” 六大要点详解",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607043794205934.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "开源策略：再平衡不改“科技牛”底色!",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607053794281680.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "国金策略：从“小均衡”到“大转换”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607053794274329.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "周末要闻汇总：净利最高预增近744倍 存储龙头上半年业绩“炸裂”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607053794251173.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "十大机构论市：若资金惯性被打破 新一轮上涨将更百花齐放",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202607053794270640.html",
+        "time": "2026-07-05T11:27:06.491Z",
+        "category": "finance"
+      },
+      {
+        "title": "晋城全国公开赛辜梓豪胜陈玉侬 将与丁浩争冠",
+        "summary": " 7月5日，第三届全国围棋公开赛半决赛在晋城浩翔金辇酒店战罢；卫冕冠军丁浩淘汰赵晨宇，另一位世界冠军辜梓豪则完胜陈玉侬。决赛将于明天12：30继续进行。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-07-05/doc-inifuaqu2505730.shtml",
+        "time": "2026-07-05T09:21:50.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]竞彩情报：索尔纳10场得32张黄牌",
+        "summary": "哥德堡（主队） 有利情报 1. 从近期主客场表现来看，哥德堡近4个主场仅取得2平2负未尝胜绩，主场抢分能力严重不足。索尔纳近4个客场则取得1胜2平1负，客场表现相对稳健...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwhz2201429.shtml",
+        "time": "2026-07-05T08:37:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]竞彩情报：埃尔夫斯堡主力后卫停赛",
+        "summary": "埃尔夫斯堡（主队） 有利情报 1. 从主客场表现来看，埃尔夫斯堡拥有着堪称坚固的主场堡垒。本赛季主场至今保持不败，取得3胜3平的出色战绩，主场抢分能力极为稳健。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwia8977555.shtml",
+        "time": "2026-07-05T08:37:18.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "高原劣势！图赫尔自曝头痛失眠 战墨西哥开局是难关",
+        "summary": "英格兰主帅托马斯・图赫尔坦言，墨西哥城标志性的高原缺氧效应十分明显，他待在球队下榻酒店里就已经出现不适反应。 不过这位三狮军团主帅坚信...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwhx9382206.shtml",
+        "time": "2026-07-05T08:13:16.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界杯神奇定律还将延续？下一个应验的事关东道主",
+        "summary": "北京时间7月4日，最后三场1/16决赛全部结束，澳大利亚队120分钟1-1埃及队，点球2-4告负，亚足联球队“团灭”，全部止步32强战；卫冕冠军阿根廷队差点被佛得角队爆冷...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwhz2184358.shtml",
+        "time": "2026-07-05T08:12:20.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "CCTV5播葡萄牙VS西班牙 C罗和亚马尔谁能进8强",
+        "summary": "世界杯1/8决赛开踢，法国淘汰巴拉圭，摩洛哥淘汰了加拿大。在1/8决赛开始前，数据统计机构Opta公布了，超级计算机预测的世界杯冠军概率排名...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwhx9381228.shtml",
+        "time": "2026-07-05T08:11:17.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "巴西vs挪威前瞻：右后卫是巴西最大短板",
+        "summary": "北京时间7月6日凌晨4时，2026年美加墨世界杯第三场1/8决赛打响，欧美对决，五星巴西对阵挪威队。 巴西vs挪威，比赛看点如下： 第一：两队情况！",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwhw2603658.shtml",
+        "time": "2026-07-05T08:09:20.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "最大热门！法国队夺冠概率已超31% 两倍于阿根廷",
+        "summary": "7月5日，美加墨世界杯仅剩最后14场比赛，最终的冠军归属悬念也越来越小。根据OPTA显示，法国队已经越来越被看好将会成为本届世界杯的冠军，在闯入到八强之后...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwhw2602682.shtml",
+        "time": "2026-07-05T08:08:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "20球！39岁梅西刷新世界杯历史进球纪录",
+        "summary": " 北京时间7月4日，世界杯1/16决赛，阿根廷对阵佛得角，39岁的梅西首发打入1球，继续刷新自己保持的世界杯历史进球纪录。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwhw2602403.shtml",
+        "time": "2026-07-05T08:06:22.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "5场7球追平梅西！姆巴佩狂刷5大纪录 被报复踢小腿",
+        "summary": "7月5日，世界杯1/8决赛一场比赛，法国男足1-0淘汰巴拉圭男足，开局五连胜晋级八强。本场比赛，27岁的姆巴佩攻入全场唯一进球，依然是球队取胜的最大功臣，5场打进7球...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwia8955173.shtml",
+        "time": "2026-07-05T08:05:08.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "世界杯争议！主裁纵容爆发冲突 巴拉圭踩踏逃红牌",
+        "summary": "7月5日，世界杯1/8决赛一场比赛，法国男足1-0险胜巴拉圭男足，晋级八强之后跟摩洛哥男足竞争一个四强席位。 作为夺冠热门之一，法国最近两届世界杯都闯入了决赛...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwhz2178570.shtml",
+        "time": "2026-07-05T08:04:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "为世界杯而生！姆巴佩三届世界杯全进八强",
+        "summary": "姆巴佩完美诠释了何为为世界杯而生。世界杯1/8决赛，法国队凭借姆巴佩的点球破门，1比0力克顽强的巴拉圭队，连续第四届世界杯成功闯入八强。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwhx9377595.shtml",
+        "time": "2026-07-05T08:02:33.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "阿根廷绝杀，为何被佛得角踢得狼狈？",
+        "summary": "7月4日，阿根廷男足迎来了和佛得角男足的世界杯1/16决赛对决，阿根廷男足是卫冕冠军，佛得角男足是本次世界杯最大的黑马，这一场比赛，阿根廷必然是被看好的...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwhw2599657.shtml",
+        "time": "2026-07-05T08:00:09.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家朱天佑竞彩推荐：巴西力克挪威",
+        "summary": "周日、091 世界杯：巴西04:00挪威【球队分析】巴西队年龄层次错落有致，既有内马尔、卡塞米罗这类大赛经验丰富的中生代球星压阵，也有维尼修斯、马丁内利...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwhz2156879.shtml",
+        "time": "2026-07-05T07:31:15.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "[小炮APP]专家朱天佑竞彩推荐：英格兰击败东道主",
+        "summary": "周日、092 世界杯：墨西哥08:00英格兰【球队分析】英格兰球员长期征战英超密集赛程，适应高强度连续赛事的经验更丰富，球队阵容轮换选择更多...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-05/doc-iniftwia8933014.shtml",
+        "time": "2026-07-05T07:31:15.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-07-05T11:27:07.324Z"
+  },
+  "analyses": [
+    {
+      "news_title": "三星光刻技术引入量子",
+      "news_summary": "三星光刻技术引入量子",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "半导体涨价潮能持续多久？",
+      "news_summary": "半导体涨价潮能持续多久？",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "三星第三季DRAM拟提价20%",
+      "news_summary": "三星第三季DRAM拟提价20%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "扎克伯格：AI智能体开发速度不及预期",
+      "news_summary": "扎克伯格：AI智能体开发速度不及预期",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "算力过剩 还是过度恐慌？",
+      "news_summary": "算力过剩 还是过度恐慌？",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及半导体。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    },
+    {
+      "news_title": "美国6月非农就业仅增5.7万远逊预期",
+      "news_summary": "美国6月非农就业仅增5.7万远逊预期",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普谈非农“爆冷”：沃什必须做他该干的事",
+      "news_summary": "特朗普谈非农“爆冷”：沃什必须做他该干的事",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "A股“具身智能第一股”宇树科技将登场",
+      "news_summary": "A股“具身智能第一股”宇树科技将登场",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "002747，拟收购具身智能机器人企业",
+      "news_summary": "002747，拟收购具身智能机器人企业",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "102家公司回应机器人等热点",
+      "news_summary": "102家公司回应机器人等热点",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及人工智能。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "利好来了！证监会最新发文 再融资“松绑不松闸” 六大要点详解",
+      "news_summary": "利好来了！证监会最新发文 再融资“松绑不松闸” 六大要点详解",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "开源策略：再平衡不改“科技牛”底色!",
+      "news_summary": "开源策略：再平衡不改“科技牛”底色!",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "国金策略：从“小均衡”到“大转换”",
+      "news_summary": "国金策略：从“小均衡”到“大转换”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "周末要闻汇总：净利最高预增近744倍 存储龙头上半年业绩“炸裂”",
+      "news_summary": "周末要闻汇总：净利最高预增近744倍 存储龙头上半年业绩“炸裂”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "十大机构论市：若资金惯性被打破 新一轮上涨将更百花齐放",
+      "news_summary": "十大机构论市：若资金惯性被打破 新一轮上涨将更百花齐放",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

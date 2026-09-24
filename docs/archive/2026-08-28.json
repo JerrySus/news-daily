@@ -1,0 +1,581 @@
+{
+  "date": "2026-08-28",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3952.179,
+        "change": -4.39,
+        "changePercent": -0.11,
+        "high": 3970.3095,
+        "low": 3947.7981,
+        "open": 3950.2368,
+        "prevClose": 3956.571
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 13953.065,
+        "change": -95.81,
+        "changePercent": -0.68,
+        "high": 14148.684,
+        "low": 13949.618,
+        "open": 14019.277,
+        "prevClose": 14048.876
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3424.401,
+        "change": -48.95,
+        "changePercent": -1.41,
+        "high": 3521.469,
+        "low": 3423.074,
+        "open": 3453.729,
+        "prevClose": 3473.355
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4609.1764,
+        "change": -21.1,
+        "changePercent": -0.46,
+        "high": 4643.3351,
+        "low": 4608.4617,
+        "open": 4615.8393,
+        "prevClose": 4630.277
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1662.1493,
+        "change": -31.33,
+        "changePercent": -1.85,
+        "high": 1711.9935,
+        "low": 1661.4839,
+        "open": 1684.7229,
+        "prevClose": 1693.4796
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 53559.9883,
+        "change": -9.45,
+        "changePercent": -0.02,
+        "high": 53819.6484,
+        "low": 53489.4102,
+        "open": null,
+        "prevClose": 53569.4414
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26402.4229,
+        "change": -138.9289,
+        "changePercent": -0.52,
+        "high": 26700.6779,
+        "low": 26359.2657,
+        "open": null,
+        "prevClose": 26541.3518
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7711.7598,
+        "change": -19.23,
+        "changePercent": -0.25,
+        "high": 7771.48,
+        "low": 7700.9102,
+        "open": null,
+        "prevClose": 7730.9902
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-08-28T21:03:23.250Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "存储芯片牛股公布“炸裂”业绩",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608283857027470.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国铝业上半年净利再创新高",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608273856958540.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "天齐锂业半年净利暴增4925%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608273856958787.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普将安大略湖更名为“美国湖”",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608283857073980.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普激发加拿大人爱国主义",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608283857081983.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "加拿大总理强调安大略湖不改名",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608283857085093.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "美国签令限制外国电网设备 多股回应",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608273856994327.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "20股险资持仓环比翻倍（附名单）",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608283857152139.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "基金隐形重仓股陆续曝光",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608283857077889.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "社保基金二季度调仓路线图曝光",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608283857198755.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "美股网络安全板块迎来暴涨",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608273857010360.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "二十九只医药股市盈率低于三十倍",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608283857066332.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "央行：将个人住房贷款期限由最长30年延长至最长40年",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608283858435272.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608283858435779.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "三部门：完善商品住房销售制度 有力有序推行商品住房现房销售",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608283858251987.html",
+        "time": "2026-08-28T21:03:21.693Z",
+        "category": "finance"
+      },
+      {
+        "title": "Gatwick Airport faced water outage after main burst",
+        "summary": "SES Water says it has repaired a burst main which was affecting supply to the airport.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cjdvl93e10jo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-28T17:38:37.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says ",
+        "summary": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-28T15:15:26.000Z",
+        "category": "general"
+      },
+      {
+        "title": "CRC北京怀柔拉力赛首日雨战 范高翔超级短道第1",
+        "summary": "8月28日，2026年怀柔·中国汽车拉力锦标赛在北京怀柔正式拉开帷幕。当天上午，赛事超级赛段（SS1）率先在北京锐思赛车场展开，久违的拉力引擎轰鸣再次响彻怀柔山谷。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/motorracing/chinaracing/chinall/2026-08-28/doc-inipwxpi8947862.shtml",
+        "time": "2026-08-28T14:52:29.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "第15届陈毅杯中国业余围棋赛决赛在四川乐至举行",
+        "summary": "8月25日-28日，第15届陈毅杯中国业余围棋赛决赛在四川省资阳市乐至县陈毅故里红色研学中心举办。决赛为本赛杀出重围的8名棋手参赛。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/go/2026-08-28/doc-inipwhrw0049118.shtml",
+        "time": "2026-08-28T09:54:29.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关注微信-狼王荐彩长期稳定盈利 每日免费送胆",
+        "summary": "狼王深耕足坛十载有余，熟读兵书战策，深谙世间之球道，多年实战投注探寻规律，算法成熟了然于心。今朝初入江湖携君共议球事，定精诚一心与您闲庭信步笑谈球中事...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-20/doc-iniimuyk4996286.shtml",
+        "time": "2026-08-28T09:41:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "'Not far enough' - US parents and teens on Meta's new limits for young users ",
+        "summary": "As part of an $18bn settlement in a child-safety lawsuit, Meta announced new restrictions on its apps. We asked families what they thought.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cx2zn9zj361o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-28T09:32:14.000Z",
+        "category": "general"
+      },
+      {
+        "title": "胜负彩26112期欧洲四大机构最新数据(17:00)",
+        "summary": "td {text-align:center;font-size:12px} .t2 td{height:18px;line-height:18px;}     专家推荐 智能预测 彩票首页  胜负彩对阵 威廉 立博365伟德 英超 胜平负胜平负...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-27/doc-inipthnz8966859.shtml",
+        "time": "2026-08-28T09:04:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26112期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负29日03:00(周六)01水晶宫 vs 曼城1.80受一球2.044.654.151.53周四09:001.80受一球2.044.654.151.53周四17:001...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-27/doc-inipthnz8966523.shtml",
+        "time": "2026-08-28T09:03:45.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "男子套餐票擒大乐透840万 偏爱机选几乎期期都买",
+        "summary": "8月19日开奖的超级大乐透第26094期，前区开出号码05、14、15、17、33，后区开出01、07。全国中出3注一等奖， 2注花落我省白山市。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-28/doc-inipwhrr8992727.shtml",
+        "time": "2026-08-28T08:57:12.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "男子凭赠票中双色球106万 奖金用于提升生活品质",
+        "summary": "近日，中奖者张先生和妻子一起来到广州市福彩中心办理兑奖手续。张先生表示，他购彩多年，一直喜欢福彩双色球游戏，看到广东福彩开展赠票营销活动...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-28/doc-inipwhrr4517103.shtml",
+        "time": "2026-08-28T08:53:00.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "关小刀任九：拜仁里斯本做胆 曼城米兰防冷",
+        "summary": "【周五008】拜仁vs斯图加特 拜仁过去14年13次问鼎德甲，仅在2024年冠军旁落，上赛季轻松卫冕，并且狂轰122球，刷新了德甲单赛季进球纪录，另外...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-28/doc-inipwhrr4506972.shtml",
+        "time": "2026-08-28T08:33:41.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "8月28日红王笔记比赛解读：利雅得新月客场大胜可期",
+        "summary": "沙特联：塞哈特海湾vs利雅得新月 比赛时间：8月29日 02:00 塞哈特海湾全队身价2110万欧，戈麦斯沿用4-2-3-1，新赛季3场全平只进1球，攻坚能力严重不足...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-28/doc-inipwhrr8960569.shtml",
+        "time": "2026-08-28T08:32:27.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "周日足彩伤停:楚阿梅尼继续伤缺 曼联6人无法登场",
+        "summary": "伤停点评：胜负彩第26114期由欧洲五大联赛组成。英超赛场，利兹联三大主力受伤，曼联多达6人因伤缺阵；德甲赛场，不莱梅、沙尔克04各失3人；意甲方面...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-28/doc-inipwhrw0008736.shtml",
+        "time": "2026-08-28T08:23:43.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "能量对决混双传奇！上海羽毛球馆争霸赛圆满落幕",
+        "summary": "近日上海羽毛球馆争霸赛总决赛顺利落下帷幕。历经三个月激烈角逐，从全市500余家核心羽毛球馆海选突围，一路闯过区域半决赛的各路混双高手齐聚赛场...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-28/doc-inipwhrw0007360.shtml",
+        "time": "2026-08-28T08:21:57.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "周六足彩伤停:马竞后卫勒诺尔芒停赛 热刺失5名主力",
+        "summary": "伤停点评：胜负彩第26113期由英超、德甲、意甲、西甲组成。英超赛场，赫尔城遭遇伤病潮，热刺5大主力伤缺；德甲赛场，多特后防核心施罗特贝克继续缺阵；意甲方面...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-28/doc-inipwaiv5795430.shtml",
+        "time": "2026-08-28T07:25:53.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-28T21:03:22.163Z"
+  },
+  "analyses": [
+    {
+      "news_title": "存储芯片牛股公布“炸裂”业绩",
+      "news_summary": "存储芯片牛股公布“炸裂”业绩",
+      "affected_industries": [
+        "半导体"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "007301 国联安中证全指半导体ETF联接",
+        "008888 华夏国证半导体芯片ETF联接"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及半导体。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "中国铝业上半年净利再创新高",
+      "news_summary": "中国铝业上半年净利再创新高",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "天齐锂业半年净利暴增4925%",
+      "news_summary": "天齐锂业半年净利暴增4925%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普将安大略湖更名为“美国湖”",
+      "news_summary": "特朗普将安大略湖更名为“美国湖”",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "特朗普激发加拿大人爱国主义",
+      "news_summary": "特朗普激发加拿大人爱国主义",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "加拿大总理强调安大略湖不改名",
+      "news_summary": "加拿大总理强调安大略湖不改名",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美国签令限制外国电网设备 多股回应",
+      "news_summary": "美国签令限制外国电网设备 多股回应",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "20股险资持仓环比翻倍（附名单）",
+      "news_summary": "20股险资持仓环比翻倍（附名单）",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "基金隐形重仓股陆续曝光",
+      "news_summary": "基金隐形重仓股陆续曝光",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "社保基金二季度调仓路线图曝光",
+      "news_summary": "社保基金二季度调仓路线图曝光",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美股网络安全板块迎来暴涨",
+      "news_summary": "美股网络安全板块迎来暴涨",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "二十九只医药股市盈率低于三十倍",
+      "news_summary": "二十九只医药股市盈率低于三十倍",
+      "affected_industries": [
+        "医药"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "006002 工银瑞信医药健康",
+        "000913 农银医疗保健"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及医药。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "央行：将个人住房贷款期限由最长30年延长至最长40年",
+      "news_summary": "央行：将个人住房贷款期限由最长30年延长至最长40年",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+      "news_summary": "证监会发布《关于资本市场支持构建房地产发展新模式的意见》",
+      "affected_industries": [
+        "房地产"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及房地产。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "三部门：完善商品住房销售制度 有力有序推行商品住房现房销售",
+      "news_summary": "三部门：完善商品住房销售制度 有力有序推行商品住房现房销售",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    }
+  ]
+}

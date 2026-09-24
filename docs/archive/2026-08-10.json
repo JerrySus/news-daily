@@ -1,0 +1,587 @@
+{
+  "date": "2026-08-10",
+  "marketData": {
+    "aShares": [
+      {
+        "name": "上证指数",
+        "code": "000001",
+        "price": 3966.5935,
+        "change": 26.56,
+        "changePercent": 0.67,
+        "high": 3967.5919,
+        "low": 3938.625,
+        "open": 3943.816,
+        "prevClose": 3940.0371
+      },
+      {
+        "name": "深证成指",
+        "code": "399001",
+        "price": 14316.961,
+        "change": 5.95,
+        "changePercent": 0.04,
+        "high": 14373.772,
+        "low": 14102.656,
+        "open": 14348.95,
+        "prevClose": 14311.008
+      },
+      {
+        "name": "创业板指",
+        "code": "399006",
+        "price": 3537.214,
+        "change": -25.9,
+        "changePercent": -0.73,
+        "high": 3575.589,
+        "low": 3470.953,
+        "open": 3567.046,
+        "prevClose": 3563.116
+      },
+      {
+        "name": "沪深300",
+        "code": "000300",
+        "price": 4702.0247,
+        "change": 7.59,
+        "changePercent": 0.16,
+        "high": 4714.4648,
+        "low": 4659.47,
+        "open": 4698.8162,
+        "prevClose": 4694.4365
+      },
+      {
+        "name": "科创50",
+        "code": "000688",
+        "price": 1737.7737,
+        "change": -6.25,
+        "changePercent": -0.36,
+        "high": 1752.9311,
+        "low": 1704.0841,
+        "open": 1740.1356,
+        "prevClose": 1744.0236
+      }
+    ],
+    "usShares": [
+      {
+        "name": "道琼斯",
+        "code": "DJI",
+        "price": 54036.9297,
+        "change": 151.83,
+        "changePercent": 0.28,
+        "high": 54094.6484,
+        "low": 53807.9414,
+        "open": null,
+        "prevClose": 53885.1016
+      },
+      {
+        "name": "纳斯达克",
+        "code": "IXIC",
+        "price": 26690.615,
+        "change": 342.2628,
+        "changePercent": 1.3,
+        "high": 26712.6167,
+        "low": 26478.0059,
+        "open": null,
+        "prevClose": 26348.3522
+      },
+      {
+        "name": "标普500",
+        "code": "SPX",
+        "price": 7757.6401,
+        "change": 47.68,
+        "changePercent": 0.62,
+        "high": 7763.0801,
+        "low": 7719.1899,
+        "open": null,
+        "prevClose": 7709.96
+      }
+    ],
+    "sectors": [],
+    "updatedAt": "2026-08-10T11:03:16.128Z"
+  },
+  "newsData": {
+    "items": [
+      {
+        "title": "欧菲光回应举报：已报案追责",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836053823.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "摩尔线程上半年营收增长147%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836044814.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "频准激光中签率出炉",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608093835969982.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "宇树科技今日申购 中一签能赚多少钱？",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608093835981339.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "12家券商隐身股东层 中信证券深度参与",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836047519.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "宇树科技引领扎堆上市潮",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836060964.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "十大券商策略：A股反弹窗口开启！",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608093836000276.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "券商看后市：超跌反弹还有演绎空间",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836061244.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "IPO周报｜本周4只新股申购",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836051260.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "霍尔木兹海峡突变！国际油价大涨",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836047016.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "特朗普：低调处理伊朗问题",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836045498.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "美伊博弈策略生变？暗示要打经济牌",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836060455.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "央行印发《中国人民银行“十五五”改革发展规划》",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836729490.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "《煤炭工业发展“十五五”规划》印发：到2030年全国大型现代化煤矿产能比重提升至87%",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836595268.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "高盛研判中国AI股：近期回调已释放核心风险 建议多元布局四大主线",
+        "summary": "",
+        "source": "东方财富",
+        "url": "https://finance.eastmoney.com/a/202608103836584440.html",
+        "time": "2026-08-10T11:03:16.125Z",
+        "category": "finance"
+      },
+      {
+        "title": "Thames Water gave finance boss a £1m signing-on fee",
+        "summary": "The seven-figure payment was given to Steve Buck as part of package to persuade him to join the troubled utility company.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/c9d841yexe0o?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-10T10:35:47.000Z",
+        "category": "general"
+      },
+      {
+        "title": "Ban on 'subscription traps' brought forward by three months",
+        "summary": "The prime minister is embarking on a UK tour with a series of announcements aimed at easing living costs.",
+        "source": "BBC商业",
+        "url": "https://www.bbc.co.uk/news/articles/cly5x9qlnvjo?at_medium=RSS&at_campaign=rss",
+        "time": "2026-08-10T09:57:54.000Z",
+        "category": "general"
+      },
+      {
+        "title": "南山文体中心变身“运动乐园”！深圳体彩邀您“迈开步 动出彩”",
+        "summary": "即刻迈开步，运动自出彩！8月8日，2026年深圳体彩体育强国季“迈开步 动出彩”大型品牌落地活动，将联动深圳市“全民健身日”南山区分会场...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-10/doc-inimvsvm4830657.shtml",
+        "time": "2026-08-10T09:26:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "男子刚换投注方式就中大乐透674万 前不久曾中3等",
+        "summary": " 8月3日晚，体彩大乐透第26087期开奖，前区开出号码05、10、16、24、27，后区开出04、10。当期全国共中出9注一等奖，其中一注花落黄冈市4211031365体彩销售门店。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-10/doc-inimvnpm2862204.shtml",
+        "time": "2026-08-10T09:18:28.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "8月10日红王笔记比赛解读：瑞典超客场龙值得信任",
+        "summary": "联赛：瑞典超 瓦斯特拉斯 vs 佐加顿斯 比赛时间：8月11日01:00 瓦斯特拉斯全队身价合计约1241万欧仅为对手一半，本赛季6胜4平5负积22分排在第9位...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-10/doc-inimvnpi1249835.shtml",
+        "time": "2026-08-10T09:05:29.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "胜负彩26103期欧洲四大机构最新数据(17:00)",
+        "summary": "td {text-align:center;font-size:12px} .t2 td{height:18px;line-height:18px;}     专家推荐 智能预测 彩票首页  胜负彩对阵 威廉 立博365伟德 欧冠 胜平负胜平负...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-10/doc-inimuriv2949022.shtml",
+        "time": "2026-08-10T09:04:19.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "中国足球彩票胜负彩26103期澳盘最新赔率(17:00)",
+        "summary": "专家推荐 智能预测 彩票首页开赛时间对阵贴水让球贴水胜平负11日23:00(周二)01阿拉木图 vs 索非亚列夫斯基2.01平手/半球1.772.253.022.88周一09:002.01平手/半球1.772.253...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-08-10/doc-inimurit1345167.shtml",
+        "time": "2026-08-10T09:04:05.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "连赢国乒3人！张本美和：史上最好的一天",
+        "summary": "WTT横滨冠军赛女单决赛，日本选手张本美和4-2战胜中国选手陈幸同，首次夺得该项赛事的冠军。 张本美和连赢陈熠、王艺迪和陈幸同，创造历史。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-10/doc-inimvhfm1262284.shtml",
+        "time": "2026-08-10T06:46:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "张本智和：喜悦是独自夺冠的三倍",
+        "summary": "WTT横滨冠军赛，张本智和与张本美和包揽男女单打冠军，创造历史，赛后他们兄妹接受媒体采访。 女单头号种子、世界第3的张本美和以4-2击败3号种子...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-10/doc-inimvhfp2865981.shtml",
+        "time": "2026-08-10T06:46:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "一局未丢全胜登顶！泰国女排全面碾压",
+        "summary": "2026东南亚女排锦标赛第二阶段迎来收官关键战，东南亚排坛霸主泰国女排迎战传统劲旅越南女排。最终泰国女排展现出绝对统治力，直落三局以3-0完胜越南女排...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-10/doc-inimvhfp8175433.shtml",
+        "time": "2026-08-10T06:46:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "扇倒赵鸿刚的阿曼塔耶夫拜师鸽武缘",
+        "summary": " 就在8月8日晚的NAIZA钻石格斗之夜上，阿曼塔耶夫对阵中国选手张朝。结果首回合2分20秒，阿曼塔耶夫一记看似不重的摆拳直接KO了张朝。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-10/doc-inimvhfm1262288.shtml",
+        "time": "2026-08-10T06:46:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "F1男神官宣订婚！与未婚妻相恋6年，送大钻戒",
+        "summary": "梅赛德斯F1车手乔治拉塞尔在社交媒体上分享了一张甜蜜合影，正式宣布向相恋六年的西班牙女友卡门·蒙特罗求婚成功。 照片中，卡门左手无名指上戴着一枚璀璨钻戒...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-10/doc-inimvhfr4947842.shtml",
+        "time": "2026-08-10T06:46:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "今晚！cctv5直播国乒，王楚钦+孙颖莎继续缺席",
+        "summary": "今晚！CCTV5直播国乒，王楚钦+孙颖莎继续缺席，覃予萱PK伊藤美诚，林诗栋VS陈垣宇 北京时间8月10日晚（今晚），2026年WTT（世界乒乓球职业大联盟...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-10/doc-inimvhfr4947841.shtml",
+        "time": "2026-08-10T06:46:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "横滨冠军赛打完，洛杉矶奥运国乒六人名单浮出水面",
+        "summary": "横滨冠军赛打完，洛杉矶奥运国乒六人名单浮出水面 横滨冠军赛的灯光刚熄灭，国乒那几张前往洛杉矶的船票，已经在教练组的本子上画了圈。",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/o/2026-08-10/doc-inimvhfm1262286.shtml",
+        "time": "2026-08-10T06:46:42.000Z",
+        "category": "finance"
+      },
+      {
+        "title": "新浪竞技彩专家招募中 篮彩专家符合条件优先录用",
+        "summary": "小炮APP内汇集了行业顶尖的竞彩、足彩专家，我们始终致力于为彩民提供最优质全面的情报分析以及投注方案。为满足更多有识之士想要加入专家团队的愿望...",
+        "source": "新浪财经",
+        "url": "https://sports.sina.com.cn/l/2026-07-21/doc-iniippii2619457.shtml",
+        "time": "2026-08-10T06:44:05.000Z",
+        "category": "finance"
+      }
+    ],
+    "count": 43,
+    "updatedAt": "2026-08-10T11:03:16.127Z"
+  },
+  "analyses": [
+    {
+      "news_title": "欧菲光回应举报：已报案追责",
+      "news_summary": "欧菲光回应举报：已报案追责",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "摩尔线程上半年营收增长147%",
+      "news_summary": "摩尔线程上半年营收增长147%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "频准激光中签率出炉",
+      "news_summary": "频准激光中签率出炉",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "宇树科技今日申购 中一签能赚多少钱？",
+      "news_summary": "宇树科技今日申购 中一签能赚多少钱？",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "12家券商隐身股东层 中信证券深度参与",
+      "news_summary": "12家券商隐身股东层 中信证券深度参与",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "宇树科技引领扎堆上市潮",
+      "news_summary": "宇树科技引领扎堆上市潮",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "十大券商策略：A股反弹窗口开启！",
+      "news_summary": "十大券商策略：A股反弹窗口开启！",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及金融。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "券商看后市：超跌反弹还有演绎空间",
+      "news_summary": "券商看后市：超跌反弹还有演绎空间",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及金融。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "IPO周报｜本周4只新股申购",
+      "news_summary": "IPO周报｜本周4只新股申购",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "霍尔木兹海峡突变！国际油价大涨",
+      "news_summary": "霍尔木兹海峡突变！国际油价大涨",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "特朗普：低调处理伊朗问题",
+      "news_summary": "特朗普：低调处理伊朗问题",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "美伊博弈策略生变？暗示要打经济牌",
+      "news_summary": "美伊博弈策略生变？暗示要打经济牌",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及相关板块。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "央行印发《中国人民银行“十五五”改革发展规划》",
+      "news_summary": "央行印发《中国人民银行“十五五”改革发展规划》",
+      "affected_industries": [
+        "金融"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "001553 天弘中证银行指数",
+        "160631 鹏华中证银行"
+      ],
+      "direction": "中性",
+      "impact_level": "弱",
+      "chain": "该新闻涉及金融。该消息对市场影响有限，或方向不明确。建议等待更多信号确认后再做判断，当前阶段以观望为主。",
+      "suggestion": "短期: 观望为主，控制仓位。\n中期: 等待确定性信号出现后再做配置。"
+    },
+    {
+      "news_title": "《煤炭工业发展“十五五”规划》印发：到2030年全国大型现代化煤矿产能比重提升至87%",
+      "news_summary": "《煤炭工业发展“十五五”规划》印发：到2030年全国大型现代化煤矿产能比重提升至87%",
+      "affected_industries": [
+        "需进一步分析"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [],
+      "direction": "利好",
+      "impact_level": "中",
+      "chain": "该新闻涉及相关板块。从基本面来看，该消息可能改善行业供需格局，提升市场风险偏好，短期内资金有望流入相关板块。投资者需关注后续政策细则及行业数据验证。",
+      "suggestion": "短期: 关注板块龙头及活跃标的，回调可适当参与。\n中期: 若行业景气度持续验证，可逐步加仓至标配以上。"
+    },
+    {
+      "news_title": "高盛研判中国AI股：近期回调已释放核心风险 建议多元布局四大主线",
+      "news_summary": "高盛研判中国AI股：近期回调已释放核心风险 建议多元布局四大主线",
+      "affected_industries": [
+        "人工智能"
+      ],
+      "affected_companies": [
+        "待AI启用后自动分析"
+      ],
+      "funds": [
+        "012349 天弘中证人工智能主题",
+        "008087 华夏中证人工智能主题ETF联接"
+      ],
+      "direction": "利空",
+      "impact_level": "中",
+      "chain": "该新闻涉及人工智能。该消息可能加剧市场不确定性，短期内相关板块承压。但需区分是情绪面冲击还是基本面改变——如果是前者，急跌后可能出现超跌反弹机会。",
+      "suggestion": "短期: 建议减仓回避，不急于抄底。\n中期: 观察影响是否被市场消化，待企稳后再评估入场时机。"
+    }
+  ]
+}
