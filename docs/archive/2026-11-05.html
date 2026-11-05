@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 投资分析日报 - 2026-11-05</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#0f0f14;color:#e0e0e0;line-height:1.6;min-height:100vh}
+.header{background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);padding:28px 20px;text-align:center;border-bottom:1px solid #2a2a3e}
+.header h1{font-size:22px;color:#e15241;margin-bottom:4px}
+.header .date{font-size:14px;color:#888}
+.header .badge-row{margin-top:8px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap}
+.container{max-width:800px;margin:0 auto;padding:16px}
+.nav{display:flex;gap:8px;margin-bottom:20px}
+.nav a{color:#e15241;text-decoration:none;font-size:13px;padding:6px 12px;background:#1a1a2e;border-radius:6px;border:1px solid #2a2a3e}
+.nav a:hover{background:#2a2a3e}
+.section-title{font-size:16px;font-weight:600;margin:20px 0 12px;padding-left:10px;border-left:3px solid #e15241}
+.market-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-bottom:16px}
+.mc{background:#1a1a2e;border-radius:10px;padding:14px;border:1px solid #2a2a3e}
+.mc-name{font-size:12px;color:#888}
+.mc-code{color:#555;font-size:10px}
+.mc-price{font-size:20px;font-weight:700;margin:4px 0;color:#f0f0f0}
+.mc-chg{font-size:13px;font-weight:600}
+.mc-chg.up{color:#e15241}
+.mc-chg.down{color:#1aad19}
+.summary-box{background:#1a1a2e;border-radius:10px;padding:16px;margin-bottom:20px;border:1px solid #2a2a3e}
+.summary-box h3{font-size:15px;margin-bottom:10px}
+.summary-row{padding:6px 0;font-size:13px;border-bottom:1px solid #2a2a3e}
+.summary-dir{font-weight:600}
+.summary-ind{color:#888;margin-left:8px}
+.forecast-box{background:#1a1a2e;border-radius:10px;padding:16px;margin-bottom:20px;border:1px solid #2a2a3e}
+.forecast-box.fc-error{border-color:#e15241;color:#e15241;font-size:13px}
+.fc-period{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #2a2a3e}
+.fc-period:last-of-type{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.fc-title{font-size:14px;font-weight:700;color:#f0f0f0;margin-bottom:4px}
+.fc-view{font-size:12px;color:#999;margin-bottom:8px;line-height:1.6}
+.fc-side{margin-top:8px;padding:8px 10px;border-radius:6px;font-size:13px}
+.fc-side.bull{background:rgba(225,82,65,.06);border-left:3px solid #e15241}
+.fc-side.bear{background:rgba(26,173,25,.06);border-left:3px solid #1aad19}
+.fc-tag{font-weight:700;font-size:12px}
+.fc-side.bull .fc-tag{color:#e15241}
+.fc-side.bear .fc-tag{color:#1aad19}
+.fc-item{margin-top:8px;line-height:1.6}
+.fc-ind{font-weight:600;color:#f0f0f0}
+.fc-act{font-size:11px;padding:1px 8px;border-radius:8px;margin-left:6px;background:rgba(255,193,7,.15);color:#ffc107;font-weight:600}
+.fc-reason{color:#999;font-size:12px;margin-top:2px}
+.fc-disclaimer{margin-top:12px;padding-top:10px;border-top:1px solid #2a2a3e;font-size:11px;color:#666;line-height:1.6}
+.card{border-radius:10px;padding:16px;margin-bottom:12px;border:1px solid #2a2a3e;background:#1a1a2e}
+.card.bullish{border-left:3px solid #e15241}
+.card.bearish{border-left:3px solid #1aad19}
+.card.neutral{border-left:3px solid #666}
+.card-header{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.card-dir{font-weight:700;font-size:14px}
+.card-date{font-size:13px;color:#aaa;flex:1}
+.badge{font-size:11px;padding:2px 8px;border-radius:10px;font-weight:600}
+.badge-strong{background:rgba(225,82,65,.2);color:#e15241}
+.badge-mid{background:rgba(255,193,7,.2);color:#ffc107}
+.badge-weak{background:rgba(102,102,102,.2);color:#999}
+.card-row{margin-bottom:4px;font-size:13px}
+.card-row.analysis{color:#bbb;margin-top:6px;padding:8px;background:rgba(255,255,255,.03);border-radius:6px}
+.card-news-link{color:#e0e0e0;text-decoration:none;font-size:13px;flex:1;line-height:1.4}
+.card-news-link:hover{color:#e15241;text-decoration:underline}
+.card-source{font-size:10px;color:#666;background:rgba(255,255,255,.05);padding:1px 6px;border-radius:3px;flex-shrink:0}
+.card-summary{font-size:12px;color:#888;margin-bottom:8px;padding:6px 10px;background:rgba(255,255,255,.02);border-radius:4px;line-height:1.5}
+.card-row.chain{color:#bbb;margin-top:8px;padding:10px;background:rgba(225,82,65,.05);border-radius:6px;line-height:1.7;font-size:13px}
+.card-row.suggestion{color:#e15241;margin-top:8px;font-weight:500;line-height:1.6}
+.card-funds{margin-top:6px}
+.card-funds strong{font-size:12px;color:#aaa}
+.fund-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.fund-tag{display:inline-block;padding:5px 10px;background:rgba(225,82,65,.1);color:#e15241;border-radius:6px;font-size:12px;text-decoration:none;border:1px solid rgba(225,82,65,.2);transition:all .2s}
+.fund-tag:hover{background:rgba(225,82,65,.2);border-color:#e15241}
+.footer{text-align:center;padding:30px;color:#555;font-size:12px}
+.na{color:#666}
+@media(max-width:480px){.market-grid{grid-template-columns:repeat(2,1fr)}.header h1{font-size:18px}}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>AI 投资分析日报</h1>
+  <div class="date">2026-11-05 星期四</div>
+  <div class="badge-row">
+    <span class="badge badge-strong">AI分析师: DeepSeek</span>
+    <span class="badge badge-mid">仅供参考，不构成投资建议</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="nav">
+    <a href="/">首页</a>
+    <a href="/archive/">历史日报</a>
+  </div>
+
+  <div class="section-title">市场行情</div>
+  <div class="market-grid"><div class="mc">
+      <div class="mc-name">上证指数 <span class="mc-code">000001</span></div>
+      <div class="mc-price">3689.91</div>
+      <div class="mc-chg up">+0.10%</div>
+    </div><div class="mc">
+      <div class="mc-name">深证成指 <span class="mc-code">399001</span></div>
+      <div class="mc-price">11471.09</div>
+      <div class="mc-chg up">+1.19%</div>
+    </div><div class="mc">
+      <div class="mc-name">创业板指 <span class="mc-code">399006</span></div>
+      <div class="mc-price">2566.80</div>
+      <div class="mc-chg up">+0.87%</div>
+    </div><div class="mc">
+      <div class="mc-name">沪深300 <span class="mc-code">000300</span></div>
+      <div class="mc-price">4113.41</div>
+      <div class="mc-chg up">+0.29%</div>
+    </div><div class="mc">
+      <div class="mc-name">科创50 <span class="mc-code">000688</span></div>
+      <div class="mc-price">1286.67</div>
+      <div class="mc-chg up">+1.68%</div>
+    </div><div class="mc">
+      <div class="mc-name">道琼斯 <span class="mc-code">DJI</span></div>
+      <div class="mc-price">51856.06</div>
+      <div class="mc-chg down">-2.81%</div>
+    </div><div class="mc">
+      <div class="mc-name">纳斯达克 <span class="mc-code">IXIC</span></div>
+      <div class="mc-price">24488.10</div>
+      <div class="mc-chg down">-4.85%</div>
+    </div><div class="mc">
+      <div class="mc-name">标普500 <span class="mc-code">SPX</span></div>
+      <div class="mc-price">7405.36</div>
+      <div class="mc-chg down">-3.68%</div>
+    </div></div>
+
+  <div class="section-title">AI 投资预测</div><div class="forecast-box"><div class="fc-period">
+      <div class="fc-title">📅 明日预测（2026-11-06）</div>
+      <div class="fc-view">隔夜纳指重挫近5%、费半跌超11%，明日A股大概率低开，但5400亿抄底资金、券商中标增量资金与险资举牌支撑权重，指数或低开高走、呈“权重护盘、科技杀估值”的结构性分化，上证在3650一线有支撑。</div>
+      <div class="fc-side bull"><span class="fc-tag">📈 利好 · 加仓方向</span><div class="fc-item">
+          <span class="fc-ind">煤炭与高股息红利</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">太保举牌神华H、伯克希尔连买三日，险资增量偏好类债红利，避险资金首选</div>
+          <div class="fund-list"><span class="fund-tag">008279 国泰中证煤炭ETF联接A</span><span class="fund-tag">161724 招商中证煤炭等权指数A</span><span class="fund-tag">100032 富国中证红利指数增强A</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">券商与保险</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">26家券商中标新增资金、5400亿抄底资金入场，人民币资产异动先利好大金融</div>
+          <div class="fund-list"><span class="fund-tag">161720 招商中证全指证券公司指数A</span><span class="fund-tag">502010 易方达中证全指证券公司指数(LOF)A</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">黄金贵金属</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">美政府8390亿腾挪引发信用担忧，叠加美股暴跌，避险与降息交易共振</div>
+          <div class="fund-list"><span class="fund-tag">000216 华安黄金易ETF联接A</span><span class="fund-tag">000307 易方达黄金ETF联接A</span></div>
+        </div></div><div class="fc-side bear"><span class="fc-tag">📉 利空 · 减仓/清仓方向</span><div class="fc-item">
+          <span class="fc-ind">半导体存储与光模块PCB</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">费城半导体指数一度跌逾11%，海外映射下高开兑现压力大，先减仓等情绪修复</div>
+          <div class="fund-list"><span class="fund-tag">008887 华夏国证半导体芯片ETF联接A</span><span class="fund-tag">007300 国联安中证全指半导体产品与设备ETF联接A</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">石油石化与油气开采</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">布伦特盘中暴跌10%，上游盈利预期与油价直接挂钩，短期杀业绩</div>
+          <div class="fund-list"><span class="fund-tag">162411 华宝标普石油天然气上游股票指数(LOF)A</span><span class="fund-tag">160416 华安标普全球石油指数(LOF)</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">AI算力与云计算硬件</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">美股AI硬件链集体杀估值，A股算力板块短线跟随调整，波动放大</div>
+          <div class="fund-list"><span class="fund-tag">161628 融通中证云计算与大数据主题指数(LOF)A</span><span class="fund-tag">159819 华夏中证人工智能主题ETF</span></div>
+        </div></div>
+    </div><div class="fc-period">
+      <div class="fc-title">📅 一月后预测（2026-12-05）</div>
+      <div class="fc-view">一月维度看政策与业绩传导：增量资金入场、何立峰强调科技产业融合，指数在震荡中重心上移，风格从“避险红利”逐步回到“科技成长+券商”，沪指有望挑战3750-3800；海外波动是主要扰动。</div>
+      <div class="fc-side bull"><span class="fc-tag">📈 利好 · 加仓方向</span><div class="fc-item">
+          <span class="fc-ind">存储芯片与半导体设备</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">10月DRAM价格再创新高，涨价周期向设备材料传导，国产替代叠加科创政策加码</div>
+          <div class="fund-list"><span class="fund-tag">008887 华夏国证半导体芯片ETF联接A</span><span class="fund-tag">007300 国联安中证全指半导体产品与设备ETF联接A</span><span class="fund-tag">011608 华夏上证科创板50ETF联接A</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">券商与金融IT</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">26家券商中标新增资金、5400亿抄底资金落地，成交放大直接改善经纪与两融</div>
+          <div class="fund-list"><span class="fund-tag">161720 招商中证全指证券公司指数A</span><span class="fund-tag">502010 易方达中证全指证券公司指数(LOF)A</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">新能源车与智能驾驶</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">吉利三季报验证盈利改善，出口与智驾渗透率提升，油价下行亦利好用车需求</div>
+          <div class="fund-list"><span class="fund-tag">160225 国泰国证新能源汽车指数(LOF)A</span><span class="fund-tag">001156 申万菱信新能源汽车主题灵活配置混合</span></div>
+        </div></div><div class="fc-side bear"><span class="fc-tag">📉 利空 · 减仓/清仓方向</span><div class="fc-item">
+          <span class="fc-ind">石油石化与炼化</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">油价跳水10%后月度均价下移，上游业绩预期下修，炼化价差修复慢于预期</div>
+          <div class="fund-list"><span class="fund-tag">162411 华宝标普石油天然气上游股票指数(LOF)A</span><span class="fund-tag">160416 华安标普全球石油指数(LOF)</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">美股高估值科技QDII</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">纳指单日跌近5%、美财政腾挪加剧利率担忧，高估值成长面临持续杀估值</div>
+          <div class="fund-list"><span class="fund-tag">270042 广发纳斯达克100指数(QDII)A</span><span class="fund-tag">040046 华安纳斯达克100指数(QDII)A</span></div>
+        </div></div>
+    </div><div class="fc-period">
+      <div class="fc-title">📅 半年后预测（2027-05-05）</div>
+      <div class="fc-view">半年维度看产业与宏观周期：AI算力、存储涨价与国产替代是贯穿全年的主线，险资与居民资金持续增配权益，A股中枢有望抬升至3800上方；美元信用弱化与降息路径支撑黄金长牛，油价与海外高估值资产则趋势性承压。</div>
+      <div class="fc-side bull"><span class="fc-tag">📈 利好 · 加仓方向</span><div class="fc-item">
+          <span class="fc-ind">AI算力与半导体全产业链</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">存储涨价+算力资本开支高增，国产替代与“科技产业融合”政策形成多年周期</div>
+          <div class="fund-list"><span class="fund-tag">008887 华夏国证半导体芯片ETF联接A</span><span class="fund-tag">011608 华夏上证科创板50ETF联接A</span><span class="fund-tag">159819 华夏中证人工智能主题ETF</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">黄金贵金属</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">美债务货币化与政府停摆式腾挪削弱美元信用，央行购金与降息周期共振</div>
+          <div class="fund-list"><span class="fund-tag">000216 华安黄金易ETF联接A</span><span class="fund-tag">000307 易方达黄金ETF联接A</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">旅游景区与服务消费</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">2027年9天超长春节假期落地，出行链景气延续，免税酒店院线弹性更大</div>
+          <div class="fund-list"><span class="fund-tag">159766 富国中证旅游主题ETF</span><span class="fund-tag">000248 汇添富中证主要消费ETF联接A</span></div>
+        </div></div><div class="fc-side bear"><span class="fc-tag">📉 利空 · 减仓/清仓方向</span><div class="fc-item">
+          <span class="fc-ind">传统石油石化与油服</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">供给过剩叠加能源转型，油价中枢下移压制成长期资本回报与估值</div>
+          <div class="fund-list"><span class="fund-tag">162411 华宝标普石油天然气上游股票指数(LOF)A</span><span class="fund-tag">160416 华安标普全球石油指数(LOF)</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">美股高估值科技与出口链</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">美国财政与政治不确定性上升、关税反复，海外收入占比高的硬件出口承压</div>
+          <div class="fund-list"><span class="fund-tag">270042 广发纳斯达克100指数(QDII)A</span><span class="fund-tag">040046 华安纳斯达克100指数(QDII)A</span></div>
+        </div></div>
+    </div>
+    <div class="fc-disclaimer">⚠ 预测由 AI 生成，仅供参考，不构成投资建议。基金代码来自公开信息，投资前请自行核实。</div>
+  </div>
+
+  <div class="summary-box"><h3>今日投资情绪汇总</h3><div class="summary-row">
+      <span class="summary-dir">📈 利好 (10条)</span>
+      <span class="summary-ind">涉及: 汽车整车、汽车零部件、智能驾驶、新能源汽车出口、保险、能源、公用事业、必需消费</span>
+    </div><div class="summary-row">
+      <span class="summary-dir">📉 利空 (6条)</span>
+      <span class="summary-ind">涉及: 石油石化、油服工程、航空运输、化工中下游、炼化化纤、物流运输、人工智能算力、半导体</span>
+    </div><div class="summary-row">
+      <span class="summary-dir">➖ 中性 (4条)</span>
+      <span class="summary-ind">涉及: 出口链（消费电子、家电、汽车零部件）、港股科技、航空与航运、A股大盘蓝筹、香港本地银行、保险、香港房地产、高股息公用事业与REITs</span>
+    </div></div>
+
+  <div class="section-title">AI 逐条分析</div>
+  <div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="http://same.eastmoney.com/c?z=eastmoney&la=0&si=1&ci=562&cg=3&c=9&or=5588&l=18663&bg=18665&b=21418&u=https%3A%2F%2Fcaifuhao.eastmoney.com%2Fnews%2F20261029140200305714120" target="_blank" title="查看原文">吉利汽车披露三季度财报</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 吉利汽车(00175.HK)公布2026年第三季度业绩，市场聚焦其银河与极氪整合后的单车均价、毛利率及出口销量表现。财报是验证'反内卷'下价格战是否缓和、规模效应能否兑现的关键窗口。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 汽车整车、汽车零部件、智能驾驶、新能源汽车出口</div>
+        <div class="card-row"><strong>相关公司:</strong> 吉利汽车(00175)、比亚迪(002594)、长城汽车(601633)、宁波华翔(002048)、伯特利(603596)、新泉股份(603179)、拓普集团(601689)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/001156.html" target="_blank" title="查看基金详情">001156 申万菱信新能源汽车主题</a><a class="fund-tag" href="https://fund.eastmoney.com/161028.html" target="_blank" title="查看基金详情">161028 富国中证新能源汽车指数(LOF)A</a><a class="fund-tag" href="https://fund.eastmoney.com/000071.html" target="_blank" title="查看基金详情">000071 华夏恒生ETF联接(QDII)A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>财报披露→市场拆解单车均价、毛利率与费用率三条主线→若银河系列放量、极氪销量爬坡带来规模效应，同时行业'反内卷'自律使终端折扣收窄，则毛利率环比修复得到验证→港股整车估值从'价格战折价'向'盈利修复'切换，吉利相对比亚迪、长城的竞争位次重估→传导至A股吉利产业链(内外饰、座椅、热管理、智驾域控)，订单排产预期上修、四季度业绩能见度提升→板块beta行情启动。叠加当日美股AI板块大幅回撤，全球资金从高估值算力链向低估值制造与内需消费再平衡，港股汽车反而成为资金避风港，这就是'A股涨、纳指跌'背后的风格切换逻辑。</div>
+        <div class="card-row suggestion">💡 短期：财报公布前后波动加大，建议在业绩落地后确认毛利率改善再介入，重点跟踪单车均价与出口占比数据，避免财报前重仓博弈；港股吉利可先小仓位试探，止损设在前低下方3%-5%。<br>中期：看好'反内卷+出口+高端化'三重逻辑，优先配置吉利产业链中议价能力强的零部件龙头，而非价格战最激烈的整车二线公司，逢回调分批建仓1-2成。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611053922635283.html" target="_blank" title="查看原文">伯克希尔连续3天扫货！</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 在美股纳指单日暴跌近5%的极端risk-off中，伯克希尔连续三个交易日大手笔净买入，市场关注其是否在向保险、能源、消费必需及日本商社等价值方向集中加仓。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 保险、能源、公用事业、必需消费、高股息红利资产</div>
+        <div class="card-row"><strong>相关公司:</strong> 伯克希尔(BRK.B)、雪佛龙(CVX)、西方石油(OXY)、中国神华(601088)、长江电力(600900)、中国移动(600941)、中国平安(601318)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/005827.html" target="_blank" title="查看基金详情">005827 易方达蓝筹精选混合</a><a class="fund-tag" href="https://fund.eastmoney.com/100032.html" target="_blank" title="查看基金详情">100032 富国中证红利指数增强</a><a class="fund-tag" href="https://fund.eastmoney.com/000071.html" target="_blank" title="查看基金详情">000071 华夏恒生ETF联接(QDII)A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>美股在特朗普中期选举失利后遭遇系统性抛售，纳指-4.85%、标普-3.68%，AI资本开支交易拥挤度逆转→伯克希尔逆势连续三天净买入，其历史偏好高度集中于保险浮存金、能源、必需消费与日本五大商社，本质是'用现金换自由现金流'→这一动作向全球市场传递两个信号：一是高估值成长股风险仍待释放，二是现金流稳定、分红可持续的资产已进入价值区间→风格层面推动资金从'叙事驱动'转向'股息驱动'，映射到A股/港股即红利低波、煤炭电力、银行保险、公用事业获得增量配置，题材成长股受挤压→险资、社保等长钱顺势加码，红利资产估值中枢系统性上移，这是当前最确定的一条风格主线。</div>
+        <div class="card-row suggestion">💡 短期：美股波动放大，A股/港股应降低高估值题材(算力、AI应用)弹性仓位，把红利与公用事业作为防御底仓，占比可提至三到四成，重点看煤炭、电力、运营商、保险。<br>中期：伯克希尔式资金流向指示未来1-3个月A股/港股仍是'红利+价值'占优，可用红利指数增强类基金定投方式分批建仓，避免追高单日大涨的股息龙头，逢美元走弱、外资回流时再加仓。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611043922231183.html" target="_blank" title="查看原文">中国太保举牌中国神华H股</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 中国太保公告举牌中国神华H股(01088.HK)，触及5%举牌线，是险资年内密集举牌高股息港股的最新一例，指向新会计准则下FVOCI账户的配置需求。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 煤炭、电力、保险、高股息红利资产、港股通标的</div>
+        <div class="card-row"><strong>相关公司:</strong> 中国神华(01088)、中国神华(601088)、中国太保(601601)、中国太保(02601)、陕西煤业(601225)、中煤能源(601898)、长江电力(600900)、新华保险(601336)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/161724.html" target="_blank" title="查看基金详情">161724 招商中证煤炭等权指数(LOF)</a><a class="fund-tag" href="https://fund.eastmoney.com/100032.html" target="_blank" title="查看基金详情">100032 富国中证红利指数增强</a><a class="fund-tag" href="https://fund.eastmoney.com/001552.html" target="_blank" title="查看基金详情">001552 天弘中证证券保险指数A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>险资举牌→本质是新会计准则(IFRS9)下FVOCI账户只认'分红可预期+股价波动小'的资产，举牌后可按长期股权投资或高分红计入，平滑利润表波动→中国神华长协煤占比高、煤电一体化抗周期、分红率承诺明确，H股相对A股存在明显折价、股息率更具吸引力，完美匹配险资负债端久期→太保举牌形成示范效应，同业跟随配置，把煤炭、电力、公用事业从'周期股'重新定价为'类债资产'→煤炭板块估值从PB折价向股息率定价迁移，A股神华、陕煤、中煤及电力股跟随上行→同时险资权益配置比例持续提升，为红利风格提供中长期增量资金，形成'越涨越买、越买越涨'的正循环，红利主线中期确定性最强。</div>
+        <div class="card-row suggestion">💡 短期：举牌消息对煤炭H股、A股形成情绪催化，可参与中国神华H股(折价更大、股息率更高)以及煤炭等权指数基金，但单日冲高不宜追，等回踩5日均线分批介入。<br>中期：险资举牌潮仍在延续，红利资产适合作为底仓长期持有，建议以煤炭+电力+运营商组合分散单一煤价风险，用红利指数增强基金定投，年化目标以股息率+小幅估值修复为主，不做波段博弈。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611053922366536.html" target="_blank" title="查看原文">布伦特原油盘中突然跳水暴跌10%</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 布伦特原油盘中突然跳水、单日跌幅一度达10%，市场解读为供给端增产预期、需求走弱与地缘风险溢价消退共振，油价定价逻辑被重新锚定。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 石油石化、油服工程、航空运输、化工中下游、炼化化纤、物流运输</div>
+        <div class="card-row"><strong>相关公司:</strong> 中国石油(601857)、中国海油(600938)、中国石化(600028)、中海油服(601808)、中国国航(601111)、南方航空(600029)、春秋航空(601021)、万华化学(600309)、恒力石化(600346)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/501018.html" target="_blank" title="查看基金详情">501018 南方原油(QDII-FOF)A</a><a class="fund-tag" href="https://fund.eastmoney.com/162411.html" target="_blank" title="查看基金详情">162411 华宝标普油气上游股票(QDII-LOF)</a><a class="fund-tag" href="https://fund.eastmoney.com/110022.html" target="_blank" title="查看基金详情">110022 易方达消费行业股票</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>布伦特盘中暴跌10%→触发点通常是OPEC+增产落地、需求端数据走弱或地缘冲突溢价快速消退，三者任一都会重构边际定价→油价直接决定上游桶油利润与资本开支强度，中国石油、中国海油盈利预测面临下修，油服(中海油服、海油工程)订单与日费率滞后承压→反向传导至成本端受益方：航油占航空公司营业成本三成以上，油价每下跌10%对应成本端显著减负，航空、物流、化纤、涂料、轮胎等中下游毛利改善→同时PPI下行压力加大，输入性通胀缓解，为国内降息降准打开空间，债券与成长股估值受益→这是一条典型'上游杀盈利、中下游杀成本'的结构性行情主线：能源股短期回避，航空与化工中下游是明确受益方向，切忌把油价暴跌简单理解为全市场利空。</div>
+        <div class="card-row suggestion">💡 短期：坚决规避油气上游与油服标的，QDII原油类基金不宜抄底(基本面下行未结束)；反向可短线参与航空、化工中下游成本改善逻辑，关注航司客座率与国际线恢复数据。<br>中期：若油价在60-70美元区间企稳，航空与炼化盈利弹性最大，可分批布局航空ETF或化工龙头；上游能源股需等OPEC+政策转向或资本开支收缩信号出现后再评估，1-3个月内以防守为主。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611053922373325.html" target="_blank" title="查看原文">特朗普中期选举失利后首次露面</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 特朗普在中期选举失利后首次公开露面，其关税、减税及对美联储施压等议程推进能力预计下降，政策不确定性骤升，直接引发美股系统性抛售与全球风险偏好回落。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 人工智能算力、半导体、黄金贵金属、国防军工、出口链、港股科技</div>
+        <div class="card-row"><strong>相关公司:</strong> 英伟达(NVDA)、苹果(AAPL)、特斯拉(TSLA)、中际旭创(300308)、工业富联(601138)、紫金矿业(601899)、山东黄金(600547)、海尔智家(600690)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/270042.html" target="_blank" title="查看基金详情">270042 广发纳斯达克100指数(QDII)A</a><a class="fund-tag" href="https://fund.eastmoney.com/000217.html" target="_blank" title="查看基金详情">000217 华安黄金易ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/000071.html" target="_blank" title="查看基金详情">000071 华夏恒生ETF联接(QDII)A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>特朗普中期选举失利→国会对关税加征、大规模减税、移民驱逐及对美联储独立性的施压形成掣肘，政策可预期性下降、财政赤字与债务上限博弈升温→美股先杀估值：纳指-4.85%、标普-3.68%、道指-2.81%，AI资本开支叙事遭遇拥挤度反转，英伟达、苹果等权重股领跌→全球风险偏好下行传导至亚太，A股算力、光模块、消费电子等外需科技链承压，但传导存在衰减：A股当日逆势收涨，说明国内政策托底与'东升西降'资金再平衡逻辑正在生效→美元走弱、实际利率下行则利好黄金(紫金矿业、山东黄金)，关税战缓和预期利好出口链与港股互联网估值修复→这是'美股杀估值、中国资产重定价'的分岔行情，短期情绪冲击大于基本面冲击。</div>
+        <div class="card-row suggestion">💡 短期：控制美股QDII仓位，纳指类基金不宜在暴跌首日抄底，等VIX回落与成交量萎缩信号；A股回避高位算力、光模块纯外需标的，增配黄金、军工与内需消费对冲。<br>中期：1-3个月看两条线，一是关税缓和预期下港股互联网与出口链的估值修复，二是黄金在实际利率下行周期中的趋势性配置价值；建议以黄金ETF联接+港股宽基做哑铃组合，单只不超过总仓位两成。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611053922416869.html" target="_blank" title="查看原文">清晨大幅拉升！中国资产异动！</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 隔夜美股重挫背景下，早盘A股、港股及人民币汇率同步大幅拉升，中国资产在全球风险资产抛售中走出独立行情，外资回流迹象明显。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 证券、保险、港股互联网科技、银行、人民币资产核心蓝筹</div>
+        <div class="card-row"><strong>相关公司:</strong> 中信证券(600030)、东方财富(300059)、香港交易所(00388)、腾讯控股(00700)、美团(03690)、宁德时代(300750)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/006327.html" target="_blank" title="查看基金详情">006327 易方达中证海外中国互联网50ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/000071.html" target="_blank" title="查看基金详情">000071 华夏恒生ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/110020.html" target="_blank" title="查看基金详情">110020 易方达沪深300ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>隔夜纳指暴跌4.85%，暴露的是美元资产在财政赤字与高估值双重压力下的脆弱性，而不是中国基本面恶化。这触发全球资金再配置：一方面美债供给激增与美政府8390亿美元滚动融资让美元信用溢价上升，资金寻找低估值、政策确定性高的避风港；另一方面人民币汇率企稳走强，使人民币资产的汇率对冲成本下降，北向与南向资金同步回流。资金进场顺序通常是港股（外资定价、弹性最大）→ A股券商与核心蓝筹 → 成长板块扩散。成交额放大直接抬升券商经纪、两融与自营收入，东方财富作为互联网券商弹性最强，中信证券受益于机构业务与外资托管，港交所则直接受益于港股成交活跃与估值修复。这条链条的关键在于“钱变多了”而非“业绩变好了”，因此节奏上要先看成交量能否持续放大三天以上，再谈估值扩张。</div>
+        <div class="card-row suggestion">💡 短期(1-2周): 优先配置港股互联网与A股券商作为进攻仓位，但要在开盘冲高后分批而非追涨，因为情绪驱动的第一波拉升往往有回撤，可用5日均线作为止盈参考；同时观察北向资金单日净流入是否连续为正。<br>中期(1-3个月): 若美联储财政与利率压力继续发酵，中国资产的相对吸引力会成为中期主线，建议用沪深300或港股科技ETF作为底仓，逐步降低单一美股敞口，并保留20%现金应对全球risk-off的二次冲击。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611053922631551.html" target="_blank" title="查看原文">“蓝色浪潮”下美科技巨头股价狂飙</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 资金向大型科技蓝筹集中的“蓝色浪潮”行情持续，美国科技巨头股价大幅走高，AI资本开支与政策预期成为核心驱动，市值集中度进一步抬升。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> AI算力芯片、数据中心与液冷、光模块、PCB、服务器代工、云计算</div>
+        <div class="card-row"><strong>相关公司:</strong> 英伟达(NVDA)、博通(AVGO)、微软(MSFT)、亚马逊(AMZN)、工业富联(601138)、中际旭创(300308)、沪电股份(002463)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/040046.html" target="_blank" title="查看基金详情">040046 华安纳斯达克100指数A</a><a class="fund-tag" href="https://fund.eastmoney.com/008887.html" target="_blank" title="查看基金详情">008887 华夏国证半导体芯片ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/001617.html" target="_blank" title="查看基金详情">001617 天弘中证电子指数A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>逻辑链条是：政策与产业叙事（AI基建投资延续、科技监管框架明朗化）→ 科技巨头资本开支指引上修 → 数据中心、电力配套、加速卡与网络交换设备订单能见度提升 → 英伟达、博通的AI芯片与定制ASIC出货提速，微软、亚马逊云业务收入加速 → 上游A股映射环节（光模块、高多层PCB、液冷、电源、服务器代工）接单与毛利率同步改善 → 工业富联、中际旭创、沪电股份等业绩预期上修 → 股价获得业绩与估值双升。但要注意，这条链现在处于“叙事充分定价”阶段：今晚纳指暴跌4.85%，说明巨头股价对利率和财政极度敏感，集中度过高意味着任何资本开支不及预期或美债利率跳升，都会引发剧烈回撤。因此A股映射标的的上涨更多依赖海外订单数据，而非国内需求。</div>
+        <div class="card-row suggestion">💡 短期(1-2周): 不追高美股科技巨头，改为在A股算力硬件链中做回调买入，重点看光模块与高多层PCB的订单公告和季度指引；若纳指单周跌幅超5%，宁可等第二根阳线确认再介入。<br>中期(1-3个月): AI基建是跨年主线，但需区分“有订单”和“只有故事”，建议以半导体芯片ETF做分散化配置而非单押个股，同时跟踪北美四大云厂季度资本开支是否维持上修，一旦出现首次下修即为减仓信号。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611053922382371.html" target="_blank" title="查看原文">全球市场：美股三大指数上涨</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 报道显示美股三大指数收涨，但最新实时行情却显示道指跌2.81%、纳指跌4.85%，消息与行情出现明显背离，说明市场处于隔夜上涨、随后剧烈反转的高波动状态。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 出口链（消费电子、家电、汽车零部件）、港股科技、航空与航运、A股大盘蓝筹</div>
+        <div class="card-row"><strong>相关公司:</strong> 立讯精密(002475)、美的集团(000333)、苹果(AAPL)、特斯拉(TSLA)、阿里巴巴(09988)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/050025.html" target="_blank" title="查看基金详情">050025 博时标普500ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/040046.html" target="_blank" title="查看基金详情">040046 华安纳斯达克100指数A</a><a class="fund-tag" href="https://fund.eastmoney.com/000071.html" target="_blank" title="查看基金详情">000071 华夏恒生ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>这条新闻的分析价值不在涨跌本身，而在“背离”：媒体口径的隔夜上涨与实时行情的4.85%暴跌同时存在，说明当前美股处于消息面驱动、情绪极度不稳的高波动区间，指数日内振幅可达2%以上。这种背离向A股传导的路径有两条：一是情绪路径，美股剧烈波动会压制A股开盘风险偏好，尤其是外资重仓、与海外需求绑定的出口链（消费电子、家电、汽车零部件），其订单预期与海外客户股价高度相关；二是资金路径，美股大跌往往伴随美元走弱，反而利好人民币资产与港股估值修复，形成“美股跌、A股抗跌”的结构。因此整体判断中性偏结构性：指数层面不宜过度看空A股，但个股层面必须区分内需还是外需驱动。操作上应降低对海外beta的依赖，把仓位重心放在内需与政策受益方向。</div>
+        <div class="card-row suggestion">💡 短期(1-2周): 不因一条上涨新闻就加仓美股QDII，注意申购T+2确认带来的净值滑点风险；A股层面回避外销占比高、对美收入敏感的标的，转向内需消费与高股息。<br>中期(1-3个月): 把美股仓位控制在总资产的15%以内，用标普500做宽基而非单押纳指；若出现连续两周下跌，可分批定投摊薄成本，切忌在单日大跌后一次性重仓抄底。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611053922660066.html" target="_blank" title="查看原文">8390亿美元！美政府拆东墙补西墙</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 美国财政部门以8390亿美元规模滚动融资，主要依赖短期国库券填补赤字缺口、偿还到期债务，实质是债务期限短期化与环境“拆东墙补西墙”，加剧市场对流动性抽水与债务可持续性的担忧。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 黄金与贵金属、美债与利率敏感型资产、高估值成长股、人民币资产、券商与保险</div>
+        <div class="card-row"><strong>相关公司:</strong> 紫金矿业(601899)、山东黄金(600547)、中金黄金(600489)、招金矿业(01818)、美光科技(MU)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/000216.html" target="_blank" title="查看基金详情">000216 华安黄金易ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/000307.html" target="_blank" title="查看基金详情">000307 易方达黄金ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/003376.html" target="_blank" title="查看基金详情">003376 广发中债7-10年期国开行债券A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>传导链条十分清晰：财政部大规模发行短期国库券滚动融资 → 短端美债供给激增，货币基金与银行体系准备金被抽走，隔夜流动性趋紧 → 期限溢价与短端利率上行，美元指数波动加剧 → 贴现率抬升直接压低高久期资产估值，这正是今晚纳指暴跌4.85%的核心机制，因为成长股现金流久期最长、对贴现率最敏感 → 资金从科技股流向现金、黄金与防御性资产 → 实际利率见顶预期反过来强化黄金的配置价值 → A股黄金股（紫金矿业、山东黄金、招金矿业）在金价上行与产量释放下业绩弹性最大。同时美元信用溢价上升会推动部分外储与主权资金增配人民币债券与A股核心资产，形成对中国资产的边际利好。风险点在于若流动性紧张演变为系统性美元荒，全球risk-off会短暂压制包括A股在内的所有风险资产。</div>
+        <div class="card-row suggestion">💡 短期(1-2周): 把黄金与黄金股作为首选防御仓，配置比例可提升至10%-15%，美股科技股和高估值成长股逢反弹减仓，重点规避依赖再融资、现金流为负的标的。<br>中期(1-3个月): 财政赤字货币化的叙事会反复交易，黄金的配置逻辑有望贯穿全年，建议用黄金ETF联接做底仓、黄金股做弹性；同时用中长久期国开债基金对冲权益波动，密切跟踪美国短期国库券发行规模与隔夜逆回购余额作为流动性预警指标。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611053922463950.html" target="_blank" title="查看原文">涨势不断！10月DRAM价格再创新高</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 10月DRAM合约价格再度刷新历史高位，AI服务器与HBM挤占产能导致通用存储供给持续紧张，涨价周期从高端向利基型产品全面传导。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 存储芯片、半导体设备、封装测试、消费电子（成本承压）、服务器与PC整机</div>
+        <div class="card-row"><strong>相关公司:</strong> 兆易创新(603986)、北京君正(300223)、澜起科技(688008)、江波龙(301308)、佰维存储(688525)、深科技(000021)、美光科技(MU)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/008887.html" target="_blank" title="查看基金详情">008887 华夏国证半导体芯片ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/320007.html" target="_blank" title="查看基金详情">320007 诺安成长混合</a><a class="fund-tag" href="https://fund.eastmoney.com/008281.html" target="_blank" title="查看基金详情">008281 国泰CES半导体芯片行业ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>逻辑起点是AI算力需求：HBM与DDR5高带宽产品挤占晶圆产能，三大原厂把资本开支与产线优先分配给高毛利的高端存储，通用DRAM供给被动收缩 → 供需缺口推动合约价连续上涨并创新高 → 原厂（三星、SK海力士、美光）盈利弹性率先释放，涨价预期向现货与利基型DRAM、NOR Flash扩散 → A股模组厂与利基存储厂在“低价库存+高价出货”下毛利率快速扩张，兆易创新、北京君正、江波龙、佰维存储的季度业绩弹性最大；澜起科技受益于DDR5内存接口芯片渗透率提升与子代升级；深科技等封测厂稼动率与单价同步上行。反向链条是：存储涨价会推高手机、PC、服务器BOM成本，下游整机与消费电子品牌面临毛利挤压，若终端无法提价，需求可能被抑制。因此这是一条“上游强、下游弱”的结构性行情，而非全行业普涨。</div>
+        <div class="card-row suggestion">💡 短期(1-2周): 存储涨价是最硬的业绩逻辑，可在板块回调时买入利基存储与模组标的，重点跟踪月度合约价与库存周转天数，一旦原厂宣布扩产或价格环比转平即减仓。<br>中期(1-3个月): 涨价周期通常持续3-6个季度，建议以半导体芯片ETF做主要载体分散个股风险，个股聚焦自有产能与库存增值弹性大的公司；同时回避毛利受挤压的下游消费电子与整机厂商，等其完成提价传导后再考虑布局。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611043922305630.html" target="_blank" title="查看原文">增量资金集结待入市 26家券商宣布中标</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 26家券商宣布中标新一轮资本市场增量资金投放业务（互换便利类工具），意味着低成本资金将通过券商渠道加杠杆进入权益市场，形成新的做多资金池。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 证券、银行、保险、高股息蓝筹、沪深300权重股</div>
+        <div class="card-row"><strong>相关公司:</strong> 中信证券(600030)、华泰证券(601688)、国泰海通(601211)、东方财富(300059)、中国银河(601881)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/001552.html" target="_blank" title="查看基金详情">001552 天弘中证证券保险指数A</a><a class="fund-tag" href="https://fund.eastmoney.com/161720.html" target="_blank" title="查看基金详情">161720 招商中证全指证券公司指数A</a><a class="fund-tag" href="https://fund.eastmoney.com/110020.html" target="_blank" title="查看基金详情">110020 易方达沪深300ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>新闻核心是券商获得低成本增量资金投放资格→券商自营与两融业务的可动用弹药增加，资产负债表扩张能力提升→资金入市首先抬升成交额与两融余额，券商经纪、两融利息、自营投资收益三项收入同步改善→同时这类资金偏好高股息、低估值、大市值的沪深300权重股，会强化'指数强、个股弱'的结构特征→最终体现为券商板块估值修复（PB从历史低位向中枢回归）与大盘蓝筹的相对强势。需要注意的是，中标公告本身是预期层面利好，真正形成买盘还需时间，短期易出现'消息兑现即回调'，但中期看是资金面的实质性增量。</div>
+        <div class="card-row suggestion">💡 短期: 关注消息落地后券商板块的冲高节奏，若首日高开超过3%不宜追高，可等待回踩5日均线分批建仓，同时留意成交量能否放大到2万亿以上作为资金真入场的验证信号。<br>中期: 券商板块处于估值与政策双底部，建议以定投方式在成交额萎缩日加仓券商指数与沪深300联接基金，持仓周期看1-3个月的流动性宽松窗口，同时用高股息蓝筹作为底仓对冲波动。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611043922300262.html" target="_blank" title="查看原文">5400亿“抄底资金”入场</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 统计显示约5400亿元资金通过ETF、融资及新增开户等渠道逆势流入权益市场，规模创阶段新高，显示内资在外部市场冲击下成为主要承接力量。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 证券、公募基金、沪深300权重、创业板成长股、金融IT</div>
+        <div class="card-row"><strong>相关公司:</strong> 东方财富(300059)、中信证券(600030)、华泰证券(601688)、同花顺(300033)、恒生电子(600570)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/460300.html" target="_blank" title="查看基金详情">460300 华泰柏瑞沪深300ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/160119.html" target="_blank" title="查看基金详情">160119 南方中证500ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/001592.html" target="_blank" title="查看基金详情">001592 天弘创业板ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>5400亿抄底资金入场→直接对应宽基ETF份额扩张与两融余额回升→基金公司与券商代销、托管、交易佣金收入放大，金融IT系统的交易量与开户量同步上升→增量资金在指数关键点位（上证3650-3700）形成托底买盘，压缩指数下行空间→进而修复市场风险偏好，成长股（创业板、科创50）弹性最大。这条链条的关键在于'资金属性'：ETF抄底资金多为机构与中长期配置盘，稳定性高于游资，因此对指数底部的支撑更实，但对手个股赚钱效应的拉动有限，行情更容易呈现'指数不跌、结构轮动'。若后续再现外部冲击，这批资金的持仓成本将成为重要支撑带。</div>
+        <div class="card-row suggestion">💡 短期: 跟随资金方向做宽基ETF而非追热点个股，重点看沪深300、科创50ETF的份额变化，份额连续3日净增即为有效信号，可顺势加仓，止损设在上证指数3650点下方。<br>中期: 1-3个月维度上，增量资金托底叠加政策呵护，指数震荡上行概率大，建议用'沪深300底仓+创业板/科创50卫星'的结构，仓位控制在六至七成，避免满仓押注单一赛道。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611053923852359.html" target="_blank" title="查看原文">美股大跌 纳指盘中最大跌幅超5% 费城半导体指数一度跌逾11% 芯片、存储板块重挫</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 隔夜美股遭遇剧烈调整，纳指盘中最大跌幅超5%，费城半导体指数一度暴跌逾11%，存储与芯片龙头集体重挫，反映市场对AI资本开支回报与存储涨价周期可持续性的集中质疑。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 半导体、存储芯片、光模块/算力硬件、PCB、AI服务器、消费电子</div>
+        <div class="card-row"><strong>相关公司:</strong> 中际旭创(300308)、新易盛(300502)、工业富联(601138)、兆易创新(603986)、江波龙(301308)、寒武纪(688256)、美光科技(MU)、英伟达(NVDA)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/008887.html" target="_blank" title="查看基金详情">008887 华夏国证半导体芯片ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/008281.html" target="_blank" title="查看基金详情">008281 国泰CES半导体芯片行业ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/040046.html" target="_blank" title="查看基金详情">040046 华安纳斯达克100指数A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>费城半导体指数单日跌11%属于极端去杠杆式抛售，其传导路径有三条：一是情绪与资金路径，隔夜美股AI链暴跌会直接压制A股开盘的算力硬件、光模块、存储板块，外资与北向资金倾向先减仓高β科技股；二是产业定价路径，若下跌源于存储价格见顶或云厂商下调AI资本开支，则海外订单占比高的中际旭创、新易盛、工业富联面临明年盈利预期下修，戴维斯双杀风险上升；三是估值锚路径，A股半导体板块的PE长期锚定美股同业，海外杀估值会压缩国内同类公司的估值上限。反向逻辑是国产替代：海外供应收缩或管制加码反而强化寒武纪、海光信息等自主算力链的稀缺性，可能出现'海外跌、国产涨'的分化。</div>
+        <div class="card-row suggestion">💡 短期: 1-2周内规避海外收入占比高的光模块、AI服务器代工标的，开盘若大幅低开不建议抄底，等待美股企稳（费半止跌）与A股缩量止跌双重信号后再介入，防御可切换到高股息与内需消费。<br>中期: 1-3个月看，若存储涨价周期被证实见顶，需下调半导体板块盈利预期，转向设备材料（北方华创、中微公司）与国产算力（寒武纪、海光）等受海外波动影响小、政策扶持强的方向，分批建仓而非一次性买入。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611053923805224.html" target="_blank" title="查看原文">何立峰在北京调研时指出 强化科技创新与产业创新深度融合 推动经济持续向新向优向好发展</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 国务院副总理何立峰在北京调研时强调强化科技创新与产业创新的深度融合，推动经济向新向优向好发展，释放出以科技产业化为抓手稳增长的政策信号。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 人工智能、半导体设备与材料、高端装备制造、工业母机、机器人、创新药、科创板硬科技</div>
+        <div class="card-row"><strong>相关公司:</strong> 中芯国际(688981)、北方华创(002371)、中微公司(688012)、寒武纪(688256)、汇川技术(300124)、科大讯飞(002230)、中芯国际(00981.HK)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/008903.html" target="_blank" title="查看基金详情">008903 广发科技先锋混合</a><a class="fund-tag" href="https://fund.eastmoney.com/001630.html" target="_blank" title="查看基金详情">001630 天弘中证计算机主题A</a><a class="fund-tag" href="https://fund.eastmoney.com/320007.html" target="_blank" title="查看基金详情">320007 诺安成长混合</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>高层调研表态→政策资源向'科技+产业'融合环节倾斜，具体落点通常是三条：一是研发费用加计扣除、首台套保险补偿等财税工具加码，直接改善科技企业利润表；二是地方政府配套的产业基金与场景开放（如政务AI、智能工厂），为技术落地提供订单；三是资本市场配套，科创板第五套标准、并购六条等支持未盈利硬科技企业融资与整合。由此传导至公司层面：中芯国际、北方华创等设备与制造龙头受益于国产化订单放量，汇川技术、机器人企业受益于制造业智能化改造需求，AI应用公司受益于场景开放带来的收入确认。最终推动科创板与创业板硬科技板块的估值中枢上移，形成'政策底→订单底→业绩底'的三段式修复。</div>
+        <div class="card-row suggestion">💡 短期: 政策催化下科创50、半导体设备板块易出现脉冲行情，可在消息面发酵首日以轻仓参与设备材料与国产算力方向，快进快出，不追高位加速股。<br>中期: 1-3个月建议围绕'自主可控+AI落地'双主线布局，优选有真实订单与研发投入转化的公司，用科创50相关指数基金定投平滑波动，同时关注后续配套细则（专项资金、场景清单）出台的二次催化窗口。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611053923563562.html" target="_blank" title="查看原文">调休减少 2027年放假安排来了！9天超长春节假期再次回归</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 2027年放假安排公布，调休天数减少且春节假期恢复至9天超长版，长假期将显著提升居民出行与消费的时间供给。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 旅游景区、酒店餐饮、免税、航空机场、影视院线、食品饮料</div>
+        <div class="card-row"><strong>相关公司:</strong> 中国中免(601888)、宋城演艺(300144)、锦江酒店(600754)、中国国航(601111)、首旅酒店(600258)、万达电影(002739)、携程集团(09961.HK)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/000248.html" target="_blank" title="查看基金详情">000248 汇添富中证主要消费ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/161725.html" target="_blank" title="查看基金详情">161725 招商中证白酒指数A</a><a class="fund-tag" href="https://fund.eastmoney.com/001631.html" target="_blank" title="查看基金详情">001631 天弘中证食品饮料指数A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>放假安排属于确定性极高的政策变量→9天春节叠加调休减少，等于在不减少总休假的前提下把碎片化假期整合为可持续的长途出行窗口→居民出行半径从周边游扩展到跨省游、出境游，人均消费金额与过夜天数同步抬升→直接受益顺序是：OTA平台（携程、同程）与航空（客座率与票价齐升）、酒店（RevPAR提升）、景区演艺（宋城演艺场次与上座率）、免税（海南离岛与机场店销售额放大），再到餐饮与白酒的春节旺季备货。由于放假安排提前数月公布，旅游酒店板块通常会在公告后与临近假期前出现两波交易机会，第一波是预期博弈，第二波是预订数据验证。需注意该利好属'预期型'，若宏观消费力偏弱，实际客单价可能不及预期。</div>
+        <div class="card-row suggestion">💡 短期: 1-2周内可博弈公告催化的情绪行情，优先选择弹性大的景区演艺与OTA标的，涨幅超过15%后逐步兑现，避免追逐已连续涨停的题材股。<br>中期: 1-3个月以'预订数据'为验证锚，关注春节前的机票预订量与酒店RevPAR数据，数据超预期再加仓免税与酒店龙头；底仓可用消费类指数基金，兼顾政策红利与内需修复的确定性。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss" target="_blank" title="查看原文">Interest rates hiked to 4% in first increase in over three years</a>
+        <span class="card-source">BBC商业</span>
+      </div>
+      <div class="card-summary">📰 英国央行将基准利率从3.75%上调25个基点至4%，是三年多来首次加息，多数分析师此前已预期。这表明英国通胀重新抬头，货币政策重新转向收紧。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 香港本地银行、保险、香港房地产、高股息公用事业与REITs、黄金</div>
+        <div class="card-row"><strong>相关公司:</strong> 汇丰控股(00005.HK)、渣打集团(02888.HK)、中银香港(02388.HK)、友邦保险(01299.HK)、新鸿基地产(00016.HK)、长实集团(01113.HK)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/240019.html" target="_blank" title="查看基金详情">240019 华宝中证银行ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/000071.html" target="_blank" title="查看基金详情">000071 华夏恒生ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/000217.html" target="_blank" title="查看基金详情">000217 华安黄金易ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>英国三年多来首次加息至4%，背后是英国通胀二次抬头，以及英镑此前贬值带来的输入型通胀。传导链条是：政策利率上行，英国2年期与10年期金边债收益率同步抬升，英镑走强，全球无风险利率边际上移，套息资金更多回流英镑和美元资产，港股对外部流动性最敏感，外资风险偏好回落，高估值科技与高股息板块的贴现率上升，估值受压；结构性受益方是香港本地银行（汇丰、渣打、中银香港），净息差随HIBOR和英镑利率扩张，保险公司的投资收益也随债券收益率改善；受损方是香港本地地产商（新鸿基、长实），按揭利率与融资成本上行压制成交和资产重估。对A股则是间接影响：主要通过人民币汇率和外资情绪传导，今日上证仅涨0.10%，而创业板涨1.19%、科创50涨1.68%，说明国内流动性和产业趋势仍是主导变量，海外加息只是压低上涨斜率的扰动项。</div>
+        <div class="card-row suggestion">💡 短期：回避港股本地地产与高股息资产，因为贴现率上行会压制估值；可小仓位波段参与香港本地银行和保险的息差交易（240019、000071），A股无需因英国单次加息调整仓位。<br>中期：若英国通胀逐步回落、加息接近尾声，港股外资回流与估值修复可期，可逢跌分批布局恒生指数与港股红利；A股仍以内需和科技为主线，把海外利率作为风险监测指标而非交易依据。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss" target="_blank" title="查看原文">Shares in Musk's SpaceX plunge as tech and AI stocks fall</a>
+        <span class="card-source">BBC商业</span>
+      </div>
+      <div class="card-summary">📰 SpaceX股价大跌，同时科技与AI板块普跌，市场担心美国中期选举后，监管对数据中心建设和AI行业的审查将趋严。纳指跌4.85%，AI叙事遭遇估值杀。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> AI算力、半导体、光模块与光通信、AI服务器与PCB、数据中心与IDC、商业航天、数据中心电力设备</div>
+        <div class="card-row"><strong>相关公司:</strong> 中际旭创(300308)、新易盛(300502)、工业富联(601138)、寒武纪(688256)、海光信息(688041)、英伟达(NVDA)、超微电脑(SMCI)、阿里巴巴(09988.HK)、航天电子(600879)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/008887.html" target="_blank" title="查看基金详情">008887 华夏国证半导体芯片ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/001630.html" target="_blank" title="查看基金详情">001630 天弘中证计算机主题A</a><a class="fund-tag" href="https://fund.eastmoney.com/000834.html" target="_blank" title="查看基金详情">000834 大成纳斯达克100指数A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>这是一条直接改变AI产业资本开支预期的新闻。传导链条有三层：第一，数据中心是AI资本开支的实际载体，审查趋严包括能耗指标、电网并网排队、地方审批和算力投资回报率核查，市场因此担心微软、亚马逊、Meta等超大规模云厂商下调2026—2027年capex指引，上游英伟达GPU、光模块、AI服务器电源与液冷订单的能见度随之下降，中际旭创、新易盛、工业富联等出口占比高的公司弹性最大；第二，SpaceX作为全球一级市场估值最高的科技资产之一，其股价急跌直接压缩全球科技成长股的风险偏好，纳指-4.85%说明这是高估值资产同步下杀；第三，A股与港股算力链前期涨幅大、估值锚定美股AI叙事，情绪外溢下短期承压，但国产算力（寒武纪、海光）可能因海外监管摩擦与自主可控逻辑，出现相对收益。中期看，AI真实需求与审查只影响节奏还是改变总量，将决定这是估值回撤还是景气反转。</div>
+        <div class="card-row suggestion">💡 短期：先减仓高位算力弹性标的（光模块、AI服务器、PCB），不追高；若A股算力链跟随纳指急跌，可关注国产算力、自主可控方向（寒武纪、海光信息）的逆势机会，但要控制仓位、设好止损，等待纳指企稳和波动率回落的信号。<br>中期：重点跟踪北美云厂商下季度capex指引、数据中心并网与能耗政策落地情况。若审查只改变节奏而不改变总量，这轮回撤即是布局窗口；优先选业绩确定性高的龙头（中际旭创、工业富联）及国产替代链，可用008887、001630定投分批建仓。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://www.bbc.co.uk/news/articles/cmze4zk4d789o?at_medium=RSS&at_campaign=rss" target="_blank" title="查看原文">Drunk and dangerous e-bike riders face on-the-spot fines under crackdown</a>
+        <span class="card-source">BBC商业</span>
+      </div>
+      <div class="card-summary">📰 英国启动咨询，拟对醉酒和危险骑行的电动自行车骑手实施现场罚款，并研究罚款及其他手段遏制危险骑行行为。欧洲电动两轮车监管正在从制定标准转向实际执法和处罚。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 电动两轮车、电踏车电机与零部件、小动力锂电池、骑行安全配件、共享出行</div>
+        <div class="card-row"><strong>相关公司:</strong> 雅迪控股(01585.HK)、九号公司(689009)、爱玛科技(603529)、小牛电动(NIU)、八方股份(603489)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/001410.html" target="_blank" title="查看基金详情">001410 信澳新能源产业股票A</a><a class="fund-tag" href="https://fund.eastmoney.com/160225.html" target="_blank" title="查看基金详情">160225 国泰国证新能源汽车指数A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>英国对醉酒、危险骑行实施现场罚款，并就非法改装、超速电机展开咨询，意味着欧洲对e-bike和e-scooter的治理，正从产品标准阶段进入执法处罚阶段。传导链条是：执法趋严后，违规改装车、解除限速的车型需求受到挤压，合规认证（欧盟EN15194）、限速设计、BMS安全与整车认证的门槛上升，低价超标整车和改装件的出口会受直接冲击；反过来，具备完整认证体系和品牌的头部企业将受益于行业出清和份额集中，雅迪、九号、小牛在英国的渠道和品牌溢价提升，电机供应商八方股份也受益于合规电机替换需求；头盔、灯光、刹车等安全配件需求同步上升。整体对A股的直接影响偏弱，属于产业边际事件，短期更可能是主题情绪带动的两轮车板块短暂异动，而非业绩级别的变化。</div>
+        <div class="card-row suggestion">💡 短期：事件驱动强度弱，不建议追涨两轮车概念；若板块因消息冲高，反而适合减仓兑现，等雅迪、九号等龙头回调到均线支撑位再低吸。<br>中期：欧洲e-bike合规化是明确的长期门槛，利好有认证、有品牌的龙头提升集中度，可逢低分批布局九号公司、八方股份；持续跟踪英国咨询结果、欧盟电池法规与新国标替换节奏对出口订单的实际影响。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="#" target="_blank" title="查看原文">Faisal Islam: How high will interest rates go?</a>
+        
+      </div>
+      <div class="card-summary">📰 BBC经济编辑判断英国央行大概率还会再加息一次，随后本轮加息周期即告结束，终端利率约4.25%。这是一条关于利率路径而非单次决议的预期指引。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 债券、黄金、保险与资产管理、香港地产、跨境资产配置QDII</div>
+        <div class="card-row"><strong>相关公司:</strong> 汇丰控股(00005.HK)、渣打集团(02888.HK)、香港交易所(00388.HK)、友邦保险(01299.HK)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/003358.html" target="_blank" title="查看基金详情">003358 易方达中债7-10年期国开行债券A</a><a class="fund-tag" href="https://fund.eastmoney.com/000217.html" target="_blank" title="查看基金详情">000217 华安黄金易ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/000071.html" target="_blank" title="查看基金详情">000071 华夏恒生ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>这条新闻的价值不在单次加息，而在对利率终点的预期管理：市场由此把英国终端利率锚定在4.25%。传导链条是：加息终点可见，英国金边债收益率曲线从熊平转向见顶回落预期，债券价格先行反弹，长久期债基净值开始修复；英镑短线仍强，但中期见顶概率上升，美元指数面临的被动上行压力缓解，人民币汇率的外部压力随之减轻；港币利率跟随美元，港元资产的估值压制得到缓和。资产层面：海外债券与实际利率敏感型黄金中期配置价值上升；若通胀确实回落且只再加一次，2026年下半年英国可能重新转向降息，全球流动性拐点将显著利好港股与成长股的估值修复，也会改善A股外资流入的环境。</div>
+        <div class="card-row suggestion">💡 短期：可以小幅参与利率见顶交易，加长久久期债基（003358）和黄金（000217）的配置，同时回避英镑计价的按揭与地产类资产；A股维持中性仓位，不做方向性押注。<br>中期：若确认终端利率在4.25%附近并进入降息通道，港股与全球成长股的估值修复空间打开，建议分批定投恒生ETF联接（000071）；同时关注人民币企稳后北向资金回流对A股核心资产的正面反馈。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss" target="_blank" title="查看原文">Three ways the interest rate rise could affect you</a>
+        <span class="card-source">BBC商业</span>
+      </div>
+      <div class="card-summary">📰 英国加息从就业、贷款、储蓄三个渠道影响居民：按揭与贷款成本上升、存款收益改善、就业市场趋于降温。居民实际购买力与消费意愿将受到挤压。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 家电出口、小家电与消费电子出口、电动两轮车出口、可选消费、跨境电商</div>
+        <div class="card-row"><strong>相关公司:</strong> 海尔智家(600690)、美的集团(000333)、安克创新(300866)、比亚迪(002594)、名创优品(MNSO)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/110022.html" target="_blank" title="查看基金详情">110022 易方达消费行业股票</a><a class="fund-tag" href="https://fund.eastmoney.com/005827.html" target="_blank" title="查看基金详情">005827 易方达蓝筹精选混合</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>英国加息对居民的三条传导路径是：按揭月供上升，导致浮动利率家庭和再融资家庭的现金流立即收紧；储蓄收益改善，资金从风险资产和大额消费转向存款与货币基金；企业招聘与工资增速降温，就业预期转弱。链条继续往下是：居民实际购买力下降，英国消费需求走弱，可选消费先于必选消费受伤；中国对英出口占比较高的白电（海尔旗下英国Candy）、小家电、消费电子（安克创新）、电动两轮车等订单增速边际放缓；同时英镑走强会抬升中国商品在英国的终端售价，进一步抑制销量，但对英镑计价收入的出口企业反而形成汇兑收益对冲。因此对具体公司业绩的影响是中性偏负、幅度有限。对A股而言这是慢变量，外需边际走弱的另一面是强化内需政策加码的预期，反而利好消费与地产链的政策博弈行情。</div>
+        <div class="card-row suggestion">💡 短期：重点核查对英收入占比较高的出口链公司（海尔智家、安克创新）最新财报中的海外增速与汇兑损益，若出现指引下修迹象则先减仓规避，不要追高出口主题。<br>中期：外需走弱会强化内需刺激和以旧换新政策预期，可用110022、005827布局白电龙头与大众消费的内需修复逻辑，同时规避高外销占比、缺少内需支撑的纯出口标的，做好出口结构分散的调研。</div>
+      </div>
+    </div>
+
+  <div class="footer">
+    <p>AI 投资分析日报 &middot; 每日 18:00 自动生成</p>
+    <p style="margin-top:4px">分析由 DeepSeek AI 生成，数据来源于新浪财经、东方财富等公开渠道</p>
+    <p style="margin-top:4px;color:#e15241">⚠ 以上分析仅供参考，不构成任何投资建议。投资有风险，入市需谨慎。</p>
+  </div>
+</div>
+</body>
+</html>
