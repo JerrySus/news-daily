@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 投资分析日报 - 2026-11-13</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#0f0f14;color:#e0e0e0;line-height:1.6;min-height:100vh}
+.header{background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);padding:28px 20px;text-align:center;border-bottom:1px solid #2a2a3e}
+.header h1{font-size:22px;color:#e15241;margin-bottom:4px}
+.header .date{font-size:14px;color:#888}
+.header .badge-row{margin-top:8px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap}
+.container{max-width:800px;margin:0 auto;padding:16px}
+.nav{display:flex;gap:8px;margin-bottom:20px}
+.nav a{color:#e15241;text-decoration:none;font-size:13px;padding:6px 12px;background:#1a1a2e;border-radius:6px;border:1px solid #2a2a3e}
+.nav a:hover{background:#2a2a3e}
+.section-title{font-size:16px;font-weight:600;margin:20px 0 12px;padding-left:10px;border-left:3px solid #e15241}
+.market-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-bottom:16px}
+.mc{background:#1a1a2e;border-radius:10px;padding:14px;border:1px solid #2a2a3e}
+.mc-name{font-size:12px;color:#888}
+.mc-code{color:#555;font-size:10px}
+.mc-price{font-size:20px;font-weight:700;margin:4px 0;color:#f0f0f0}
+.mc-chg{font-size:13px;font-weight:600}
+.mc-chg.up{color:#e15241}
+.mc-chg.down{color:#1aad19}
+.summary-box{background:#1a1a2e;border-radius:10px;padding:16px;margin-bottom:20px;border:1px solid #2a2a3e}
+.summary-box h3{font-size:15px;margin-bottom:10px}
+.summary-row{padding:6px 0;font-size:13px;border-bottom:1px solid #2a2a3e}
+.summary-dir{font-weight:600}
+.summary-ind{color:#888;margin-left:8px}
+.forecast-box{background:#1a1a2e;border-radius:10px;padding:16px;margin-bottom:20px;border:1px solid #2a2a3e}
+.forecast-box.fc-error{border-color:#e15241;color:#e15241;font-size:13px}
+.fc-period{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid #2a2a3e}
+.fc-period:last-of-type{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.fc-title{font-size:14px;font-weight:700;color:#f0f0f0;margin-bottom:4px}
+.fc-view{font-size:12px;color:#999;margin-bottom:8px;line-height:1.6}
+.fc-side{margin-top:8px;padding:8px 10px;border-radius:6px;font-size:13px}
+.fc-side.bull{background:rgba(225,82,65,.06);border-left:3px solid #e15241}
+.fc-side.bear{background:rgba(26,173,25,.06);border-left:3px solid #1aad19}
+.fc-tag{font-weight:700;font-size:12px}
+.fc-side.bull .fc-tag{color:#e15241}
+.fc-side.bear .fc-tag{color:#1aad19}
+.fc-item{margin-top:8px;line-height:1.6}
+.fc-ind{font-weight:600;color:#f0f0f0}
+.fc-act{font-size:11px;padding:1px 8px;border-radius:8px;margin-left:6px;background:rgba(255,193,7,.15);color:#ffc107;font-weight:600}
+.fc-reason{color:#999;font-size:12px;margin-top:2px}
+.fc-disclaimer{margin-top:12px;padding-top:10px;border-top:1px solid #2a2a3e;font-size:11px;color:#666;line-height:1.6}
+.card{border-radius:10px;padding:16px;margin-bottom:12px;border:1px solid #2a2a3e;background:#1a1a2e}
+.card.bullish{border-left:3px solid #e15241}
+.card.bearish{border-left:3px solid #1aad19}
+.card.neutral{border-left:3px solid #666}
+.card-header{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.card-dir{font-weight:700;font-size:14px}
+.card-date{font-size:13px;color:#aaa;flex:1}
+.badge{font-size:11px;padding:2px 8px;border-radius:10px;font-weight:600}
+.badge-strong{background:rgba(225,82,65,.2);color:#e15241}
+.badge-mid{background:rgba(255,193,7,.2);color:#ffc107}
+.badge-weak{background:rgba(102,102,102,.2);color:#999}
+.card-row{margin-bottom:4px;font-size:13px}
+.card-row.analysis{color:#bbb;margin-top:6px;padding:8px;background:rgba(255,255,255,.03);border-radius:6px}
+.card-news-link{color:#e0e0e0;text-decoration:none;font-size:13px;flex:1;line-height:1.4}
+.card-news-link:hover{color:#e15241;text-decoration:underline}
+.card-source{font-size:10px;color:#666;background:rgba(255,255,255,.05);padding:1px 6px;border-radius:3px;flex-shrink:0}
+.card-summary{font-size:12px;color:#888;margin-bottom:8px;padding:6px 10px;background:rgba(255,255,255,.02);border-radius:4px;line-height:1.5}
+.card-row.chain{color:#bbb;margin-top:8px;padding:10px;background:rgba(225,82,65,.05);border-radius:6px;line-height:1.7;font-size:13px}
+.card-row.suggestion{color:#e15241;margin-top:8px;font-weight:500;line-height:1.6}
+.card-funds{margin-top:6px}
+.card-funds strong{font-size:12px;color:#aaa}
+.fund-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.fund-tag{display:inline-block;padding:5px 10px;background:rgba(225,82,65,.1);color:#e15241;border-radius:6px;font-size:12px;text-decoration:none;border:1px solid rgba(225,82,65,.2);transition:all .2s}
+.fund-tag:hover{background:rgba(225,82,65,.2);border-color:#e15241}
+.footer{text-align:center;padding:30px;color:#555;font-size:12px}
+.na{color:#666}
+@media(max-width:480px){.market-grid{grid-template-columns:repeat(2,1fr)}.header h1{font-size:18px}}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>AI 投资分析日报</h1>
+  <div class="date">2026-11-13 星期五</div>
+  <div class="badge-row">
+    <span class="badge badge-strong">AI分析师: DeepSeek</span>
+    <span class="badge badge-mid">仅供参考，不构成投资建议</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="nav">
+    <a href="/">首页</a>
+    <a href="/archive/">历史日报</a>
+  </div>
+
+  <div class="section-title">市场行情</div>
+  <div class="market-grid"><div class="mc">
+      <div class="mc-name">上证指数 <span class="mc-code">000001</span></div>
+      <div class="mc-price">3634.35</div>
+      <div class="mc-chg down">-0.59%</div>
+    </div><div class="mc">
+      <div class="mc-name">深证成指 <span class="mc-code">399001</span></div>
+      <div class="mc-price">10968.79</div>
+      <div class="mc-chg down">-2.05%</div>
+    </div><div class="mc">
+      <div class="mc-name">创业板指 <span class="mc-code">399006</span></div>
+      <div class="mc-price">2426.08</div>
+      <div class="mc-chg down">-3.32%</div>
+    </div><div class="mc">
+      <div class="mc-name">沪深300 <span class="mc-code">000300</span></div>
+      <div class="mc-price">4016.29</div>
+      <div class="mc-chg down">-0.68%</div>
+    </div><div class="mc">
+      <div class="mc-name">科创50 <span class="mc-code">000688</span></div>
+      <div class="mc-price">1279.66</div>
+      <div class="mc-chg down">-2.30%</div>
+    </div><div class="mc">
+      <div class="mc-name">道琼斯 <span class="mc-code">DJI</span></div>
+      <div class="mc-price">52214.64</div>
+      <div class="mc-chg down">-0.16%</div>
+    </div><div class="mc">
+      <div class="mc-name">纳斯达克 <span class="mc-code">IXIC</span></div>
+      <div class="mc-price">25057.51</div>
+      <div class="mc-chg down">-1.22%</div>
+    </div><div class="mc">
+      <div class="mc-name">标普500 <span class="mc-code">SPX</span></div>
+      <div class="mc-price">7535.92</div>
+      <div class="mc-chg down">-0.74%</div>
+    </div></div>
+
+  <div class="section-title">AI 投资预测</div><div class="forecast-box"><div class="fc-period">
+      <div class="fc-title">📅 明日预测（2026-11-14）</div>
+      <div class="fc-view">隔夜费半指数跌超5%、英伟达股价大幅下跌，美元指数创19个月新高，成长股承压；A股创业板指已跌超3%，明日大概率低开弱势震荡、指数分化，资金向银行、红利等防御板块转移，科技股情绪修复需要时间。</div>
+      <div class="fc-side bull"><span class="fc-tag">📈 利好 · 加仓方向</span><div class="fc-item">
+          <span class="fc-ind">银行与高股息红利</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">社融28.61万亿信贷平稳，加息预期压制成长，避险资金回流价值股</div>
+          <div class="fund-list"><span class="fund-tag">001594 天弘中证银行指数A</span><span class="fund-tag">512800 华宝中证银行ETF</span><span class="fund-tag">510880 华泰柏瑞上证红利ETF</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">创新药与医疗器械</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">千亿级新品获批、汇宇3亿和解金、AI制药催化，医药业绩催化独立</div>
+          <div class="fund-list"><span class="fund-tag">159992 银华中证创新药产业ETF</span><span class="fund-tag">001717 工银前沿医疗股票A</span><span class="fund-tag">004851 广发医疗保健股票A</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">国产算力芯片与半导体设备</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">美方新法案封锁境外算力，自主可控主题易逆势获得资金抢筹</div>
+          <div class="fund-list"><span class="fund-tag">007300 国联安中证全指半导体产品与设备ETF联接A</span><span class="fund-tag">008888 华夏国证半导体芯片ETF联接C</span><span class="fund-tag">512480 国联安中证全指半导体产品与设备ETF</span></div>
+        </div></div><div class="fc-side bear"><span class="fc-tag">📉 利空 · 减仓/清仓方向</span><div class="fc-item">
+          <span class="fc-ind">英伟达产业链AI算力与光模块</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">黄仁勋辞职冲击，海外算力订单预期下修，硬件股杀估值</div>
+          <div class="fund-list"><span class="fund-tag">512760 国泰CES半导体芯片行业ETF</span><span class="fund-tag">515880 国泰中证全指通信设备ETF</span><span class="fund-tag">159819 华夏中证人工智能主题ETF</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">影视传媒与游戏（短剧AI应用）</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">文投控股16天9板后监管风险和获利盘兑现，题材股退潮和资金踩踏</div>
+          <div class="fund-list"><span class="fund-tag">159869 华夏中证动漫游戏ETF</span><span class="fund-tag">516010 国泰中证动漫游戏ETF</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">港股互联网与中概互联</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">纳指跌超1%叠加美元19个月新高，外资流出，港股估值承压</div>
+          <div class="fund-list"><span class="fund-tag">513050 易方达中证海外中国互联网50ETF</span><span class="fund-tag">164906 交银中证海外中国互联网指数(LOF)A</span></div>
+        </div></div>
+    </div><div class="fc-period">
+      <div class="fc-title">📅 一月后预测（2026-12-13）</div>
+      <div class="fc-view">一月维度进入政策与业绩空窗期，海外流动性偏紧（加息预期和美元走强）压制估值，但国内宽货币宽信用支撑估值底部，指数以区间震荡为主、结构重于方向，自主可控、创新药和红利三条主线占优。</div>
+      <div class="fc-side bull"><span class="fc-tag">📈 利好 · 加仓方向</span><div class="fc-item">
+          <span class="fc-ind">国产AI芯片与半导体设备材料</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">境外算力受限倒逼全栈国产替代，政策补贴与订单同步落地</div>
+          <div class="fund-list"><span class="fund-tag">007300 国联安中证全指半导体产品与设备ETF联接A</span><span class="fund-tag">008887 华夏国证半导体芯片ETF联接A</span><span class="fund-tag">512480 国联安中证全指半导体产品与设备ETF</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">创新药与CXO</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">新品获批放量、AI制药降本、海外授权兑现，业绩与估值双升</div>
+          <div class="fund-list"><span class="fund-tag">159992 银华中证创新药产业ETF</span><span class="fund-tag">003095 中欧医疗健康混合A</span><span class="fund-tag">001717 工银前沿医疗股票A</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">高股息红利与银行</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">社融信贷企稳、利率下行，年末机构调仓偏好确定性现金流</div>
+          <div class="fund-list"><span class="fund-tag">510880 华泰柏瑞上证红利ETF</span><span class="fund-tag">001594 天弘中证银行指数A</span><span class="fund-tag">512800 华宝中证银行ETF</span></div>
+        </div></div><div class="fc-side bear"><span class="fc-tag">📉 利空 · 减仓/清仓方向</span><div class="fc-item">
+          <span class="fc-ind">光模块与AI服务器外需链</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">英伟达管理层变动，海外云厂商资本开支预期下修，订单能见度下降</div>
+          <div class="fund-list"><span class="fund-tag">515880 国泰中证全指通信设备ETF</span><span class="fund-tag">512760 国泰CES半导体芯片行业ETF</span><span class="fund-tag">159819 华夏中证人工智能主题ETF</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">港股互联网与外资重仓成长</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">美元指数走强、加息预期升温，外资流出压制港股与成长估值</div>
+          <div class="fund-list"><span class="fund-tag">513050 易方达中证海外中国互联网50ETF</span><span class="fund-tag">164906 交银中证海外中国互联网指数(LOF)A</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">房地产及地产链</span><span class="fc-act">清仓</span>
+          <div class="fc-reason">销售仍弱、美元融资成本抬升，政策宽松难以扭转基本面</div>
+          <div class="fund-list"><span class="fund-tag">512200 南方中证全指房地产ETF</span><span class="fund-tag">161721 招商沪深300地产等权重指数(LOF)A</span></div>
+        </div></div>
+    </div><div class="fc-period">
+      <div class="fc-title">📅 半年后预测（2027-05-13）</div>
+      <div class="fc-view">半年维度看产业趋势与宏观周期：海外算力封锁持续强化自主可控投资周期，国内宽货币宽信用与资本市场改革托底，A股有望走出结构性慢牛；外围美元强势与贸易摩擦使外需链、地产链持续拖累，结构分化大于指数弹性。</div>
+      <div class="fc-side bull"><span class="fc-tag">📈 利好 · 加仓方向</span><div class="fc-item">
+          <span class="fc-ind">国产算力全产业链（芯片、IDC与算力租赁）</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">美方封锁长期化，国产GPU、智算中心招标放量，产业趋势确定</div>
+          <div class="fund-list"><span class="fund-tag">007300 国联安中证全指半导体产品与设备ETF联接A</span><span class="fund-tag">008888 华夏国证半导体芯片ETF联接C</span><span class="fund-tag">512480 国联安中证全指半导体产品与设备ETF</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">AI制药与创新药</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">AI加速药物发现，创新药出海授权放量，进入业绩兑现窗口</div>
+          <div class="fund-list"><span class="fund-tag">159992 银华中证创新药产业ETF</span><span class="fund-tag">001717 工银前沿医疗股票A</span><span class="fund-tag">003095 中欧医疗健康混合A</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">券商与非银金融</span><span class="fc-act">加仓</span>
+          <div class="fc-reason">流动性宽松叠加社融回升，成交放大与资本市场改革提升业绩</div>
+          <div class="fund-list"><span class="fund-tag">512880 国泰中证全指证券公司ETF</span><span class="fund-tag">161720 招商中证全指证券公司指数(LOF)A</span></div>
+        </div></div><div class="fc-side bear"><span class="fc-tag">📉 利空 · 减仓/清仓方向</span><div class="fc-item">
+          <span class="fc-ind">消费电子与出口链</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">美元强势与关税摩擦压制外需，海外芯片供应链受挫传导订单下滑</div>
+          <div class="fund-list"><span class="fund-tag">159732 华夏国证消费电子主题ETF</span><span class="fund-tag">515880 国泰中证全指通信设备ETF</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">房地产及高负债周期</span><span class="fc-act">清仓</span>
+          <div class="fc-reason">人口与库存双压，美元高利率抬升偿债成本，盈利难修复</div>
+          <div class="fund-list"><span class="fund-tag">512200 南方中证全指房地产ETF</span><span class="fund-tag">161721 招商沪深300地产等权重指数(LOF)A</span></div>
+        </div><div class="fc-item">
+          <span class="fc-ind">传统中概互联网</span><span class="fc-act">减仓</span>
+          <div class="fc-reason">海外流动性收紧与地缘监管扰动，成长溢价长期收敛</div>
+          <div class="fund-list"><span class="fund-tag">513050 易方达中证海外中国互联网50ETF</span><span class="fund-tag">164906 交银中证海外中国互联网指数(LOF)A</span></div>
+        </div></div>
+    </div>
+    <div class="fc-disclaimer">⚠ 预测由 AI 生成，仅供参考，不构成投资建议。基金代码来自公开信息，投资前请自行核实。</div>
+  </div>
+
+  <div class="summary-box"><h3>今日投资情绪汇总</h3><div class="summary-row">
+      <span class="summary-dir">📉 利空 (7条)</span>
+      <span class="summary-ind">涉及: 影视传媒、游戏、AI应用概念、短剧互动内容、半导体、AI算力芯片、服务器与光模块、半导体设备</span>
+    </div><div class="summary-row">
+      <span class="summary-dir">➖ 中性 (6条)</span>
+      <span class="summary-ind">涉及: 互联网平台、游戏、云计算与AI算力、中概互联、半导体设备与材料、AI算力、国产替代芯片、中美贸易与出口管制相关</span>
+    </div><div class="summary-row">
+      <span class="summary-dir">📈 利好 (7条)</span>
+      <span class="summary-ind">涉及: AI算力芯片、GPU与智算中心、半导体设备与材料、创投与参股概念、创新药、医疗器械、消费医疗与眼视光、CXO与医药外包</span>
+    </div></div>
+
+  <div class="section-title">AI 逐条分析</div>
+  <div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611113928670181.html" target="_blank" title="查看原文">16天9板！文投控股最新公告</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 文投控股16个交易日内录得9个涨停板，发布股票交易严重异常波动风险提示公告，提示基本面未发生重大变化、存在非理性炒作与股价回落风险。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 影视传媒、游戏、AI应用概念、短剧互动内容</div>
+        <div class="card-row"><strong>相关公司:</strong> 文投控股(600715)、上海电影(601595)、光线传媒(300251)、奥飞娱乐(002292)、昆仑万维(300418)、华谊兄弟(300027)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/004752.html" target="_blank" title="查看基金详情">004752 广发中证传媒ETF联接C</a><a class="fund-tag" href="https://fund.eastmoney.com/004753.html" target="_blank" title="查看基金详情">004753 广发中证传媒ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/001629.html" target="_blank" title="查看基金详情">001629 天弘中证计算机主题A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>事件本质是资金驱动的题材接力炒作，而非业绩驱动。文投控股作为低市值、亏损但带国资背景的影视传媒股，被资金贴上AI影视、短剧、AIGC内容生产的标签，形成16天9板的超强趋势，游资接力推高换手，市盈率严重脱离基本面。公司主动发布严重异常波动风险提示，第一层传导是交易层面：交易所可能启动问询、重点监控乃至监管核查，资金成本与风险溢价骤升，游资被迫撤离，短期封板资金一致性瓦解，个股高位放量回吐概率极大。第二层传导至板块：传媒游戏指数本周本就受创业板指下跌3.32%的拖累，龙头走弱会带崩跟风的影视、短剧、AIGC概念股，形成补跌效应。第三层传导至资金面：高位妖股若持续亏钱效应，会削弱市场对题材股的投机偏好，资金从高波动小市值板块溢出至沪深300等低估红利权重，加剧风格再平衡。中期看，题材仍需业绩兑现验证，缺乏内容与现金流支撑的跟风公司难有第二波。</div>
+        <div class="card-row suggestion">💡 短期: 坚决回避高位接力，已持有者逢高兑现，不参与跌停撬板与反抽；关注同板块低位、有真实短剧与AI影视订单落地的标的做补涨博弈，仓位控制在两成以内。<br>中期: 把传媒仓位从"炒概念"切换到"看内容排片与流媒体分账"的业绩主线，优选上海电影、光线传媒等有IP储备的公司；同时利用这次炒作降温带来的市场风格切换，把仓位向红利与沪深300权重迁移，等待监管表态与量能重新放大再评估传媒弹性。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611123929343313.html" target="_blank" title="查看原文">腾讯“裁员50%”说法完全不属实</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 针对市场流传的腾讯大规模裁员50%传闻，公司回应称完全不属实，相关传言不成立。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 互联网平台、游戏、云计算与AI算力、中概互联</div>
+        <div class="card-row"><strong>相关公司:</strong> 腾讯控股(00700.HK)、网易(09999.HK)、美团(03690.HK)、阿里巴巴(09988.HK)、三七互娱(002555)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/000071.html" target="_blank" title="查看基金详情">000071 华夏恒生ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/164906.html" target="_blank" title="查看基金详情">164906 交银中证海外中国互联网</a><a class="fund-tag" href="https://fund.eastmoney.com/000072.html" target="_blank" title="查看基金详情">000072 华夏恒生ETF联接C</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>传闻本身是市场情绪的放大器而非事实变量。裁员50%这类极端传言通常出现在财报空窗期或股价弱势阶段，反映的是投资者对互联网大厂成本刚性、AI资本开支拖累利润率的深层担忧——当市场普遍预期"降本增效"已经走到尽头，任何风吹草动都会被解读为经营恶化。公司辟谣的第一层效果是情绪修复：切断传闻向业绩预期的负反馈，避免港股互联网板块在恒生科技本就疲弱的背景下出现恐慌性抛售。第二层是估值锚的重建：腾讯的核心变量仍然来自游戏版号与流水、微信生态广告加载率、以及云与AI算力的资本开支节奏，辟谣只能消除噪音，无法改变这些真实驱动。第三层是传导的方向性差异：若后续财报显示AI资本开支上行但广告与游戏收入不及预期，市场仍会重新定价"投入期利润率承压"，因此这次辟谣只能提供短期情绪底，不构成趋势反转的依据。对A股的溢出效应有限，主要通过港股互联网权重影响恒生指数，进而弱传导至港股通标的中介。</div>
+        <div class="card-row suggestion">💡 短期: 视辟谣为情绪面止血而非基本面拐点，港股互联网仓位可小幅加仓做反弹，但需以5日均线为交易纪律，跌破即减；不追高，等财报与月度流水数据落地。<br>中期: 重点跟踪腾讯游戏流水与AI资本开支对利润率的真实影响，以及恒生科技指数在关键点位的支撑，采用分批建仓、单只港股ETF不超过组合15%的方式布局；同时留意中概互联政策与回购节奏，回购持续性是中期估值底的重要支撑。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611123929996170.html" target="_blank" title="查看原文">黄仁勋辞职 谁来接棒英伟达？</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 市场传出黄仁勋辞任英伟达CEO的消息，讨论焦点转向谁将接棒，以及公司战略连续性、CUDA生态与产品路线是否会发生转向。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 半导体、AI算力芯片、服务器与光模块、半导体设备</div>
+        <div class="card-row"><strong>相关公司:</strong> 英伟达(NVDA)、AMD(AMD)、台积电(TSM)、博通(AVGO)、工业富联(601138)、寒武纪(688256)、中际旭创(300308)、海光信息(688041)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/008888.html" target="_blank" title="查看基金详情">008888 华夏国证半导体芯片ETF联接C</a><a class="fund-tag" href="https://fund.eastmoney.com/008281.html" target="_blank" title="查看基金详情">008281 国泰CES半导体芯片行业ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/160213.html" target="_blank" title="查看基金详情">160213 国泰纳斯达克100</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>这是典型的"关键人物风险"定价事件，传导起点是治理与战略连续性，而非订单或财务。第一层：黄仁勋是英伟达CUDA生态与年度架构节奏（Hopper-Blackwell-Rubin）的架构设计者与叙事核心，其离任会让市场对下一代产品路线、客户绑定深度、以及对台积电先进封装的锁产能安排产生疑问，估值中的"确定性溢价"被重估，纳斯达克已先跌1.22%印证科技权重承压。第二层传导至供应链：英伟达订单节奏一旦因内部调整而延迟一个季度，A股直接链的工业富联（AI服务器代工）、中际旭创与新易盛（800G/1.6T光模块）、胜宏科技与沪电股份（高多层PCB）就会出现杀预期，创业板指当日暴跌3.32%正是这条链在杀估值。第三层是竞争对手与国产替代：AMD、博通以及自研ASIC的谷歌、亚马逊会获得相对估值提升，A股的寒武纪、海光信息则在"外部不确定性上升"的叙事下被资金视为替代受益方，出现结构性分化。第四层是情绪面：AI叙事高度依赖领袖背书，人物变动会放大波动率，短期难以证伪也难以证实，需持续核实公司官方公告确认消息真伪。</div>
+        <div class="card-row suggestion">💡 短期: 对英伟达产业链（光模块、PCB、服务器代工）先降杠杆、不抄底，等地缘与治理消息被官方口径澄清后再介入；可小仓位博弈AMD、博通及国产算力（寒武纪、海光）的相对强势，严设止损。<br>中期: 核心跟踪英伟达季度指引与台积电CoWoS产能排产，若订单节奏未实质延后，回调即是算力链的配置窗口；采用基金而非个股承接风险，以半导体ETF联接做分批定投，同时用纳斯达克100基金保留美股科技敞口，避免单一事件驱动重仓。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611133930099479.html" target="_blank" title="查看原文">黄仁勋辞职后 英伟达股价巨震</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 消息发酵后英伟达股价出现剧烈震荡、成交显著放大，多空分歧加剧，全球AI算力板块跟随波动。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> AI算力、半导体、光通信、液冷与电源设备</div>
+        <div class="card-row"><strong>相关公司:</strong> 英伟达(NVDA)、超微电脑(SMCI)、台积电(TSM)、中际旭创(300308)、新易盛(300502)、沪电股份(002463)、胜宏科技(300476)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/008281.html" target="_blank" title="查看基金详情">008281 国泰CES半导体芯片行业ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/270042.html" target="_blank" title="查看基金详情">270042 广发纳斯达克100ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/050025.html" target="_blank" title="查看基金详情">050025 博时标普500ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>股价巨震说明分歧来自"仓位结构"而不是"基本面数据"。第一层机制：英伟达是全球被动资金与主动多头最拥挤的持仓之一，任何治理层面的意外都会触发风险预算被动收缩，做市商减仓、期权做空对冲放大波动，形成成交放大与日内大幅摆动。第二层传导至估值链条：美股AI核心资产的高估值建立在"算力资本开支持续超预期"的线性外推上，一旦领袖变动引发战略不确定性，分母端风险溢价上行，估值压缩比盈利下修来得更快，这与纳斯达克下跌1.22%、标普500跌0.74%的方向完全一致。第三层跨市场传导：A股AI算力链的定价长期锚定英伟达股价与指引，海外龙头巨震会直接压制国内光模块（中际旭创、新易盛）、PCB（沪电、胜宏）、液冷与电源环节的估值上限，创业板指与科创50当日分别跌3.32%、2.30%即为明证，属于"海外锚定—国内跟随"的典型传导。第四层是资金再配置：波动加剧会推动部分资金从高beta科技转向红利与内需防御，加剧A股市场的风格切换与结构分化。</div>
+        <div class="card-row suggestion">💡 短期: 保持低仓位观望，避免在美股夜盘大幅波动后于A股开盘情绪化追跌或抄底；已有算力链持仓者以减半方式降低beta，或买入认沽类工具对冲；关注英伟达期权隐含波动率回落作为情绪见底的辅助信号。<br>中期: 若后续财报与订单指引证实经营未受实质影响，剧烈震荡反而提供优质算力资产的介入点，建议以半导体ETF联接与纳斯达克100基金定投方式摊薄成本，单次不超过计划仓位三分之一；同时用标普500基金平衡单一科技龙头的集中风险，严守组合回撤阈值。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611133930247767.html" target="_blank" title="查看原文">黄仁勋辞职 特朗普、马斯克发声</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 黄仁勋辞职事件引发政商两界表态，特朗普与马斯克先后发声，使事件从公司治理议题升级为涉及美国AI产业政策、芯片出口管制与中美科技博弈的公共议题。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 半导体设备与材料、AI算力、国产替代芯片、中美贸易与出口管制相关</div>
+        <div class="card-row"><strong>相关公司:</strong> 英伟达(NVDA)、英特尔(INTC)、中芯国际(688981)、北方华创(002371)、寒武纪(688256)、海光信息(688041)、中微公司(688012)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/008888.html" target="_blank" title="查看基金详情">008888 华夏国证半导体芯片ETF联接C</a><a class="fund-tag" href="https://fund.eastmoney.com/000071.html" target="_blank" title="查看基金详情">000071 华夏恒生ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/050025.html" target="_blank" title="查看基金详情">050025 博时标普500ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>政界与产业领袖发声，意味着定价变量从"公司经营"切换到"政策博弈"。第一层：特朗普的表态天然指向AI芯片出口管制与制造业回流，若其释放对华销售进一步收紧的信号，英伟达中国区收入（含特供型号）再度承压，同时倒逼国内算力自主化提速；若释放放宽信号，则英伟达与台积电供应链修复，但国产替代叙事降温。第二层：马斯克代表的是买方与竞争方双重身份，其表态可能涉及xAI自研芯片、特斯拉算力采购与英伟达的议价关系，若强化"去英伟达依赖"叙事，会推动ASIC与自研路线估值上移，间接利好博通、Marvell以及与自研生态绑定的封测、IP环节。第三层传导至A股：出口管制预期是国产替代最直接的催化剂，中芯国际、北方华创、中微公司、寒武纪的估值弹性与管制强度高度正相关，但这类行情往往"消息驱动、快涨快跌"，需警惕预期先行后的业绩验证空窗。第四层是港股与汇率：中美科技摩擦升温会压制恒生科技风险偏好，并通过人民币汇率波动影响外资流入节奏。整体看多空力量对冲，方向取决于官方政策文件而非舆论表态，故判为中性但波动强度高。</div>
+        <div class="card-row suggestion">💡 短期: 不因政客表态做方向性重仓，可对国产设备（北方华创、中微公司）与国产算力（寒武纪、海光）做事件驱动的波段，涨超15%即分批止盈；同时削减英伟达直接敞口，规避政策口径突变。<br>中期: 以"管制强度"作为国产替代仓位的核心跟踪变量，采用半导体ETF联接分批建仓、单月不超过两成资金的节奏；港股端以恒生ETF联接谨慎参与，控制汇率与地缘双重风险；密切跟踪美国商务部实体清单与出口许可细则的正式发布，把政策文件落地作为加仓或撤退的唯一依据。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="#" target="_blank" title="查看原文">凌晨V形大反弹！美联储传来大消息</a>
+        
+      </div>
+      <div class="card-summary">📰 隔夜美股盘中一度大幅下挫，随后因美联储官员表态/会议纪要释放关键政策信号而快速拉升，主要指数走出V形反转，市场对后续利率路径的定价随之重新校准。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 全球宏观流动性、美股科技成长、贵金属、港股互联网、A股券商</div>
+        <div class="card-row"><strong>相关公司:</strong> 英伟达(NVDA)、特斯拉(TSLA)、苹果(AAPL)、腾讯控股(00700)、中信证券(600030)、东方财富(300059)、山东黄金(600547)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/270042.html" target="_blank" title="查看基金详情">270042 广发纳斯达克100ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/005827.html" target="_blank" title="查看基金详情">005827 易方达蓝筹精选混合</a><a class="fund-tag" href="https://fund.eastmoney.com/000217.html" target="_blank" title="查看基金详情">000217 华安黄金易ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>传导链条的第一环是利率预期：美联储措辞边际变化直接改变市场对短端利率与缩表节奏的定价，美债收益率与美元指数随之波动，全球风险资产贴现率被重新计算。第二环是估值弹性：久期最长的科技成长股与贵金属对贴现率最敏感，因此盘中先杀后拉、出现V形反转，说明空头在政策底线上被动回补，属于情绪修复而非基本面重估。第三环传导至A股与港股：若美联储信号偏鸽，人民币汇率压力缓解、北向资金风险偏好回升，利于核心资产与成长板块企稳；若信号偏鹰，则外资流出叠加高估值板块承压，正好解释今日创业板指大跌3.32%而沪深300仅跌0.68%的结构性分化。第四环落到券商与黄金板块：成交放大与波动率抬升利于券商经纪与自营弹性，而实际利率回落则直接抬升金价与黄金股业绩预期。</div>
+        <div class="card-row suggestion">💡 短期: 不必因单日V形反弹追高，重点关注美债收益率与美元指数两个锚，A股端以低估值高股息与券商作为防御进攻兼备的底仓，成长股等待缩量止跌信号再介入。<br>中期: 若美联储确认为降息周期开启，则按“实际利率下行”主线配置黄金与港股科技龙头；若仅是短期安抚，则降低高估值成长仓位，转向业绩确定性资产，并把纳斯达克100作为美股波动的观察窗口而非重仓标的。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611133930065485.html" target="_blank" title="查看原文">芯片跌幅居前 英伟达跌超4%</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 隔夜美股半导体板块领跌，英伟达单日跌幅超过4%，带动费城半导体指数与AI算力链集体回调，A股芯片、光模块、服务器板块今日跟随重挫。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 半导体、AI算力芯片、光模块、AI服务器、消费电子、半导体设备</div>
+        <div class="card-row"><strong>相关公司:</strong> 英伟达(NVDA)、超威半导体(AMD)、台积电(TSM)、美光科技(MU)、博通(AVGO)、中芯国际(688981/00981)、寒武纪(688256)、海光信息(688041)、中际旭创(300308)、工业富联(601138)、沪电股份(002463)、华虹半导体(01347)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/320007.html" target="_blank" title="查看基金详情">320007 诺安成长混合</a><a class="fund-tag" href="https://fund.eastmoney.com/008888.html" target="_blank" title="查看基金详情">008888 华夏国证半导体芯片ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/519674.html" target="_blank" title="查看基金详情">519674 银河创新成长混合</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>第一环是估值与拥挤度：英伟达是全球AI资本开支的核心定价锚，其单日跌超4%意味着市场开始质疑算力采购的边际增速与订单可持续性，此前高度拥挤的多头仓位被迫减仓。第二环是产业链利润分配：英伟达回调后，下游云厂商议价能力上升、上游HBM与先进封装价格谈判趋紧，光模块、PCB、服务器代工的订单能见度与毛利率预期同步下修。第三环映射到A股与港股：中芯国际、华虹等代工环节受制于设备与制程约束，估值跟随海外同类波动；寒武纪、海光等国产算力标的此前因“国产替代+订单放量”预期被大幅拔估值，海外龙头回调会直接触发获利了结，今日创业板指跌3.32%、科创50跌2.30%即为高贝塔板块集中释放。第四环是业绩验证：四季度为AI硬件交付旺季，若龙头指引不及预期，年报业绩与存货减值风险将压制股价至下个财季指引落地。</div>
+        <div class="card-row suggestion">💡 短期: 不宜在放量下跌首日抢反弹，等待成交量萎缩与英伟达重回20日均线后再进场；持仓者可对涨幅过大、估值透支的光模块与PCB环节适度减仓，保留代工与设备等相对低位品种。<br>中期: 半导体周期上行逻辑未被破坏，回调反而提供布局窗口，建议以指数型芯片基金分批定投、个股聚焦具备真实订单与国产替代确定性的算力芯片及存储环节，回避纯题材影子股，并密切跟踪美系云厂商资本开支指引与国内晶圆厂招标节奏。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611123929900475.html" target="_blank" title="查看原文">美元触及19个月新高 加息预期升温</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 美元指数升至19个月新高，市场对主要央行进一步加息的预期升温，非美货币普遍承压，人民币汇率与新兴市场资金流向面临阶段性考验。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 外汇与跨境流动性、银行、黄金与有色金属、出口链、港股地产与高负债行业</div>
+        <div class="card-row"><strong>相关公司:</strong> 招商银行(600036)、中国银行(601988)、紫金矿业(601899)、山东黄金(600547)、美的集团(000333)、摩根大通(JPM)、美国银行(BAC)、腾讯控股(00700)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/001594.html" target="_blank" title="查看基金详情">001594 天弘中证银行指数A</a><a class="fund-tag" href="https://fund.eastmoney.com/000217.html" target="_blank" title="查看基金详情">000217 华安黄金易ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/012348.html" target="_blank" title="查看基金详情">012348 天弘恒生科技指数A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>第一环是汇率与资金成本：美元走强意味着全球美元流动性收紧，非美经济体面临资本外流与输入型通胀双重压力，人民币贬值预期一旦强化，北向资金倾向于减配A股高估值成长资产，这也解释了今日深成指与创业板跌幅显著大于上证与沪深300的跷跷板结构。第二环是行业分化：加息预期升温利好银行净息差与保险投资收益，美国银行股与港股本地银行受益；但对高负债、高久期行业构成压制，港股地产、生物科技、未盈利科技股对贴现率最敏感，估值压缩最剧烈。第三环是大宗与黄金：实际利率上行短期压制金价，但若加息源于通胀失控，则金价与黄金股在调整后仍具抗通胀属性，需区分“实际利率主导”与“避险主导”两种情景。第四环是出口链：本币贬值短期提升出口企业汇兑收益与价格竞争力，家电、纺服、机械等海外收入占比高的公司报表端受益，但持续性取决于外需而非汇率。</div>
+        <div class="card-row suggestion">💡 短期: 紧盯美元指数与离岸人民币两个指标，汇率破位阶段控制成长股仓位，增配银行、公用事业等高股息低估值的防御资产，黄金相关基金可逢急跌分批吸纳而非追涨。<br>中期: 若美元见顶回落，港股科技与A股成长将迎来估值修复，可提前用恒生科技指数基金做左侧小仓位布局；若强势美元延续，则以银行+黄金+出口链的哑铃组合应对，并规避外币负债占比高、现金流为负的行业。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611133930185489.html" target="_blank" title="查看原文">算力“独角兽”IPO重大进展 影子股曝光</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 国内一家AI算力领域独角兽的IPO进程取得实质性进展，其股东链条上的A股参股公司被视为“影子股”，短线资金围绕股权价值重估展开博弈。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> AI算力芯片、GPU与智算中心、半导体设备与材料、创投与参股概念</div>
+        <div class="card-row"><strong>相关公司:</strong> 寒武纪(688256)、海光信息(688041)、中科曙光(603019)、浪潮信息(000977)、中际旭创(300308)、张江高科(600895)、鲁信创投(600783)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/008888.html" target="_blank" title="查看基金详情">008888 华夏国证半导体芯片ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/001618.html" target="_blank" title="查看基金详情">001618 天弘中证电子ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/519674.html" target="_blank" title="查看基金详情">519674 银河创新成长混合</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>第一环是一级市场估值向二级市场传导：独角兽IPO推进意味着其在一级市场的最后一轮估值将被公开市场定价确认，若发行估值高于市场此前预期，则同类未上市的国产GPU、智算芯片公司估值体系整体上移，形成板块性的锚定效应。第二环是影子股的净资产重估：参股方按持股比例与最新估值计算公允价值变动，会计上计入其他综合收益或投资收益，账面净资产与潜在投资收益增厚，市场往往按“持股比例×上市估值×溢价系数”给予主题溢价，短期股价弹性远大于业绩实际影响。第三环是产业链订单预期：IPO募资通常投向新一代芯片研发与产能建设，上游EDA、IP、封测、设备与材料供应商有望获得增量订单，下游智算中心与服务器厂商则获得国产算力供给保障。第四环是风险点：影子股行情多以情绪驱动、缺乏业绩支撑，审核节奏、发行定价与解禁安排任一环节生变都可能引发快速回撤，需以招股书披露的真实持股比例为准，避免追逐传闻标的。</div>
+        <div class="card-row suggestion">💡 短期: 影子股属于典型事件驱动行情，宜在消息落地当日轻仓参与、以公开披露的持股比例和持股成本为筛选标准，设置5%至8%的止损纪律，不追高连续涨停标的。<br>中期: 真正受益的是国产算力产业链的订单兑现，建议把仓位从影子股切换到算力芯片、先进封测与设备材料等有实际收入的公司，用半导体指数基金承担板块贝塔，并跟踪IPO问询进度、募投项目投产时间与国产替代招标落地情况。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611133930272570.html" target="_blank" title="查看原文">国内首个 千亿级市场新品获批</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 国内首个面向千亿级市场的新产品（高值创新药或高端医疗器械方向）获批上市，填补国内空白，有望打开进口替代与放量空间。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 创新药、医疗器械、消费医疗与眼视光、CXO与医药外包、医药商业渠道</div>
+        <div class="card-row"><strong>相关公司:</strong> 恒瑞医药(600276)、华东医药(000963)、兴齐眼药(300573)、欧普康视(300595)、爱博医疗(688050)、爱尔眼科(300015)、药明康德(603259)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/003095.html" target="_blank" title="查看基金详情">003095 中欧医疗健康混合A</a><a class="fund-tag" href="https://fund.eastmoney.com/001717.html" target="_blank" title="查看基金详情">001717 工银前沿医疗股票A</a><a class="fund-tag" href="https://fund.eastmoney.com/005827.html" target="_blank" title="查看基金详情">005827 易方达蓝筹精选混合</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>第一环是时间窗口与稀缺性：“国内首个”意味着独占期内的定价权与医院准入先发优势，产品在医保谈判、省级挂网、学术推广三环节具备先手，首年放量速度通常快于跟随者上市后的第五年。第二环是市场空间测算：千亿级市场对应的是庞大患者基数与低渗透率，获批后从“无药可用/依赖进口”转向“国产可及”，量价关系由进口高价小市场切换为国产中等价格大市场，企业收入曲线呈现加速上行的S形，销售费用率随渠道成熟逐年下降，净利率弹性大于收入弹性。第三环是产业链外溢：新产品放量直接带动原料药、辅料、预灌封包材、CDMO产能与冷链配送需求，同适应症在研企业的估值参照被抬高，形成板块性重估；竞争性品种则面临份额挤压与降价压力。第四环是股价节奏：获批公告日多为情绪高点，真正的业绩兑现要等入院进药与首份销售数据，因此股价通常呈现“公告冲高—回调震荡—销售超预期再上台阶”三段式，需以季度销售额与医院覆盖数验证。</div>
+        <div class="card-row suggestion">💡 短期: 获批属于事件性催化，公告后首个交易日容易冲高回落，不建议开盘追涨；可关注直接获批方及其独家原料、包材、CDMO供应商，回调至公告前平台位再考虑介入。<br>中期: 以季度销售收入、入院医院数量与医保谈判结果作为核心跟踪指标，若放量超预期则加仓获批方及其产业链，若竞品同步获批则转向具备渠道壁垒的龙头；组合上以创新药主题基金承担行业贝塔，个股控制单一品种集中度，规避仅靠“首家获批”概念、无后续管线的题材公司。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611133930203585.html" target="_blank" title="查看原文">十年内攻克癌症？AI制药站上风口</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 AI大模型加速靶点发现、分子设计与临床试验患者筛选，业内提出“十年内攻克癌症”的乐观预期，AI制药从概念验证进入管线兑现期，一级与二级市场关注度同步升温。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> AI制药、创新药、CRO/CDMO、AI算力与生物信息学、实验仪器与实验室自动化</div>
+        <div class="card-row"><strong>相关公司:</strong> 晶泰科技(02228.HK)、成都先导(688222)、泓博医药(301230)、药明康德(603259)、恒瑞医药(600276)、Schrodinger(SDGR)、Recursion(RXRX)、英伟达(NVDA)、礼来(LLY)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/003095.html" target="_blank" title="查看基金详情">003095 中欧医疗健康混合A</a><a class="fund-tag" href="https://fund.eastmoney.com/001717.html" target="_blank" title="查看基金详情">001717 工银前沿医疗保健混合A</a><a class="fund-tag" href="https://fund.eastmoney.com/161726.html" target="_blank" title="查看基金详情">161726 招商国证生物医药指数</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>AI大模型在蛋白结构预测、虚拟筛选与化合物生成上的效率提升，把新药早期发现周期从4-5年压缩到1-2年、单项目成本下降数倍，首先利好拥有自有数据与算法平台的AI制药公司（晶泰科技、成都先导、泓博医药），其里程碑收入与管线授权（License-out）预期上修；其次传导至CRO/CDMO（药明康德），AI提高实验通量与订单转化率；再次带动底层算力与生物数据存储需求，给英伟达及国内智算中心带来增量订单。但需注意“十年攻克癌症”属长期叙事，短期难落到业绩，且今日创业板指跌3.32%、科创50跌2.30%，成长股处于杀估值环境，题材易冲高回落，需以管线进展、BD授权金额等硬指标验证。</div>
+        <div class="card-row suggestion">💡 短期: 把AI制药当主题交易而非趋势交易，只用小仓位参与有真实AI平台与对外授权记录的标的（如晶泰科技、成都先导），在创业板指走弱、量能萎缩时不追高，设置8%-10%止损，优先看回踩5日线的低吸机会。<br>中期: 跟踪三条验证线——AI设计分子的临床I期读出、对外授权首付款金额、以及药企AI预算占比。若1-3个月内出现头部MNC与国内AI制药公司的大额BD，可加仓至标配；同时用中欧医疗健康等主动医药基金替代个股，降低单一管线失败风险。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611133930737749.html" target="_blank" title="查看原文">央行：前十个月社会融资规模增量累计为28.61万亿元 人民币贷款增加11.42万亿元</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 前10个月社融增量28.61万亿元、人民币贷款增加11.42万亿元，社融总量保持对实体经济的支撑，但结构上仍以政府债与对公贷款为主，居民与企业内生融资需求修复偏慢。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 银行、券商、保险、基建与地方政府项目、房地产、高股息红利资产</div>
+        <div class="card-row"><strong>相关公司:</strong> 招商银行(600036)、宁波银行(002142)、工商银行(601398)、中信证券(600030)、中国平安(601318)、中国建筑(601668)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/001594.html" target="_blank" title="查看基金详情">001594 天弘中证银行指数A</a><a class="fund-tag" href="https://fund.eastmoney.com/006098.html" target="_blank" title="查看基金详情">006098 华宝中证全指证券公司ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/110020.html" target="_blank" title="查看基金详情">110020 易方达沪深300ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>社融28.61万亿、贷款11.42万亿的绝对量说明信用供给不缺，但市场真正定价的是“结构+斜率”：若增量主要由政府债与政策性金融工具贡献，则传导路径为财政发力→基建与重大项目中长期贷款投放→建筑、建材、工程机械订单改善（中国建筑等），对公信贷占优的银行（工行、招行、宁波银行）规模稳、息差仍受LPR下行压制，业绩呈“量补价”。若居民中长贷与M1增速未同步回升，则说明地产链与消费修复偏弱，资金更可能停留在银行间与债券市场，推动利率下行、红利资产（银行、保险、公用事业）相对占优。今日沪深300仅跌0.68%、而创业板跌3.32%，正是“宽货币+弱增长”下资金从成长向低估值、现金流资产切换的典型特征，券商板块则需成交量放大才能兑现贝塔。</div>
+        <div class="card-row suggestion">💡 短期: 以“结构数据”定方向，若后续公布的M1与居民中长贷同比回升，可加仓顺周期的银行、建材；若继续走弱，则维持红利+银行底仓，用券商做脉冲交易，指数层面以沪深300为主，回避高估值成长。<br>中期: 关注降准降息与财政增量工具的落地节奏，社融存量增速若能连续2-3个月回升，是A股估值中枢上移的先行信号；配置上“银行+保险+公用事业”打底，1-3个月内等待经济数据确认后再增加周期与消费弹性。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611133930674147.html" target="_blank" title="查看原文">美方正推动新法案阻止中国公司远程使用美国境外算力 外交部回应</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 美方拟通过立法把出口管制的“辖区外延伸”落到算力租赁环节，限制中国企业通过第三国数据中心远程调用美国AI芯片算力，外交部表示坚决反对，称将采取必要措施维护自身权益。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 国产AI芯片、半导体设备与材料、IDC与智算中心、算力租赁、云计算、AI大模型</div>
+        <div class="card-row"><strong>相关公司:</strong> 寒武纪(688256)、海光信息(688041)、中科曙光(603019)、北方华创(002371)、中芯国际(688981)、浪潮信息(000977)、鸿博股份(002229)、阿里巴巴(09988.HK)、英伟达(NVDA)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/008888.html" target="_blank" title="查看基金详情">008888 华夏国证半导体芯片ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/008281.html" target="_blank" title="查看基金详情">008281 国泰CES半导体芯片行业ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/007873.html" target="_blank" title="查看基金详情">007873 华宝中证科技龙头ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>逻辑链条是“堵后门→需求回流→国产替代加速”。过去两年部分国内AI公司通过新加坡、中东等第三国数据中心以租用方式间接获得英伟达高端算力，形成对出口管制的规避通道；若新法案把“远程访问”也纳入管辖，则这条通道被切断，短期造成两条负面传导：依赖海外算力做训练的模型公司（部分港股云与AI公司）训练成本上升、迭代放缓，算力租赁概念（鸿博股份等以英伟达卡为核心的租赁业务）估值逻辑受损。但中期看，被堵死的每一分外部算力都会转为国内采购，直接抬升寒武纪、海光信息、中科曙光的订单能见度与议价能力，并沿“芯片设计→晶圆代工（中芯国际）→设备材料（北方华创）→服务器整机（浪潮信息）”链条放大。今日科创50跌2.30%属情绪性错杀，产业逻辑反而被强化，属于“事件利空外盘、利好国产”的典型非对称机会。</div>
+        <div class="card-row suggestion">💡 短期: 消息落地初期板块易先跌后涨，建议不追首日高开，等回踩后分批买入国产算力三剑客（寒武纪、海光信息、中科曙光）或直接配半导体ETF联接；同时规避以境外卡租赁为主业、缺乏自主算力资源的题材股。<br>中期: 核心跟踪国产AI芯片在头部互联网客户的实测份额、以及中芯国际先进制程产能扩张进度，若1-3个月内出现大厂大规模转向国产卡训练的公开订单，产业趋势即可确认，可提升至超配；用008888等指数基金承接贝塔，个股控制单一仓位不超10%。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611133931007038.html" target="_blank" title="查看原文">美股走低 纳指跌超1% 费城半导体指数跌超5% 英伟达跌超3%</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 隔夜美股三大指数收低，纳指跌1.22%、费城半导体指数重挫逾5%、英伟达跌超3%，AI算力链高位估值遭遇集中获利了结，风险偏好从科技成长向防御资产切换。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> AI算力与半导体、光模块与通信设备、服务器与PCB、消费电子、美股科技股</div>
+        <div class="card-row"><strong>相关公司:</strong> 英伟达(NVDA)、美国超微(AMD)、台积电(TSM)、美光科技(MU)、中际旭创(300308)、新易盛(300502)、工业富联(601138)、沪电股份(002463)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/008888.html" target="_blank" title="查看基金详情">008888 华夏国证半导体芯片ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/270042.html" target="_blank" title="查看基金详情">270042 广发纳斯达克100指数A</a><a class="fund-tag" href="https://fund.eastmoney.com/001630.html" target="_blank" title="查看基金详情">001630 天弘中证计算机主题指数A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>费半单日跌超5%、英伟达跌超3%，是本轮AI资本开支行情中最典型的“估值消化”信号。传导路径有三条：一是估值锚效应，英伟达作为全球AI算力定价基准，其回调直接压低A股光模块（中际旭创、新易盛）、PCB（沪电股份）、服务器代工（工业富联）的可比估值，因为这些公司业绩弹性高度绑定北美云厂商的GPU采购节奏；二是情绪与资金面，纳指走弱叠加今日创业板指已跌3.32%，北向与量化资金倾向减仓高位成长，形成“外盘跌→A股科技补跌→融资盘平仓”的负反馈；三是基本面并未同步恶化，若下跌源于获利了结而非订单下修，则属于“杀估值不杀业绩”，回调反而提供中长期买点。关键区分指标是后续云厂商资本开支指引与CoWoS、HBM的产能预订情况。</div>
+        <div class="card-row suggestion">💡 短期: 一周内以防守为主，不接下落的刀，AI算力链（光模块、PCB、服务器）若有反弹先减仓兑现；把仓位切换到银行、公用事业等低波资产，等待费半指数止跌企稳（连续2-3日不再创新低）再考虑回补。<br>中期: 1-3个月维度看，若北美四大云厂商资本开支指引未下修，本轮调整为估值修复机会，可在光模块与国产算力龙头回调20%-30%后分批建仓；若指引出现下修，则需下调整个AI硬件链的盈利预期，转向应用端与自主可控方向。用270042等QDII分散单一市场风险。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://finance.eastmoney.com/a/202611123929072829.html" target="_blank" title="查看原文">汇宇制药获得3亿元和解金</a>
+        <span class="card-source">东方财富</span>
+      </div>
+      <div class="card-summary">📰 汇宇制药公告通过专利/合同纠纷和解获得约3亿元和解金，属一次性非经常性收益，将显著增厚当期利润但对持续经营能力无直接贡献，市场关注其现金用途与主业管线进展。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 化学制药、抗肿瘤注射剂、仿制药与集采、创新药</div>
+        <div class="card-row"><strong>相关公司:</strong> 汇宇制药(688553)、恒瑞医药(600276)、苑东生物(688513)、健友股份(603707)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/003095.html" target="_blank" title="查看基金详情">003095 中欧医疗健康混合A</a><a class="fund-tag" href="https://fund.eastmoney.com/001717.html" target="_blank" title="查看基金详情">001717 工银前沿医疗保健混合A</a><a class="fund-tag" href="https://fund.eastmoney.com/161726.html" target="_blank" title="查看基金详情">161726 招商国证生物医药指数</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>传导逻辑要分两层看。第一层是报表：3亿元和解金通常计入营业外收入或其他收益，对一家年营收体量在十亿元级别的科创板药企而言，相当于单季度利润的数倍，会带来当期净利润的爆发式增长与现金流改善，短期股价有事件驱动的正向反应，并可能引发市场对同类拥有海外专利纠纷、可获赔偿的仿制药企（如苑东生物、健友股份）的联想性交易。第二层是估值：非经常性损益不改变市盈率的可持续分母，机构在业绩预告披露后往往按扣非利润重新定价，因此“利好兑现即高点”的风险很高；真正决定中期走势的是这笔现金是否投入高端注射剂国际化、复杂制剂或创新管线，以及集采续约下主力品种（培美曲塞、多西他赛等）的价格压力。今日医药板块整体处于低位，单一公司事件难以带动板块，情绪脉冲属性强于趋势属性。</div>
+        <div class="card-row suggestion">💡 短期: 视为一次性事件驱动，公告后若出现放量高开，持有者可分批兑现，未持有者不宜追高；重点看公告中“计入哪个会计科目、是否已收到现金、是否含税”三个细节，判断实际税后增厚幅度。<br>中期: 1-3个月回归主业验证，跟踪扣非净利润、集采中标价格与海外注册获批（如欧美ANDA）进展；若公司明确将和解金投向创新或国际化管线，可给一定估值溢价，否则仅按一次性收益处理。建议通过医药主题基金间接参与，规避单一标的的业绩不可持续风险。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss" target="_blank" title="查看原文">Why is Microsoft's outage lasting so long and will emails be lost?</a>
+        <span class="card-source">BBC商业</span>
+      </div>
+      <div class="card-summary">📰 微软Outlook、Teams等核心服务全球性宕机已经持续较长时间，官方仍在分阶段恢复，用户担心邮件数据丢失与业务连续性风险。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 云计算、企业级SaaS、信创与国产软件、网络安全、IDC与数据中心</div>
+        <div class="card-row"><strong>相关公司:</strong> 微软(MSFT)、亚马逊(AMZN)、谷歌(GOOGL)、金山办公(688111)、用友网络(600588)、深信服(300454)、中科曙光(603019)、浪潮信息(000977)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/001630.html" target="_blank" title="查看基金详情">001630 天弘中证计算机主题A</a><a class="fund-tag" href="https://fund.eastmoney.com/270042.html" target="_blank" title="查看基金详情">270042 广发纳斯达克100ETF联接A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>微软Azure/Outlook/Teams长时间未完全恢复，暴露单一公有云架构在故障隔离、数据冗余与灾备上的结构性脆弱点：企业IT部门第一反应是紧急评估多云/混合云、本地化部署与数据可迁移性，政企招标中“自主可控、可离线运行”的权重上升。传导到A股，则国产办公软件（金山办公）、ERP与云ERP（用友网络）、私有云与安全（深信服）、服务器与算力底座（中科曙光、浪潮信息）获得替代窗口，订单与订阅续费率预期上修，估值端受益于“信创+灾备”主题资金回流。对美股则是反向：微软信誉受损、Azure增速与AI商业化的可信度被质疑，叠加今日纳指-1.22%的风险偏好收缩，云与SaaS板块短期承压，资金边际流向AWS、谷歌云等竞争者。A股创业板今日大跌3.32%的高波动环境下，这一事件更可能成为资金从高位成长股向“国产软件自主可控”主线切换的催化。</div>
+        <div class="card-row suggestion">💡 短期: 关注信创与国产办公软件、私有云安全方向的情绪修复，微软确认恢复后主题热度可能快速衰减，宜低吸不宜追高；同时规避对单一海外云依赖度高的SaaS标的。<br>中期: 云可靠性事件会强化政企“多云+国产化”采购倾向，建议以定投方式布局计算机主题基金，重点跟踪党政与金融信创招标落地节奏，一旦出现订单验证再加仓。</div>
+      </div>
+    </div><div class="card bullish">
+      <div class="card-header">
+        <span class="card-dir">📈 利好</span>
+        <span class="badge badge-strong">强影响</span>
+        <a class="card-news-link" href="https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss" target="_blank" title="查看原文">Bessent blames Lutnick's Commerce Department for failing to block Megaspeed</a>
+        <span class="card-source">BBC商业</span>
+      </div>
+      <div class="card-summary">📰 美国财长贝森特公开指责商务部（卢特尼克）数月来未将涉嫌芯片转口的Megaspeed列入实体清单，暴露美方内部在对华AI芯片管制执行上的分歧。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> AI算力芯片、半导体设备与材料、服务器与算力租赁、国产GPU/昇腾产业链、光模块与PCB</div>
+        <div class="card-row"><strong>相关公司:</strong> 寒武纪(688256)、海光信息(688041)、中科曙光(603019)、中芯国际(688981)、浪潮信息(000977)、英伟达(NVDA)、工业富联(601138)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/008888.html" target="_blank" title="查看基金详情">008888 华夏国证半导体芯片ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/320007.html" target="_blank" title="查看基金详情">320007 诺安成长混合</a><a class="fund-tag" href="https://fund.eastmoney.com/001617.html" target="_blank" title="查看基金详情">001617 天弘中证电子A</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>事件本质是美方高层在“AI芯片出口管制执行不力”上的公开内斗：贝森特点名商务部迟迟不把Megaspeed列入实体清单，意味着后续管制执行只会更严而非放松。逻辑链为：第三国转口/灰市渠道被堵→中国可获得的英伟达高端GPU数量与节奏进一步受限，算力租赁价格与国产替代溢价同步上行→国内云厂商与运营商招标向昇腾、寒武纪、海光等国产算力倾斜，中科曙光、浪潮信息等整机与集成商订单放量→国产GPU与EDA、先进封装、HBM相关环节业绩弹性放大。对英伟达而言，中国区收入占比已显著下降，直接财务冲击有限，但每一次管制收紧都会抬升其政策折价；对A股则是典型的“外部挤压—内部替代”逻辑，在今日创业板重挫背景下属于少数具备独立逻辑的强势主线。</div>
+        <div class="card-row suggestion">💡 短期: 该事件与AI算力自主可控高度绑定，半导体设备、国产GPU、先进封装方向情绪催化明显，可逢回调分批参与，但注意创业板高位波动放大、单日3%级别回撤属常态，严格设止盈。<br>中期: 管制趋严是长期变量，国产算力渗透率提升的确定性高于估值弹性，建议以半导体指数基金定投为底仓，个股聚焦有真实订单与产能验证的算力芯片和整机龙头。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://sports.sina.com.cn/go/2026-11-13/doc-iniyrazw7916450.shtml" target="_blank" title="查看原文">棋乐无穷智享健康 全民健身主题示范活动走进河南</a>
+        <span class="card-source">新浪财经</span>
+      </div>
+      <div class="card-summary">📰 2026年国际跳棋和五子棋全民健身主题示范活动在郑州养老机构举行，主题为“棋乐无穷·智享健康”，聚焦银发抗衰老训练营。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 体育产业、银发经济与养老服务、棋牌教育培训、康复医疗与健康管理</div>
+        <div class="card-row"><strong>相关公司:</strong> 中体产业(600158)、金陵体育(300651)、舒华体育(605299)、鱼跃医疗(002223)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/110022.html" target="_blank" title="查看基金详情">110022 易方达消费行业股票</a><a class="fund-tag" href="https://fund.eastmoney.com/003096.html" target="_blank" title="查看基金详情">003096 中欧医疗健康混合C</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>这是一条属于全民健身与银发经济的公益示范类活动，单点事件对上市公司业绩几乎没有直接贡献，传导链条只在“政策方向—主题预期”层面成立：国家层面持续推动全民健身与积极应对老龄化，棋类等低成本益智活动被纳入银发抗衰老训练场景，指向社区养老、康复训练、适老化器材与老年健康管理的需求扩容。逻辑上受益顺序为：场馆与赛事运营（中体产业）→ 体育器材与适老化健身设备（金陵体育、舒华体育）→ 家用健康监测与康复器械（鱼跃医疗）。但该类活动多为财政与协会主导的示范项目，缺乏可量化的订单与利润率提升路径，难以形成板块级别的资金合力，更多是养老、体育主题在无主线行情时的短炒素材，持续性弱。</div>
+        <div class="card-row suggestion">💡 短期: 不建议因单条活动新闻追高体育或养老概念，此类主题多以一日游为主；若养老产业政策出现配套资金或试点扩容，可再关注。<br>中期: 真正值得跟踪的是银发经济的中长期逻辑——适老化改造、家用医疗器械与康复服务的渗透率提升。建议用消费与医疗主题基金做低频配置，个股只在出现明确业绩拐点时介入。</div>
+      </div>
+    </div><div class="card bearish">
+      <div class="card-header">
+        <span class="card-dir">📉 利空</span>
+        <span class="badge badge-mid">中影响</span>
+        <a class="card-news-link" href="https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss" target="_blank" title="查看原文">How a sex scandal at Nvidia is putting pressure on the White House</a>
+        <span class="card-source">BBC商业</span>
+      </div>
+      <div class="card-summary">📰 英伟达相关丑闻由黄仁勋个人生活引发，已升级为美国政界议题，压力延伸至白宫层面，涉及政商关系与AI芯片政策环境。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> AI算力芯片、服务器代工、光模块、PCB与连接器、国产算力替代</div>
+        <div class="card-row"><strong>相关公司:</strong> 英伟达(NVDA)、工业富联(601138)、中际旭创(300308)、新易盛(300502)、沪电股份(002463)、寒武纪(688256)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/270042.html" target="_blank" title="查看基金详情">270042 广发纳斯达克100ETF联接A</a><a class="fund-tag" href="https://fund.eastmoney.com/320007.html" target="_blank" title="查看基金详情">320007 诺安成长混合</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>丑闻本身不改变英伟达的GPU技术与订单基本面，但其政治属性被放大：一旦公司高管成为白宫与国会的舆论焦点，其在出口许可、对华销售、反垄断与税收议题上的谈判空间都会被压缩，政策不确定性上升。传导链为：负面舆情发酵→英伟达政治折价与波动率抬升→纳斯达克AI权重股承压（今日纳指已跌1.22%，英伟达占指数权重高，边际放大指数波动）→A股英伟达产业链（服务器代工、800G光模块、高多层PCB）跟随海外情绪回调→资金转而强化“国产算力替代”叙事，利好寒武纪、海光等国产标的。需要强调的是，这是典型的情绪与估值冲击而非盈利冲击，若后续无实质监管动作，冲击幅度有限且修复较快。</div>
+        <div class="card-row suggestion">💡 短期: 光模块、PCB等英伟达链高弹性品种短期波动会明显放大，已有持仓可考虑逢反弹降低仓位或对冲，不宜在舆情高峰逆势重仓。<br>中期: 关键观察点是美国是否出现针对英伟达的实际监管或出口许可动作；若仅为舆论事件，回调反而是优质光模块与代工龙头的布局机会，建议分批而非一次性建仓。</div>
+      </div>
+    </div><div class="card neutral">
+      <div class="card-header">
+        <span class="card-dir">➖ 中性</span>
+        <span class="badge badge-weak">弱影响</span>
+        <a class="card-news-link" href="https://sports.sina.com.cn/go/2026-11-13/doc-iniyqwtx1190543.shtml" target="_blank" title="查看原文">纹枰续约炎黄归来 第21届坐隐炎黄杯将于绵竹启幕</a>
+        <span class="card-source">新浪财经</span>
+      </div>
+      <div class="card-summary">📰 由聂卫平、金庸等发起的世界华人名人围棋邀请赛“炎黄杯”续约并将于绵竹举办第21届赛事，属文化体育赛事类活动。</div>
+      <div class="card-body">
+        <div class="card-row"><strong>影响行业:</strong> 体育赛事与文化传媒、围棋培训与素质教育、文旅与地方消费</div>
+        <div class="card-row"><strong>相关公司:</strong> 中体产业(600158)、腾讯控股(00700)、网易(09999)</div>
+        <div class="card-funds"><strong>相关基金(支付宝可买):</strong><div class="fund-list"><a class="fund-tag" href="https://fund.eastmoney.com/164906.html" target="_blank" title="查看基金详情">164906 交银中证海外中国互联网</a><a class="fund-tag" href="https://fund.eastmoney.com/110022.html" target="_blank" title="查看基金详情">110022 易方达消费行业股票</a></div></div>
+        <div class="card-row chain">🔗 <strong>传导逻辑:</strong><br>名人邀请赛属于文化IP类赛事，商业化体量小，对相关上市公司几乎没有可量化的收入贡献。可延伸的逻辑仅在“围棋AI与在线棋牌平台”这一层：围棋AI训练与在线对弈平台由腾讯（野狐）、网易等互联网公司主导，赛事热度可能带来短期用户活跃度提升，但对财报影响微乎其微；地方层面则通过赛事带动文旅住宿与餐饮消费，绵竹当地文旅受益但缺乏对应上市标的。整体传导链为：赛事IP曝光→围棋培训与素质教育关注度小幅提升→在线棋牌平台流量微增→上市公司业绩几乎无变化，因此仅具备主题情绪价值，不具备配置价值，在今日A股普跌、创业板重挫的环境下更难以获得资金关注。</div>
+        <div class="card-row suggestion">💡 短期: 该新闻不具备交易价值，不建议据此操作任何标的；若文化体育板块因政策催化出现整体异动，应优先选择有实际赛事运营收入的公司。<br>中期: 围棋培训与素质教育属于政策鼓励方向，但证券化程度低，建议通过港股互联网龙头间接参与在线棋牌与AI应用，而非追逐赛事概念。</div>
+      </div>
+    </div>
+
+  <div class="footer">
+    <p>AI 投资分析日报 &middot; 每日 18:00 自动生成</p>
+    <p style="margin-top:4px">分析由 DeepSeek AI 生成，数据来源于新浪财经、东方财富等公开渠道</p>
+    <p style="margin-top:4px;color:#e15241">⚠ 以上分析仅供参考，不构成任何投资建议。投资有风险，入市需谨慎。</p>
+  </div>
+</div>
+</body>
+</html>
